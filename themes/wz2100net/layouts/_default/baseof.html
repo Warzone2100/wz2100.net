@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="{{ $.Site.LanguageCode | default "en" }}" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+		{{- partial "head.html" . -}}
+		<script>document.documentElement.classList.remove("no-js");</script>
+	</head>
+    <body>
+	<!-- Main container -->
+	<div class="page-container">
+		<!-- top -->
+		<div class="bloc bloc-fill-screen b-parallax bloc-bg-texture texture-darken-strong bg-backdrop0 tc-black bgc-onyx l-bloc" id="hero">
+			{{- partial "navbar.html" . -}}
+
+			<div class="container{{ if not .IsHome }} single-page-contents{{ end }}">
+				{{- block "main" . }}{{- end }}
+			</div>
+		</div>
+		<!-- top END -->
+
+		<!-- additional blocks -->
+		{{- block "additional" . }}{{- end }}
+		<!-- additional blocks END -->
+
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)">{{ partial "inlinesvg.html" (dict "class" "inline-svg" "path" "fontawesome/solid/chevron-up.svg") }}</a>
+		<!-- ScrollToTop Button END-->
+
+        {{- partial "footer.html" . -}}
+	</div>
+	<!-- Main container END -->
+
+	<!-- Additional JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+	<script>(window.jQuery) || document.write('<script src="/js/jquery/3.4.1/jquery.min.js"><\/script>');</script> <!-- fallback if cdn fails -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+	<!-- See: https://stackoverflow.com/a/17832831 -->
+	<script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/js/bootstrap/4.3.1/bootstrap.bundle.js"><\/script>')}</script> <!-- fallback if cdn fails -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js" integrity="sha384-lXlOikwyrW7dmgxBebidKy+ffqirROw7KfpwSU07ze9QxhA26X7SuQsujgf3xo1A" crossorigin="anonymous"></script>
+	<script>(window.lazySizes) || document.write('<script src="/js/lazysizes/5.2.0/lazysizes.min.js"><\/script>');</script> <!-- fallback if cdn fails -->
+
+	{{ $blocs_js := resources.Get "js/blocs.js" | minify | fingerprint }}
+	{{ $scrollfx_js := resources.Get "js/scrollFX.js" | minify | fingerprint }}
+	{{ $modernizr_js := resources.Get "js/modernizr-custom.js" | minify | fingerprint }}
+	{{ $scripts := slice $blocs_js $scrollfx_js $modernizr_js | resources.Concat "wz.js" | minify | fingerprint }}
+	<script src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>
+	<!-- Additional JS END -->
+
+	 <!-- additional script -->
+	 {{- block "additional_script" . }}{{- end }}
+	 <!-- additional script END -->
+
+    </body>
+</html>

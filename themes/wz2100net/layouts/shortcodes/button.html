@@ -1,0 +1,15 @@
+<!-- button link -->
+<a {{ with .Get "href"}} href="{{.}}" data-target="_blank" target="_blank" {{ end }} class="btn{{ with .Get "class"}} {{.}}{{ end }}"{{ with .Get "rel"}} rel="{{.}}"{{ end }}>
+  {{ $icon := .Get "icon" }}
+  {{ $iconposition := .Get "icon-position" }}
+  {{ if ($icon) }}
+    {{ if or (not ($iconposition)) (eq $iconposition "left") }}
+  <i class="{{$icon}}"></i>
+    {{ end }}
+  {{ end }}
+  {{ .Inner }}
+  {{ if and ($icon) (eq $iconposition "right")}}
+  <i class="{{$icon}}"></i>
+  {{ end }}
+</a>
+<!-- button link -->

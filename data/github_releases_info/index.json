@@ -1,0 +1,56 @@
+[
+    {
+        "id": 19674817,
+        "tag_name": "3.3.0",
+        "prerelease": false,
+        "assets": [
+            {
+                "name": "warzone2100_macOS.zip",
+                "download_count": 81
+            },
+            {
+                "name": "warzone2100_src.tar.xz",
+                "download_count": 353
+            },
+            {
+                "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
+                "download_count": 42
+            },
+            {
+                "name": "warzone2100_win_x86_installer.exe",
+                "download_count": 471
+            },
+            {
+                "name": "warzone2100_win_x86_portable.exe",
+                "download_count": 511
+            }
+        ]
+    },
+    {
+        "id": 15472543,
+        "tag_name": "3.3.0-beta1",
+        "prerelease": true,
+        "assets": [
+            {
+                "name": "warzone2100-3.3.0-beta1.tar.gz",
+                "download_count": 85
+            },
+            {
+                "name": "warzone2100-master-20190210-195945-998e137_macOS.zip",
+                "download_count": 30
+            },
+            {
+                "name": "warzone2100-master_x86.DEBUGSYMBOLS.7z",
+                "download_count": 11
+            },
+            {
+                "name": "warzone2100-master_x86_installer.zip",
+                "download_count": 83
+            },
+            {
+                "name": "warzone2100-master_x86_portable.zip",
+                "download_count": 1159
+            }
+        ]
+    }
+]

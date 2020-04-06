@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div class="row"><div class="col">
+	<div class="row">
+		<div class="col-lg-12 col-md-12">
+		{{ partial "breadcrumb.html" . }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-md-12">
+			<div class="card bgc-black">
+				<div class="card-header bgc-white">
+					<div class="row">
+						<div class="col" style="flex-grow: 0; padding-right: 8px;">
+							<div class="text-center text-lg-left">
+								{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline icon-white-2 icon-md" "path" "fontawesome/solid/list.svg") }}
+							</div>
+						</div>
+						<div class="col" style="padding-left: 7px;">
+							<h3 class="mg-clear article-title-text">
+								{{ .Title }}
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="card-body bgc-black-2">
+					<!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+					{{.Content}}
+
+					{{ $paginator := .Paginate ( .Data.Pages ) }}
+					<ul>
+					{{ range $paginator.Pages }}
+						<li>
+							<a href="{{.Permalink}}">{{ if .IsPage }}{{.Date.Format "2006-01-02"}} | {{ end }}{{.Title}}</a>
+						</li>
+					{{ end }}
+					</ul>
+				</div>
+				<div class="card-footer">
+					{{ template "_internal/pagination.html" . }}
+				</div>
+			</div>
+			<p class="mg-lg d-md-block d-none"><br></p>
+		</div>
+	</div>
+</div></div>
+{{ end }}

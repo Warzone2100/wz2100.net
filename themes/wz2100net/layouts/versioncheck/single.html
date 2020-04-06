@@ -1,0 +1,209 @@
+{{ define "main" }}
+<div class="row row-style voffset-sm voffset-xs voffset voffset-md">
+	<div class="align-self-center col-lg-12 col-md-12">
+		<div class="loading-data text-lg-left">
+			<div >
+				<div class="text-center" style="padding: 30px; 0px;">
+					<div class="spinner-border text-primary" style="width: 5rem; height: 5rem;" role="status">
+						<span class="sr-only">{{ i18n "Loading..." }}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="update-not-available">
+			<div class="text-center">
+				{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-xl icon-la-salle-green" "path" "fontawesome/solid/check-circle.svg") }}
+			</div>
+			<div class="normal-version-message">
+				<h3 class="float-none text-center text-lg-center mg-sm text-md-center">
+					{{ i18n "You are running the latest release of Warzone 2100." }}
+				</h3>
+				<p class="mg-clear"><br></p>
+			</div>
+			<div class="text-sm-center text-center dev-version-message">
+				<h2 class="mg-md text-lg-center text-md-center">
+					{{ i18n "You are running the latest development build." }}
+				</h2>
+				<h6 class="text-lg-center mg-clear text-md-center">
+					{{ i18n "Thanks for trying out these builds, and looking for bugs - it is appreciated!" }}
+				</h6>
+			</div>
+		</div>
+		<div class="update-available">
+			<div class="text-center">
+				{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-xl icon-citrine" "path" "fontawesome/solid/download.svg") }}
+			</div>
+			<div class="text-lg-center text-md-center text-sm-center text-center normal-version-message">
+				<h1 class="mg-md text-md-center">
+					{{ i18n "A new release is available!" }}
+				</h1><a href="{{ .Site.Home.Permalink }}" class="btn btn-lg update-new-release-button btn-sapphire btn-clean">{{ i18n "Download Now" }}</a>
+			</div>
+			<div class="text-lg-center text-md-center text-sm-center text-center dev-version-message">
+				<h3 class="mg-md">
+					{{ i18n "A new development build is available!" }}
+				</h3><a href="https://github.com/Warzone2100/warzone2100#latest-development-builds" class="btn btn-sapphire btn-clean" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Download Latest Development Builds" }}</a>
+			</div>
+		</div>
+		<div class="update-failed-check">
+			<div class="text-center">
+				{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-xl icon-ash-grey" "path" "fontawesome/regular/question-circle.svg") }}
+			</div>
+			<div class="text-lg-center text-md-center text-sm-center text-center normal-version-message">
+				<h1 class="mg-md">
+					{{ i18n "Unable to check for updates" }}
+				</h1>
+				<h6 class="mg-md no-script-message">
+					{{ i18n "This site requires JavaScript, and it looks like you have it disabled." }}
+				</h6>
+				<h6 class="mg-md">
+					{{ i18n "If you aren't sure, download the latest version now." }}
+				</h6><a href="{{ .Site.Home.Permalink }}" class="btn btn-lg update-new-release-button btn-sapphire btn-clean">{{ i18n "Download Now" }}</a>
+			</div>
+			<div class="text-lg-center text-md-center text-sm-center text-center dev-version-message">
+				<h4 class="mg-md">
+					{{ i18n "Couldn't check for latest development builds" }}
+				</h4>
+				<h6 class="mg-md">
+					{{ i18n "You can always download the latest development builds below." }}
+				</h6><a href="https://github.com/Warzone2100/warzone2100#latest-development-builds" class="btn btn-sapphire btn-clean" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Download Latest Development Builds" }}</a>
+			</div>
+		</div>
+		<div class="row voffset voffset-md voffset-sm voffset-xs">
+			<div class="col">
+				<div class="text-lg-left version-info-table-wrapper">
+					<div class=" ">
+						<table>
+							<tbody>
+							<tr>
+								<td>{{ i18n "Your version" }}:</td><td><span id="wz-version-to-check">(unknown)</span></td>
+							</tr>
+							<tr>
+								<td>{{ i18n "Latest Release" }}:</td><td><span id="wz-version-latest-release">{{.Site.Data.github_releases_info.latest.tag_name}}</span></td>
+							</tr>
+							<tr class="dev-version-message">
+								<td>{{ i18n "Latest Development Build" }}:</td><td><span id="wz-version-latest-dev-build">...</span></td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="text-lg-left">
+					<p><br><br></p>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p class="mg-md additional-download-dev-link text-lg-center">
+						<a href="https://github.com/Warzone2100/warzone2100" data-target="_blank" target="_blank">{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/github.svg") }}&nbsp; {{ i18n "View on GitHub" }}</a><br>
+						</p>
+					</div>
+					<div class="col">
+						<p class="mg-md text-lg-center additional-download-dev-link text-md-center text-sm-center text-center">
+						<a href="https://github.com/Warzone2100/warzone2100" data-target="_blank" target="_blank">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/star.svg") }}&nbsp; {{ i18n "Star on GitHub" }}</a><br>
+						</p>
+					</div>
+					<div class="col">
+						<p class="mg-md text-lg-center additional-download-dev-link text-md-right text-sm-right text-right">
+						<a href="https://github.com/Warzone2100/warzone2100/issues/new" data-target="_blank" target="_blank">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/bug.svg") }}&nbsp; {{ i18n "Report a Bug" }}</a><br>
+						</p>
+					</div>
+				</div>
+				<p class="mg-lg text-lg-center text-md-center"><br></p>
+			</div>
+		</div>
+	</div>
+</div>
+{{ end }}
+
+{{ define "additional_script" }}
+	{{ $urlsearchparamspolyfill_js := resources.Get "js/url-search-params-polyfill.js" | minify | fingerprint }}
+	<script language="javascript" type="text/javascript">
+		{{ $urlsearchparamspolyfill_js.Content | safeJS }}
+	</script>
+
+	<script language="javascript" type="text/javascript">
+
+		$( ".update-failed-check" ).hide();
+		$( ".no-script-message" ).hide();
+
+		function displayIsUpToDate(value, speed='fast')
+		{
+			if (value)
+			{
+				$( ".update-available" ).slideDown(speed);
+			}
+			else
+			{
+				$( ".update-available" ).slideUp();
+				$( ".update-not-available" ).slideDown(speed);
+			}
+		}
+
+		var wz_version_to_check;
+		var developmentBuildCheck = false;
+
+		// check for provided version ("ver") parameter
+		var search = new URLSearchParams(window.location.search);
+		if (search.has("ver"))
+		{
+			wz_version_to_check = search.get("ver");
+			console.log("Version to check:");
+			console.log(wz_version_to_check);
+
+			// Expected format of version:
+			// 1.) a tagged release (ex. "3.3.0")
+			// 2.) a tagged prerelease (ex. "3.3.0-beta1")
+			// 3.) a development build (ex. "master_fffaabb")
+			// 4.) something else, like a custom branch's build / a fork's build / etc (generally follows format of "branch_shorthash")
+
+			// Distinguish between a development build (#3) and anything else
+			developmentBuildCheck = /master[_\- ][A-Za-z0-9]{7,}$/g.test(wz_version_to_check);
+
+			$( '#wz-version-to-check' ).text(wz_version_to_check);
+		}
+
+		$(document).ready(function () {
+
+			if (!developmentBuildCheck)
+			{
+				// normal version check - compare the provided version to
+				// the one stored in the auto-generated "#wz-version-latest-release" field
+				var latest_release = $( '#wz-version-latest-release' ).text();
+				displayIsUpToDate(wz_version_to_check !== latest_release);
+			}
+			else
+			{
+				// handle special case:
+				// - retrieving the latest master branch commit
+				$( '.loading-data' ).show();
+				$( 'body' ).removeClass( "check-release" ).addClass( "check-dev" );
+
+				// query the GitHub API
+				var ajaxOptions = {
+					url: "https://api.github.com/repos/Warzone2100/warzone2100/commits/master",
+					dataType: "json",
+					success: function(commit) {
+						var shortCommitHash = commit.sha.substr(0, 7);
+						var latest_dev_build = "master_" + shortCommitHash;
+						window.latestShortCommitHash = shortCommitHash;
+						$( '#wz-version-latest-dev-build' ).text(latest_dev_build);
+						$( '.loading-data' ).slideUp('slow');
+						displayIsUpToDate(wz_version_to_check !== latest_dev_build, 'slow');
+					},
+					complete: function(req, textStatus) {
+						$( '.loading-data' ).slideUp('slow');
+						if (textStatus !== "success")
+						{
+							$( ".update-failed-check" ).slideDown('slow');
+						}
+					}
+				};
+				// this is asynchronous and doesn't return anything
+				$.ajax(ajaxOptions);
+			}
+		});
+	</script>
+{{ end }}

@@ -1,0 +1,63 @@
+<!-- footer -->
+<div class="bloc bgc-black-3 tc-dim-gray d-bloc" id="footer">
+	<div class="container bloc-lg footer-container">
+		<div class="row voffset-clear-sm voffset-clear-xs">
+			<div class="col-md-3 col-sm-6 footer-column col-6">
+				<h5 class="mg-md tc-white footer-col-header text-sm-center text-center text-md-left">
+					{{ i18n "About" }}
+				</h5><a href="https://github.com/Warzone2100/warzone2100/graphs/contributors" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "The Team" }}</a><a href="https://forums.wz2100.net" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Forums" }}</a><a href="https://github.com/Warzone2100/warzone2100/commits/master" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Changelog" }}</a>
+					{{ with .Site.GetPage "/privacypolicy" }}<a href="{{ .Permalink }}" class="a-btn a-block footer-link">{{ i18n "Privacy Policy" }}</a>{{ else }}{{ with .Sites.First.GetPage "/privacypolicy" }}<a href="{{ .Permalink }}" class="a-btn a-block footer-link" hreflang="{{ $.Sites.First.Language.Lang }}">{{ i18n "Privacy Policy" }}</a>{{ end }}{{ end }}
+			</div>
+			<div class="col-md-3 col-sm-6 footer-column col-6">
+				<h5 class="tc-white mg-md footer-col-header text-sm-center text-center text-md-left">
+					{{ i18n "Download" }}
+				</h5><a href="https://sourceforge.net/projects/warzone2100/" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "SourceForge Mirror" }}</a><a href="https://github.com/Warzone2100/warzone2100/releases/latest" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "GitHub Releases" }}</a><a href="https://snapcraft.io/warzone2100" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Snap Store (Linux)" }}</a><a href="https://github.com/Warzone2100/warzone2100" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Source Code" }}</a>
+			</div>
+			<div class="col-md-3 col-sm-6 footer-column col-6 voffset-sm voffset-xs">
+				<h5 class="mg-md tc-white footer-col-header text-sm-center text-center text-md-left">
+					{{ i18n "Contribute" }}
+				</h5><a href="https://github.com/Warzone2100/warzone2100/issues/new" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Report Bugs" }}</a><a href="https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#translating-warzone-2100" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Help with Translations" }}</a><a href="http://donations.wz2100.net" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Donate" }}</a><a href="https://github.com/Warzone2100/warzone2100/tree/master/doc" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Documentation" }}</a>
+			</div>
+			<div class="col-md-3 col-sm-6 footer-column col-6 voffset-sm voffset-xs">
+				<h5 class="mg-md tc-white footer-col-header text-sm-center text-center text-md-left">
+					{{ i18n "Connect" }}
+				</h5>
+				<div class=" footer-social-button-container">
+					<div class="footer-social-button">
+						<a href="https://github.com/Warzone2100/warzone2100" aria-label="GitHub" data-target="_blank" target="_blank" rel="noopener">{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline icon-md" "path" "fontawesome/brands/github.svg") }}</a>
+					</div>
+					<div class="footer-social-button">
+						<a href="https://forums.wz2100.net/" aria-label="Forums">{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline icon-md" "path" "fontawesome/solid/comments.svg") }}</a>
+					</div>
+					{{- if $.Site.Params.discordInviteCode -}}
+					<div class="footer-social-button">
+						<a href="https://discordapp.com/invite/{{ $.Site.Params.discordInviteCode }}" aria-label="Discord" data-target="_blank" target="_blank" rel="noopener nofollow">{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline-2 icon-md" "path" "fontawesome/brands/discord.svg") }}</a>
+					</div>
+					{{- end -}}
+				</div>
+			</div>
+		</div>
+		<div class="row voffset-md-md voffset-lg">
+				<div class="col">
+					<p class="text-lg-center text-sm-center text-center footer-credits-header">
+					<a href="https://wz2100.net" rel="noopener" data-target="_blank" target="_blank">wz2100.net</a> <a href="https://wz2100.net" rel="noopener" data-target="_blank" target="_blank">{{ i18n "theme" }}</a> - <a href="https://github.com/past-due/" rel="noopener" data-target="_blank" target="_blank">Copyright © past-due</a>. <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" rel="noopener" data-target="_blank" target="_blank">{{ i18n "Licensed under the GNU AGPLv3." }}</a>
+					</p>
+					<p class="text-lg-center mg-clear text-sm-center text-center footer-credits-style">
+						<a href="https://wz2100.net" rel="noopener" data-target="_blank" target="_blank">{{ i18n "Source Code." }}</a>  {{ i18n "Copyright © Warzone 2100 Project." }}  <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" rel="noopener" data-target="_blank" target="_blank">{{ i18n "Licensed under the GNU AGPLv3." }}</a>
+					</p>
+					<p class="text-lg-center mg-clear text-sm-center text-center footer-credits-style">
+						{{ i18n "All trademarks are the property of their respective owners." }}
+					</p>
+					<p class="text-lg-center mg-clear text-sm-center text-center footer-credits-style" lang="en">
+						"Twemoji" by Twitter is <a href="https://github.com/twitter/twemoji/blob/master/LICENSE-GRAPHICS" rel="nofollow noopener noreferrer" data-target="_blank" target="_blank">licensed under CC-BY 4.0</a>. “FAQ” icon by Gilbert Bages from the Noun Project. FontAwesome is&nbsp;<a href="https://fontawesome.com/license/free" rel="nofollow noopener noreferrer" data-target="_blank" target="_blank">licensed under CC-BY 4.0</a>.
+					</p>
+					<p class="text-lg-center mg-clear text-sm-center text-center footer-credits-style footer-credits-logos">
+						<a href="https://www.netlify.com" rel="nofollow noopener noreferrer" data-target="_blank" target="_blank">
+							{{ partial "inlinesvg.html" (dict "class" "netlify-svg" "path" "netlify-dark.svg" "width" "80") }}
+						</a>
+					</p>
+				</div>
+			</div>
+	</div>
+</div>
+<!-- footer END -->

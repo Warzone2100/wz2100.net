@@ -1,0 +1,170 @@
+#  wz2100.net site
+#  Copyright (C) 2020 Warzone 2100 Project
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU Affero General Public License for more details.
+#
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+baseURL: "https://wz2100.net/"
+languageCode: "en-us"
+title: "Warzone 2100"
+theme: "wz2100net"
+DefaultContentLanguage: "en"
+
+enableRobotsTXT: true
+
+# If your base url is not the site root, you must set canonifyURLs: true
+# Example 1:
+#   baseurl: "https://example.com/"
+#   canonifyURLs: false
+# Example 2:
+#   baseurl: "https://example.com/folder/"
+#   canonifyURLs: true
+canonifyURLs: false
+
+# To make the website browseable offline, i.e. from local disk,
+# set relativeURLs and uglyURLs to `true`
+relativeURLs: false
+uglyURLs: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  required_main:
+  - identifier: webchat
+    name: Webchat
+    title: Webchat
+    url: "/webchat"
+    weight: -110
+  external_resources:
+  - identifier: forums
+    name: Forums
+    title: Forums
+    url: "https://forums.wz2100.net/"
+    weight: 200
+  - identifier: addons
+    name: Addons
+    title: Addons
+    url: "http://addons.wz2100.net/"
+    weight: 201
+  - identifier: wzguide
+    name: WZ Guide
+    title: WZ Guide
+    url: "http://betaguide.wz2100.net/"
+    weight: 202
+  - identifier: wiki
+    name: Wiki
+    title: Wiki
+    url: "http://developer.wz2100.net/"
+    weight: 203
+  - identifier: reportbugs
+    name: Report Bugs
+    title: Report Bugs
+    url: "https://github.com/Warzone2100/warzone2100/issues/new"
+    weight: 204
+  - identifier: donate
+    name: Donate
+    title: Donate
+    url: "http://donations.wz2100.net/"
+    weight: 205
+
+params:
+  defaultOpenGraphImage: "/img/wz2100-open-graph-template.png"
+  discordInviteCode: "ZvRVQ8g"
+  # External URL Hosts for which rel="noreferrer nofollow" on links should be suppressed
+  trustedURLHosts: ["forums.wz2100.net", "addons.wz2100.net", "betaguide.wz2100.net", "donations.wz2100.net", "github.com", "sourceforge.net"]
+  # Download files
+  downloads:
+    windows_portable:
+    - name: "32-bit (x86)"
+      filename: "warzone2100_win_x86_portable.exe"
+    - name: "64-bit (x64)"
+      filename: "warzone2100_win_x64_portable.exe"
+    windows_installer:
+    - name: "32-bit (x86)"
+      filename: "warzone2100_win_x86_installer.exe"
+    - name: "64-bit (x64)"
+      filename: "warzone2100_win_x64_installer.exe"
+    macos:
+    - name: "64-bit Intel"
+      filename: "warzone2100_macOS.zip"
+    source: 
+    - name: "Source Code (.tar.xz)"
+      filename: "warzone2100_src.tar.xz"
+  quick_downloads_list:
+    windows_32bit:
+      weight: 1
+      svg: "fontawesome/brands/windows.svg"
+      name: "Windows"
+      filetype: "32-bit"
+      class: "windows-platform"
+      downloads:
+      - name: "Portable Version"
+        filetype: "exe"
+        filename: "warzone2100_win_x86_portable.exe"
+      - name: "Full Installer"
+        filetype: "exe"
+        filename: "warzone2100_win_x86_installer.exe"
+    windows_64bit:
+      weight: 2
+      svg: "fontawesome/brands/windows.svg"
+      name: "Windows"
+      filetype: "64-bit"
+      class: "windows-platform"
+      downloads:
+      - name: "Portable Version"
+        filetype: "exe"
+        filename: "warzone2100_win_x64_portable.exe"
+      - name: "Full Installer"
+        filetype: "exe"
+        filename: "warzone2100_win_x64_installer.exe"
+    macos:
+      weight: 3
+      svg: "fontawesome/brands/apple.svg"
+      name: "macOS"
+      class: "macos-platform"
+      downloads:
+      - name: "macOS App Bundle"
+        filetype: "zip"
+        filename: "warzone2100_macOS.zip"
+    linux:
+      weight: 4
+      svg: "fontawesome/brands/linux.svg"
+      name: "Linux"
+      class: "linux-platform"
+      downloads:
+      - name: "Install the Snap"
+        filetype_svg: "snapcraft.svg"
+        url: "https://snapcraft.io/warzone2100"
+      - name: "Get the Source"
+        filetype: "tar.xz"
+        filename: "warzone2100_src.tar.xz"
+
+languages:
+  en:
+    languageName: "English - US"
+    weight: 1
+    contentDir: "content/en"
+  de:
+    languageName: "Deutsch"
+    weight: 2
+    contentDir: "content/de"
+  ru:
+    languageName: "Русский"
+    weight: 2
+    contentDir: "content/ru"
+
+minify:
+  disableSVG: true

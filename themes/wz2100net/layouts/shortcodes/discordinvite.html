@@ -1,0 +1,33 @@
+<!-- discord invite -->
+<div class="discordInviteBox{{ with .Get "class" }} {{.}}{{ end }}" version="1.0">
+	{{ $inviteCode := $.Site.Params.discordInviteCode | default "" }}
+	{{ if .Get "inviteCode" }}
+		{{ $inviteCode = .Get "inviteCode" }}
+	{{ end }}
+	{{ $discordInviteAPIUrl := $inviteCode | printf "%s%s?with_counts=true" "https://discordapp.com/api/v6/invite/" | printf "%s"}}
+	{{ $discordInviteInfo := getJSON $discordInviteAPIUrl }}
+	<div class="discordInvite" style="width: 100%;">
+		<h5 class="introText noselect">{{ i18n "YOU'VE BEEN INVITED TO JOIN A SERVER" | default "YOU'VE BEEN INVITED TO JOIN A SERVER" }}</h5>
+		<div class="discordData"><div class="serverImg discordLink" style="background-image: url(&quot;https://cdn.discordapp.com/icons/{{ $discordInviteInfo.guild.id }}/{{ $discordInviteInfo.guild.icon }}.jpg&quot;); background-size: 100% 100%; background-attachment: scroll; background-origin: padding-box; background-clip: padding-box; background-color: rgb(54, 57, 63); display: block; background-position: 50% 50%; background-repeat: repeat repeat;">
+		</div>
+		<div class="discordInfo">
+			<div class="serverNameBox discordLink">
+				<span class="noselect" id="serverName">{{ $discordInviteInfo.guild.name }}</span>
+			</div>
+			<div class="status" style="display: block;">
+				<div class="statusIndicators noselect">
+					<i class="serverInd"></i>
+					<span class="serverDescription">{{ if .Get "description"}}{{ .Get "description" }}{{ else }}{{ $discordInviteInfo.guild.description }}{{ end }}</span>
+				</div>
+			</div>
+		</div>
+		{{ $discordInviteLink := $inviteCode | printf "%s%s" "https://discordapp.com/invite/" | printf "%s"}}
+		<form data-clean-url-used="true" action="{{ $discordInviteLink }}" method="get" target="_blank" style="display: flex;">
+			<button type="submit" class="discordLink discordJoinButton" />
+				<div class="buttonText noselect">{{ i18n "Join" | default "Join" }}</div>
+			</button>
+		</form>
+		</div>
+	</div>
+</div>
+<!-- discord invite -->

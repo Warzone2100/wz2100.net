@@ -1,0 +1,121 @@
+{{ define "main" }}
+<div class="row"><div class="col">
+	<div class="row">
+		<div class="col-lg-12 col-md-12">
+		{{ partial "breadcrumb.html" . }}
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-4 order-1 col-md-4">
+			<div class="card bgc-black">
+				<div class="card-header bgc-black-2 nav-sidebar-header">
+					<h5 class="mg-clear">
+						{{ if .FirstSection.Parent }}{{ .FirstSection.Title }}{{ else }}{{ i18n "Site Navigation" }}{{ end }}
+					</h5>
+				</div>
+				<div class="card-body bgc-black-2 nav-sidebar">
+					<ul>
+					<!-- Ranges through section pages -->
+					{{- range first 4 .CurrentSection.RegularPages.ByDate.Reverse -}}
+						{{/* We don't want a menu item for specific pages listed here */}}
+						{{- if (and (ne .Title "Posts") (ne .Title "Test Page")) -}}
+							<li>
+								<a href="{{.Permalink}}" class="a-btn text-lg-left sidebar-link">{{ .Title }}</a>
+							</li>
+						{{- end -}}
+					{{- end -}}
+					{{- if gt (len .CurrentSection.RegularPages) 4 -}}
+						<li>
+							<a href="{{.CurrentSection.Permalink}}" class="a-btn text-lg-left sidebar-link">... {{ i18n "More" }}</a>
+						</li>
+					{{- end -}}
+					{{- range .CurrentSection.Sections.ByTitle -}}
+						{{- if gt (len .RegularPages) 0 -}}
+						<li class="section">
+							{{ .Title }}
+							<!-- Using partialCached here offers significant build time speedup, as this recursive menu would otherwise be rebuilt for
+						every page! -->
+							{{ partial "menu_recursive.html" . }}
+						</li>
+						{{- end -}}
+					{{- end -}}
+					</ul>
+				</div>
+			</div>
+			{{- with .Site.Taxonomies.tags.ByCount -}}
+			<div class="card bgc-black">
+				<div class="card-header bgc-black-2 nav-sidebar-header">
+					<h5 class="mg-clear">
+						Tags
+					</h5>
+				</div>
+				<div class="card-body bgc-black-2 nav-sidebar">
+					<ul>
+					{{- range first 5 . -}}
+						<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+					{{- end -}}
+					{{- if gt (len .) 5 -}}
+						<li><a href="/tags/">All Tags</a></li>
+					{{- end -}}
+					</ul>
+				</div>
+			</div>
+			{{- end -}}
+			<p class="mg-lg mg-sm-sm mg-sm-xs"><br></p>
+		</div>
+
+		<div class="{{ if gt (len .CurrentSection.RegularPages) 0 }}col-lg-8 col-md-8{{ else }}col-lg-12 col-md-12{{ end }}">
+			<div class="card bgc-black">
+				<div class="card-header bgc-white">
+					<div class="row">
+						<div class="col" style="flex-grow: 0; padding-right: 8px;">
+							<div class="text-center text-lg-left">
+								{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline icon-white-2 icon-md" "path" "fontawesome/solid/newspaper.svg") }}
+							</div>
+						</div>
+						<div class="col" style="padding-left: 7px;">
+							<h3 class="mg-clear article-title-text">
+								{{ .Title }}
+							</h3>
+							<p class="text-md-left mg-sm-sm mg-sm-md text-lg-left mg-sm-xs p-style mg-sm article-subheader">
+								{{.Date.Format "2006-01-02"}}
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card-body bgc-black-2">
+					<div>
+						{{ .Content }}
+					</div>
+					{{- $taxo := "tags" -}} <!-- Use the plural form here -->
+					{{- with .Param $taxo -}}
+					<div>
+						<p class="tags">
+							Tag{{ if gt (len .) 1 }}s{{ end }}:
+							{{ range $index, $tag := . }}
+								{{- if gt $index 0 }}, {{ end -}}
+								{{ with $.Site.GetPage (printf "/%s/%s" $taxo $tag) -}}
+									<a href="{{ .Permalink }}"><span class="badge badge-pill badge-secondary">{{ $tag }}</span></a>
+								{{- end -}}
+							{{- end -}}
+						</p>
+					</div>
+					{{- end -}}
+				</div>
+				<div class="card-footer bottom-pagination-nav">
+					<div class="row">
+						<div class="col">
+							<a class="a-btn a-block text-right {{ if not .PrevInSection }}disabled{{ end }}"{{ with .PrevInSection }} href="{{ .Permalink }}"{{ end }}>{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/angle-double-left.svg") }}&nbsp;{{ i18n "Previous" }}</a>
+						</div>
+						<div class="col">
+							<a class="a-btn a-block text-left {{ if not .NextInSection }}disabled{{ end }}"{{ with .NextInSection }} href="{{ .Permalink }}"{{ end }}>{{ i18n "Next" }}&nbsp;{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/angle-double-right.svg") }}</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="mg-lg d-md-block d-none"><br></p>
+		</div>
+	</div>
+</div></div>
+{{ end }}

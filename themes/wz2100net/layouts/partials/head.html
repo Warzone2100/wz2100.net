@@ -1,0 +1,56 @@
+	{{ with .Params.Keywords }}
+	<meta name="keywords" content="{{ . }}">
+	{{ end }}
+	{{ with .Params.Description }}
+    <meta name="description" content="{{ . }}" />
+	<meta itemprop="description" content="{{ . }}" />
+	<!--<meta property="og:description" content="{{ . }}" />-->
+	{{ end }}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+	<meta name="ROBOTS" content="{{ if .Params.noindex }}NOINDEX{{ else }}INDEX{{ end }},{{ if .Params.noarchive }} NOARCHIVE,{{ end }}{{ if .Params.nocache }} NOCACHE,{{ end }} FOLLOW" />
+
+	<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+	<meta name="url" content="{{ .Permalink }}" />
+
+	<meta name="language" content="{{ .Language.LanguageName }}" />
+	{{ if .IsTranslated }}
+		{{ range .AllTranslations }}
+		<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
+		{{ end }}
+		{{ $default_page := where .AllTranslations ".Language.Lang" $.Sites.First.Language.Lang }}
+		{{ if gt (len ($default_page)) 0 }}
+			<link rel="alternate" hreflang="x-default" href="{{ (index ($default_page) 0).Permalink }}" />
+		{{ end }}
+	{{ end }}
+
+	<!-- Required Open Graph Info -->
+	<meta property="og:url" content="{{ .Permalink }}" />
+	<meta property="og:title" content="{{ .Title }}" /> <!-- TODO: FIX THIS -->
+	<meta property="og:description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}" />
+	<meta property="og:type" content="{{ if .Params.type }}{{ .Params.type }}{{ else }}website{{ end }}" />
+	<meta property="og:image" content="{{ .Params.image | default $.Site.Params.defaultOpenGraphImage | absURL }}" />
+	<!-- Optional Open Graph Markup -->
+	<meta property="og:updated_time" content="{{ .Date }}"/>
+	<meta property="og:locale" content="{{ .Language.Lang }}" />
+	{{ with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
+	{{ with .Params.sitename }}
+	<meta property="og:site_name" content="{{ . }}" />
+	{{ end }}
+	<!-- Twitter-specific markup -->
+	<meta name="twitter:card" content="summary_large_image" />
+
+	{{ $bootstrap := resources.Get "css/bootstrap.css" }}
+	{{ $styles := resources.Get "css/style.css" }}
+	{{ $animate := resources.Get "css/animate.css" }}
+	{{ $localfontsfallback := resources.Get "css/local-fonts-fallback.css" }}
+
+	{{ $css := slice $bootstrap $styles $animate $localfontsfallback | resources.Concat "wz.css" | minify | fingerprint }}
+	<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}" />
+
+	<!-- Inconsolata, Montserrat: 400;500;700, Open Sans: 400;600;800 -->
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+
+<!-- Analytics -->
+
+<!-- Analytics END -->

@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches-ignore:
+      - 'l10n_**' # Push events to translation service branches (that begin with "l10n_")
+  pull_request:
+    # Match all pull requests
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        version: [0.68.3]
+        image: [ext-alpine, ext-ubuntu]
+    name: 'Test Hugo Build [${{ matrix.version }}-${{ matrix.image }}]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build with Hugo docker image
+        env:
+          HUGO_VERSION: ${{ matrix.version }}
+          HUGO_IMAGE: ${{ matrix.image }}
+        run: |
+          # Prepare docker image label
+          label=""
+          if [[ ! -z "${HUGO_VERSION}" ]]; then
+            label="${HUGO_VERSION}-"
+          fi
+          label="${label}${HUGO_IMAGE}"
+          echo "Using klakegg/hugo:${label}"
+          # Set up output directory
+          OUTPUT_DIR="${HOME}/output/public"
+          echo "OUTPUT_DIR=${OUTPUT_DIR}"
+          echo "::set-env name=OUTPUT_DIR::${OUTPUT_DIR}"
+          mkdir -p "${OUTPUT_DIR}"
+          # Run Hugo build
+          docker run --rm -t \
+            -v $(pwd):/src \
+            -v ${OUTPUT_DIR}:/target \
+            klakegg/hugo:${label} \
+            --minify --i18n-warnings --gc --path-warnings --verbose

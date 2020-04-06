@@ -1,0 +1,36 @@
+name: Update Data
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '5 12 * * 0'
+
+jobs:
+  build:
+    name: 'Update Data'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download index of GitHub Release info (filtered for download counts)
+        uses: past-due/fetch-release-info@master
+        with:
+          github_repo: 'Warzone2100/warzone2100'
+          github_token: '${{ secrets.GITHUB_TOKEN }}'
+          github_release_id: ''
+          fetch_release_index: true
+          filter_release_keys: '["author", "url", "assets_url", "upload_url", "html_url", "node_id", "target_commitish", "name", "draft", "created_at", "published_at", "tarball_url", "zipball_url", "body"]'
+          filter_asset_keys: '["url", "id", "node_id", "label", "state", "content_type", "size", "created_at", "updated_at", "uploader", "browser_download_url"]'
+          output_directory: 'data/github_releases_info'
+          cache_directory: '_cache_data/github_releases_info'
+      - name: Fetch GitHub Stargazers count
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/Warzone2100/warzone2100?page=1&per_page=100" | jq '.stargazers_count | {stargazers_count: .}' > "data/github_repo_info.json"
+      - name: Commit any changes to data files
+        run: |
+          git config user.name "wzdev-ci"
+          git config user.email "61424532+wzdev-ci@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Automated data update: ${timestamp}" || exit 0
+          git push

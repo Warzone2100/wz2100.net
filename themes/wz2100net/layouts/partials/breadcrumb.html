@@ -1,0 +1,15 @@
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb">
+  {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+</ol>
+</nav>
+{{- define "breadcrumbnav" -}}
+{{- if .p1.Parent -}}
+{{- template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  -}}
+{{- else if not .p1.IsHome -}}
+{{- template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  -}}
+{{- end -}}
+<li class="breadcrumb-item{{ if eq .p1 .p2 }} active{{ end }}"{{ if eq .p1 .p2 }} aria-current="page"{{ end }}>
+	{{ if ne .p1 .p2 }}<a href="{{ .p1.Permalink }}">{{ end }}{{ if not .p1.IsHome }}{{ .p1.Title }}{{ else }}{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/home.svg") }}{{ end }}{{ if ne .p1 .p2 }}</a>{{ end }}
+</li>
+{{- end -}}

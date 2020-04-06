@@ -1,0 +1,25 @@
+{{ define "main"}}
+<div class="row row-style voffset-sm voffset-xs voffset voffset-md">
+	<div class="align-self-center col-lg-12 col-md-12">
+		<div>
+			<div class="text-center">
+				{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-xl icon-ash-grey" "path" "fontawesome/solid/frown.svg") }}
+			</div>
+			<div class="text-lg-center text-md-center text-sm-center text-center normal-version-message">
+				<h1 class="mg-md">
+					{{ i18n "404 - Not Found" | default "404 - Not Found" }}
+				</h1>
+				<h6 class="mg-md no-script-message">
+					{{ i18n "Whatever that was, it couldn't be found." }}
+				</h6>
+				<h6 class="mg-md">
+					{{ i18n "Sorry about that." }}
+				</h6>
+				<p class="mg-lg text-lg-center text-md-center"><br></p>
+				<a href="{{ .Site.Home.Permalink }}" class="btn btn-lg btn-sapphire btn-clean">{{ i18n "Go Home" | default "Go Home" }}</a>
+			</div>
+			<p class="mg-lg text-lg-center text-md-center"><br></p>
+		</div>
+	</div>
+</div>
+{{ end }}

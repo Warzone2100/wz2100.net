@@ -1,0 +1,1044 @@
+{{ define "title" }}{{ .Site.Title }}{{ with .Params.Title }}: {{ . }}{{ end }}{{ end }}
+
+{{ define "main" }}
+	{{ $sourceForgeDLPrefix := print "https://downloads.sourceforge.net/project/warzone2100/releases/" .Site.Data.github_releases_info.latest.tag_name }}
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org/",
+		"@graph": [
+			{
+				"@context": "https://schema.org/",
+				"@type": "VideoGame",
+				"@id": "https://wz2100.net/#Warzone2100",
+				"url": "https://wz2100.net",
+				"name": "Warzone 2100",
+				"image": "https://raw.githubusercontent.com/Warzone2100/warzone2100/master/icons/warzone2100.large.png",
+				"alternateName": [
+					"Warzone2100",
+					"WZ2100",
+					"Warzone"
+				],
+				"sameAs": [
+					"https://www.wikidata.org/wiki/Q386632",
+					"https://en.wikipedia.org/wiki/Warzone_2100"
+				],
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "USD"
+				},
+				"OperatingSystem": [
+					"Windows",
+					"Linux",
+					"macOS",
+					"FreeBSD"
+				],
+				"applicationCategory": "https://schema.org/GameApplication",
+				"author": {
+					"@type": "Organization",
+					"@id": "https://github.com/Warzone2100",
+					"name": "The Warzone 2100 Project"
+				},
+				"softwareHelp": {
+					"@type": "Webpage",
+					"url": "https://github.com/Warzone2100/warzone2100/tree/master/doc"
+				},
+				"releaseNotes": "https://raw.githubusercontent.com/Warzone2100/warzone2100/master/ChangeLog",
+				"cheats": {
+					"@type": "Webpage",
+					"url": "https://github.com/Warzone2100/warzone2100/blob/master/README.md#cheats"
+				},
+				"playMode": [
+					"SinglePlayer",
+					"MultiPlayer"
+				],
+				"numberOfPlayers": {
+					"@type": "QuantitativeValue",
+					"minValue": "1",
+					"maxValue": "10"
+				}
+			}
+		]
+	}
+	</script>
+	<div class="row voffset voffset-md voffset-sm voffset-xs">
+		<div class="align-self-center col-md-7 col-lg-6">
+			<h1 class="mg-md text-center text-md-left wz-hero-header">
+				Warzone 2100
+			</h1>
+			<h3 class="mg-md float-none text-center text-md-left wz-hero-subheader">
+				{{ i18n "A 100% free and open-source 3D real-time strategy game." }}
+			</h3>
+			<div class="row">
+				<div class="col">
+					<p>
+						<br>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="text-center text-sm-center">
+						<div class=" btn-flex-container">
+							<div class="btn-group btn-clean2 float-lg-none btn-flex">
+								<a href="https://github.com/Warzone2100/warzone2100/releases/latest" data-toggle="modal" data-target="#modal-downloads-large" class="btn btn-part1 btn-lg btn-sapphire bloc-button">{{ i18n "Download Now" }}</a>
+								<button type="button" class="btn btn-caret btn-sapphire dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="sr-only">{{ i18n "Toggle Dropdown" }}</span>
+								</button>
+
+								<div class="dropdown-menu dropdown-menu-right" role="menu" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(129px, 48px, 0px);">
+									{{- with .Param "quick_downloads_list" -}}
+									{{- range sort . "weight" "asc" -}}
+										{{- $validDownloads := slice -}}
+										{{- with .downloads -}}
+										{{- range . -}}
+										{{- $linkurl := "" }}
+										{{- if .filename -}}
+											{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+												{{ $validDownloads = $validDownloads | append . }}
+											{{- end -}}
+										{{- else if .url -}}
+											{{ $validDownloads = $validDownloads | append . }}
+										{{- end -}}
+										{{- end -}}
+										{{- end -}}
+										{{- if gt (len $validDownloads) 0 -}}
+											<span{{ with .class }} class="{{ . }}"{{ end }}>
+												<h6 class="dropdown-header">{{ with .svg }}{{ partial "inlinesvg.html" (dict "path" .) }}{{ end }}{{ with .name }}&nbsp;{{ i18n . | default . }}{{ end }}{{ with .filetype }}<span class="badge badge-light filetype-badge">{{ . }}</span>{{ end }}</h6>
+											{{- with .downloads -}}
+											{{- range . -}}
+											{{- $linkurl := "" }}
+											{{- if .filename -}}
+												{{ $linkurl = print $sourceForgeDLPrefix "/" .filename }}
+											{{- else if .url -}}
+												{{ $linkurl = .url }}
+											{{- end -}}
+											{{- if $linkurl -}}
+											<a href="{{ $linkurl }}" class="dropdown-item a-block" data-target="_blank" target="_blank" rel="noopener"><span class="text">{{ i18n .name | default .name }}</span>{{ if or (.filetype) (.filetype_svg) }}<span class="badge badge-light filetype-badge">{{ with .filetype_svg }}{{ partial "inlinesvg.html" (dict "path" .) }}{{ end }}{{ with .filetype }}{{ . }}{{ end }}</span>{{ end }}</a>
+											{{- end -}}
+											{{- end -}}
+											{{- end -}}
+											</span>
+										{{- end -}}
+									{{- end -}}
+									{{- end -}}
+									<h6 class="dropdown-header">{{ partial "inlinesvg.html" (dict "path" "fontawesome/regular/file-archive.svg") }}&nbsp;&nbsp;{{ i18n "and more..." }}</h6>
+									<a href="#" data-toggle="modal" data-target="#modal-downloads-large" class="dropdown-item a-block">{{ i18n "All downloads & platforms" }}</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col dl-version-info-col"><div class="dl-version-info-container">
+					<h6 class="mg-clear float-lg-none text-lg-right text-md-center text-sm-center text-center d-lg-none d-xl-none d-block">
+						<br>
+					</h6>
+					<h6 class="mg-clear text-lg-right text-md-center text-sm-center text-center mx-auto d-block dl-version-info">
+						<span class="badge badge-secondary small-badge">{{ i18n "New" }}</span>&nbsp;{{ i18n "Version" }} {{.Site.Data.github_releases_info.latest.tag_name}}
+					</h6>
+					<div class="dl-platform">
+						<h6 class="mg-clear float-lg-none text-lg-right text-md-center text-sm-center text-center windows-platform dl-platform-info-style object-hidden">
+							{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/windows.svg") }}&nbsp; {{ i18n "for Windows 7-10" }}
+						</h6>
+						<h6 class="mg-clear float-lg-none text-lg-right text-md-center text-sm-center text-center macos-platform dl-platform-info-style object-hidden">
+							{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/apple.svg") }}&nbsp; {{ i18n "for macOS 10.10+" }}
+						</h6>
+						<h6 class="mg-clear float-lg-none text-lg-right text-md-center text-sm-center text-center linux-platform dl-platform-info-style object-hidden">
+							{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/linux.svg") }}&nbsp; {{ i18n "for Linux" }}
+						</h6>
+						<h6 class="text-lg-right mg-clear text-md-center text-sm-center text-center default-platform">
+							{{ i18n "Windows, macOS, Linux" }}
+						</h6>
+					</div></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="text-lg-left">
+						<p>
+							<br><br>
+						</p>
+					</div>
+					<p class="p-additional-download-links">
+					<a href="#" data-toggle="modal" data-target="#modal-downloads-large">{{ i18n "Advanced install options & other platforms" }}</a><br><a href="https://github.com/Warzone2100/warzone2100" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Get the source code" }}</a><br>
+					</p>
+					<div class="row">
+						<div class="col">
+							<p class="mg-md additional-download-dev-link text-lg-left">
+							<a href="https://github.com/Warzone2100/warzone2100" data-target="_blank" target="_blank" rel="noopener">{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/github.svg" "paddingRight" "0.25em") }}&nbsp;{{ i18n "View on GitHub" }}</a><br>
+							</p>
+						</div>
+						<div class="col">
+							<p class="mg-md additional-download-dev-link text-lg-center text-md-center text-sm-center text-center">
+							<a href="https://github.com/Warzone2100/warzone2100" data-target="_blank" target="_blank" rel="noopener">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/star.svg" "paddingRight" "0.25em") }}&nbsp;{{ i18n "Star on GitHub" }}</a><br>
+							</p>
+						</div>
+						<div class="col">
+							<p class="mg-md additional-download-dev-link text-lg-right text-md-right text-sm-right text-right">
+							<a href="https://github.com/Warzone2100/warzone2100/issues/new" data-target="_blank" target="_blank" rel="noopener">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/bug.svg" "paddingRight" "0.25em") }}&nbsp;{{ i18n "Report a Bug" }}</a><br>
+							</p>
+						</div>
+					</div>
+					<p class="mg-lg hero-footer-text">
+						{{ i18n "Copyright © Warzone 2100 Project." }} {{ i18n "Warzone is licensed under the GPLv2+ license (& others)." }}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-5 col-sm-8 offset-sm-2 offset-md-0 col-md-5 offset-lg-1">
+			<div class="text-center screenshot-carousel-wrapper">
+				<div id="carousel-main-screenshots" class="carousel slide" data-ride="carousel" data-interval="10000">
+					<ol class="carousel-indicators hide-indicators">
+						<li data-target="#carousel-main-screenshots" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#carousel-main-screenshots" data-slide-to="1">
+						</li>
+						<li data-target="#carousel-main-screenshots" data-slide-to="2">
+						</li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<picture>
+								<!--[if IE 9]><video style="display: none;><![endif]-->
+								<source type="image/webp" srcset="/img/screenshots/wz2100-CAM_3A50.webp">
+								<!--[if IE 9]></video><![endif]-->
+								<img class="d-inline-block w-100" alt="slide 1" src="/img/screenshots/wz2100-CAM_3A50.png" />
+							</picture>
+							<div class="carousel-caption">
+								<div class="form-group">
+									<label class="label-style mg-clear sm-shadow">
+										{{ i18n "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles." }}
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<picture>
+								<!--[if IE 9]><video style="display: none;><![endif]-->
+								<source type="image/webp" srcset="/img/screenshots/base_build.webp">
+								<!--[if IE 9]></video><![endif]-->
+								<img alt="slide 2" class="d-inline-block w-100" src="/img/screenshots/base_build.png" />
+							</picture>
+							<div class="carousel-caption">
+								<div class="form-group">
+									<label class="label-style">
+										{{ i18n "Sieze territory and resources, build extensive bases, and expand your production & research." }}
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<picture>
+								<!--[if IE 9]><video style="display: none;><![endif]-->
+								<source type="image/webp" srcset="/img/screenshots/multiplayer_massive_battle.webp">
+								<!--[if IE 9]></video><![endif]-->
+								<img class="d-inline-block w-100" alt="slide 3" src="/img/screenshots/multiplayer_massive_battle.png" />
+							</picture>
+							<div class="carousel-caption">
+								<div class="form-group">
+									<label class="label-style sm-shadow mg-clear">
+										{{ i18n "Compete in massive LAN / online multiplayer battles, with up to 10 players." }}
+									</label>
+								</div>
+							</div>
+						</div>
+					</div><a class="carousel-nav-controls carousel-control-prev" href="#carousel-main-screenshots" role="button" data-slide="prev">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/chevron-left.svg") }}<span class="sr-only">{{ i18n "Previous" }}</span></a><a class="carousel-nav-controls carousel-control-next" href="#carousel-main-screenshots" role="button" data-slide="next">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/chevron-right.svg") }}<span class="sr-only">{{ i18n "Next" }}</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container fill-bloc-bottom-edge">
+	<div class="row">
+		<div class="col-12">
+			<div>
+				<div id="modal-downloads-large" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+						<div class="download-modal modal-content">
+							<div class="download-modal-header bgc-sapphire modal-header">
+								<h3 class="mg-clear">
+									{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/download.svg") }}&nbsp; Warzone 2100
+								</h3><a href="#" class="btn btn-lg btn-style-none btn-d" data-dismiss="modal" aria-label="{{ i18n "Close" }}"><span class="close icon-white" style="font-size: 90%;">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/times.svg") }}</span></a>
+							</div>
+							<div class="download-modal-body modal-body">
+								<div class="row">
+									<div class="col download-top-info-col">
+										<div class="blockquote download-modal-mirrors">
+											<div class="row">
+												<div class="col">
+													<p class="mg-clear dl-troubleshooting-header">
+														{{ i18n "Downloads not working?" }}
+													</p>
+													<p class="mg-clear dl-troubleshooting-details">
+														{{ i18n "Try browsing the download mirrors directly:" }}
+													</p>
+												</div>
+												<div class="col">
+													<a href="https://github.com/Warzone2100/warzone2100/releases/latest" class="a-btn a-block" data-target="_blank" target="_blank" rel="noopener">{{ i18n "GitHub Releases" }}</a>
+													<a href="https://sourceforge.net/projects/warzone2100/files/releases/{{.Site.Data.github_releases_info.latest.tag_name}}/" class="a-btn a-block" data-target="_blank" target="_blank" rel="noopener">{{ i18n "SourceForge Mirror" }}</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col download-details-col">
+										<h4 class="mg-md">
+											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/windows.svg" "paddingRight" "0.2em") }}{{ i18n "Windows" }}
+										</h4>
+										{{- with .Param "downloads.windows_portable" -}}
+										<div class="download-details-block">
+											<h6 class="mg-sm">
+												{{ i18n "Portable Version" }}
+											</h6>
+											<p class="download-details-text">
+												{{ i18n "Can be installed to / run from a USB drive, local folder, etc. Fully self-contained in a single directory - stores all settings / saves in that same directory too. (Does not require admin privileges.)" }}
+											</p>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													{{- range . -}}
+													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+													<li>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+													</li>
+													{{- end -}}
+													{{- end -}}
+												</ul>
+											</div>
+										</div>
+										{{- end -}}
+										{{- with .Param "downloads.windows_installer" -}}
+										<div class="download-details-block">
+											<h6 class="mg-sm">
+												{{ i18n "Full Installer" }}
+											</h6>
+											<p class="download-details-text">
+												{{ i18n "Installs for all users on a system. Settings / saves are user-specific. (Requires admin privileges to install.)" }}
+											</p>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													{{- range . -}}
+													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+													<li>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+													</li>
+													{{- end -}}
+													{{- end -}}
+												</ul>
+											</div>
+										</div>
+										{{- end -}}
+									</div>
+									<div class="col download-details-col">
+										<h4 class="mg-md">
+											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/linux.svg" "paddingRight" "0.1em") }}{{ i18n "Linux" }}
+										</h4>
+										<div class="download-details-block">
+											<h6 class="mg-sm">
+												{{ i18n "Snap Installer" }}
+											</h6>
+											<p class="download-details-text">
+												{{ i18n "Easy installation. Supports most Linux distributions. (See link for details.)" }}
+											</p>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													<li>
+														<a href="https://snapcraft.io/warzone2100" class="a-btn download-link">{{ i18n "Install the Snap" }}</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										{{- with .Param "downloads.source" -}}
+										<div class="download-details-block">
+											<h6 class="mg-sm">
+												{{ i18n "Compile Source" }}
+											</h6>
+											<p class="download-details-text">
+												{{ i18n "Compile the source yourself using our build instructions." }}
+											</p>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													{{- range . -}}
+													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+													<li>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+													</li>
+													{{- end -}}
+													{{- end -}}
+												</ul>
+											</div>
+										</div>
+										{{- end -}}
+									</div>
+								</div>
+								<div class="row">
+									<div class="col download-details-col">
+										<h4 class="mg-md">
+											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/apple.svg" "paddingRight" "0.1em") }}{{ i18n "macOS" }}
+										</h4>
+										{{- with .Param "downloads.macos" -}}
+										<div class="download-details-block">
+											<h6 class="mg-sm">
+												{{ i18n "Mac App Bundle" }}
+											</h6>
+											<p class="download-details-text">
+												{{ i18n "Download, unzip, and copy to your Applications folder." }}
+											</p>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													{{- range . -}}
+													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+													<li>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+													</li>
+													{{- end -}}
+													{{- end -}}
+												</ul>
+											</div><a href="./" class="a-btn a-block text-lg-left download-info-link">{{ i18n "How to handle “Warzone cannot be opened” errors." }}</a>
+										</div>
+										{{- end -}}
+									</div>
+									<div class="col download-details-col">
+										<h4 class="mg-md">
+											{{ i18n "Other" }}
+										</h4>
+										<div class="download-details-block">
+											<a href="https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/" class="a-btn a-block download-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Campaign Videos" }}</a><a href="https://github.com/Warzone2100/WMIT" class="a-btn a-block download-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "WMIT (Warzone Model Import Tool)" }}</a><a href="https://github.com/Warzone2100/warzone2100/" class="a-btn a-block download-link">{{ i18n "Development Source Code" }}</a><a href="https://github.com/Warzone2100/warzone2100/blob/master/README.md#latest-development-builds" class="a-btn a-block download-link">{{ i18n "Development Builds" }}</a>
+										</div>
+									</div>
+								</div>
+								<div class="row voffset-clear-sm voffset-clear-xs">
+									<div class="col download-details-col download-info-col">
+										<div id="accordion-download-integrity">
+											<div class="card bgc-ghost-white card-sq border-0 download-verify-card">
+												<div class="download-verify-header bgc-ghost-white collapsed modal-header" data-toggle="collapse" aria-expanded="false" aria-controls="accordion-download-integrity-item-2" data-target="#accordion-download-integrity-item-2">
+													<p class="download-verify-header-link accordion-toggle mg-md">
+														{{ i18n "Verify Download Integrity (SHA256)" }}
+														{{ partial "inlinesvg.html" (dict "class" "chevron" "path" "fontawesome/solid/chevron-up.svg") }}
+													</p>
+												</div>
+												<div id="accordion-download-integrity-item-2" class="collapse bgc-splashed-white" aria-labelledby="heading2" data-parent="#accordion-download-integrity">
+													<div class="modal-body">
+														<p class="download-details-text mg-clear">
+															{{ i18n "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:" }}
+														</p>
+														<div>
+															<p class="mg-clear download-details-text download-details-low-padding">
+																{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/windows.svg" "paddingRight" "0.4em") }}{{ i18n "Windows" }}
+															</p>
+															<div class=" download-details-text download-details-low-padding">
+																<code class="download-details-low-padding">CertUtil -hashfile &lt;filename> SHA256</code>
+
+															</div>
+														</div>
+														<div>
+															<p class="mg-clear download-details-text download-details-low-padding">
+																{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/apple.svg" "paddingRight" "0.4em") }}{{ i18n "macOS" }}
+															</p>
+															<div class=" download-details-text download-details-low-padding">
+																<code class="download-details-low-padding">shasum -a 256 &lt;filename></code>
+
+															</div>
+														</div>
+														<div>
+															<p class="mg-clear download-details-text download-details-low-padding">
+																{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/linux.svg" "paddingRight" "0.4em") }}{{ i18n "Linux" }}
+															</p>
+															<div class=" download-details-text download-details-low-padding">
+																<code class="download-details-low-padding">sha256sum &lt;filename></code>
+
+															</div>
+														</div>
+														<p class="download-details-text mg-clear"><br></p>
+														<div >
+															<table class="table table-sm table-responsive download-details-text download-checksum-table">
+															  <thead>
+																<tr>
+																  <th scope="col">Version {{.Site.Data.github_releases_info.latest.tag_name}} Download</th>
+																  <th scope="col">SHA256</th>
+																  <!--<th scope="col" colspan="2">{{ i18n "SHA256 Checksums for Version"}} {{.Site.Data.github_releases_info.latest.tag_name}}:</th>-->
+																</tr>
+															  </thead>
+															  <tbody>
+																{{ $assets := .Site.Data.github_releases_info.latest.assets }}
+																{{ range $index, $element := sort $assets "name" "desc" }}
+																	<tr>
+																	  <td>{{ $element.name }}</td>
+																	  <td class="checksum">{{ $element.sha256 }}</td>
+																	</tr>
+																{{ end }}
+															  </tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 chevron-down-container">
+			<div class="text-center">
+				<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('0',this)">{{ partial "inlinesvg.html" (dict "class" "chevron-down-svg animated bounce animDelay08 icon-dim-gray" "path" "fontawesome/v4/angle-down.svg") }}</a>
+			</div>
+		</div>
+	</div>
+{{ end }}
+
+{{ define "additional" }}
+	<!-- features -->
+	<div class="bloc bg-backdrop4 bloc-bg-texture texture-paper l-bloc" id="features">
+		<div class="container bloc-lg">
+			<div class="row scroll-fx-up-in-fade">
+				<div class="col">
+					<h1 class="mg-md text-lg-center text-md-center text-sm-center text-left features-header">
+						{{ i18n "Why Warzone 2100 Rocks" }}
+					</h1>
+					<h3 class="text-lg-center btn-resize-mode mx-auto d-block mg-lg text-md-center text-sm-center features-subheader">
+						{{ i18n "Strategy by Design. Endless replayability." }}
+					</h3>
+				</div>
+			</div>
+			<div class="row voffset">
+				<div class="col-md-4 scroll-fx-up-in-fade">
+					<div class="text-center">
+						{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-round icon-lg icon-white" "path" "ionicons/trophy.svg" "fill" "#FFFFFF") }}
+					</div>
+					<h3 class="mg-md text-center feature-title">
+						{{ i18n "Single-Player Campaign" }}
+					</h3>
+					<p class="text-center feature-details">
+						{{ i18n "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles." }}
+					</p>
+				</div>
+				<div class="col-md-4 scroll-fx-up-in-fade">
+					<div class="text-center">
+						{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-round icon-lg icon-white" "path" "fontawesome/solid/users.svg" "fill" "#FFFFFF") }}
+					</div>
+					<h3 class="mg-md text-center feature-title">
+						{{ i18n "LAN / Internet Multiplayer" }}
+					</h3>
+					<p class="text-center feature-details">
+						{{ i18n "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby." }}
+					</p>
+				</div>
+				<div class="col-md-4 scroll-fx-up-in-fade">
+					<div class="text-center">
+						{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-round icon-lg icon-white" "path" "fontawesome/solid/robot.svg" "fill" "#FFFFFF") }}
+					</div>
+					<h3 class="mg-md text-center feature-title">
+						{{ i18n "AI Bots" }}
+					</h3>
+					<p class="text-center feature-details">
+						{{ i18n "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability." }}
+					</p>
+				</div>
+			</div>
+			<div class="row voffset">
+				<div class="col-md-4 scroll-fx-up-in-fade">
+					<div class="text-center">
+						{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-round icon-lg icon-white" "path" "fontawesome/solid/project-diagram.svg" "fill" "#FFFFFF") }}
+					</div>
+					<h3 class="mg-md text-center feature-title">
+						{{ i18n "Extensive Tech Tree" }}
+					</h3>
+					<p class="text-center feature-details">
+						{{ i18n "Over 400 different technologies yield an extensive tech tree with many paths to choose." }}
+					</p>
+				</div>
+				<div class="col-md-4 scroll-fx-up-in-fade">
+					<div class="text-center">
+						{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-round icon-lg icon-white" "path" "fontawesome/solid/paint-brush.svg" "fill" "#FFFFFF") }}
+					</div>
+					<h3 class="mg-md text-center feature-title">
+						{{ i18n "Unit Designer" }}
+					</h3>
+					<p class="text-center feature-details">
+						{{ i18n "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics." }}
+					</p>
+				</div>
+				<div class="col-md-4 scroll-fx-up-in-fade">
+					<div class="text-center">
+						{{ partial "inlinesvg.html" (dict "class" "inline-svg icon-round icon-lg icon-white" "path" "fontawesome/brands/windows.svg" "fill" "#FFFFFF") }}
+					</div>
+					<h3 class="mg-md text-center feature-title">
+						{{ i18n "Cross-Platform" }}
+					</h3>
+					<p class="text-center feature-details">
+						{{ i18n "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!" }}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- features END -->
+
+	<!-- stats -->
+	<div class="bloc bloc-bg-texture texture-geometry-shapes bgc-bleu-de-france d-bloc" id="stats">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="scroll-fx-zoom-pull scroll-fx-up-in-fade col-md-3 col-lg-2">
+					<h3 class="mg-md text-center " id="years-since-freedom">
+						15+
+					</h3>
+					<h4 class="mg-md text-center stats-subheading">
+						{{ i18n "Years" 15 }}
+					</h4>
+				</div>
+				<div class="scroll-fx-zoom-pull scroll-fx-up-in-fade col-md-3 col-lg-2">
+					<h3 class="mg-md text-center " id="total-downloads-count">
+						3.4M+
+					</h3>
+					<h4 class="mg-md text-center stats-subheading">
+						{{ i18n "Downloads" 3400000 }}
+					</h4>
+				</div>
+				<div class="scroll-fx-zoom-pull scroll-fx-up-in-fade col-md-3 col-lg-2">
+					<h3 class="mg-md text-center ">
+						137k+
+					</h3>
+					<h4 class="mg-md text-center stats-subheading">
+						{{ i18n "Forum Posts" 137000 }}
+					</h4>
+				</div>
+				<div class="scroll-fx-zoom-pull scroll-fx-up-in-fade col-md-3 col-lg-2">
+					<h3 class="mg-md text-center " id="github-star-count">
+						1.1k+
+					</h3>
+					<h4 class="mg-md text-center stats-subheading">
+						{{ i18n "GitHub Stars" 1100 }}
+					</h4>
+				</div>
+				<div class="scroll-fx-zoom-pull scroll-fx-up-in-fade col-md-3 col-lg-2">
+					<h3 class="mg-md text-center ">
+						100s
+					</h3>
+					<h4 class="mg-md text-center stats-subheading">
+						{{ i18n "Contributors" 100 }}
+					</h4>
+				</div>
+				<div class="scroll-fx-zoom-pull scroll-fx-up-in-fade col-md-3 col-lg-2">
+					<h3 class="mg-md text-center ">
+						{{ i18n "100%" }}
+					</h3>
+					<h4 class="mg-md text-center stats-subheading">
+						{{ i18n "Free" }}
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stats END -->
+
+	<!-- open-source -->
+	<div class="bloc tc-black bloc-bg-texture texture-paper l-bloc" id="open-source">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-md-12 offset-lg-2 col-lg-8">
+					<h1 class="mg-md text-center tc-white scroll-fx-in-fade scroll-fx-zoom-pull open-source-header">
+						{{ i18n "100% Open & Free" }}<br>
+					</h1>
+					<h3 class="text-center mg-md tc-white scroll-fx-in-fade scroll-fx-zoom-pull open-source-subheader">
+						{{ i18n "Open source, open development, open community - free as in freedom!" }}
+					</h3>
+				</div>
+			</div>
+			<div class="row voffset">
+				<div class="col-lg-6 col-md-6 scroll-fx-in-fade">
+					<div class="row scroll-fx-in-fade">
+						<div class="col order-1 align-self-center">
+							<h4 class="text-center mg-sm text-lg-left tc-white open-source-title">
+								{{ i18n "100% Open-Source" }}
+							</h4>
+							<p class="text-center text-lg-left open-source-details">
+								{{ i18n "Exclusively open-source technologies, software, & tools. Community content is licensed under liberal licenses (ex. CC0)." }}
+							</p>
+							<p class="d-lg-none d-xl-none d-md-block  d-none">
+								<br>
+							</p>
+						</div>
+						<div class="col-lg-3">
+							<p class=" d-md-none d-block">
+								<br>
+							</p>
+							<div class="text-center">
+								<div><!--?xml version="1.0" encoding="UTF-8" standalone="no"--> <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="102" height="140" viewBox="0 0 576 792.00001" version="1.2" id="svg5" sodipodi:docname="OSIApproved.svg" inkscape:version="0.92.3 (2405546, 2018-03-11)" fill="#000000" stroke="rgba(0,0,0,0.0)" stroke-linecap="round" stroke-width="0">   <metadata id="metadata11">     <rdf:rdf>       <cc:work rdf:about="">         <dc:format>image/svg+xml</dc:format>         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>         <dc:title></dc:title>       </cc:work>     </rdf:rdf>   </metadata>   <defs id="defs9"></defs>   <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1600" inkscape:window-height="836" id="namedview7" showgrid="false" units="in" inkscape:zoom="0.70710678" inkscape:cx="283.77376" inkscape:cy="362.21036" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" inkscape:current-layer="flowRoot3742"></sodipodi:namedview>   <g id="surface480" transform="translate(56.319251,47.201249)">     <path style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:153.69700623;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1" d="m 2607.2266,1436.6797 c 322.5781,119.8047 490.9765,350.5078 490.9765,747.5781 0,397.0703 -334.6093,746.9531 -752.6953,747.6563 -441.2109,0.7031 -774.0234,-349.1407 -768.7109,-747.6563 5.3125,-398.5156 195.3906,-663.6328 499.5703,-759.4922 L 1537.5,99.0625 C 816.28906,285.78125 82.773438,1136.6016 82.773438,2184.2578 c 0,1240.8594 997.031262,2246.7969 2246.718762,2246.7969 1249.6875,0 2262.7344,-1005.9375 2262.7344,-2246.7969 0,-1063.9453 -726.5625,-1902.92968 -1463.1641,-2088.906238 z m 0,0" transform="matrix(0.1,0,0,-0.1,0,451)" id="path2" inkscape:connector-curvature="0"></path>   </g>   <flowroot xml:space="preserve" id="flowRoot3726" style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Open Sans;font-style:normal;font-weight:normal;font-size:72px;-inkscape-font-specification:Open Sans;line-height:125%;letter-spacing:0px;word-spacing:0px;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowregion id="flowRegion3728"><rect id="rect3730" width="575.70789" height="214.01315" x="78.846954" y="733.10297"></rect></flowregion><flowpara id="flowPara3732"></flowpara></flowroot>  <flowroot xml:space="preserve" id="flowRoot3734" style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Open Sans;font-style:normal;font-weight:normal;font-size:72px;-inkscape-font-specification:Open Sans;line-height:125%;letter-spacing:0px;word-spacing:0px;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowregion id="flowRegion3736"><rect id="rect3738" width="635.7818" height="287.85394" x="88.859261" y="688.04755"></rect></flowregion><flowpara id="flowPara3740"></flowpara></flowroot>  <g aria-label="open source initiative" transform="matrix(1.0829245,0,0,1.148944,-0.49785346,-115.50738)" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="flowRoot3742">     <path d="m 91.042969,583.30725 q 0,9.77344 -5.273438,15.25781 -5.238281,5.44922 -14.695312,5.44922 -9.070313,0 -14.449219,-5.58984 -5.34375,-5.58985 -5.34375,-15.11719 0,-9.73828 5.238281,-15.11719 5.273438,-5.41406 14.765625,-5.41406 5.871094,0 10.371094,2.49609 4.5,2.4961 6.925781,7.17188 2.460938,4.64062 2.460938,10.86328 z m -25.804688,0 q 0,5.13281 1.371094,7.83984 1.371094,2.67188 4.605469,2.67188 3.199218,0 4.5,-2.67188 1.335937,-2.70703 1.335937,-7.83984 0,-5.09766 -1.335937,-7.69922 -1.335938,-2.60156 -4.570313,-2.60156 -3.164062,0 -4.535156,2.60156 -1.371094,2.56641 -1.371094,7.69922 z" style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3756"></path>     <path d="m 122.75391,604.01428 q -3.02344,0 -5.41407,-0.98437 -2.39062,-1.01953 -4.74609,-3.6211 h -0.63281 q 0.63281,4.1836 0.63281,5.20313 v 15.99609 H 98.847656 v -57.1289 h 11.179684 l 1.9336,5.0625 h 0.63281 q 3.83203,-5.76563 10.58203,-5.76563 6.60938,0 10.37109,5.48438 3.76172,5.48437 3.76172,15.04687 0,9.63281 -3.9375,15.1875 -3.90234,5.51953 -10.61718,5.51953 z m -4.60547,-30.44531 q -3.02344,0 -4.25391,2.17969 -1.19531,2.14453 -1.30078,6.39843 v 1.08985 q 0,5.13281 1.37109,7.41797 1.3711,2.28515 4.32422,2.28515 2.63672,0 3.83203,-2.25 1.19532,-2.28515 1.19532,-7.52343 0,-5.13282 -1.19532,-7.34766 -1.19531,-2.25 -3.97265,-2.25 z" style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3758"></path>     <path d="m 164.34375,604.01428 q -9.94922,0 -15.46875,-5.27344 -5.48438,-5.30859 -5.48438,-15.08203 0,-10.08984 5.09766,-15.46875 5.09766,-5.41406 14.55469,-5.41406 9,0 13.88672,4.71094 4.92187,4.67578 4.92187,13.5 v 6.11719 h -24.57422 q 0.14063,3.33984 2.42578,5.23828 2.32032,1.89843 6.29297,1.89843 3.6211,0 6.64453,-0.66796 3.0586,-0.70313 6.60938,-2.35547 v 9.8789 q -3.23438,1.65235 -6.67969,2.28516 -3.44531,0.63281 -8.22656,0.63281 z m -0.80859,-31.88672 q -2.42579,0 -4.07813,1.54688 -1.61719,1.51172 -1.89844,4.78125 h 11.8125 q -0.0703,-2.88281 -1.65234,-4.60547 -1.54688,-1.72266 -4.18359,-1.72266 z" style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3760"></path>     <path d="m 214.82812,603.31116 v -21.72657 q 0,-3.97265 -1.16015,-5.97656 -1.125,-2.03906 -3.65625,-2.03906 -3.48047,0 -5.02735,2.77734 -1.54687,2.77735 -1.54687,9.52735 v 17.4375 h -13.74609 v -39.83203 h 10.37109 l 1.72266,4.92187 h 0.80859 q 1.75781,-2.8125 4.85156,-4.21875 3.12891,-1.40625 7.17188,-1.40625 6.60937,0 10.26562,3.83203 3.69141,3.83203 3.69141,10.79297 v 25.91016 z" style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3762"></path>     <path d="m 283.91016,592.23694 q 0,5.69531 -4.14844,8.7539 -4.14844,3.02344 -11.88281,3.02344 -7.76954,0 -12.48047,-2.35547 v -7.13672 q 6.85547,3.16407 12.76172,3.16407 7.6289,0 7.6289,-4.60547 0,-1.47656 -0.84375,-2.46094 -0.84375,-0.98437 -2.77734,-2.03906 -1.9336,-1.05469 -5.37891,-2.39063 -6.71484,-2.60156 -9.10547,-5.20312 -2.35547,-2.60156 -2.35547,-6.75 0,-4.99219 4.00782,-7.73438 4.04297,-2.77734 10.96875,-2.77734 6.85547,0 12.97265,2.77734 l -2.67187,6.22266 q -6.29297,-2.60156 -10.58203,-2.60156 -6.53907,0 -6.53907,3.72656 0,1.82812 1.6875,3.09375 1.72266,1.26562 7.45313,3.48047 4.81641,1.86328 6.99609,3.41015 2.17969,1.54688 3.23438,3.58594 1.05469,2.00391 1.05469,4.81641 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3764"></path>     <path d="m 327.29297,583.79944 q 0,9.52734 -4.88672,14.87109 -4.88672,5.34375 -13.60547,5.34375 -5.44922,0 -9.63281,-2.46094 -4.1836,-2.46093 -6.4336,-7.0664 -2.25,-4.60547 -2.25,-10.6875 0,-9.45703 4.85157,-14.76563 4.85156,-5.30859 13.67578,-5.30859 8.4375,0 13.35937,5.44922 4.92188,5.41406 4.92188,14.625 z m -28.30078,0 q 0,13.46484 9.94922,13.46484 9.84375,0 9.84375,-13.46484 0,-13.32422 -9.91407,-13.32422 -5.20312,0 -7.55859,3.44531 -2.32031,3.44531 -2.32031,9.87891 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3766"></path>     <path d="m 364.24219,603.31116 -1.16016,-5.09766 h -0.42187 q -1.72266,2.70703 -4.92188,4.25391 -3.16406,1.54687 -7.24219,1.54687 -7.0664,0 -10.54687,-3.51562 -3.48047,-3.51563 -3.48047,-10.65235 v -25.41797 h 8.33203 v 23.97657 q 0,4.46484 1.82813,6.71484 1.82812,2.21484 5.73046,2.21484 5.20313,0 7.62891,-3.09375 2.46094,-3.1289 2.46094,-10.4414 v -19.3711 h 8.29687 v 38.88282 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3768"></path>     <path d="m 402.24609,563.72522 q 2.4961,0 4.11328,0.35156 l -0.80859,7.69922 q -1.75781,-0.42187 -3.65625,-0.42187 -4.95703,0 -8.05078,3.23437 -3.05859,3.23438 -3.05859,8.40234 v 20.32032 h -8.26172 v -38.88282 h 6.46875 l 1.08984,6.85547 h 0.42188 q 1.93359,-3.48047 5.02734,-5.51953 3.12891,-2.03906 6.71484,-2.03906 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3770"></path>     <path d="m 429.28125,604.01428 q -8.82422,0 -13.42969,-5.13281 -4.57031,-5.16797 -4.57031,-14.80078 0,-9.8086 4.78125,-15.08203 4.81641,-5.27344 13.88672,-5.27344 6.15234,0 11.07422,2.28516 l -2.4961,6.64453 q -5.23828,-2.03907 -8.64843,-2.03907 -10.08985,0 -10.08985,13.39454 0,6.53906 2.4961,9.84375 2.53125,3.26953 7.38281,3.26953 5.51953,0 10.4414,-2.74219 v 7.20703 q -2.21484,1.30078 -4.74609,1.86328 -2.49609,0.5625 -6.08203,0.5625 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3772"></path>     <path d="m 466.30078,604.01428 q -9.07031,0 -14.20312,-5.27344 Q 447,593.43225 447,584.151 q 0,-9.52734 4.74609,-14.97656 4.7461,-5.44922 13.04297,-5.44922 7.69922,0 12.16406,4.67578 4.46485,4.67578 4.46485,12.86719 v 4.46484 h -25.91016 q 0.17578,5.66016 3.0586,8.71875 2.88281,3.02344 8.12109,3.02344 3.44531,0 6.39844,-0.63281 2.98828,-0.66797 6.39843,-2.17969 v 6.71484 q -3.02343,1.44141 -6.11718,2.03907 -3.09375,0.59765 -7.06641,0.59765 z m -1.51172,-34.03125 q -3.9375,0 -6.32812,2.4961 -2.35547,2.49609 -2.8125,7.27734 h 17.64843 q -0.0703,-4.81641 -2.32031,-7.27734 -2.25,-2.4961 -6.1875,-2.4961 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle" id="path3774"></path>     <path d="m 128.51953,675.51001 h -8.26172 V 636.6272 h 8.26172 z m -8.7539,-49.18359 q 0,-2.21485 1.19531,-3.41016 1.23047,-1.19531 3.48047,-1.19531 2.17968,0 3.375,1.19531 1.23046,1.19531 1.23046,3.41016 0,2.10937 -1.23046,3.33984 -1.19532,1.19531 -3.375,1.19531 -2.25,0 -3.48047,-1.19531 -1.19531,-1.23047 -1.19531,-3.33984 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3776"></path>     <path d="m 174.57422,675.51001 h -8.29688 v -23.90625 q 0,-4.5 -1.82812,-6.71484 -1.79297,-2.21485 -5.73047,-2.21485 -5.23828,0 -7.66406,3.09375 -2.42578,3.09375 -2.42578,10.3711 v 19.37109 h -8.26172 V 636.6272 h 6.46875 l 1.16015,5.09765 h 0.42188 q 1.75781,-2.77734 4.99219,-4.28906 3.23437,-1.51172 7.17187,-1.51172 13.99219,0 13.99219,14.23828 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3778"></path>     <path d="m 194.33203,675.51001 h -8.26172 V 636.6272 h 8.26172 z m -8.75391,-49.18359 q 0,-2.21485 1.19532,-3.41016 1.23047,-1.19531 3.48047,-1.19531 2.17968,0 3.375,1.19531 1.23046,1.19531 1.23046,3.41016 0,2.10937 -1.23046,3.33984 -1.19532,1.19531 -3.375,1.19531 -2.25,0 -3.48047,-1.19531 -1.19532,-1.23047 -1.19532,-3.33984 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3780"></path>     <path d="m 220.66406,669.53345 q 3.02344,0 6.04688,-0.94922 v 6.22265 q -1.3711,0.59766 -3.55078,0.98438 -2.14454,0.42187 -4.46485,0.42187 -11.74219,0 -11.74219,-12.375 v -20.95312 h -5.30859 v -3.65625 l 5.69531,-3.02344 2.8125,-8.22656 H 215.25 v 8.64844 h 11.07422 v 6.25781 H 215.25 v 20.8125 q 0,2.98828 1.47656,4.42969 1.51172,1.40625 3.9375,1.40625 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3782"></path>     <path d="m 242.70703,675.51001 h -8.26172 V 636.6272 h 8.26172 z m -8.75391,-49.18359 q 0,-2.21485 1.19532,-3.41016 1.23047,-1.19531 3.48047,-1.19531 2.17968,0 3.375,1.19531 1.23046,1.19531 1.23046,3.41016 0,2.10937 -1.23046,3.33984 -1.19532,1.19531 -3.375,1.19531 -2.25,0 -3.48047,-1.19531 -1.19532,-1.23047 -1.19532,-3.33984 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3784"></path>     <path d="m 278.88281,675.51001 -1.65234,-5.41406 h -0.28125 q -2.8125,3.55078 -5.66016,4.85156 -2.84765,1.26562 -7.3125,1.26562 -5.73047,0 -8.96484,-3.09375 -3.19922,-3.09375 -3.19922,-8.7539 0,-6.01172 4.46484,-9.07031 4.46485,-3.0586 13.60547,-3.33985 l 6.71485,-0.21094 v -2.07421 q 0,-3.72657 -1.75782,-5.55469 -1.72265,-1.86328 -5.3789,-1.86328 -2.98828,0 -5.73047,0.8789 -2.74219,0.87891 -5.27344,2.07422 l -2.67187,-5.90625 q 3.16406,-1.65234 6.92578,-2.49609 3.76172,-0.87891 7.10156,-0.87891 7.41797,0 11.17969,3.23438 3.79687,3.23437 3.79687,10.16015 v 26.19141 z m -12.30469,-5.625 q 4.5,0 7.20704,-2.49609 2.74218,-2.53125 2.74218,-7.06641 v -3.375 l -4.99218,0.21094 q -5.83594,0.21093 -8.50782,1.96875 -2.63672,1.72265 -2.63672,5.30859 0,2.60156 1.54688,4.04297 1.54687,1.40625 4.64062,1.40625 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3786"></path>     <path d="m 310.80469,669.53345 q 3.02343,0 6.04687,-0.94922 v 6.22265 q -1.37109,0.59766 -3.55078,0.98438 -2.14453,0.42187 -4.46484,0.42187 -11.74219,0 -11.74219,-12.375 v -20.95312 h -5.30859 v -3.65625 l 5.69531,-3.02344 2.8125,-8.22656 h 5.09765 v 8.64844 h 11.07422 v 6.25781 h -11.07422 v 20.8125 q 0,2.98828 1.47657,4.42969 1.51172,1.40625 3.9375,1.40625 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3788"></path>     <path d="m 332.84766,675.51001 h -8.26172 V 636.6272 h 8.26172 z m -8.75391,-49.18359 q 0,-2.21485 1.19531,-3.41016 1.23047,-1.19531 3.48047,-1.19531 2.17969,0 3.375,1.19531 1.23047,1.19531 1.23047,3.41016 0,2.10937 -1.23047,3.33984 -1.19531,1.19531 -3.375,1.19531 -2.25,0 -3.48047,-1.19531 -1.19531,-1.23047 -1.19531,-3.33984 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3790"></path>     <path d="M 353.55469,675.51001 338.78906,636.6272 h 8.71875 l 7.91016,22.60547 q 2.03906,5.69531 2.46094,9.21093 h 0.28125 q 0.3164,-2.53125 2.46093,-9.21093 l 7.91016,-22.60547 h 8.78906 l -14.83594,38.88281 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3792"></path>     <path d="m 400.20703,676.21313 q -9.07031,0 -14.20312,-5.27343 -5.09766,-5.3086 -5.09766,-14.58985 0,-9.52734 4.74609,-14.97656 4.7461,-5.44922 13.04297,-5.44922 7.69922,0 12.16406,4.67578 4.46485,4.67578 4.46485,12.86719 v 4.46484 h -25.91016 q 0.17578,5.66016 3.0586,8.71875 2.88281,3.02344 8.12109,3.02344 3.44531,0 6.39844,-0.63281 2.98828,-0.66797 6.39843,-2.17969 v 6.71485 q -3.02343,1.4414 -6.11718,2.03906 -3.09375,0.59765 -7.06641,0.59765 z m -1.51172,-34.03125 q -3.9375,0 -6.32812,2.4961 -2.35547,2.49609 -2.8125,7.27734 h 17.64843 q -0.0703,-4.8164 -2.32031,-7.27734 -2.25,-2.4961 -6.1875,-2.4961 z" style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:72px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.75px" id="path3794"></path>     <g aria-label="®" transform="matrix(0.69256906,0,0,0.65277333,405.24465,262.29382)" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="flowRoot3797">       <path d="m 140.2207,657.03621 h 2.53125 c 1.25,0 2.25,-0.32031 3,-0.96093 0.76563,-0.65625 1.14844,-1.48438 1.14844,-2.48438 0,-1.17187 -0.33594,-2.00781 -1.00781,-2.50781 -0.67188,-0.51563 -2.05559,0.13778 -3.1875,-0.77344 h -2.48438 z m 10.17188,-3.53906 c 0,1.25 -0.33594,2.35938 -1.00781,3.32813 -0.65625,0.95312 -1.58594,1.66406 -2.78907,2.13281 l 5.57813,9.25781 h -3.9375 l -4.85156,-8.29687 h -3.16407 v 8.29687 h -3.46875 v -20.88281 h 6.11719 c 2.59375,0 4.49219,0.50781 5.69531,1.52344 1.21875,1.01562 1.82813,2.56249 1.82813,4.64062 z m -24.77344,4.26563 c 0,-3.125 0.78125,-6.05469 2.34375,-8.78907 1.5625,-2.73437 3.71094,-4.89062 6.44531,-6.46875 2.73438,-1.57812 5.67969,-2.36718 8.83594,-2.36718 3.125,0 6.05469,0.78125 8.78906,2.34375 2.73438,1.5625 4.89063,3.71094 6.46875,6.44531 1.57813,2.73437 2.36719,5.67969 2.36719,8.83594 0,3.07812 -0.75781,5.96874 -2.27344,8.67187 -1.51562,2.70313 -3.64062,4.86719 -6.375,6.49219 -2.73437,1.625 -5.72656,2.4375 -8.97656,2.4375 -3.23437,0 -6.21875,-0.80469 -8.95312,-2.41406 -2.73438,-1.625 -4.86719,-3.78906 -6.39844,-6.49219 -1.51563,-2.70313 -2.27344,-5.60156 -2.27344,-8.69531 z m 2.46094,0 c 0,2.70312 0.67969,5.23437 2.03906,7.59375 1.35938,2.34375 3.21094,4.19531 5.55469,5.55468 2.35937,1.34375 4.88281,2.01563 7.57031,2.01563 2.71875,0 5.24219,-0.67969 7.57031,-2.03906 2.32813,-1.35938 4.17188,-3.19532 5.53125,-5.50782 1.375,-2.32812 2.0625,-4.86718 2.0625,-7.61718 0,-2.71875 -0.67968,-5.24219 -2.03906,-7.57032 -1.35937,-2.32812 -3.20312,-4.17187 -5.53125,-5.53125 -2.3125,-1.375 -4.84375,-2.0625 -7.59375,-2.0625 -2.71875,0 -5.24219,0.67969 -7.57031,2.03907 -2.32813,1.35937 -4.17969,3.20312 -5.55469,5.53125 -1.35937,2.3125 -2.03906,4.84375 -2.03906,7.59375 z" id="path3805" inkscape:connector-curvature="0" sodipodi:nodetypes="cscscsccscccccccccscssccsssssssccssccsccsccsccs"></path>     </g>   </g>   <ellipse style="color:#ffffff;display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.43444252;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" id="path256" cx="-31.875" cy="191.25" rx="229.24777" ry="226.62277"></ellipse>   <flowroot xml:space="preserve" id="flowRoot1262" style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Open Sans;font-style:normal;font-weight:normal;font-size:72px;-inkscape-font-specification:Open Sans;line-height:125%;letter-spacing:0px;word-spacing:0px;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"><flowregion id="flowRegion1264"><rect id="rect1266" width="748.11896" height="121.62237" x="16.970562" y="911.75024"></rect></flowregion><flowpara id="flowPara1268"></flowpara></flowroot>  <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="44.547718" y="719.87512" id="text1272"><tspan sodipodi:role="line" id="tspan1270" x="44.547718" y="719.87512" style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:54px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.75px">Approved License</tspan></text> </svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row scroll-fx-in-fade  d-md-none d-flex">
+						<div class="col">
+							<div><div class="text-center">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" stroke-width="1" stroke="rgba(255,255,255,0.50)" fill="none" stroke-linecap="round" style="max-width:500px"><path d="M274,25H498"></path><path d="M2,25H227"></path><circle cx="237.5" cy="25.5" r="3.5"></circle><circle cx="250.5" cy="25.5" r="3.5"></circle><circle cx="263.5" cy="25.5" r="3.5"></circle></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 scroll-fx-in-fade">
+					<div class="row scroll-fx-in-fade voffset-clear-md">
+						<div class="col-lg-3">
+							<div class="text-center">
+								{{ partial "inlinesvg.html" (dict "class" "fill-white-svg" "path" "fontawesome/brands/github.svg" "width" "98" "height" "140" "fill" "#FFFFFF") }}
+							</div>
+						</div>
+						<div class="col align-self-center">
+							<h4 class="text-center text-lg-left mg-sm tc-white open-source-title">
+								{{ i18n "100% Open Development" }}
+							</h4>
+							<p class="text-center text-lg-left open-source-details">
+								{{ i18n "Join the public project on GitHub! Anyone can file bugs, contribute patches, and request enhancements." }}<br>
+							</p>
+							<p class="d-lg-none d-xl-none d-md-block  d-none"><br></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row voffset">
+				<div class="col-lg-6 col-md-6 d-md-block  d-none scroll-fx-in-fade">
+					<div class="row scroll-fx-in-fade">
+						<div class="col">
+							<div><div class="text-center">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" stroke-width="1" stroke="rgba(255,255,255,0.50)" fill="none" stroke-linecap="round" style="max-width:500px"><path d="M274,25H498"></path><path d="M2,25H227"></path><circle cx="237.5" cy="25.5" r="3.5"></circle><circle cx="250.5" cy="25.5" r="3.5"></circle><circle cx="263.5" cy="25.5" r="3.5"></circle></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 scroll-fx-in-fade">
+					<div class="row scroll-fx-in-fade">
+						<div class="col">
+							<div><div class="text-center">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" stroke-width="1" stroke="rgba(255,255,255,0.50)" fill="none" stroke-linecap="round" style="max-width:500px"><path d="M274,25H498"></path><path d="M2,25H227"></path><circle cx="237.5" cy="25.5" r="3.5"></circle><circle cx="250.5" cy="25.5" r="3.5"></circle><circle cx="263.5" cy="25.5" r="3.5"></circle></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row voffset">
+				<div class="col-lg-6 col-md-6 scroll-fx-in-fade">
+					<div class="row scroll-fx-in-fade">
+						<div class="col order-2 align-self-center">
+							<h4 class="text-center mg-sm text-lg-left tc-white open-source-title">
+								{{ i18n "100% Open Community" }}
+							</h4>
+							<p class="text-center text-lg-left open-source-details">
+								{{ i18n "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience. People around the world are waiting!" }}
+							</p>
+						</div>
+						<div class="col-lg-3">
+							<div class="text-center">
+								{{ partial "inlinesvg.html" (dict "class" "fill-white-svg" "path" "fontawesome/regular/comments.svg" "width" "98" "height" "140" "fill" "#FFFFFF") }}
+							</div>
+						</div>
+					</div>
+					<div class="row scroll-fx-in-fade  d-md-none d-flex">
+						<div class="col">
+							<div><div class="text-center">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" stroke-width="1" stroke="rgba(255,255,255,0.50)" fill="none" stroke-linecap="round" style="max-width:500px"><path d="M274,25H498"></path><path d="M2,25H227"></path><circle cx="237.5" cy="25.5" r="3.5"></circle><circle cx="250.5" cy="25.5" r="3.5"></circle><circle cx="263.5" cy="25.5" r="3.5"></circle></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 scroll-fx-in-fade">
+					<div class="row scroll-fx-in-fade">
+						<div class="col-lg-3">
+							<div class="text-center">
+								<div>
+									{{ partial "inlinesvg.html" (dict "class" "fill-white-svg" "path" "free.svg" "width" "98" "height" "140" "fill" "#FFFFFF") }}
+								</div>
+							</div>
+						</div>
+						<div class="col align-self-center">
+							<h4 class="text-center text-lg-left mg-sm tc-white open-source-title">
+								{{ i18n "100% Free" }}<br>
+							</h4>
+							<p class="text-center text-lg-left open-source-details">
+								{{ i18n "Everything is free, including source code, downloads, and all features. No in-app purchases. No subscriptions. No ads. Just free." }}<br>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- open-source END -->
+
+	<!-- history -->
+	<div class="bloc bg-pic1 b-parallax bloc-bg-texture texture-darken-strong l-bloc" id="history">
+		<div class="container bloc-lg">
+			<div class="row">
+				<div class="col-md-6 order-md-1">
+					<picture>
+						<!--[if IE 9]><video style="display: none;><![endif]-->
+						<source type="image/webp" data-srcset="/img/Warzone_2100_cover.webp">
+						<!--[if IE 9]></video><![endif]-->
+						<img src="/img/lazyload-ph.png" data-src="/img/Warzone_2100_cover.jpg" height="362px" class="rounded mx-auto d-block scroll-fx-in-fade scroll-fx-zoom-pull lazyload" alt="Warzone_2100_cover" />
+					</picture>
+				</div>
+				<div class="col-md-6 align-self-center">
+					<h1 class="mg-md scroll-fx-in-fade scroll-fx-zoom-pull history-header">
+						{{ i18n "A Long History" }}
+					</h1>
+					<h3 class="mg-md scroll-fx-in-fade scroll-fx-zoom-pull history-subheader">
+						{{ i18n "Developed in the 90s by Pumpkin Studios. Liberated in 2004." }}
+					</h3>
+					<p class="scroll-fx-in-fade none history-details-block">
+						{{ i18n "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive. In 1999, it was released commercially for Microsoft Windows and Sony PlayStation. Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000." }}<br>
+					</p>
+					<p class="scroll-fx-in-fade none history-details-block">
+						{{ i18n "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license. It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”." }}<br>
+						</p>
+					<a href="https://en.wikipedia.org/wiki/Warzone_2100#History" class="btn btn-d btn-lg" data-target="_blank" rel="nofollow noopener noreferrer" target="_blank">{{ i18n "More Info" }}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- history END -->
+
+	<!-- faq -->
+	<div class="bloc l-bloc" id="faq">
+		<div class="container bloc-lg">
+			<div class="row voffset-clear-md">
+				<div class="col align-self-center faq-header-col">
+					<div class="text-center text-lg-left faq-icon animated flipInY" data-appear-anim-style="flipInY">
+						<div width="128" height="100">
+							{{ partial "inlinesvg.html" (dict "class" "fill-white-svg" "path" "faq.svg" "width" "128" "height" "100" "fill" "#FFFFFF") }}
+						</div>
+					</div>
+					<div class="faq-header-text">
+							<h3 class="text-center text-lg-left tc-white mg-sm text-md-left">
+								{{ i18n "Frequently Asked Questions" }}
+							</h3>
+							<p class="text-center text-lg-left mg-sm text-md-left">
+								{{ i18n "Answers to common questions. Can't find the answer you're looking for? Check out the Forums and Webchat." }}<br>
+							</p>
+						</div>
+				</div>
+			</div>
+			<div class="row voffset-md">
+				<div class="col">
+					{{ $faq_categories := .Site.Data.homepage_faq_categories }}
+					<ul class="nav nav-tabs faq-tabs" id="nav-faq-tab" role="tablist">
+						{{ range $index, $element := $faq_categories }}
+							{{ $output_index := add $index 1 }}
+							<li class="nav-item">
+								<a class="a-btn nav-link {{ if eq $index 0 }}active{{ end }}" id="nav-faq-tab-{{ $output_index }}" data-toggle="tab" href="#nav-faq-content-{{ $output_index }}" role="tab" aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}" aria-controls="nav-faq-content-{{ $output_index }}">{{ i18n $element.category }}</a>
+							</li>
+						{{ end }}
+					</ul>
+					<div class="tab-content faq-content">
+					{{ range $category_index, $category := $faq_categories }}
+						{{ $output_index := add $category_index 1 }}
+						<div class="tab-pane {{ if eq $category_index 0 }}fade show active{{ else }}fade-tab-bs{{ end }}" id="nav-faq-content-{{ $output_index }}" role="tabpanel" aria-labelledby="nav-faq-content-{{ $output_index }}">
+							<div id="accordion-faq-{{ $output_index }}">
+								{{ $full_faq_category_path := $category.category_path | printf "%s/%s" "/faq" | printf "%s" }}
+								{{ $headless_default_lang := $.Sites.First.GetPage $full_faq_category_path }}
+								{{ $faqs_default_lang := $headless_default_lang.Resources.Match "faq*" }}
+								{{ $headless := $.Site.GetPage $full_faq_category_path }}
+								{{ $faqs := $headless.Resources.Match "faq*" }}
+								{{ range $index, $element := sort $faqs_default_lang "Name" }}
+									{{ $faq_lang := $.Sites.First.Language.Lang }}
+									{{ $faq := $element }}
+									{{ $i18n_faqs := where $faqs ".Name" $element.Name }}
+									{{ if gt (len ($i18n_faqs)) 0 }}
+										{{/* use the localized faq entry */}}
+										{{ $faq = index ($i18n_faqs) 0 }}
+										{{ $faq_lang = $.Site.Language.Lang }}
+									{{ end }}
+									<div class="card bgc-dark-jungle-green" lang="{{ $faq_lang }}">
+										<div class="card-header faq-header collapsed" id="heading{{ $index }}" data-toggle="collapse" data-target="#accordion-faq-{{ $output_index }}-item-{{ $index }}" aria-expanded="false" aria-controls="accordion-faq-{{ $output_index }}-item-{{ $index }}">
+											<h6 class="mg-md accordion-toggle">
+												{{ $faq.Title }}
+												{{ partial "inlinesvg.html" (dict "class" "chevron" "path" "fontawesome/solid/chevron-up.svg") }}
+											</h6>
+										</div>
+										<div id="accordion-faq-{{ $output_index }}-item-{{ $index }}" class="collapse" aria-labelledby="heading{{ $index }}" data-parent="#accordion-faq-{{ $output_index }}">
+											<div class="card-body bgc-medium-jungle-green faq-card-body">
+												{{ $faq.Content }}
+											</div>
+										</div>
+									</div>
+								{{ end }}
+							</div>
+						</div>
+					{{ end }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- faq END -->
+{{ end }}
+
+{{ define "additional_script" }}
+	<noscript>
+		<div class="alert-fixed alert alert-warning alert-dismissable">
+			<!--<button type="button" class="close" data-dismiss="alert"
+					aria-hidden="true">
+				&times;
+			</button>-->
+			{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/ban.svg") }}&nbsp;&nbsp;
+			{{ i18n "JavaScript is disabled. This site may not work properly without it." }}
+		</div>
+	</noscript>
+
+	<script language="javascript" type="text/javascript">
+		// Normalize Bootstrap Carousel Heights
+		$.fn.carouselHeights = function() {
+
+			var items = $(this).find('.carousel-item'), // grab all slides
+				heights = [], // create empty array to store height values
+				tallest, // create variable to make note of the tallest slide
+				call;
+
+			var normalizeHeights = function() {
+				items.each(function() { // add heights to array
+					heights.push($(this).outerHeight());
+				});
+				tallest = Math.max.apply(null, heights); // cache largest value
+				items.css('height', tallest);
+			};
+
+			normalizeHeights();
+
+			$(window).on('resize orientationchange', function() {
+				// reset vars
+				tallest = 0;
+				heights.length = 0;
+
+				items.css('height', ''); // reset height
+
+				if(call){
+					clearTimeout(call);
+				};
+
+				call = setTimeout(normalizeHeights, 100); // run it again
+			});
+		};
+
+		// See: https://stackoverflow.com/a/41984610
+		function abbreviateNumber(number) {
+			var SI_POSTFIXES = ["", "k", "M", "G", "T", "P", "E"];
+			var tier = Math.log10(Math.abs(number)) / 3 | 0;
+			if(tier == 0) return number;
+			var postfix = SI_POSTFIXES[tier];
+			var scale = Math.pow(10, tier * 3);
+			var scaled = number / scale;
+			var formatted = scaled.toFixed(1) + '';
+			if (/\.0$/.test(formatted))
+				formatted = formatted.substr(0, formatted.length - 2);
+			return formatted + postfix;
+		}
+
+		$(document).ready(function () {
+			// set the default GitHub Star count
+			var initial_stargazers_count = {{ $.Site.Data.github_repo_info.stargazers_count }};
+			$( '#github-star-count' ).text(abbreviateNumber(initial_stargazers_count) + '+');
+
+			// query the GitHub API for the current star count
+			var githubStarsAjaxOptions = {
+				url: "https://api.github.com/repos/Warzone2100/warzone2100?page=1&per_page=100",
+				dataType: "json",
+				success: function(data) {
+			if (data['stargazers_count'])
+			{
+				var stargazers_count = abbreviateNumber(data['stargazers_count']);
+				$( '#github-star-count' ).text(stargazers_count + '+');
+			}
+				},
+				error: function(req, textStatus, errorThrown) {
+					console.log('Failed to retrieve lastest repo info from GitHub (status: ' + textStatus + '); error: ' + errorThrown);
+				}
+			};
+			// this is asynchronous and doesn't return anything
+			$.ajax(githubStarsAjaxOptions);
+
+			// query the SourceForge API for the current download count
+			var yourDate = new Date();
+			const offset = yourDate.getTimezoneOffset();
+			yourDate = new Date(yourDate.getTime() + (offset*60*1000));
+			const currentDate = yourDate.toISOString().split('T')[0];
+
+
+			// TODO: retrieve the current GitHub Releases download count
+			// https://api.github.com/repos/Warzone2100/warzone2100/releases
+
+			$.when(
+			  $.ajax("https://sourceforge.net/projects/warzone2100/files/stats/json?os_by_country=false&start_date=2005-06-01&end_date=" + currentDate)
+			  //, $.ajax(githubReleasesDownloadsAjaxOptions)
+			).done( function(sourceForgeResp) {
+				var totalDownloadCount = 0;
+				// start with a base level from various 3rd-party download sites
+				{{ $baseDownloadCount := 0 }}
+				{{- range .Site.Data.base_download_counts -}}
+				   {{- $baseDownloadCount = add $baseDownloadCount .count -}}
+				{{- end -}}
+				totalDownloadCount += {{ $baseDownloadCount }} // calculate base download counts
+
+				// add on the number of GitHub Releases downloads
+				{{ $githubReleasesDownloads := 0 }}
+				{{- range .Site.Data.github_releases_info.index -}}
+				   {{- range $asset := .assets -}}
+				   {{- $githubReleasesDownloads = add $githubReleasesDownloads $asset.download_count -}}
+				   {{- end -}}
+				{{- end -}}
+				totalDownloadCount += {{ $githubReleasesDownloads }} // plus GitHub Releases download counts
+
+				if (sourceForgeResp['total'])
+				{
+				   totalDownloadCount += parseInt(sourceForgeResp['total']);
+				}
+				else
+				{
+				   totalDownloadCount += 3400000;
+				}
+				console.log("Download count after SourceForge: " + totalDownloadCount);
+				var total_dl_count_string = abbreviateNumber(totalDownloadCount);
+				$( '#total-downloads-count' ).text(total_dl_count_string + '+');
+			});
+
+			// Update the number of years since open-sourcing
+			function diff_years(dt2, dt1)
+			{
+				var diff = (dt2.getTime() - dt1.getTime()) / 1000;
+				diff /= (60 * 60 * 24);
+				return Math.floor(Math.abs(diff/365.25));
+			}
+			const openSourcingDate = new Date('2004-12-06');
+			const yearsSinceFreedom = diff_years(openSourcingDate, new Date());
+			var years_since_freedom_string = yearsSinceFreedom + "+";
+			if (yearsSinceFreedom < 15)
+			{
+				// Shouldn't be less than 15 - someone's clock is incorrect
+				years_since_freedom_string = "15+";
+			}
+			$( '#years-since-freedom' ).text(years_since_freedom_string);
+
+			// normalize carousel image heights once images are loaded
+			// see: https://stackoverflow.com/a/44652920
+			var deferreds = [];
+			$('.carousel img').each(function() {
+				if (!this.complete) {
+					var deferred = $.Deferred();
+					$(this).one('load', deferred.resolve);
+					deferreds.push(deferred);
+				}
+			});
+			$.when.apply($, deferreds).done(function() {
+				/* when all carousel images loaded */
+				$('.carousel').each(function(){
+					$(this).carouselHeights();
+				});
+			});
+		});
+	</script>
+{{ end }}
