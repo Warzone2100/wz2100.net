@@ -1,7 +1,9 @@
 ---
 title: "Privacy Policy"
+# begin: no-translate
 type: "solopage"
 translationKey: "privacypolicy"
+# end: no-translate
 ---
 
 Your privacy is important to us. It is the Warzone 2100 Project's policy to respect your privacy regarding any information we may collect from you across our website, [https://wz2100.net](https://wz2100.net), and other sites / services we operate.

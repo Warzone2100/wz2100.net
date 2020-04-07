@@ -1,7 +1,7 @@
 ---
 title: "Version 3.3.0 released"
-date: 2019-08-31
-draft: false
+date: 2019-08-31 # no-translate
+draft: false # no-translate
 slug: "version-3-3-0"
 tags: ["Releases"]
 ---

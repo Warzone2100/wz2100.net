@@ -1,7 +1,7 @@
 ---
 title: "Archived News"
-date: 2019-07-01
-draft: false
+date: 2019-07-01 # no-translate
+draft: false # no-translate
 slug: "older-news"
 ---
 
