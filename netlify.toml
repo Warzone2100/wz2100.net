@@ -1,0 +1,40 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify --i18n-warnings"
+
+[context.production.environment]
+HUGO_VERSION = "0.68.3"
+HUGO_ENV = "production"
+# HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --i18n-warnings --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.68.3"
+
+[context.branch-deploy]
+command = "hugo --gc --minify --i18n-warnings -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.68.3"
+
+
+# Redirects and headers are GLOBAL for all builds – they do not get scoped to
+# contexts no matter where you define them in the file.
+# For context-specific rules, use _headers or _redirects files, which are
+# PER-DEPLOY.
+
+# A basic 404 redirect rule
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    X-XSS-Protection = "1; mode=block"
+    Content-Security-Policy-Report-Only = "script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' data: 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com"
