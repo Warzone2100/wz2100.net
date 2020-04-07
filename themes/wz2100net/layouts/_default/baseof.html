@@ -46,7 +46,7 @@
 	{{ $blocs_js := resources.Get "js/blocs.js" | minify | fingerprint }}
 	{{ $scrollfx_js := resources.Get "js/scrollFX.js" | minify | fingerprint }}
 	{{ $modernizr_js := resources.Get "js/modernizr-custom.js" | minify | fingerprint }}
-	{{ $scripts := slice $blocs_js $scrollfx_js $modernizr_js | resources.Concat "wz.js" | minify | fingerprint }}
+	{{ $scripts := slice $blocs_js $scrollfx_js $modernizr_js | resources.Concat "js/wz.js" | minify | fingerprint "sha384" }}
 	<script src="{{ $scripts.RelPermalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>
 	<!-- Additional JS END -->
 

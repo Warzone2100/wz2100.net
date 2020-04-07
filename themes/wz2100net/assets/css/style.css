@@ -84,19 +84,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 	right:0;
 }
 .no-webp .texture-paper::before, .no-js .texture-paper::before{
-	background: url("../img/texture-paper.png");
+	background: url('{{ "/img/texture-paper.png" | relURL }}');
 	background-size: 280px 280px;
 }
 .webp .texture-paper::before{
-	background: url("../img/texture-paper.webp");
+	background: url('{{ "/img/texture-paper.webp" | relURL }}');
 	background-size: 280px 280px;
 }
 .no-webp .texture-geometry-shapes::before, .no-js .texture-geometry-shapes::before{
-	background: url("../img/texture-geometry-shapes.png");
+	background: url('{{ "/img/texture-geometry-shapes.png" | relURL }}');
 	background-size: 280px 280px;
 }
 .webp .texture-geometry-shapes::before{
-	background: url("../img/texture-geometry-shapes.webp");
+	background: url('{{ "/img/texture-geometry-shapes.webp" | relURL }}');
 	background-size: 280px 280px;
 }
 .texture-darken-strong::before{
@@ -1127,22 +1127,22 @@ li{
 /* Bloc image backgrounds */
 
 .no-webp .bg-pic1, .no-js .bg-pic1{
-	background-image:url("../img/pic1.png");
+	background-image:url('{{ "/img/pic1.png" | relURL }}');
 }
 .webp .bg-pic1{
-	background-image:url("../img/pic1.webp");
+	background-image:url('{{ "/img/pic1.webp" | relURL }}');
 }
 .no-webp .bg-backdrop4, .no-js .bg-backdrop4{
-	background-image:url("../img/backdrop4.png");
+	background-image:url('{{ "/img/backdrop4.png" | relURL }}');
 }
 .webp .bg-backdrop4{
-	background-image:url("../img/backdrop4.webp");
+	background-image:url('{{ "/img/backdrop4.webp" | relURL }}');
 }
 .no-webp .bg-backdrop0, .no-js .bg-backdrop0{
-	background-image:url("../img/backdrop0.png");
+	background-image:url('{{ "/img/backdrop0.png" | relURL }}');
 }
 .webp .bg-backdrop0{
-	background-image:url("../img/backdrop0.webp");
+	background-image:url('{{ "/img/backdrop0.webp" | relURL }}');
 }
 
 /* = Mobile adjustments 

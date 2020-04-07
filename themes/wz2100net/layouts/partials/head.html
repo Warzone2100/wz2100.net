@@ -41,11 +41,11 @@
 	<meta name="twitter:card" content="summary_large_image" />
 
 	{{ $bootstrap := resources.Get "css/bootstrap.css" }}
-	{{ $styles := resources.Get "css/style.css" }}
+	{{ $styles := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . }}
 	{{ $animate := resources.Get "css/animate.css" }}
-	{{ $localfontsfallback := resources.Get "css/local-fonts-fallback.css" }}
+	{{ $localfontsfallback := resources.Get "css/local-fonts-fallback.css" | resources.ExecuteAsTemplate "css/local-fonts-fallback.css" . }}
 
-	{{ $css := slice $bootstrap $styles $animate $localfontsfallback | resources.Concat "wz.css" | minify | fingerprint }}
+	{{ $css := slice $bootstrap $styles $animate $localfontsfallback | resources.Concat "css/wz.css" | minify | fingerprint "sha384" }}
 	<link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
 
 	<!-- Inconsolata, Montserrat: 400;500;700, Open Sans: 400;600;800 -->
