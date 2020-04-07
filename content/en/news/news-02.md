@@ -1,7 +1,7 @@
 ---
 title: "Vulkan, DirectX, & Metal support in-progress"
-date: 2020-01-26
-draft: false
+date: 2020-01-26 # no-translate
+draft: false # no-translate
 slug: "vulkan-directx-metal-in-progress"
 ---
 
