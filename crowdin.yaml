@@ -1,0 +1,7 @@
+files:
+  - source: /content/en/**/*.md
+    ignore:
+      - /content/en/privacypolicy.md
+    translation: /content/%locale%/**/%file_name%.md
+  - source: /themes/wz2100net/i18n/en.yaml
+    translation: /themes/wz2100net/i18n/%locale%.yaml
