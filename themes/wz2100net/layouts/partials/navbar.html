@@ -13,28 +13,28 @@
 							{{ if .IsHome }}
 							<a href="#" class="nav-link" data-scroll-speed="1000" onclick="scrollToTarget('1',this)">{{ i18n "Home" }}</a>
 							{{ else }}
-							<a href="{{ .Site.Home.Permalink }}" class="nav-link">{{ i18n "Home" }}</a>
+							<a href="{{ .Site.Home.RelPermalink }}" class="nav-link">{{ i18n "Home" }}</a>
 							{{ end }}
 						</li>
 						<li class="nav-item">
 							{{ if .IsHome }}
 							<a href="#" class="nav-link" data-scroll-speed="1000" onclick="scrollToTarget('#features',this)">{{ i18n "Features" }}</a>
 							{{ else }}
-							<a href="{{ .Site.Home.Permalink }}#features" class="nav-link">{{ i18n "Features" }}</a>
+							<a href="{{ .Site.Home.RelPermalink }}#features" class="nav-link">{{ i18n "Features" }}</a>
 							{{ end }}
 						</li>
 						<li class="nav-item">
 							{{ if .IsHome }}
 							<a href="#" class="nav-link" data-scroll-speed="1000" onclick="scrollToTarget('#history',this)">{{ i18n "History" }}</a>
 							{{ else }}
-							<a href="{{ .Site.Home.Permalink }}#history" class="nav-link">{{ i18n "History" }}</a>
+							<a href="{{ .Site.Home.RelPermalink }}#history" class="nav-link">{{ i18n "History" }}</a>
 							{{ end }}
 						</li>
 						<li class="nav-item">
 							{{ if .IsHome }}
 							<a href="#" class="nav-link" data-scroll-speed="1000" onclick="scrollToTarget('#faq',this)">{{ i18n "FAQ" }}</a>
 							{{ else }}
-							<a href="{{ .Site.Home.Permalink }}#faq" class="nav-link">{{ i18n "FAQ" }}</a>
+							<a href="{{ .Site.Home.RelPermalink }}#faq" class="nav-link">{{ i18n "FAQ" }}</a>
 							{{ end }}
 						</li>
 						<li class="nav-item">
@@ -51,7 +51,7 @@
 									{{- $translatedPage := (where (where $.Site.Menus.main "Page" "!=" nil) "Page.TranslationKey" "==" $mainSitePage.TranslationKey) -}}
 									{{- if not $translatedPage }}
 									<li class="nav-item">
-										<a href="{{ $mainSitePage.Permalink }}" class="nav-link a-btn">{{ i18n $mainSitePage.Title | default $mainSitePage.Title }} <img src="/img/lazyload-ph.png" data-src="/img/flags/{{ $.Sites.First.Language.Lang }}.svg" class="lazyloaded lazyload" alt="{{ $.Sites.First.Language.Lang }}" height="23px" width="25px" style="padding-left:8px"></a>
+										<a href="{{ $mainSitePage.RelPermalink }}" class="nav-link a-btn">{{ i18n $mainSitePage.Title | default $mainSitePage.Title }} <img src="/img/lazyload-ph.png" data-src="/img/flags/{{ $.Sites.First.Language.Lang }}.svg" class="lazyloaded lazyload" alt="{{ $.Sites.First.Language.Lang }}" height="23px" width="25px" style="padding-left:8px"></a>
 									</li>
 									{{- end -}}
 									{{- end -}}
@@ -78,7 +78,7 @@
 										<!-- Links to translations of current page -->
 										{{ range .Translations }}
 										<li class="nav-item">
-											<a href="{{ .Permalink }}" rel="alternate" class="nav-link" hreflang="{{ .Lang }}" lang="{{ .Lang }}"><img src="/img/lazyload-ph.png" data-src="/img/flags/{{ .Lang }}.svg" class="lazyloaded lazyload" alt="{{ .Lang }}" height="23px" width="25px" style="padding-right:8px">{{ .Language.LanguageName }}</a>
+											<a href="{{ .RelPermalink }}" rel="alternate" class="nav-link" hreflang="{{ .Lang }}" lang="{{ .Lang }}"><img src="/img/lazyload-ph.png" data-src="/img/flags/{{ .Lang }}.svg" class="lazyloaded lazyload" alt="{{ .Lang }}" height="23px" width="25px" style="padding-right:8px">{{ .Language.LanguageName }}</a>
 										</li>
 										{{ end -}}
 										{{ else -}}

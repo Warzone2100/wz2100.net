@@ -30,7 +30,7 @@
 					<ul>
 					{{ range $paginator.Pages }}
 						<li>
-							<a href="{{.Permalink}}">{{ if .IsPage }}{{.Date.Format "2006-01-02"}} | {{ end }}{{.Title}}</a>
+							<a href="{{.RelPermalink}}">{{ if .IsPage }}{{.Date.Format "2006-01-02"}} | {{ end }}{{.Title}}</a>
 						</li>
 					{{ end }}
 					</ul>

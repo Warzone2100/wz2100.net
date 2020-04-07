@@ -21,13 +21,13 @@
 						{{/* We don't want a menu item for specific pages listed here */}}
 						{{- if (and (ne .Title "Posts") (ne .Title "Test Page")) -}}
 							<li>
-								<a href="{{.Permalink}}" class="a-btn text-lg-left sidebar-link">{{ .Title }}</a>
+								<a href="{{.RelPermalink}}" class="a-btn text-lg-left sidebar-link">{{ .Title }}</a>
 							</li>
 						{{- end -}}
 					{{- end -}}
 					{{- if gt (len .CurrentSection.RegularPages) 4 -}}
 						<li>
-							<a href="{{.CurrentSection.Permalink}}" class="a-btn text-lg-left sidebar-link">... {{ i18n "More" }}</a>
+							<a href="{{.CurrentSection.RelPermalink}}" class="a-btn text-lg-left sidebar-link">... {{ i18n "More" }}</a>
 						</li>
 					{{- end -}}
 					{{- range .CurrentSection.Sections.ByTitle -}}
@@ -53,7 +53,7 @@
 				<div class="card-body bgc-black-2 nav-sidebar">
 					<ul>
 					{{- range first 5 . -}}
-						<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+						<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
 					{{- end -}}
 					{{- if gt (len .) 5 -}}
 						<li><a href="/tags/">All Tags</a></li>
@@ -96,7 +96,7 @@
 							{{ range $index, $tag := . }}
 								{{- if gt $index 0 }}, {{ end -}}
 								{{ with $.Site.GetPage (printf "/%s/%s" $taxo $tag) -}}
-									<a href="{{ .Permalink }}"><span class="badge badge-pill badge-secondary">{{ $tag }}</span></a>
+									<a href="{{ .RelPermalink }}"><span class="badge badge-pill badge-secondary">{{ $tag }}</span></a>
 								{{- end -}}
 							{{- end -}}
 						</p>
@@ -106,10 +106,10 @@
 				<div class="card-footer bottom-pagination-nav">
 					<div class="row">
 						<div class="col">
-							<a class="a-btn a-block text-right {{ if not .PrevInSection }}disabled{{ end }}"{{ with .PrevInSection }} href="{{ .Permalink }}"{{ end }}>{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/angle-double-left.svg") }}&nbsp;{{ i18n "Previous" }}</a>
+							<a class="a-btn a-block text-right {{ if not .PrevInSection }}disabled{{ end }}"{{ with .PrevInSection }} href="{{ .RelPermalink }}"{{ end }}>{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/angle-double-left.svg") }}&nbsp;{{ i18n "Previous" }}</a>
 						</div>
 						<div class="col">
-							<a class="a-btn a-block text-left {{ if not .NextInSection }}disabled{{ end }}"{{ with .NextInSection }} href="{{ .Permalink }}"{{ end }}>{{ i18n "Next" }}&nbsp;{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/angle-double-right.svg") }}</a>
+							<a class="a-btn a-block text-left {{ if not .NextInSection }}disabled{{ end }}"{{ with .NextInSection }} href="{{ .RelPermalink }}"{{ end }}>{{ i18n "Next" }}&nbsp;{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/angle-double-right.svg") }}</a>
 						</div>
 					</div>
 				</div>

@@ -28,7 +28,7 @@
 
 					<ul>
 					{{ range .Data.Terms.Alphabetical }}
-						 <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> <span class="badge badge-pill badge-secondary">{{ .Count }}</span></li>
+						 <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span class="badge badge-pill badge-secondary">{{ .Count }}</span></li>
 					{{ end }}
 					</ul>
 				</div>

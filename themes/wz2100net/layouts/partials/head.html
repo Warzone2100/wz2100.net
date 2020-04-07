@@ -46,7 +46,7 @@
 	{{ $localfontsfallback := resources.Get "css/local-fonts-fallback.css" }}
 
 	{{ $css := slice $bootstrap $styles $animate $localfontsfallback | resources.Concat "wz.css" | minify | fingerprint }}
-	<link rel="stylesheet" type="text/css" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}" />
+	<link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
 
 	<!-- Inconsolata, Montserrat: 400;500;700, Open Sans: 400;600;800 -->
 	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">

@@ -22,7 +22,7 @@
 					<!-- Ranges through section pages -->
 					{{ range .ByTitle }}
 						<li>
-							<a href="{{.Permalink}}">{{.Title}}</a>
+							<a href="{{.RelPermalink}}">{{.Title}}</a>
 						</li>
 					{{ end }}
 					</ul>
@@ -39,7 +39,7 @@
 				<div class="card-body bgc-black-2 nav-sidebar">
 					<ul>
 					{{- range first 5 . -}}
-						<li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
+						<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})</li>
 					{{- end -}}
 					{{- if gt (len .) 5 -}}
 						<li><a href="/tags/">{{ i18n "All Tags" }}</a></li>
@@ -81,7 +81,7 @@
 					<ul>
 					{{ range $paginator.Pages }}
 						<li>
-							<a href="{{.Permalink}}">{{ if .IsPage }}{{.Date.Format "2006-01-02"}} | {{ end }}{{.Title}}</a>
+							<a href="{{.RelPermalink}}">{{ if .IsPage }}{{.Date.Format "2006-01-02"}} | {{ end }}{{.Title}}</a>
 						</li>
 					{{ end }}
 					</ul>

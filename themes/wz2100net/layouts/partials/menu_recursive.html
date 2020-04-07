@@ -3,13 +3,13 @@
 <ul>
    {{- range first 3 (sort $child_pages (.Params.sort | default "Title") "desc") -}}
 	   <li>
-		   <a href="{{.Permalink}}" class="a-btn text-lg-left">{{ .Title }}</a>
+		   <a href="{{.RelPermalink}}" class="a-btn text-lg-left">{{ .Title }}</a>
 		   {{ partial "menu_recursive.html" . }}
 	   </li>
    {{- end -}}
    {{- if gt (len $child_pages) 3 -}}
 	   <li>
-		   <a href="{{.Permalink}}" class="a-btn text-lg-left">... {{ i18n "More" | default "More" }}</a>
+		   <a href="{{.RelPermalink}}" class="a-btn text-lg-left">... {{ i18n "More" | default "More" }}</a>
 	   </li>
    {{- end -}}
 </ul>

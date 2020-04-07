@@ -10,6 +10,6 @@
 {{- template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  -}}
 {{- end -}}
 <li class="breadcrumb-item{{ if eq .p1 .p2 }} active{{ end }}"{{ if eq .p1 .p2 }} aria-current="page"{{ end }}>
-	{{ if ne .p1 .p2 }}<a href="{{ .p1.Permalink }}">{{ end }}{{ if not .p1.IsHome }}{{ .p1.Title }}{{ else }}{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/home.svg") }}{{ end }}{{ if ne .p1 .p2 }}</a>{{ end }}
+	{{ if ne .p1 .p2 }}<a href="{{ .p1.RelPermalink }}">{{ end }}{{ if not .p1.IsHome }}{{ .p1.Title }}{{ else }}{{ partial "inlinesvg.html" (dict "class" "inline-svg baseline" "path" "fontawesome/solid/home.svg") }}{{ end }}{{ if ne .p1 .p2 }}</a>{{ end }}
 </li>
 {{- end -}}
