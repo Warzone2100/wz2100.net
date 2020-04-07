@@ -2,6 +2,9 @@
 publish = "public"
 command = "hugo --gc --minify --i18n-warnings"
 
+[context.production]
+command = "hugo --gc --minify --i18n-warnings -b $URL"
+
 [context.production.environment]
 HUGO_VERSION = "0.68.3"
 HUGO_ENV = "production"
