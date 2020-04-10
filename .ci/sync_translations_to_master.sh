@@ -49,7 +49,7 @@ do
     cat "${file}" | sed '/^---/,/^---/!d;//d' > "${output_file}"
   fi
 done < "${working_dir}/mdcontent.dat"
-cd - > /dev/null
+cd "${working_dir}"
 
 ###################
 # Clear previously-converted translated content files
@@ -68,7 +68,7 @@ find * -prune -type d | while IFS= read -r d; do
     cd ..
   fi
 done
-cd - > /dev/null
+cd "${working_dir}"
 
 ###################
 # Convert translated markdown files
@@ -78,12 +78,17 @@ if [ ! -f "${split_script}" ]; then
   exit 1
 fi
 # in each language content directory
-cd "${translations_branch_dir}/content"
+base_content_dir="${translations_branch_dir}/content"
+cd "${base_content_dir}"
 shopt -u dotglob
 find * -prune -type d | while IFS= read -r d; do
   # ignoring the source language ("en")
   if [ ! "${d}" == "${source_lang}" ]; then
-    cd "${d}"
+    cd "${base_content_dir}/${d}"
+    if [ $? -ne 0 ]; then
+      echo "Failed to change directory!"
+      exit 1
+    fi
     master_branch_lang_folder="${master_branch_dir}/content/${d}"
     mkdir -p "${master_branch_lang_folder}"
     # loop through source markdown content file names
@@ -141,9 +146,10 @@ find * -prune -type d | while IFS= read -r d; do
         fi
       fi
     done < "${working_dir}/mdcontent.dat"
+    cd - > /dev/null
   fi
 done
-cd - > /dev/null
+cd "${working_dir}"
 
 ###################
 # Cleanup base front-matter / tmp files
