@@ -111,7 +111,7 @@ find * -prune -type d | while IFS= read -r d; do
         # Move the merged translated file to the master branch - if it's different from the base file
         destination_file="${master_branch_lang_folder}/${file}"
         destination_path=$(dirname "${destination_file}")
-        cmp -s "${file}.merged" "${master_branch_dir}/content/${source_lang}/${file}"
+        diff --ignore-blank-lines --ignore-space-change -q "${file}.merged" "${master_branch_dir}/content/${source_lang}/${file}" >/dev/null
         if [ $? -ne 0 ]; then
           mkdir -p "${destination_path}"
           printf "\t%s\n" "+ [Saved] translated file"
