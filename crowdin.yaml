@@ -1,0 +1,22 @@
+files:
+  - source: /content/en/**/*.md
+    ignore:
+      - /content/en/privacypolicy.md
+    translation: /content/%two_letters_code%/**/%file_name%.md
+    languages_mapping:
+      two_letters_code:
+        zh-CN: zh-CN
+        zh-TW: zh-TW
+        zh-HK: zh-HK
+        zh-MO: zh-MO
+        zh-SG: zh-SG
+  - source: /themes/wz2100net/i18n/en.json
+    type: "chrome"
+    translation: /themes/wz2100net/i18n/%two_letters_code%.json
+    languages_mapping:
+      two_letters_code:
+        zh-CN: zh-CN
+        zh-TW: zh-TW
+        zh-HK: zh-HK
+        zh-MO: zh-MO
+        zh-SG: zh-SG
