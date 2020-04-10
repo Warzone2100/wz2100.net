@@ -1,0 +1,32 @@
+name: Sync translations to master
+
+on:
+  push:
+    branches:
+      - 'translation_integration'
+
+jobs:
+  merge_translation_changes:
+    name: 'Convert & merge translation changes into master branch'
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Sync: master->translations]')"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: translations
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+          path: master
+      - name: 'Sync translation changes to master branch'
+        run: ./translations/.ci/sync_translations_to_master.sh "${GITHUB_WORKSPACE}/translations" "${GITHUB_WORKSPACE}/master"
+      - name: Commit changes to master branch
+        working-directory: "./master"
+        run: |
+          short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
+          git config user.name "wzdev-ci"
+          git config user.email "61424532+wzdev-ci@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "[Sync: translations->master]: ${timestamp}" || exit 0
+          git push
