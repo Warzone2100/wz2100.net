@@ -49,7 +49,7 @@ do
     cat "${file}" | sed '/^---/,/^---/!d;//d' > "${output_file}"
   fi
 done < "${working_dir}/mdcontent.dat"
-cd -
+cd - > /dev/null
 
 ###################
 # Clear previously-converted translated content files
@@ -62,12 +62,13 @@ shopt -u dotglob
 find * -prune -type d | while IFS= read -r d; do
   # ignoring the source language ("en")
   if [ ! "${d}" == "${source_lang}" ]; then
+    echo "- Clear previously-converted translated content files: ${d}"
     cd "${d}"
     find . -mindepth 1 -delete
     cd ..
   fi
 done
-cd -
+cd - > /dev/null
 
 ###################
 # Convert translated markdown files
@@ -142,7 +143,7 @@ find * -prune -type d | while IFS= read -r d; do
     done < "${working_dir}/mdcontent.dat"
   fi
 done
-cd -
+cd - > /dev/null
 
 ###################
 # Cleanup base front-matter / tmp files
