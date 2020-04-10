@@ -18,6 +18,8 @@ jobs:
         with:
           ref: master
           path: master
+      - name: "Install yq"
+        run: sudo snap install yq
       - name: 'Sync translation changes to master branch'
         run: ./translations/.ci/sync_translations_to_master.sh "${GITHUB_WORKSPACE}/translations" "${GITHUB_WORKSPACE}/master"
       - name: Commit changes to master branch
