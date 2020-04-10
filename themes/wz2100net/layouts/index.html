@@ -292,7 +292,7 @@
 												{{ i18n "Portable Version" }}
 											</h6>
 											<p class="download-details-text">
-												{{ i18n "Can be installed to / run from a USB drive, local folder, etc. Fully self-contained in a single directory - stores all settings / saves in that same directory too. (Does not require admin privileges.)" }}
+												{{ i18n "Can be installed to / run from a USB drive, local folder, etc." }} {{ i18n "Fully self-contained in a single directory - stores all settings / saves in that same directory too." }} {{ i18n "(Does not require admin privileges.)" }}
 											</p>
 											<div class="flex-list">
 												<ul class="list-unstyled">
@@ -313,7 +313,7 @@
 												{{ i18n "Full Installer" }}
 											</h6>
 											<p class="download-details-text">
-												{{ i18n "Installs for all users on a system. Settings / saves are user-specific. (Requires admin privileges to install.)" }}
+												{{ i18n "Installs for all users on a system." }} {{ i18n "Settings / saves are user-specific." }} {{ i18n "(Requires admin privileges to install.)" }}
 											</p>
 											<div class="flex-list">
 												<ul class="list-unstyled">
@@ -338,7 +338,7 @@
 												{{ i18n "Snap Installer" }}
 											</h6>
 											<p class="download-details-text">
-												{{ i18n "Easy installation. Supports most Linux distributions. (See link for details.)" }}
+												{{ i18n "Easy installation." }} {{ i18n "Supports most Linux distributions." }} {{ i18n "(See link for details.)" }}
 											</p>
 											<div class="flex-list">
 												<ul class="list-unstyled">
@@ -454,9 +454,7 @@
 															<table class="table table-sm table-responsive download-details-text download-checksum-table">
 															  <thead>
 																<tr>
-																  <th scope="col">Version {{.Site.Data.github_releases_info.latest.tag_name}} Download</th>
-																  <th scope="col">SHA256</th>
-																  <!--<th scope="col" colspan="2">{{ i18n "SHA256 Checksums for Version"}} {{.Site.Data.github_releases_info.latest.tag_name}}:</th>-->
+																  <th scope="col" colspan="2">{{ i18n "SHA256 Checksums for Version"}} {{.Site.Data.github_releases_info.latest.tag_name}}:</th>
 																</tr>
 															  </thead>
 															  <tbody>
@@ -500,7 +498,7 @@
 						{{ i18n "Why Warzone 2100 Rocks" }}
 					</h1>
 					<h3 class="text-lg-center btn-resize-mode mx-auto d-block mg-lg text-md-center text-sm-center features-subheader">
-						{{ i18n "Strategy by Design. Endless replayability." }}
+						{{ i18n "Strategy by Design." }} {{ i18n "Endless replayability." }}
 					</h3>
 				</div>
 			</div>
@@ -656,7 +654,7 @@
 								{{ i18n "100% Open-Source" }}
 							</h4>
 							<p class="text-center text-lg-left open-source-details">
-								{{ i18n "Exclusively open-source technologies, software, & tools. Community content is licensed under liberal licenses (ex. CC0)." }}
+								{{ i18n "Exclusively open-source technologies, software, & tools." }} {{ i18n "Community content is licensed under liberal licenses (ex. CC0)." }}
 							</p>
 							<p class="d-lg-none d-xl-none d-md-block  d-none">
 								<br>
@@ -693,7 +691,7 @@
 								{{ i18n "100% Open Development" }}
 							</h4>
 							<p class="text-center text-lg-left open-source-details">
-								{{ i18n "Join the public project on GitHub! Anyone can file bugs, contribute patches, and request enhancements." }}<br>
+								{{ i18n "Join the public project on GitHub!" }} {{ i18n "Anyone can file bugs, contribute patches, and request enhancements." }}<br>
 							</p>
 							<p class="d-lg-none d-xl-none d-md-block  d-none"><br></p>
 						</div>
@@ -730,7 +728,7 @@
 								{{ i18n "100% Open Community" }}
 							</h4>
 							<p class="text-center text-lg-left open-source-details">
-								{{ i18n "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience. People around the world are waiting!" }}
+								{{ i18n "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience." }} {{ i18n "People around the world are waiting!" }}
 							</p>
 						</div>
 						<div class="col-lg-3">
@@ -762,7 +760,7 @@
 								{{ i18n "100% Free" }}<br>
 							</h4>
 							<p class="text-center text-lg-left open-source-details">
-								{{ i18n "Everything is free, including source code, downloads, and all features. No in-app purchases. No subscriptions. No ads. Just free." }}<br>
+								{{ i18n "Everything is free, including source code, downloads, and all features." }} {{ i18n "No in-app purchases." }} {{ i18n "No subscriptions." }} {{ i18n "No ads." }} {{ i18n "Just free." }}<br>
 							</p>
 						</div>
 					</div>
@@ -789,13 +787,13 @@
 						{{ i18n "A Long History" }}
 					</h1>
 					<h3 class="mg-md scroll-fx-in-fade scroll-fx-zoom-pull history-subheader">
-						{{ i18n "Developed in the 90s by Pumpkin Studios. Liberated in 2004." }}
+						{{ i18n "Developed in the 90s by Pumpkin Studios." }} {{ i18n "Liberated in 2004." }}
 					</h3>
 					<p class="scroll-fx-in-fade none history-details-block">
-						{{ i18n "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive. In 1999, it was released commercially for Microsoft Windows and Sony PlayStation. Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000." }}<br>
+						{{ i18n "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive." }} {{ i18n "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation." }} {{ i18n "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000." }}<br>
 					</p>
 					<p class="scroll-fx-in-fade none history-details-block">
-						{{ i18n "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license. It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”." }}<br>
+						{{ i18n "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license." }} {{ i18n "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”." }}<br>
 						</p>
 					<a href="https://en.wikipedia.org/wiki/Warzone_2100#History" class="btn btn-d btn-lg" data-target="_blank" rel="nofollow noopener noreferrer" target="_blank">{{ i18n "More Info" }}</a>
 				</div>
@@ -819,7 +817,7 @@
 								{{ i18n "Frequently Asked Questions" }}
 							</h3>
 							<p class="text-center text-lg-left mg-sm text-md-left">
-								{{ i18n "Answers to common questions. Can't find the answer you're looking for? Check out the Forums and Webchat." }}<br>
+								{{ i18n "Answers to common questions." }} {{ i18n "Can't find the answer you're looking for?" }} {{ i18n "Check out the Forums and Webchat." }}<br>
 							</p>
 						</div>
 				</div>
@@ -887,7 +885,7 @@
 				&times;
 			</button>-->
 			{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/ban.svg") }}&nbsp;&nbsp;
-			{{ i18n "JavaScript is disabled. This site may not work properly without it." }}
+			{{ i18n "JavaScript is disabled." }} {{ i18n "This site may not work properly without it." }}
 		</div>
 	</noscript>
 

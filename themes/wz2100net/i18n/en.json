@@ -76,16 +76,32 @@
 		"translation": "Portable Version"
 	},
 	{
-		"id": "Can be installed to / run from a USB drive, local folder, etc. Fully self-contained in a single directory - stores all settings / saves in that same directory too. (Does not require admin privileges.)",
-		"translation": "Can be installed to / run from a USB drive, local folder, etc. Fully self-contained in a single directory - stores all settings / saves in that same directory too. (Does not require admin privileges.)"
+		"id": "Can be installed to / run from a USB drive, local folder, etc.",
+		"translation": "Can be installed to / run from a USB drive, local folder, etc."
+	},
+	{
+		"id": "Fully self-contained in a single directory - stores all settings / saves in that same directory too.",
+		"translation": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+	},
+	{
+		"id": "(Does not require admin privileges.)",
+		"translation": "(Does not require admin privileges.)"
 	},
 	{
 		"id": "Full Installer",
 		"translation": "Full Installer"
 	},
 	{
-		"id": "Installs for all users on a system. Settings / saves are user-specific. (Requires admin privileges to install.)",
-		"translation": "Installs for all users on a system. Settings / saves are user-specific. (Requires admin privileges to install.)"
+		"id": "Installs for all users on a system.",
+		"translation": "Installs for all users on a system."
+	},
+	{
+		"id": "Settings / saves are user-specific.",
+		"translation": "Settings / saves are user-specific."
+	},
+	{
+		"id": "(Requires admin privileges to install.)",
+		"translation": "(Requires admin privileges to install.)"
 	},
 	{
 		"id": "macOS",
@@ -224,8 +240,16 @@
 		"translation": "Snap Installer"
 	},
 	{
-		"id": "Easy installation. Supports most Linux distributions. (See link for details.)",
-		"translation": "Easy installation. Supports most Linux distributions. (See link for details.)"
+		"id": "Easy installation.",
+		"translation": "Easy installation."
+	},
+	{
+		"id": "Supports most Linux distributions.",
+		"translation": "Supports most Linux distributions."
+	},
+	{
+		"id": "(See link for details.)",
+		"translation": "(See link for details.)"
 	},
 	{
 		"id": "Compile Source",
@@ -292,8 +316,12 @@
 		"translation": "Why Warzone 2100 Rocks"
 	},
 	{
-		"id": "Strategy by Design. Endless replayability.",
-		"translation": "Strategy by Design. Endless replayability."
+		"id": "Strategy by Design.",
+		"translation": "Strategy by Design."
+	},
+	{
+		"id": "Endless replayability.",
+		"translation": "Endless replayability."
 	},
 	{
 		"id": "Single-Player Campaign",
@@ -384,48 +412,92 @@
 		"translation": "100% Open-Source"
 	},
 	{
-		"id": "Exclusively open-source technologies, software, & tools. Community content is licensed under liberal licenses (ex. CC0).",
-		"translation": "Exclusively open-source technologies, software, & tools. Community content is licensed under liberal licenses (ex. CC0)."
+		"id": "Exclusively open-source technologies, software, & tools.",
+		"translation": "Exclusively open-source technologies, software, & tools."
+	},
+	{
+		"id": "Community content is licensed under liberal licenses (ex. CC0).",
+		"translation": "Community content is licensed under liberal licenses (ex. CC0)."
 	},
 	{
 		"id": "100% Open Development",
 		"translation": "100% Open Development"
 	},
 	{
-		"id": "Join the public project on GitHub! Anyone can file bugs, contribute patches, and request enhancements.",
-		"translation": "Join the public project on GitHub! Anyone can file bugs, contribute patches, and request enhancements."
+		"id": "Join the public project on GitHub!",
+		"translation": "Join the public project on GitHub!"
+	},
+	{
+		"id": "Anyone can file bugs, contribute patches, and request enhancements.",
+		"translation": "Anyone can file bugs, contribute patches, and request enhancements."
 	},
 	{
 		"id": "100% Open Community",
 		"translation": "100% Open Community"
 	},
 	{
-		"id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience. People around the world are waiting!",
-		"translation": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience. People around the world are waiting!"
+		"id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
+		"translation": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+	},
+	{
+		"id": "People around the world are waiting!",
+		"translation": "People around the world are waiting!"
 	},
 	{
 		"id": "100% Free",
 		"translation": "100% Free"
 	},
 	{
-		"id": "Everything is free, including source code, downloads, and all features. No in-app purchases. No subscriptions. No ads. Just free.",
-		"translation": "Everything is free, including source code, downloads, and all features. No in-app purchases. No subscriptions. No ads. Just free."
+		"id": "Everything is free, including source code, downloads, and all features.",
+		"translation": "Everything is free, including source code, downloads, and all features."
+	},
+	{
+		"id": "No in-app purchases.",
+		"translation": "No in-app purchases."
+	},
+	{
+		"id": "No subscriptions.",
+		"translation": "No subscriptions."
+	},
+	{
+		"id": "No ads.",
+		"translation": "No ads."
+	},
+	{
+		"id": "Just free.",
+		"translation": "Just free."
 	},
 	{
 		"id": "A Long History",
 		"translation": "A Long History"
 	},
 	{
-		"id": "Developed in the 90s by Pumpkin Studios. Liberated in 2004.",
-		"translation": "Developed in the 90s by Pumpkin Studios. Liberated in 2004."
+		"id": "Developed in the 90s by Pumpkin Studios.",
+		"translation": "Developed in the 90s by Pumpkin Studios."
 	},
 	{
-		"id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive. In 1999, it was released commercially for Microsoft Windows and Sony PlayStation. Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
-		"translation": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive. In 1999, it was released commercially for Microsoft Windows and Sony PlayStation. Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+		"id": "Liberated in 2004.",
+		"translation": "Liberated in 2004."
 	},
 	{
-		"id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license. It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
-		"translation": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license. It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+		"id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
+		"translation": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+	},
+	{
+		"id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
+		"translation": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+	},
+	{
+		"id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
+		"translation": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+	},
+	{
+		"id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
+		"translation": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+	},
+	{
+		"id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
+		"translation": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
 	},
 	{
 		"id": "More Info",
@@ -436,8 +508,16 @@
 		"translation": "Frequently Asked Questions"
 	},
 	{
-		"id": "Answers to common questions. Can't find the answer you're looking for? Check out the Forums and Webchat.",
-		"translation": "Answers to common questions. Can't find the answer you're looking for? Check out the Forums and Webchat."
+		"id": "Answers to common questions.",
+		"translation": "Answers to common questions."
+	},
+	{
+		"id": "Can't find the answer you're looking for?",
+		"translation": "Can't find the answer you're looking for?"
+	},
+	{
+		"id": "Check out the Forums and Webchat.",
+		"translation": "Check out the Forums and Webchat."
 	},
 	{
 		"id": "General",
@@ -452,8 +532,12 @@
 		"translation": "Troubleshooting"
 	},
 	{
-		"id": "JavaScript is disabled. This site may not work properly without it.",
-		"translation": "JavaScript is disabled. This site may not work properly without it."
+		"id": "JavaScript is disabled.",
+		"translation": "JavaScript is disabled."
+	},
+	{
+		"id": "This site may not work properly without it.",
+		"translation": "This site may not work properly without it."
 	},
 	{
 		"id": "About",
@@ -504,8 +588,8 @@
 		"translation": "Connect"
 	},
 	{
-		"id": "Designed by pastdue for wz2100.net",
-		"translation": "Designed by pastdue for wz2100.net"
+		"id": "Copyright © past-due.",
+		"translation": "Copyright © past-due."
 	},
 	{
 		"id": "theme",
