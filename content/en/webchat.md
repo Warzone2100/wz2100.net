@@ -30,7 +30,6 @@ IRC webchat is available from Freenode here:
 
 Experienced users can also enter this chat room by visiting `#warzone2100-games` on Freenode with an IRC client.
 
-> Note: Because of abuse, you must register with Freenode &amp; not use Freenode's webchat applet to enter `#warzone2100-dev`.
-> We do not control that server, so if your nickname is used we can't do anything about it!
+> Note: Because of abuse, you must register with Freenode & not use Freenode's webchat applet to enter `#warzone2100-dev`. We do not control that server, so if your nickname is used we can't do anything about it!
 
 See the [Freenode registration FAQ](https://freenode.net/kb/answer/registration) for details on how to register.
