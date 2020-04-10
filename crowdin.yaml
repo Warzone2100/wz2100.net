@@ -13,6 +13,7 @@ files:
   - source: /themes/wz2100net/i18n/en.json
     type: "chrome"
     translation: /themes/wz2100net/i18n/%two_letters_code%.json
+    update_option: update_as_unapproved
     languages_mapping:
       two_letters_code:
         zh-CN: zh-CN
