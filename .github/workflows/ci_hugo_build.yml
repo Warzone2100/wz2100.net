@@ -4,6 +4,7 @@ on:
   push:
     branches-ignore:
       - 'l10n_**' # Push events to translation service branches (that begin with "l10n_")
+      - 'translation_integration' # Separate branch for translation-service-formatted files
   pull_request:
     # Match all pull requests
 
@@ -15,6 +16,7 @@ jobs:
         image: [ext-alpine, ext-ubuntu]
     name: 'Test Hugo Build [${{ matrix.version }}-${{ matrix.image }}]'
     runs-on: ubuntu-latest
+    if: startsWith(github.head_ref, 'translation_integration') == false
     steps:
       - uses: actions/checkout@v2
       - name: Build with Hugo docker image

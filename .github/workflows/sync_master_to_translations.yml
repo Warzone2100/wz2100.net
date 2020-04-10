@@ -1,0 +1,32 @@
+name: i18n
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  sync_master_to_translation_integration:
+    name: 'Sync master -> translation_integration'
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Sync: translations->master]')"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: master
+      - uses: actions/checkout@v2
+        with:
+          ref: translation_integration
+          path: translation_integration
+      - name: 'Sync master branch changes to translation_integration'
+        run: ./master/.ci/sync_master_to_translations.sh "${GITHUB_WORKSPACE}/master" "${GITHUB_WORKSPACE}/translation_integration"
+      - name: Commit changes to translation_integration branch
+        working-directory: "./translation_integration"
+        run: |
+          short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
+          git config user.name "wzdev-ci"
+          git config user.email "61424532+wzdev-ci@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "[Sync: master->translations]: ${short_sha}" || exit 0
+          git push
