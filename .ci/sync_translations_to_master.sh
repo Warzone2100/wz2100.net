@@ -158,7 +158,7 @@ find . -name '*.json' | while IFS= read -r file; do
   else
     echo "Converting to go-i18n JSON strings format: ${file}"
     output_goi18n_json="${master_branch_dir}/themes/wz2100net/i18n/${file}"
-    cat "${file}" | jq '[to_entries | .[] | {id: (.key), message: (.value.message)}]' > "${output_goi18n_json}"
+    cat "${file}" | jq '[to_entries | .[] | {id: (.key), translation: (.value.message)}]' > "${output_goi18n_json}"
   fi
 done
 
