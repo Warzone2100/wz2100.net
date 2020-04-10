@@ -1,4 +1,4 @@
 ---
-title: "Ein kostenloses und Open Source Echtzeit-Strategiespiel"
+title: "A Free And Open Source Real-Time Strategy Game"
 ---
 
