@@ -56,14 +56,26 @@
   "Portable Version": {
     "message": "Portable Version"
   },
-  "Can be installed to / run from a USB drive, local folder, etc. Fully self-contained in a single directory - stores all settings / saves in that same directory too. (Does not require admin privileges.)": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc. Fully self-contained in a single directory - stores all settings / saves in that same directory too. (Does not require admin privileges.)"
+  "Can be installed to / run from a USB drive, local folder, etc.": {
+    "message": "Can be installed to / run from a USB drive, local folder, etc."
+  },
+  "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
+    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+  },
+  "(Does not require admin privileges.)": {
+    "message": "(Does not require admin privileges.)"
   },
   "Full Installer": {
     "message": "Full Installer"
   },
-  "Installs for all users on a system. Settings / saves are user-specific. (Requires admin privileges to install.)": {
-    "message": "Installs for all users on a system. Settings / saves are user-specific. (Requires admin privileges to install.)"
+  "Installs for all users on a system.": {
+    "message": "Installs for all users on a system."
+  },
+  "Settings / saves are user-specific.": {
+    "message": "Settings / saves are user-specific."
+  },
+  "(Requires admin privileges to install.)": {
+    "message": "(Requires admin privileges to install.)"
   },
   "macOS": {
     "message": "macOS"
@@ -167,8 +179,14 @@
   "Snap Installer": {
     "message": "Snap Installer"
   },
-  "Easy installation. Supports most Linux distributions. (See link for details.)": {
-    "message": "Easy installation. Supports most Linux distributions. (See link for details.)"
+  "Easy installation.": {
+    "message": "Easy installation."
+  },
+  "Supports most Linux distributions.": {
+    "message": "Supports most Linux distributions."
+  },
+  "(See link for details.)": {
+    "message": "(See link for details.)"
   },
   "Compile Source": {
     "message": "Compile Source"
@@ -218,8 +236,11 @@
   "Why Warzone 2100 Rocks": {
     "message": "Why Warzone 2100 Rocks"
   },
-  "Strategy by Design. Endless replayability.": {
-    "message": "Strategy by Design. Endless replayability."
+  "Strategy by Design.": {
+    "message": "Strategy by Design."
+  },
+  "Endless replayability.": {
+    "message": "Endless replayability."
   },
   "Single-Player Campaign": {
     "message": "Single-Player Campaign"
@@ -284,38 +305,71 @@
   "100% Open-Source": {
     "message": "100% Open-Source"
   },
-  "Exclusively open-source technologies, software, & tools. Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Exclusively open-source technologies, software, & tools. Community content is licensed under liberal licenses (ex. CC0)."
+  "Exclusively open-source technologies, software, & tools.": {
+    "message": "Exclusively open-source technologies, software, & tools."
+  },
+  "Community content is licensed under liberal licenses (ex. CC0).": {
+    "message": "Community content is licensed under liberal licenses (ex. CC0)."
   },
   "100% Open Development": {
     "message": "100% Open Development"
   },
-  "Join the public project on GitHub! Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Join the public project on GitHub! Anyone can file bugs, contribute patches, and request enhancements."
+  "Join the public project on GitHub!": {
+    "message": "Join the public project on GitHub!"
+  },
+  "Anyone can file bugs, contribute patches, and request enhancements.": {
+    "message": "Anyone can file bugs, contribute patches, and request enhancements."
   },
   "100% Open Community": {
     "message": "100% Open Community"
   },
-  "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience. People around the world are waiting!": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience. People around the world are waiting!"
+  "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
+    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+  },
+  "People around the world are waiting!": {
+    "message": "People around the world are waiting!"
   },
   "100% Free": {
     "message": "100% Free"
   },
-  "Everything is free, including source code, downloads, and all features. No in-app purchases. No subscriptions. No ads. Just free.": {
-    "message": "Everything is free, including source code, downloads, and all features. No in-app purchases. No subscriptions. No ads. Just free."
+  "Everything is free, including source code, downloads, and all features.": {
+    "message": "Everything is free, including source code, downloads, and all features."
+  },
+  "No in-app purchases.": {
+    "message": "No in-app purchases."
+  },
+  "No subscriptions.": {
+    "message": "No subscriptions."
+  },
+  "No ads.": {
+    "message": "No ads."
+  },
+  "Just free.": {
+    "message": "Just free."
   },
   "A Long History": {
     "message": "A Long History"
   },
-  "Developed in the 90s by Pumpkin Studios. Liberated in 2004.": {
-    "message": "Developed in the 90s by Pumpkin Studios. Liberated in 2004."
+  "Developed in the 90s by Pumpkin Studios.": {
+    "message": "Developed in the 90s by Pumpkin Studios."
   },
-  "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive. In 1999, it was released commercially for Microsoft Windows and Sony PlayStation. Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive. In 1999, it was released commercially for Microsoft Windows and Sony PlayStation. Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+  "Liberated in 2004.": {
+    "message": "Liberated in 2004."
   },
-  "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license. It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license. It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+  "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
+    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+  },
+  "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
+    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+  },
+  "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
+    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+  },
+  "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
+    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+  },
+  "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
+    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
   },
   "More Info": {
     "message": "More Info"
@@ -323,8 +377,14 @@
   "Frequently Asked Questions": {
     "message": "Frequently Asked Questions"
   },
-  "Answers to common questions. Can't find the answer you're looking for? Check out the Forums and Webchat.": {
-    "message": "Answers to common questions. Can't find the answer you're looking for? Check out the Forums and Webchat."
+  "Answers to common questions.": {
+    "message": "Answers to common questions."
+  },
+  "Can't find the answer you're looking for?": {
+    "message": "Can't find the answer you're looking for?"
+  },
+  "Check out the Forums and Webchat.": {
+    "message": "Check out the Forums and Webchat."
   },
   "General": {
     "message": "General"
@@ -335,8 +395,11 @@
   "Troubleshooting": {
     "message": "Troubleshooting"
   },
-  "JavaScript is disabled. This site may not work properly without it.": {
-    "message": "JavaScript is disabled. This site may not work properly without it."
+  "JavaScript is disabled.": {
+    "message": "JavaScript is disabled."
+  },
+  "This site may not work properly without it.": {
+    "message": "This site may not work properly without it."
   },
   "About": {
     "message": "About"
@@ -374,8 +437,8 @@
   "Connect": {
     "message": "Connect"
   },
-  "Designed by pastdue for wz2100.net": {
-    "message": "Designed by pastdue for wz2100.net"
+  "Copyright © past-due.": {
+    "message": "Copyright © past-due."
   },
   "theme": {
     "message": "theme"
