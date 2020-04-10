@@ -62,53 +62,49 @@ else
 fi
 
 ###################
-# Sync master branch content files, processed & filtered, with translation branch
+# Sync source language content files, processed & filtered, with translation branch
 # remove front-matter lines from markdown that should not be translated
 split_script="${master_branch_dir}/.ci/split_front_matter_from_markdown.py"
 if [ ! -f "${split_script}" ]; then
   echo "Missing expected script: ${split_script}"
   exit 1
 fi
-# in each language content directory
-cd "${master_branch_dir}/content"
-shopt -u dotglob
-find * -prune -type d | while IFS= read -r d; do
-  cd "${d}"
-  tmp_split_content_path="${working_dir}/tmp_split_content/${d}"
-  mkdir -p "${tmp_split_content_path}"
-  find . -name '*.md' | while IFS= read -r file; do
-    echo "- Processing: ${d}/${file}"
 
-    python3 "${split_script}" "${file}" "${tmp_split_content_path}"
-    filename="$(basename "${file}")"
-  
-    ###################
-    # Process front-matter
-  
-    # Remove any lines between:
-    # "# begin: no-translate" and "# end: no-translate"
-    # and
-    # Remove any lines that contain: "# no-translate"
-  
-    cat "${tmp_split_content_path}/${filename}.frontmatter" | sed '/^# begin: no-translate$/,/^# end: no-translate$/d' | grep -v "# no-translate" > "${tmp_split_content_path}/${filename}.frontmatter.filtered"
-  
-    ###################
-    # Recombine filtered front-matter with content
-    output_file="${translations_branch_dir}/content/${d}/${file}"
-    destination_path=$(dirname "${output_file}")
-    mkdir -p "${destination_path}"
-    echo "---" > "${output_file}"
-    cat "${tmp_split_content_path}/${filename}.frontmatter.filtered" >> "${output_file}"
-    echo "---" >> "${output_file}"
-    cat "${tmp_split_content_path}/${filename}.markdown" >> "${output_file}"
+cd "${master_branch_dir}/content/${source_lang}"
+tmp_split_content_path="${working_dir}/tmp_split_content/${source_lang}"
+mkdir -p "${tmp_split_content_path}"
+find . -name '*.md' | while IFS= read -r file; do
+  echo "- Processing: ${source_lang}/${file}"
 
-    # Delete the temporary split files
-    rm "${tmp_split_content_path}/${filename}.frontmatter"
-    rm "${tmp_split_content_path}/${filename}.frontmatter.filtered"
-    rm "${tmp_split_content_path}/${filename}.markdown"
-  done
-  cd -
+  python3 "${split_script}" "${file}" "${tmp_split_content_path}"
+  filename="$(basename "${file}")"
+
+  ###################
+  # Process front-matter
+
+  # Remove any lines between:
+  # "# begin: no-translate" and "# end: no-translate"
+  # and
+  # Remove any lines that contain: "# no-translate"
+
+  cat "${tmp_split_content_path}/${filename}.frontmatter" | sed '/^# begin: no-translate$/,/^# end: no-translate$/d' | grep -v "# no-translate" > "${tmp_split_content_path}/${filename}.frontmatter.filtered"
+
+  ###################
+  # Recombine filtered front-matter with content
+  output_file="${translations_branch_dir}/content/${source_lang}/${file}"
+  destination_path=$(dirname "${output_file}")
+  mkdir -p "${destination_path}"
+  echo "---" > "${output_file}"
+  cat "${tmp_split_content_path}/${filename}.frontmatter.filtered" >> "${output_file}"
+  echo "---" >> "${output_file}"
+  cat "${tmp_split_content_path}/${filename}.markdown" >> "${output_file}"
+
+  # Delete the temporary split files
+  rm "${tmp_split_content_path}/${filename}.frontmatter"
+  rm "${tmp_split_content_path}/${filename}.frontmatter.filtered"
+  rm "${tmp_split_content_path}/${filename}.markdown"
 done
+cd -
 
 ###################
 # Cleanup
