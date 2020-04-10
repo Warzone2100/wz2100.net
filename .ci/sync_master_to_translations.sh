@@ -2,6 +2,11 @@
 #
 # Sync Master -> Translations
 # Prepare and convert Hugo content and strings file formats for translation service integration
+#
+# Required input arguments:
+# 1.) the master branch folder
+# 2.) the translations branch folder
+#
 
 working_dir="$(pwd)"
 source_lang="en"
@@ -94,9 +99,16 @@ find . -name '*.md' | while IFS= read -r file; do
   output_file="${translations_branch_dir}/content/${source_lang}/${file}"
   destination_path=$(dirname "${output_file}")
   mkdir -p "${destination_path}"
-  echo "---" > "${output_file}"
-  cat "${tmp_split_content_path}/${filename}.frontmatter.filtered" >> "${output_file}"
-  echo "---" >> "${output_file}"
+  filtered_frontmatter="${tmp_split_content_path}/${filename}.frontmatter.filtered"
+  if [[ -s "${filtered_frontmatter}" ]]; then
+    echo "---" > "${output_file}"
+    cat "${filtered_frontmatter}" >> "${output_file}"
+    echo "---" >> "${output_file}"
+  else
+    echo "Empty filtered front-matter for: ${filename}"
+    rm -f "${output_file}"
+    touch "${output_file}"
+  fi
   cat "${tmp_split_content_path}/${filename}.markdown" >> "${output_file}"
 
   # Delete the temporary split files
