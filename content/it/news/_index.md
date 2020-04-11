@@ -1,5 +1,5 @@
 ---
-title: "News"
+title: "Novità"
 # begin: no-translate
 sort: "Date"
 translationKey: "news"
