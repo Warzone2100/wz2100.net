@@ -2,7 +2,6 @@
 
 - [How do I help translate?](#how-do-i-help-translate)
 - [Notes for translators](#notes-for-translators)
-- [Notes for proofreaders](#notes-for-proofreaders)
 - [Notes for developers](#notes-for-developers)
 - [For developers merging translation PRs](#for-developers-merging-translation-prs)
 
@@ -31,3 +30,11 @@ Help us get wz2100.net translated into your native language and reach more peopl
    - Crowdin deals with formats that it supports
    - Hugo deals with formats that it supports
    - Front-matter that should not be translated is not sent to Crowdin, cannot be accidentally edited there, and remains in-sync between different language versions of content files.
+
+## For developers merging translation PRs:
+- When **merging** a "**New Crowdin translations**" PR:
+   - You may want to use "**Squash and Merge**" if there’s a gigantic list of commits (or repeated updates of the same language files) to minimize clutter in the main commit history.
+- If a "**New Crowdin translations**" PR can’t be merged (ex. because of merge conflicts / outdated translation branch):
+   - Close the Pull Request.
+   - Delete the `l10n_translation_integration` branch.
+   > Crowdin will then (eventually) re-create the `l10n_translation_integration` branch, and submit a new PR, effectively rebased on the latest `translation_integration` branch. _This may take up to 24 hours to occur, as we have configured Crowdin to batch pushes to its `l10n_*` service branch._
