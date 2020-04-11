@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting online games"
+title: "Risoluzione dei problemi del gioco online"
 ---
 
-If it you can't join a game that you see, check the following:
+Se non puoi partecipare ad una partita che vedi, controlla:
 
-1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
+1. Devi avere esattamente la stessa versione del gioco per unirti. Non dovresti avere problemi se stai utilizzando l'ultima versione stabile, o probabilmente l'ultima versione di sviluppo se è attualmente disponibile in via ufficiale.
 
-2. You need to have no mods installed, unless you are joining a modded game. Map-mods are usually ok to have.
+2. Non devi avere mod installate, a meno che ti stai unendo ad una partita con le mod. Non dovrebbero esserci problemi se hai delle Mod-Mappe.
 
-3. Some games are protected with a password. You will not be able to join them unless you are invited.
+3. Alcune partite sono protette con una password. Non sarai in grado di partecipare a meno che vieni invitato.
 
-The game uses outgoing port `2100` to connect the host and outgoing port `9990` to retrieve the list of games.
+Il gioco utilizza la porta in uscita `2100` per collegarsi all'host e la porta in uscita `9990` per recuperare l'elenco delle partite.

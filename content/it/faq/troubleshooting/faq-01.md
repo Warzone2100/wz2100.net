@@ -1,27 +1,27 @@
 ---
-title: "Where is the configuration / savegame directory?"
+title: "Dov'è la cartella di configurazione / dei salvataggi?"
 ---
 
-It depends on your platform:
+Dipende dalla tua piattaforma:
 
-{{% inlinesvg "fontawesome/brands/windows.svg" %}} **On Windows:**
+{{% inlinesvg "fontawesome/brands/windows.svg" %}} **Su Windows:**
 
-The directory `Warzone 2100 Project\Warzone 2100 <version>` is located under the `%APPDATA%` folder.
+La cartella `Warzone 2100 Project\Warzone 2100 <version>` si trova in `%APPDATA%`.
 
-Hence, the default path for the Warzone 2100 configuration data on Windows Vista+ would be: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
+Di conseguenza, il percorso predefinito per i file di configurazione di Warzone 2100 su Windows Vista+ sarebbe: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
 
-By default, the `%APPDATA%` folder is hidden. Entering: `%APPDATA%\Warzone 2100 Project\` into the address bar of Windows Explorer / File Explorer will browse to your Warzone directory.
+Normalmente, la cartella `%APPDATA%` è nascosta. Inserire: `%APPDATA%\Warzone 2100 Project\` nella barra degli indirizzi di Esplora Risorse ti porterà nella tua cartella di Warzone.
 
-{{% inlinesvg "fontawesome/brands/apple.svg" %}} **On macOS:**
+{{% inlinesvg "fontawesome/brands/apple.svg" %}} **Su macOS:**
 
-The directory `Warzone 2100 <version>` can be found in your home-directory at: `~/Library/Application Support/`
+La cartella `Warzone 2100 <version>` può essere trovata nella tua cartella home al percorso: `~/Library/Application Support/`
 
-By default, recent version of macOS hide your account's Library folder. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
+Per impostazione predefinita, versioni recenti di macOS nascondono la cartella Libreria del tuo account. Per visualizzarla nel Finder, tieni premuto il tasto **Option (⌥)** mentre fai clic sul menu **Vai**, e la cartella Libreria apparirà come una scelta di menu.
 
-{{% inlinesvg "fontawesome/brands/linux.svg" %}} **On Linux:**
+{{% inlinesvg "fontawesome/brands/linux.svg" %}} **Su Linux:**
 
-Under GNU/Linux, Warzone 2100 conforms to the [XDG base directory spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+Su GNU/Linux, Warzone 2100 è conforme alle [specifiche della directory di base di XDG](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
-By default, the directory `warzone2100-<version>` can be found in your home-directory under the path `~/.local/share/`. (If the `XDG_DATA_HOME` environment variable is defined, the Warzone folder will be located within `$XDG_DATA_HOME`.)
+Per impostazione predefinita, la directory `warzone2100-<version>` può essere trovata nella tua home directory nel percorso `~/.local/share/`. (Se la variabile d'ambiente `XDG_DATA_HOME` è definita, la cartella di Warzone si troverà in `$XDG_DATA_HOME`.)
 
-The leading dot in the `.local` part of the path indicates that it is a hidden directory, so depending on your configuration you may not be able to see it. However, you can still access it by typing the path into your address-bar.
+Il punto all'inizio di `.local` indica che è una cartella nascosta, quindi a seconda della tua configurazione potresti non essere in grado di vederla. Tuttavia, puoi ancora accedervi digitando il percorso nella barra degli indirizzi.

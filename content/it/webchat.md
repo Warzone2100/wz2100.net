@@ -2,34 +2,34 @@
 title: "Webchat"
 ---
 
-If you want to arrange online games, or have a quick quesion to ask, you might want to use one of our chat options:
+Se vuoi organizzare partite online o se hai una domanda veloce da chiedere, potresti usare una delle nostre chat:
 
 {{% divider %}}
 
 ## {{< inlinefigure path="/svg/Discord-Logo+Wordmark-White.svg" mediatype="image/svg+xml" height="80" alt="Discord" >}}
 
-Like Discord? Join the official Warzone 2100 Discord server:
+Ti piace Discord? Unisciti al server Discord ufficiale Warzone 2100:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Server Ufficiale" >}}
 
-##### Discord Benefits:
+##### Benefici Discord:
 
-Pick your nickname, view chat history, easily chat on mobile devices, (optionally) subscribe to receive announcements of new releases, voice chat, and more.
+Scegli il tuo soprannome, visualizza la cronologia della chat, chatta facilmente su dispositivi mobili, (facoltativo) iscriviti per ricevere annunci di nuove versioni, chat vocale e altro ancora.
 
-Signing up for Discord, chatting on the server, etc. is free.
+Iscrizione a Discord, chat sul server, ecc. è gratuito.
 
-Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
+Chatta nel tuo browser o scarica i client per Windows / macOS / Linux / mobile.
 
 {{% divider %}}
 
 ## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
 
-IRC webchat is available from Freenode here:
+La webchat IRC è disponibile da Freenode qui:
 
-{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Enter Chat{{< /button >}}
+{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Unisciti alla Chat{{< /button >}}
 
-Experienced users can also enter this chat room by visiting `#warzone2100-games` on Freenode with an IRC client.
+Gli utenti più esperti possono accedere a questa chat anche visitando `#warzone2100-games` su Freenode con un client IRC.
 
-> Note: Because of abuse, you must register with Freenode & not use Freenode's webchat applet to enter `#warzone2100-dev`. We do not control that server, so if your nickname is used we can't do anything about it!
+> Nota: a causa di abusi, è necessario registrarsi su Freenode & non utilizzare l'applet della webchat di Freenode per entrare in `#warzone2100-dev`. Non controlliamo quel server, quindi se il tuo nickname è utilizzato, non possiamo fare nulla al riguardo!
 
-See the [Freenode registration FAQ](https://freenode.net/kb/answer/registration) for details on how to register.
+Consulta la [FAQ di registrazione a Freenode](https://freenode.net/kb/answer/registration) per maggiori dettagli su come registrarsi.
