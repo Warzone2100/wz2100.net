@@ -1,8 +1,8 @@
 ---
-title: "How do I join an online game?"
+title: "Come faccio ad unirmi ad una partita online?"
 ---
 
-Joining existing games is usually easy.
+Entrare nelle partite esistenti di solito è facile.
 
 Start the game, click Multi Player → Join Game → Lobby.
 
