@@ -55,6 +55,12 @@ Some tips:
    - Other menus are declared in the `config.yaml`.
 - You'll also find `head.html` and `footer.html` templates in the `partials` folder.
 
+### Translatable Strings
+
+Adding new translatable strings into theme partials / templates is accomplished in two steps:
+1. Wrap the string in `{{ i18n "..." }}` inside the partial / template.
+2. Add a new entry for the string (if it does not already exist) in `themes/wz2100net/i18n/en.json`
+
 ## How to Build / Preview Locally
 
 Hugo makes it very easy to build / preview the full website locally.
