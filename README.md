@@ -9,7 +9,7 @@
 ## Description
 This repo contains the source code used to generate wz2100.net, including themes.
 
-It is powered by [Hugo](https://gohugo.io), has a responsive design, supports translations, and automatically updates when new releases are made.
+It is powered by [Hugo](https://gohugo.io), has a responsive design, [supports translations](docs/Translations.md#translating-wz2100net), and automatically updates when new releases are made.
 
 ## How to Edit Content
 
@@ -17,7 +17,7 @@ Generally, you should familiarize yourself with [the basics of how Hugo works](h
 
 - Content files are stored under: `content/en`
 - The base language is English, and all new content should be created in English.
-   - Translations should _not_ be manually commited to the repo. They should go through the translation integration service.
+   - Translations should _not_ be manually commited to the repo. They should [go through the translation integration service](docs/Translations.md#translating-wz2100net).
 - Although Hugo supports multiple formats, please author new content files as Markdown (.md) files. ([Learn Markdown](https://gohugo.io/content-management/formats/#learn-markdown))
 
 > You can manually create content files (for example as `content/<CATEGORY>/<FILE>.<FORMAT>`) and provide metadata in them, however you can use the `new` command to do few things for you (like add title and date):
