@@ -8,7 +8,11 @@
 	{{ end }}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+	{{ if eq (getenv "HUGO_ENV") "production" }}
 	<meta name="ROBOTS" content="{{ if .Params.noindex }}NOINDEX{{ else }}INDEX{{ end }},{{ if .Params.noarchive }} NOARCHIVE,{{ end }}{{ if .Params.nocache }} NOCACHE,{{ end }} FOLLOW" />
+	{{ else }}
+	<meta name="ROBOTS" content="NOINDEX, NOARCHIVE, NOFOLLOW" />
+	{{ end }}
 
 	<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
 	<meta name="url" content="{{ .Permalink }}" />

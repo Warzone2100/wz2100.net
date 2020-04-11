@@ -5,6 +5,7 @@
 - [How to Edit the Theme](#how-to-edit-the-theme)
 - [How to Build / Preview Locally](#how-to-build--preview-locally)
 - [Automatically Updated Data](#automatically-updated-data)
+- [Building for Production](#building-for-production)
 
 ## Description
 This repo contains the source code used to generate wz2100.net, including themes.
@@ -80,3 +81,17 @@ Certain [`data`](/data) is updated automatically / on a schedule:
 - `github_repo_info.json` (updated on a schedule; see: [`.github/workflows/update_data.yml`](/.github/workflows/update_data.yml))
 - `github_releases_info/index.json` (updated on a schedule; see: [`.github/workflows/update_data.yml`](/.github/workflows/update_data.yml))
 - `github_releases_info/latest.json` (updated [when there is a Release on the main repo](https://github.com/Warzone2100/warzone2100/blob/master/.github/workflows/release.yml); see: [`.github/workflows/fetch_latest_release_info.yml`](/.github/workflows/fetch_latest_release_info.yml))
+
+## Building for Production
+
+Production builds are handled automatically by the Netlify configuration. For reference:
+
+To properly build for production, the `HUGO_ENV` environment variable must be set to `"production"`.
+This configures various important options - such as a `robots.txt` file that actually allows search engines.
+
+Example:
+```sh
+HUGO_ENV="production" hugo --gc --minify --i18n-warnings
+```
+
+For more, see the [`netlify.toml`](/netlify.toml) file.

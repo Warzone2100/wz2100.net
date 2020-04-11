@@ -1,0 +1,6 @@
+{{- if eq (getenv "HUGO_ENV") "production" -}}
+User-agent: *
+{{- else -}}
+User-agent: *
+Disallow: /
+{{- end -}}
