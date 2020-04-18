@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "Care sunt cerințele de sistem?"
 ---
 
-Minimum Requirements:
+Cerințe Minime:
 - 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+- Suport OpenGL 2.1+
+- ≈ 150MB spațiu de stocare
 
-Recommended Requirements:
+Cerințe Recomandate:
 - 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
-- ≈ 1 GB storage space (including the campaign video sequences)
+- Suport OpenGL 3.1+
+- o placă de sunet compatibilă
+- ≈ 1 GB spațiu de stocare (inclusiv secvențele din campanie)
