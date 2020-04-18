@@ -1,51 +1,51 @@
 {
   "Home": {
-    "message": "Home"
+    "message": "Acasă"
   },
   "Features": {
     "message": "Features"
   },
   "History": {
-    "message": "History"
+    "message": "Istoric"
   },
   "FAQ": {
     "message": "FAQ"
   },
   "Resources": {
-    "message": "Resources"
+    "message": "Resurse"
   },
   "News": {
-    "message": "News"
+    "message": "Ştiri"
   },
   "Webchat": {
     "message": "Webchat"
   },
   "Forums": {
-    "message": "Forums"
+    "message": "Forumuri"
   },
   "Addons": {
-    "message": "Addons"
+    "message": "Extensii"
   },
   "WZ Guide": {
-    "message": "WZ Guide"
+    "message": "Ghid WZ"
   },
   "Wiki": {
     "message": "Wiki"
   },
   "Report Bugs": {
-    "message": "Report Bugs"
+    "message": "Raportați probleme"
   },
   "Donate": {
-    "message": "Donate"
+    "message": "Donează"
   },
   "Help us Translate": {
-    "message": "Help us Translate"
+    "message": "Ajutați-ne să traducem"
   },
   "A 100% free and open-source 3D real-time strategy game.": {
-    "message": "A 100% free and open-source 3D real-time strategy game."
+    "message": "Un joc de strategie 3D în timp real, 100% gratuit și open-source."
   },
   "Download Now": {
-    "message": "Download Now"
+    "message": "Descarcă acum"
   },
   "Toggle Dropdown": {
     "message": "Toggle Dropdown"
@@ -54,16 +54,16 @@
     "message": "Windows"
   },
   "Portable Version": {
-    "message": "Portable Version"
+    "message": "Versiune Portabilă"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc."
+    "message": "Poate fi instalat / rulat de pe un stick USB, dosar local etc."
   },
   "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
-    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "message": "Complet autonom într-un singur director - stochează toate setările / salvările în același director."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(Nu are nevoie de privilegii de administrator.)"
   },
   "Full Installer": {
     "message": "Full Installer"
@@ -72,67 +72,67 @@
     "message": "Installs for all users on a system."
   },
   "Settings / saves are user-specific.": {
-    "message": "Settings / saves are user-specific."
+    "message": "Setările / salvările sunt specifice utilizatorului."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(Necesită privilegii de administrator pentru a instala.)"
   },
   "macOS": {
     "message": "macOS"
   },
   "macOS App Bundle": {
-    "message": "macOS App Bundle"
+    "message": "Pachet Aplicații macOS"
   },
   "Linux": {
     "message": "Linux"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Instalează Snap-ul"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Obține Sursa"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "şi mai multe..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "Toate descărcările și platformele"
   },
   "New": {
-    "message": "New"
+    "message": "Nou"
   },
   "Version": {
-    "message": "Version"
+    "message": "Versiune"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "pentru Windows 7-10"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "pentru macOS 10.10+"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "pentru Linux"
   },
   "Windows, macOS, Linux": {
     "message": "Windows, macOS, Linux"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "Opțiuni avansate de instalare & alte platforme"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "Obține codul sursă"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "Obține Codul Sursă"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "Vezi pe GitHub"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "Stea pe GitHub"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "Raportați o problemă"
   },
   "Copyright © Warzone 2100 Project.": {
     "message": "Copyright © Warzone 2100 Project."
@@ -144,22 +144,22 @@
     "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
   },
   "Sieze territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Sieze territory and resources, build extensive bases, and expand your production & research."
+    "message": "Capturează teritorii și resurse, construiește baze extinse, și extinde-ți producția și cercetările."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "message": "Concurează în bătălii masive LAN / multi-jucători online, cu până la 10 jucători."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "Anteriorul"
   },
   "Next": {
-    "message": "Next"
+    "message": "Următorul"
   },
   "Close": {
-    "message": "Close"
+    "message": "Închide"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "Descărcările nu funcționează?"
   },
   "Try browsing the download mirrors directly:": {
     "message": "Try browsing the download mirrors directly:"
@@ -180,10 +180,10 @@
     "message": "Snap Installer"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "Instalare ușoară."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "Suportă majoritatea distribuțiilor Linux."
   },
   "(See link for details.)": {
     "message": "(See link for details.)"
@@ -207,10 +207,10 @@
     "message": "64-bit Intel"
   },
   "How to handle “Warzone cannot be opened” errors.": {
-    "message": "How to handle “Warzone cannot be opened” errors."
+    "message": "Cum să gestionezi erorile “Warzone nu poate fi deschis”."
   },
   "Other": {
-    "message": "Other"
+    "message": "Altele"
   },
   "Campaign Videos": {
     "message": "Campaign Videos"
@@ -261,25 +261,25 @@
     "message": "Extensive Tech Tree"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
-    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "message": "Peste 400 de tehnologii diferite generează un arbore tehnologic extensiv cu multe căi de ales."
   },
   "Unit Designer": {
     "message": "Unit Designer"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
-    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "message": "Personalizează-ți unitățile cu un sistem de design flexibil care permite o mare varietate de unități și tactici posibile."
   },
   "Cross-Platform": {
-    "message": "Cross-Platform"
+    "message": "Pe mai multe platforme"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
-    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "message": "Suportă Windows, macOS, Linux, FreeBSD și multe altele - toate cu suport multi-platformă multiplayer!"
   },
   "Years": {
-    "message": "Years"
+    "message": "Ani"
   },
   "Downloads": {
-    "message": "Downloads"
+    "message": "Descărcări"
   },
   "Forum Posts": {
     "message": "Forum Posts"
