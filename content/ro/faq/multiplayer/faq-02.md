@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting online games"
+title: "Depanarea jocurilor online"
 ---
 
-If it you can't join a game that you see, check the following:
+Dacă nu te poți alătura unui joc pe care îl vezi, verifică următoarele:
 
-1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
+1. Trebuie să ai exact aceeași versiune a jocului pentru a te alătura. Nu ar trebui să ai o problemă dacă folosești cea mai recentă versiune stabilă, sau probabil cea mai recentă versiune de dezvoltare dacă este disponibilă în mod oficial.
 
-2. You need to have no mods installed, unless you are joining a modded game. Map-mods are usually ok to have.
+2. Nu trebuie să aveți mod-uri instalate, decât dacă vă alăturați unui joc modificat. Modurile-hartă sunt de obicei bune de avut la dispoziţie.
 
-3. Some games are protected with a password. You will not be able to join them unless you are invited.
+3. Unele jocuri sunt protejate cu o parolă. Nu vei putea să te alături acestora decât dacă ești invitat.
 
-The game uses outgoing port `2100` to connect the host and outgoing port `9990` to retrieve the list of games.
+Jocul folosește portul de ieșire `2100` pentru a conecta gazda și portul de ieșire `9990` pentru a prelua lista jocurilor.
