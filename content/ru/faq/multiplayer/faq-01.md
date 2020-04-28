@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Как присоединиться к онлайн-игре?"
 ---
 
-Joining existing games is usually easy.
+Соединение с открытыми играми обычно проще некуда.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Запустите игру, нажмите Мультиплеер → Присоединиться к игре → лобби.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Если доступны какие-либо игры, вы сможете нажать на какую либо из них и присоединиться. Затем отметьте поле "готов". Как только все будут «готовы», игра начинается.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+Не забудьте выбрать ваше имя, нажав на поле имени слева. 

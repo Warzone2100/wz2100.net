@@ -1,5 +1,5 @@
 ---
-title: "How do I play with my friend at home via LAN?"
+title: "Как играть с моим другом дома через локальную сеть?"
 ---
 
-Connect two computers to the same local network, host a game on one of them and join by IP on the other: Multi Player → Join Game → IP. Then enter the IP address of the host.
+Подключите два компьютера к одной локальной сети, заапустите сервер на одном из них и присоединяйтесь по IP с другого: Мультиплеер → Присоединиться к игре → IP. Затем введите IP адрес сервера.

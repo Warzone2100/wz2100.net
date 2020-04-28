@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting online games"
+title: "Устранение проблем мультиплеера"
 ---
 
-If it you can't join a game that you see, check the following:
+Если вы не можете вступить в игру, которую вы видите, проверьте следующее:
 
-1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
+1. Вам нужно иметь точно ту же версию игры, чтобы присоединиться. У вас не должно быть проблем, если вы используете последнюю стабильную версию, или, возможно, последнюю тестовую сборку, если она в настоящее время официально доступна.
 
-2. You need to have no mods installed, unless you are joining a modded game. Map-mods are usually ok to have.
+2. У вас не установлено ни одного мода, за исключением тех случаев, когда вы вступаете в игру с данными модами. Карты не в счет, они не вызывают проблем.
 
-3. Some games are protected with a password. You will not be able to join them unless you are invited.
+3. Некоторые игры защищены паролем. Вы не сможете присоединиться к ним, если не приглашены.
 
-The game uses outgoing port `2100` to connect the host and outgoing port `9990` to retrieve the list of games.
+Игра использует исходящий порт `2100` для подключения хоста и исходящий порт `9990` для получения списка игр с мастер-сервера.
