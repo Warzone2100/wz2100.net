@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "Каковы системные требования?"
 ---
 
-Minimum Requirements:
-- 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+Минимальные требования:
+- 1 ГБ ОЗУ
+- Поддержка OpenGL 2.1 и выше
+- около 150МБ свободного места
 
-Recommended Requirements:
-- 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
+Рекомендуемые требования:
+- 4 ГБ ОЗУ или больше
+- Поддержка OpenGL 3.1 или выше
+- поддерживаемая звуковая карта
 - ≈ 1 GB storage space (including the campaign video sequences)
