@@ -1,5 +1,5 @@
 ---
-title: "How do I play with my friend at home via LAN?"
+title: "Cum mă joc cu prietenul meu acasă prin LAN?"
 ---
 
-Connect two computers to the same local network, host a game on one of them and join by IP on the other: Multi Player → Join Game → IP. Then enter the IP address of the host.
+Conectați două calculatoare la aceeași rețea locală, găzduieşte un joc pe unul dintre ele şi alătură-te IP-ului pe celălalt: Multi Player → Alătură-te Jocurilor → IP. Apoi introdu adresa IP a gazdei.
