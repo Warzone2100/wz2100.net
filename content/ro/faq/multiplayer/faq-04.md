@@ -1,7 +1,7 @@
 ---
-title: "Where do I find people to play with / tournaments?"
+title: "Unde găsesc oameni cu care mă pot juca / turnee?"
 ---
 
-While hosting games or joining games in the lobby is an easy way to play online, you can also interact with players via Discord / webchat / IRC:
+În timp ce găzduirea jocurilor sau te alăturarea in jocurile din lobby este o modalitate ușoară de a te juca online, poți de asemena interacționa cu jucători prin intermediul Discord / webchat / IRC:
 
-{{< button href="/webchat/" class="btn-d" >}}Webchat Info{{< /button >}}
+{{< button href="/webchat/" class="btn-d" >}}Info Webchat{{< /button >}}
