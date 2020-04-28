@@ -157,14 +157,14 @@ languages:
     languageName: "English - US"
     weight: 1
     contentDir: "content/en"
-  de:
-    languageName: "Deutsch"
-    weight: 2
-    contentDir: "content/de"
   it:
     languageName: "Italiano"
     weight: 2
     contentDir: "content/it"
+  ro:
+    languageName: "Română"
+    weight: 2
+    contentDir: "content/ro"
   ru:
     languageName: "Русский"
     weight: 2
