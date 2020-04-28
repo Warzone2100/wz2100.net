@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Cum mă alătur unui joc online?"
 ---
 
-Joining existing games is usually easy.
+Aderarea la jocurile existente este de obicei ușoară.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Începe jocul, apasă Multi Player → Alătură-te Jocului → Lobby.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Dacă jocurile sunt disponibile, vei fi capabil să faci clic și să te alături. Apoi bifaţi căsuţa "gata". Când toată lumea bifează "gata", începe jocul.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+Nu uita să alegi numele tău, făcând clic pe caseta de nume din stânga. 
