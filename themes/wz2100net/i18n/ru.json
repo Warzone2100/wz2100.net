@@ -1,15 +1,15 @@
 {
   "Home": {
-    "message": "Home"
+    "message": "Главная"
   },
   "Features": {
     "message": "Особенности"
   },
   "History": {
-    "message": "History"
+    "message": "История"
   },
   "FAQ": {
-    "message": "Вопрос / Ответ"
+    "message": "ЧаВо"
   },
   "Resources": {
     "message": "Ресурсы"
@@ -87,10 +87,10 @@
     "message": "Linux"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Установить Snap"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Изучить исходники"
   },
   "and more...": {
     "message": "и многое другое..."
@@ -99,7 +99,7 @@
     "message": "Все загрузки для всех платформ"
   },
   "New": {
-    "message": "New"
+    "message": "Новый"
   },
   "Version": {
     "message": "Версия"
@@ -243,16 +243,16 @@
     "message": "Бесконечная реиграбельность."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Одиночная кампания"
   },
   "LAN / Internet Multiplayer": {
-    "message": "LAN / Internet Multiplayer"
+    "message": "ЛВС / интернет мультиплеер"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
     "message": "Играйте с друзьями по локальной сети, или попробуйте свою руку в сетевой игре с интегрированной системой лобби."
   },
   "AI Bots": {
-    "message": "AI Bots"
+    "message": "Боты"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
     "message": "Играйте против компьютерных противников в локальных схватков (или добавьте их как союзников / врагов в мультиплеере) и тренируйте свои навыки с бесконечной реиграбельностью."
