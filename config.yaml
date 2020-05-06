@@ -161,6 +161,10 @@ languages:
     languageName: "Italiano"
     weight: 2
     contentDir: "content/it"
+  pt:
+    languageName: "Português"
+    weight: 2
+    contentDir: "content/pt"
   ro:
     languageName: "Română"
     weight: 2
