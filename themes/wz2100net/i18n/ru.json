@@ -1,7 +1,7 @@
 [
   {
     "id": "Home",
-    "translation": "Home"
+    "translation": "Главная"
   },
   {
     "id": "Features",
@@ -9,11 +9,11 @@
   },
   {
     "id": "History",
-    "translation": "History"
+    "translation": "История"
   },
   {
     "id": "FAQ",
-    "translation": "Вопрос / Ответ"
+    "translation": "ЧаВо"
   },
   {
     "id": "Resources",
@@ -117,11 +117,11 @@
   },
   {
     "id": "Install the Snap",
-    "translation": "Install the Snap"
+    "translation": "Установить Snap"
   },
   {
     "id": "Get the Source",
-    "translation": "Get the Source"
+    "translation": "Изучить исходники"
   },
   {
     "id": "and more...",
@@ -133,7 +133,7 @@
   },
   {
     "id": "New",
-    "translation": "New"
+    "translation": "Новый"
   },
   {
     "id": "Version",
@@ -325,11 +325,11 @@
   },
   {
     "id": "Single-Player Campaign",
-    "translation": "Single-Player Campaign"
+    "translation": "Одиночная кампания"
   },
   {
     "id": "LAN / Internet Multiplayer",
-    "translation": "LAN / Internet Multiplayer"
+    "translation": "ЛВС / интернет мультиплеер"
   },
   {
     "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
@@ -337,7 +337,7 @@
   },
   {
     "id": "AI Bots",
-    "translation": "AI Bots"
+    "translation": "Боты"
   },
   {
     "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",

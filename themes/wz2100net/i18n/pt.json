@@ -1,0 +1,714 @@
+[
+  {
+    "id": "Home",
+    "translation": "Início"
+  },
+  {
+    "id": "Features",
+    "translation": "Features"
+  },
+  {
+    "id": "History",
+    "translation": "História"
+  },
+  {
+    "id": "FAQ",
+    "translation": "FAQ"
+  },
+  {
+    "id": "Resources",
+    "translation": "Recursos"
+  },
+  {
+    "id": "News",
+    "translation": "Notícias"
+  },
+  {
+    "id": "Webchat",
+    "translation": "Webchat"
+  },
+  {
+    "id": "Forums",
+    "translation": "Fórums"
+  },
+  {
+    "id": "Addons",
+    "translation": "Addons"
+  },
+  {
+    "id": "WZ Guide",
+    "translation": "Guia WZ"
+  },
+  {
+    "id": "Wiki",
+    "translation": "Wiki"
+  },
+  {
+    "id": "Report Bugs",
+    "translation": "Reportar erros"
+  },
+  {
+    "id": "Donate",
+    "translation": "Faça um donativo"
+  },
+  {
+    "id": "Help us Translate",
+    "translation": "Ajude-nos a traduzir"
+  },
+  {
+    "id": "A 100% free and open-source 3D real-time strategy game.",
+    "translation": "Um jogo de estratégia 3D totalmente gratuito e de código aberto."
+  },
+  {
+    "id": "Download Now",
+    "translation": "Descarregar agora"
+  },
+  {
+    "id": "Toggle Dropdown",
+    "translation": "Activar/Desactivar o menu pendente"
+  },
+  {
+    "id": "Windows",
+    "translation": "Windows"
+  },
+  {
+    "id": "Portable Version",
+    "translation": "Versão Portátil"
+  },
+  {
+    "id": "Can be installed to / run from a USB drive, local folder, etc.",
+    "translation": "Pode ser instalado / executado a partir de uma unidade USB, pasta local, etc."
+  },
+  {
+    "id": "Fully self-contained in a single directory - stores all settings / saves in that same directory too.",
+    "translation": "Completamente contido num único directório - grava todas as configurações e jogos gravados no mesmo directório."
+  },
+  {
+    "id": "(Does not require admin privileges.)",
+    "translation": "(Não necessita de privilégios de administrador.)"
+  },
+  {
+    "id": "Full Installer",
+    "translation": "Instalador Completo"
+  },
+  {
+    "id": "Installs for all users on a system.",
+    "translation": "Instala para todos os usuários de um sistema."
+  },
+  {
+    "id": "Settings / saves are user-specific.",
+    "translation": "Configurações / jogos guardados são exclusivos do usuário."
+  },
+  {
+    "id": "(Requires admin privileges to install.)",
+    "translation": "(Requer privilégios de administrador para instalar.)"
+  },
+  {
+    "id": "macOS",
+    "translation": "macOS"
+  },
+  {
+    "id": "macOS App Bundle",
+    "translation": "Pacote de Aplicativo para macOS"
+  },
+  {
+    "id": "Linux",
+    "translation": "Linux"
+  },
+  {
+    "id": "Install the Snap",
+    "translation": "Instalar o Snap"
+  },
+  {
+    "id": "Get the Source",
+    "translation": "Obter o código-fonte"
+  },
+  {
+    "id": "and more...",
+    "translation": "e mais..."
+  },
+  {
+    "id": "All downloads & platforms",
+    "translation": "Todos os downloads e plataformas"
+  },
+  {
+    "id": "New",
+    "translation": "Nova"
+  },
+  {
+    "id": "Version",
+    "translation": "Versão"
+  },
+  {
+    "id": "for Windows 7-10",
+    "translation": "para Windows 7-10"
+  },
+  {
+    "id": "for macOS 10.10+",
+    "translation": "para macOS 10.10+"
+  },
+  {
+    "id": "for Linux",
+    "translation": "para Linux"
+  },
+  {
+    "id": "Windows, macOS, Linux",
+    "translation": "Windows, macOS, Linux"
+  },
+  {
+    "id": "Advanced install options & other platforms",
+    "translation": "Opções avançadas de instalação e outras plataformas"
+  },
+  {
+    "id": "Get the source code",
+    "translation": "Obter o código-fonte"
+  },
+  {
+    "id": "Get the Source Code",
+    "translation": "Obter o Código-Fonte"
+  },
+  {
+    "id": "View on GitHub",
+    "translation": "Ver no GitHub"
+  },
+  {
+    "id": "Star on GitHub",
+    "translation": "Adicione uma estrela no GitHub"
+  },
+  {
+    "id": "Report a Bug",
+    "translation": "Reportar um Erro"
+  },
+  {
+    "id": "Copyright © Warzone 2100 Project.",
+    "translation": "Copyright © Warzone 2100 Project."
+  },
+  {
+    "id": "Warzone is licensed under the GPLv2+ license (& others).",
+    "translation": "Warzone é licenciado sob a licença GPLv2+ (& outros)."
+  },
+  {
+    "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
+    "translation": "Comande as forças do Projecto numa batalha para reconstruir o mundo depois da humanidade ter sido deixada à beira da extinção por mísseis nucleares."
+  },
+  {
+    "id": "Sieze territory and resources, build extensive bases, and expand your production & research.",
+    "translation": "Controle território e recursos, construa grandes bases e aumente a sua produção e pesquisa."
+  },
+  {
+    "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
+    "translation": "Participe em grandes batalhas até 10 jogadores através de uma LAN ou online."
+  },
+  {
+    "id": "Previous",
+    "translation": "Anterior"
+  },
+  {
+    "id": "Next",
+    "translation": "Seguinte"
+  },
+  {
+    "id": "Close",
+    "translation": "Fechar"
+  },
+  {
+    "id": "Downloads not working?",
+    "translation": "A descarga não está a funcionar?"
+  },
+  {
+    "id": "Try browsing the download mirrors directly:",
+    "translation": "Tente descarregar através dos seguintes mirrors:"
+  },
+  {
+    "id": "GitHub Releases",
+    "translation": "Releases do GitHub"
+  },
+  {
+    "id": "SourceForge Mirror",
+    "translation": "Mirror do SourceForge"
+  },
+  {
+    "id": "32-bit (x86)",
+    "translation": "32-bit (x86)"
+  },
+  {
+    "id": "64-bit (x64)",
+    "translation": "64-bit (x64)"
+  },
+  {
+    "id": "Snap Installer",
+    "translation": "Snap Installer"
+  },
+  {
+    "id": "Easy installation.",
+    "translation": "Instalação simples."
+  },
+  {
+    "id": "Supports most Linux distributions.",
+    "translation": "Suportado pela maioria das distribuições Linux."
+  },
+  {
+    "id": "(See link for details.)",
+    "translation": "(Ver a ligação para mais detalhes.)"
+  },
+  {
+    "id": "Compile Source",
+    "translation": "Compilar Código-fonte"
+  },
+  {
+    "id": "Compile the source yourself using our build instructions.",
+    "translation": "Compile o código-fonte pessoalmente usando as nossas instruções de compilação."
+  },
+  {
+    "id": "Source Code (.tar.xz)",
+    "translation": "Código-Fonte (.tar.xz)"
+  },
+  {
+    "id": "Mac App Bundle",
+    "translation": "Pacote de Aplicativo para Mac"
+  },
+  {
+    "id": "Download, unzip, and copy to your Applications folder.",
+    "translation": "Descarregue, descompacte e copie para o seu directório de Aplicações."
+  },
+  {
+    "id": "64-bit Intel",
+    "translation": "Intel 64-bit"
+  },
+  {
+    "id": "How to handle “Warzone cannot be opened” errors.",
+    "translation": "Como lidar com o erro \"Warzone não pode ser aberto\"."
+  },
+  {
+    "id": "Other",
+    "translation": "Outros"
+  },
+  {
+    "id": "Campaign Videos",
+    "translation": "Vídeos da Campanha"
+  },
+  {
+    "id": "WMIT (Warzone Model Import Tool)",
+    "translation": "WMIT (Ferramenta de Importação de Modelos de Warzone)"
+  },
+  {
+    "id": "Development Builds",
+    "translation": "Compilações de Desenvolvimento"
+  },
+  {
+    "id": "Development Source Code",
+    "translation": "Código-Fonte de Desenvolvimento"
+  },
+  {
+    "id": "Verify Download Integrity (SHA256)",
+    "translation": "Verificar integridade dos ficheiros (SHA256)"
+  },
+  {
+    "id": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:",
+    "translation": "Através de uma linha de comando ou terminal, navegue para a localização dos ficheiro(s) descarregado(s), depois execute o comando apropriado para calcular o checksum SHA256 do ficheiro e compare com a tabela abaixo:"
+  },
+  {
+    "id": "SHA256 Checksums for Version",
+    "translation": "Checksum SHA256 para a Versão"
+  },
+  {
+    "id": "Why Warzone 2100 Rocks",
+    "translation": "Porque é que o Warzone 2100 é fixe"
+  },
+  {
+    "id": "Strategy by Design.",
+    "translation": "Estratégia através de Design."
+  },
+  {
+    "id": "Endless replayability.",
+    "translation": "Rejogabilidade infinita."
+  },
+  {
+    "id": "Single-Player Campaign",
+    "translation": "Campanha para um jogador"
+  },
+  {
+    "id": "LAN / Internet Multiplayer",
+    "translation": "Multijogador por LAN / Internet"
+  },
+  {
+    "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
+    "translation": "Jogue contra os seus amigos numa rede local ou experimente o modo multijogador online com um lobby integrado."
+  },
+  {
+    "id": "AI Bots",
+    "translation": "Bots IA"
+  },
+  {
+    "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",
+    "translation": "Jogue com bots de IA em escaramuças (ou como membros da sua equipa/inimigos adicionados em multijogador) e treine as suas habilidades com rejogabilidade interminável."
+  },
+  {
+    "id": "Extensive Tech Tree",
+    "translation": "Árvore Tecnológica Extensiva"
+  },
+  {
+    "id": "Over 400 different technologies yield an extensive tech tree with many paths to choose.",
+    "translation": "Mais de 400 tecnologias diferentes produzem uma árvore tecnológica extensa com muitos caminhos para escolher."
+  },
+  {
+    "id": "Unit Designer",
+    "translation": "Designer de Unidades"
+  },
+  {
+    "id": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.",
+    "translation": "Personalize as suas unidades com um sistema de design flexível que permite uma grande variedade de unidades e tácticas possíveis."
+  },
+  {
+    "id": "Cross-Platform",
+    "translation": "Multiplataforma"
+  },
+  {
+    "id": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!",
+    "translation": "Suporta Windows, macOS, Linux, FreeBSD e muito mais - tudo com suporte multiplayer entre plataformas!"
+  },
+  {
+    "id": "Years",
+    "translation": "Anos"
+  },
+  {
+    "id": "Downloads",
+    "translation": "Transferências"
+  },
+  {
+    "id": "Forum Posts",
+    "translation": "Posts do Fórum"
+  },
+  {
+    "id": "GitHub Stars",
+    "translation": "Estrelas no GitHub"
+  },
+  {
+    "id": "100s",
+    "translation": "100s"
+  },
+  {
+    "id": "Contributors",
+    "translation": "Colaboradores"
+  },
+  {
+    "id": "100%",
+    "translation": "100%"
+  },
+  {
+    "id": "Free",
+    "translation": "Grátis"
+  },
+  {
+    "id": "100% Open & Free",
+    "translation": "100% Aberto e Gratuito"
+  },
+  {
+    "id": "Open source, open development, open community - free as in freedom!",
+    "translation": "Open source, desenvolvimento aberto, comunidade aberta - livre como um passarinho!"
+  },
+  {
+    "id": "100% Open-Source",
+    "translation": "100% Open-Source"
+  },
+  {
+    "id": "Exclusively open-source technologies, software, & tools.",
+    "translation": "Tecnologias, software e ferramentas exclusivamente open-source."
+  },
+  {
+    "id": "Community content is licensed under liberal licenses (ex. CC0).",
+    "translation": "O conteúdo da comunidade é licenciado sob licenças públicas livres (ex. CC0)."
+  },
+  {
+    "id": "100% Open Development",
+    "translation": "100% Desenvolvimento Aberto"
+  },
+  {
+    "id": "Join the public project on GitHub!",
+    "translation": "Junte-se ao projecto público no GitHub!"
+  },
+  {
+    "id": "Anyone can file bugs, contribute patches, and request enhancements.",
+    "translation": "Qualquer um pode reportar erros, contribuir com patches e solicitar melhorias."
+  },
+  {
+    "id": "100% Open Community",
+    "translation": "100% Comunidade Aberta"
+  },
+  {
+    "id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
+    "translation": "Converse nos fórums, faça e compartilhe complementos, participe de torneios on-line e contribua para a experiência do Warzone 2100."
+  },
+  {
+    "id": "People around the world are waiting!",
+    "translation": "Pessoas de todo o mundo estão à espera!"
+  },
+  {
+    "id": "100% Free",
+    "translation": "100% Grátis"
+  },
+  {
+    "id": "Everything is free, including source code, downloads, and all features.",
+    "translation": "Tudo é gratuito, incluindo código-fonte, downloads e todos os recursos."
+  },
+  {
+    "id": "No in-app purchases.",
+    "translation": "Sem compras na aplicação."
+  },
+  {
+    "id": "No subscriptions.",
+    "translation": "Sem assinaturas."
+  },
+  {
+    "id": "No ads.",
+    "translation": "Sem anúncios."
+  },
+  {
+    "id": "Just free.",
+    "translation": "Completamente gratuito."
+  },
+  {
+    "id": "A Long History",
+    "translation": "Uma Longa História"
+  },
+  {
+    "id": "Developed in the 90s by Pumpkin Studios.",
+    "translation": "Desenvolvido na década de 90 pela Pumpkin Studios."
+  },
+  {
+    "id": "Liberated in 2004.",
+    "translation": "Código-Fonte libertado em 2004."
+  },
+  {
+    "id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
+    "translation": "Warzone 2100 foi originalmente desenvolvido pela Pumpkin Studios e publicado pela Eidos Interactive."
+  },
+  {
+    "id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
+    "translation": "Em 1999, foi lançado comercialmente para o Microsoft Windows e Sony PlayStation."
+  },
+  {
+    "id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
+    "translation": "A Pumpkin Studios terminou o seu apoio para o Warzone 2100 no dia 5 de janeiro de 2000."
+  },
+  {
+    "id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
+    "translation": "Em 2004, após petição dos fãs, o código-fonte da Warzone foi divulgado publicamente sob uma licença de código aberto."
+  },
+  {
+    "id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
+    "translation": "Tem sido desenvolvido, mantido e melhorado pela comunidade desde então, sob a bandeira do “Warzone 2100 Project”."
+  },
+  {
+    "id": "More Info",
+    "translation": "Mais Informações"
+  },
+  {
+    "id": "Frequently Asked Questions",
+    "translation": "Perguntas Frequentes (FAQ)"
+  },
+  {
+    "id": "Answers to common questions.",
+    "translation": "Respostas a perguntas comuns."
+  },
+  {
+    "id": "Can't find the answer you're looking for?",
+    "translation": "Não consegue encontrar o que procura?"
+  },
+  {
+    "id": "Check out the Forums and Webchat.",
+    "translation": "Confira os Fórums e Webchat."
+  },
+  {
+    "id": "General",
+    "translation": "Geral"
+  },
+  {
+    "id": "Multiplayer",
+    "translation": "Multijogador"
+  },
+  {
+    "id": "Troubleshooting",
+    "translation": "Resolução de problemas"
+  },
+  {
+    "id": "JavaScript is disabled.",
+    "translation": "JavaScript desativado."
+  },
+  {
+    "id": "This site may not work properly without it.",
+    "translation": "Este site pode não funcionar corretamente o mesmo."
+  },
+  {
+    "id": "About",
+    "translation": "Sobre"
+  },
+  {
+    "id": "The Team",
+    "translation": "A Equipa"
+  },
+  {
+    "id": "Changelog",
+    "translation": "Changelog"
+  },
+  {
+    "id": "Privacy Policy",
+    "translation": "Política de Privacidade"
+  },
+  {
+    "id": "Download",
+    "translation": "Descarregar"
+  },
+  {
+    "id": "Snap Store (Linux)",
+    "translation": "Snap Store (Linux)"
+  },
+  {
+    "id": "Source Code",
+    "translation": "Código-Fonte"
+  },
+  {
+    "id": "Source Code.",
+    "translation": "Código-Fonte."
+  },
+  {
+    "id": "Contribute",
+    "translation": "Contribuir"
+  },
+  {
+    "id": "Help with Translations",
+    "translation": "Ajude-nos a traduzir"
+  },
+  {
+    "id": "Documentation",
+    "translation": "Documentação"
+  },
+  {
+    "id": "Connect",
+    "translation": "Ligar-se"
+  },
+  {
+    "id": "Copyright © past-due.",
+    "translation": "Copyright © past-due."
+  },
+  {
+    "id": "theme",
+    "translation": "aparência"
+  },
+  {
+    "id": "Licensed under the GNU AGPLv3.",
+    "translation": "Licenciado sob a GNU AGPLv3."
+  },
+  {
+    "id": "Powered by Hugo",
+    "translation": "Fornecido por Hugo"
+  },
+  {
+    "id": "All trademarks are the property of their respective owners.",
+    "translation": "Todas as marcas registradas são de propriedade de seus respectivos proprietários."
+  },
+  {
+    "id": "YOU'VE BEEN INVITED TO JOIN A SERVER",
+    "translation": "VOCÊ FOI CONVIDADO PARA SE JUNTAR A UM SERVIDOR"
+  },
+  {
+    "id": "Join",
+    "translation": "Juntar-se"
+  },
+  {
+    "id": "Loading...",
+    "translation": "A carregar..."
+  },
+  {
+    "id": "You are running the latest release of Warzone 2100.",
+    "translation": "Você está executando a versão mais recente do Warzone 2100."
+  },
+  {
+    "id": "You are running the latest development build.",
+    "translation": "Você está executando a última versão de desenvolvimento."
+  },
+  {
+    "id": "Thanks for trying out these builds, and looking for bugs - it is appreciated!",
+    "translation": "Obrigado por experimentar estas compilações, e por procurar por bugs - apreciamos o seu esforço!"
+  },
+  {
+    "id": "A new release is available!",
+    "translation": "Nova versão disponível!"
+  },
+  {
+    "id": "A new development build is available!",
+    "translation": "Uma nova compilação de desenvolvimento está disponível!"
+  },
+  {
+    "id": "Download Latest Development Builds",
+    "translation": "Baixar as últimas compilações de desenvolvimento"
+  },
+  {
+    "id": "Unable to check for updates",
+    "translation": "Não foi possível verificar por atualizações"
+  },
+  {
+    "id": "This site requires JavaScript, and it looks like you have it disabled.",
+    "translation": "Este site requer que o JavaScript, e parece que você o tenha desativado."
+  },
+  {
+    "id": "If you aren't sure, download the latest version now.",
+    "translation": "Se não tem certeza, baixe a versão mais recente agora."
+  },
+  {
+    "id": "Couldn't check for latest development builds",
+    "translation": "Não foi possível verificar por versões mais recentes de desenvolvimento"
+  },
+  {
+    "id": "You can always download the latest development builds below.",
+    "translation": "Pode baixar as últimas versões de desenvolvimento abaixo."
+  },
+  {
+    "id": "Your version",
+    "translation": "A sua versão"
+  },
+  {
+    "id": "Latest Release",
+    "translation": "Último Lançamento"
+  },
+  {
+    "id": "Latest Development Build",
+    "translation": "Última Versão de Desenvolvimento"
+  },
+  {
+    "id": "404 - Not Found",
+    "translation": "404 - Não encontrado"
+  },
+  {
+    "id": "Whatever that was, it couldn't be found.",
+    "translation": "O que quer que seja, não pôde ser encontrado."
+  },
+  {
+    "id": "Sorry about that.",
+    "translation": "Pedimos desculpa."
+  },
+  {
+    "id": "Go Home",
+    "translation": "Voltar ao início"
+  },
+  {
+    "id": "Subsections",
+    "translation": "Subsecções"
+  },
+  {
+    "id": "Tags",
+    "translation": "Tags"
+  },
+  {
+    "id": "All Tags",
+    "translation": "Todas as Tags"
+  },
+  {
+    "id": "Site Navigation",
+    "translation": "Navegação do Site"
+  },
+  {
+    "id": "More",
+    "translation": "Mais"
+  }
+]
