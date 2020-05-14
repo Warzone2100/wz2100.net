@@ -1,30 +1,30 @@
 ---
-title: "Version 3.3.0 released"
-slug: "version-3-3-0"
+title: "Versão 3.3.0 lançada"
+slug: "versão-3-3-0"
 tags:
-  - "Releases"
+  - "Lançamentos"
 ---
 
-It has been three years since the last stable release. There is an enormous amount of changes in this release compared to 3.2.0. These changes include:
-- Display / UI scaling
-- Performance improvements
-- Major improvements to campaign
-- The return of secondary orders removed in the previous release
-- Fix for shooting through walls
-- The return of macOS builds
-- and many, many other things
+Já se passaram três anos desde o lançamento da última versão estável. Há uma quantidade enorme de mudanças neste lançamento se compararmos com a versão 3.2.0. Estas mudanças incluem:
+- Escala do display / interface do usuário ajustável
+- Melhorias no desempenho
+- Grandes melhorias na campanha
+- O regresso das ordens secundárias removidas na versão anterior
+- Um fix para os tiros através das paredes
+- O regresso das compilações para macOS
+- e muitas, muitas outras coisas
 
-Below you can see the list of changes compared to the previous beta release.
+Abaixo, poderá ver a lista de mudanças em comparação ao último lançamento da versão beta.
 
-It is available at our usual location: [https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/](https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/)
+Está disponível no nosso endereço habitual: [https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/](https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/)
 
-You can now also download it from: [https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0](https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0)
+Poderá também descarregar a nova versão a partir do endereço: [https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0](https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0)
 
-We have also changed where to report bugs. Please report all bugs to [https://github.com/Warzone2100/warzone2100/issues](https://github.com/Warzone2100/warzone2100/issues).
+Mudamos também o local onde se podem reportar bugs. Por favor reportem todos os bugs no endereço [https://github.com/Warzone2100/warzone2100/issues](https://github.com/Warzone2100/warzone2100/issues).
 
-Changelog since 3.3.0-beta1:
+Registo de alterações desde a versão 3.3.0-beta1:
 
-#### 2019-08-31: Version 3.3.0
+#### 2019-08-31: Versão 3.3.0
 
 * General:
   * Add: Reinstated secondary orders Pursue, Guard, and Hold ([29d3696](https://github.com/Warzone2100/warzone2100/commit/29d3696dd62f034d02d51b9caa7d834cc84e13d3), [4b974e5](https://github.com/Warzone2100/warzone2100/commit/4b974e5761eecf7fc375f50d954779e4ac800786), [2fb1727](https://github.com/Warzone2100/warzone2100/commit/2fb172792014d8886a7411a2547b15030ead0152), [274fab1](https://github.com/Warzone2100/warzone2100/commit/274fab1fe4f5a7f443f42b35211d95f949cd63cb), [cfa8ca6](https://github.com/Warzone2100/warzone2100/commit/cfa8ca695079df3d716a6eb7a2ed2f5729320bea), [8f611fe](https://github.com/Warzone2100/warzone2100/commit/8f611fe0f6ffb906bee0afd5de702f8b2de9f1df), [ff5ec8c](https://github.com/Warzone2100/warzone2100/commit/ff5ec8ca927c2d3353f58f7ac0ca17f965252234), [#263](https://github.com/Warzone2100/warzone2100/pull/263), ticket:4303)
