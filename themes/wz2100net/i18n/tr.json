@@ -63,19 +63,19 @@
     "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(Yönetici yetkisi gerektirmez.)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Tam Kurulum"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "Sistemde bulunan tüm kullanıcılara yükler."
   },
   "Settings / saves are user-specific.": {
-    "message": "Settings / saves are user-specific."
+    "message": "Ayarlar / oyun hafızaları kullanıcıya özgüdür."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(Kurulum için yönetici yetkisi gerektirir.)"
   },
   "macOS": {
     "message": "macOS"
@@ -90,13 +90,13 @@
     "message": "Install the Snap"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Kaynağı Al"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "ve dahası..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "Tüm indirme & platformlar"
   },
   "New": {
     "message": "Yeni"
@@ -105,25 +105,25 @@
     "message": "Version"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "Windows 7-10 için"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "macOS 10.10+ üstü için"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "Linux için"
   },
   "Windows, macOS, Linux": {
     "message": "Windows, macOS, Linux"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "Gelişmiş kurulum seçenekleri ve diğer platformlar"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "Kaynağı al"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "Kaynağı Al"
   },
   "View on GitHub": {
     "message": "View on GitHub"
@@ -132,37 +132,37 @@
     "message": "Star on GitHub"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "Hata Bildirimi"
   },
   "Copyright © Warzone 2100 Project.": {
     "message": "Copyright © Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone, GPLv2+ lisansı (ve diğerleri) tarafından lisanslıdır."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "İnsanlık neredeyse nükleer füzeler tarafından yok edildikten sonra The Project kuvvetlerini savaşta komuta ederek dünyayı yeniden inşaa edin."
   },
   "Sieze territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Sieze territory and resources, build extensive bases, and expand your production & research."
+    "message": "Bölgeleri ve kaynakları ele geçirin, kapsamlı üsler inşaa edin ve üretiminizi & araştırmanızı genişletin."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "message": "10 oyuncu sayısına kadar devasa LAN / online çok oyunculu savaşlarda rekabet edin."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "Önceki"
   },
   "Next": {
-    "message": "Next"
+    "message": "Sonraki"
   },
   "Close": {
-    "message": "Close"
+    "message": "Kapat"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "İndirme çalışmıyor mu?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "İndirme linklerini doğrudan açmayı deneyin:"
   },
   "GitHub Releases": {
     "message": "GitHub Releases"
@@ -180,25 +180,25 @@
     "message": "Snap Installer"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "Kolay kurulum."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "Çoğu Linux dağıtımlarını destekler."
   },
   "(See link for details.)": {
-    "message": "(See link for details.)"
+    "message": "Ayrıntılar için (bkz: link.)"
   },
   "Compile Source": {
-    "message": "Compile Source"
+    "message": "Kaynağı derleyin"
   },
   "Compile the source yourself using our build instructions.": {
-    "message": "Compile the source yourself using our build instructions."
+    "message": "Yapı yönergelerini kullanarak kaynağı kendiniz derleyin."
   },
   "Source Code (.tar.xz)": {
-    "message": "Source Code (.tar.xz)"
+    "message": "Kaynak Kodu (.tar.xz)"
   },
   "Mac App Bundle": {
-    "message": "Mac App Bundle"
+    "message": "Mac Uygulama Paketi"
   },
   "Download, unzip, and copy to your Applications folder.": {
     "message": "Download, unzip, and copy to your Applications folder."
@@ -207,10 +207,10 @@
     "message": "64-bit Intel"
   },
   "How to handle “Warzone cannot be opened” errors.": {
-    "message": "How to handle “Warzone cannot be opened” errors."
+    "message": "\"Warzone açılamıyor\" hataları nasıl üstesinden gelinir."
   },
   "Other": {
-    "message": "Other"
+    "message": "Diğer"
   },
   "Campaign Videos": {
     "message": "Campaign Videos"
@@ -222,64 +222,64 @@
     "message": "Development Builds"
   },
   "Development Source Code": {
-    "message": "Development Source Code"
+    "message": "Geliştirme Kaynak Kodu"
   },
   "Verify Download Integrity (SHA256)": {
-    "message": "Verify Download Integrity (SHA256)"
+    "message": "İndirme Bütünlüğünü Doğrula (SHA256)"
   },
   "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
-    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "message": "Komut penceresi / Terminalinden, indirdiğiniz dosya(lar) dizisini bulun. ondan sonra uygun komutu girerek dosyanın SHA256 sağlamasını hesaplayın ve aşağıdaki tablo ile karşılaştırın:"
   },
   "SHA256 Checksums for Version": {
-    "message": "SHA256 Checksums for Version"
+    "message": "SHA256 versiyon kontrolü"
   },
   "Why Warzone 2100 Rocks": {
-    "message": "Why Warzone 2100 Rocks"
+    "message": "Warzone 2100 neden harikadır"
   },
   "Strategy by Design.": {
-    "message": "Strategy by Design."
+    "message": "Tasarım tabanlı Strateji."
   },
   "Endless replayability.": {
-    "message": "Endless replayability."
+    "message": "Sınırsız tekrarlanabilirlik."
   },
   "Single-Player Campaign": {
     "message": "Single-Player Campaign"
   },
   "LAN / Internet Multiplayer": {
-    "message": "LAN / Internet Multiplayer"
+    "message": "LAN / Internet Çoklu oyuncu"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
-    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "message": "Yerel ağ üzerinden arkadaşlarınıza karşı oynayın, ya da entegre edili çoklu oyuncu lobisinde kendinizi deneyin."
   },
   "AI Bots": {
     "message": "AI Bots"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Yerel çatışma oyun modunda yapay zekaya karşı oynayın (çoklu oyuncu modunda takım arkadaşınız / rakibiniz ile beraber) ve sonsuz oyun tekrarlanabilirliği ile yeteneğinizi geliştirin."
   },
   "Extensive Tech Tree": {
-    "message": "Extensive Tech Tree"
+    "message": "Kapsamlı Teknoloji Ağacı"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
-    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "message": "400'ün üzerinde teknoloji sayısı, kapsamlı araştırma ağacı ile beraber birçok farklı yol sunar."
   },
   "Unit Designer": {
-    "message": "Unit Designer"
+    "message": "Birim Tasarımcısı"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
-    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "message": "Geniş yelpazeli birimler ve taktikler imkanı veren esnek tasarım sistemiyle birimlerinizi özelleştirin."
   },
   "Cross-Platform": {
-    "message": "Cross-Platform"
+    "message": "Platformlar arası"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
     "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
   },
   "Years": {
-    "message": "Years"
+    "message": "Yıllar"
   },
   "Downloads": {
-    "message": "Downloads"
+    "message": "İndir"
   },
   "Forum Posts": {
     "message": "Forum Posts"
@@ -294,243 +294,243 @@
     "message": "Contributors"
   },
   "100%": {
-    "message": "100%"
+    "message": "%100"
   },
   "Free": {
-    "message": "Free"
+    "message": "Ücretsiz"
   },
   "100% Open & Free": {
-    "message": "100% Open & Free"
+    "message": "%100 Açık kaynak ve Ücretsiz"
   },
   "Open source, open development, open community - free as in freedom!": {
-    "message": "Open source, open development, open community - free as in freedom!"
+    "message": "Açık kaynak, açık geliştirme, açık topluluk - özgürlük kadar ücretsiz!"
   },
   "100% Open-Source": {
-    "message": "100% Open-Source"
+    "message": "%100 Açık Kaynak"
   },
   "Exclusively open-source technologies, software, & tools.": {
-    "message": "Exclusively open-source technologies, software, & tools."
+    "message": "Özel açık-kaynak teknolojileri, yazılım ve araçları."
   },
   "Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+    "message": "Topluluk içeriği liberal lisanslarla lisanslanmıştır (ör. CC0)."
   },
   "100% Open Development": {
-    "message": "100% Open Development"
+    "message": "%100 Açık Geliştirme"
   },
   "Join the public project on GitHub!": {
-    "message": "Join the public project on GitHub!"
+    "message": "GitHub kamu projesi katıl!"
   },
   "Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+    "message": "Herkes Hata raporlayabilir, yamalara katkıda bulunabilir ve geliştirme talep edebilir."
   },
   "100% Open Community": {
-    "message": "100% Open Community"
+    "message": "%100 Açık Toplum"
   },
   "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "message": "Forumlarda sohbet edin, eklenti (add-on) içeriği üretin ve paylaşın, online turnuvalara katılın ve Warzone 2100 tecrübesine katkı sağlayın."
   },
   "People around the world are waiting!": {
-    "message": "People around the world are waiting!"
+    "message": "Dünyanın her yerinden insanlar sizi bekliyor!"
   },
   "100% Free": {
-    "message": "100% Free"
+    "message": "100% Ücretsiz"
   },
   "Everything is free, including source code, downloads, and all features.": {
-    "message": "Everything is free, including source code, downloads, and all features."
+    "message": "Her şey ücretsiz, kaynak kodu, indirme ve tüm özellikleri dahil."
   },
   "No in-app purchases.": {
-    "message": "No in-app purchases."
+    "message": "Uygulama-içi satın alım yok."
   },
   "No subscriptions.": {
-    "message": "No subscriptions."
+    "message": "Abonelik yok."
   },
   "No ads.": {
-    "message": "No ads."
+    "message": "Reklam yok."
   },
   "Just free.": {
-    "message": "Just free."
+    "message": "Sadece ücretsiz."
   },
   "A Long History": {
-    "message": "A Long History"
+    "message": "Uzun Bir Geçmiş"
   },
   "Developed in the 90s by Pumpkin Studios.": {
-    "message": "Developed in the 90s by Pumpkin Studios."
+    "message": "90'lı yıllarda Pumpkin Studios tarafından geliştirildi."
   },
   "Liberated in 2004.": {
-    "message": "Liberated in 2004."
+    "message": "2004 Yılında Özgürleştirildi."
   },
   "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "message": "Warzone 2100 asıl yapımcıları Pumpkin Studios tarafından geliştirilmiş olup Eidos Interactive tarafından yayınlanmıştır."
   },
   "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
-    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "message": "1999 yılında, ticari sebeple Microsoft Windows ve Sony PlayStation için yayınlanmıştır."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "message": "Pumpkin Studios, 5 ocak 2000 yılında Warzone 2100 desteğini çekmiştir."
   },
   "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "message": "2004 yılında, hayranlarının talepleri üzerine Warzone kaynak kodu kamuya açık-kaynak lisansı altında çıkarıldı."
   },
   "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "message": "\"Warzone 2100 Project\" sancağı altında hayran topluluğu tarafından geliştirildi, muhafaza edildi ve daha iyi hale getirildi."
   },
   "More Info": {
-    "message": "More Info"
+    "message": "Daha Fazla Bilgi"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions"
+    "message": "Sıkça Sorulan Sorular"
   },
   "Answers to common questions.": {
-    "message": "Answers to common questions."
+    "message": "Genel soruların cevapları."
   },
   "Can't find the answer you're looking for?": {
-    "message": "Can't find the answer you're looking for?"
+    "message": "Aradığınız cevabı bulamıyor musunuz?"
   },
   "Check out the Forums and Webchat.": {
-    "message": "Check out the Forums and Webchat."
+    "message": "Forumu ve Webchat'i gözden geçirin."
   },
   "General": {
-    "message": "General"
+    "message": "Genel"
   },
   "Multiplayer": {
-    "message": "Multiplayer"
+    "message": "Çok Oyunculu"
   },
   "Troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Sorun giderme"
   },
   "JavaScript is disabled.": {
-    "message": "JavaScript is disabled."
+    "message": "JavaScript devre dışı."
   },
   "This site may not work properly without it.": {
-    "message": "This site may not work properly without it."
+    "message": "Bu site onsuz düzgün çalışmayabilir."
   },
   "About": {
-    "message": "About"
+    "message": "Hakkında"
   },
   "The Team": {
-    "message": "The Team"
+    "message": "Takım"
   },
   "Changelog": {
-    "message": "Changelog"
+    "message": "Değişiklikler"
   },
   "Privacy Policy": {
-    "message": "Privacy Policy"
+    "message": "Gizlilik Politikası"
   },
   "Download": {
-    "message": "Download"
+    "message": "İndir"
   },
   "Snap Store (Linux)": {
     "message": "Snap Store (Linux)"
   },
   "Source Code": {
-    "message": "Source Code"
+    "message": "Kaynak Kodu"
   },
   "Source Code.": {
-    "message": "Source Code."
+    "message": "Kaynak Kodu."
   },
   "Contribute": {
     "message": "Contribute"
   },
   "Help with Translations": {
-    "message": "Help with Translations"
+    "message": "Çevirilerde yardımcı olun"
   },
   "Documentation": {
     "message": "Documentation"
   },
   "Connect": {
-    "message": "Connect"
+    "message": "Bağlan"
   },
   "Copyright © past-due.": {
     "message": "Copyright © past-due."
   },
   "theme": {
-    "message": "theme"
+    "message": "tema"
   },
   "Licensed under the GNU AGPLv3.": {
-    "message": "Licensed under the GNU AGPLv3."
+    "message": "GNU AGPLv3 altında lisanslıdır."
   },
   "Powered by Hugo": {
     "message": "Powered by Hugo"
   },
   "All trademarks are the property of their respective owners.": {
-    "message": "All trademarks are the property of their respective owners."
+    "message": "Tüm ticari markalar ilgili sahiplerinin mülkiyetindedir."
   },
   "YOU'VE BEEN INVITED TO JOIN A SERVER": {
-    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "message": "BİR SUNUCU KATILMAK İÇİN DAVET EDİLDİN"
   },
   "Join": {
-    "message": "Join"
+    "message": "Katılın"
   },
   "Loading...": {
-    "message": "Loading..."
+    "message": "Yükleniyor..."
   },
   "You are running the latest release of Warzone 2100.": {
-    "message": "You are running the latest release of Warzone 2100."
+    "message": "En sonuncu Warzone 2100 çıkış sürümünü çalıştırıyorsunuz."
   },
   "You are running the latest development build.": {
-    "message": "You are running the latest development build."
+    "message": "En sonuncu geliştirme sürümünü çalıştırıyorsunuz."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Hata arayıp, geliştirme sürümlerini denediğiniz için teşekkürler. - minnetarız!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "Yeni bir sürüm mevcut!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "Yeni bir geliştirme sürümü mevcut!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "En sonuncu Geliştirme sürümlerini indir"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Güncellemeler denetlenemiyor"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
     "message": "This site requires JavaScript, and it looks like you have it disabled."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Eğer emin değilseniz, şimdi en sonuncu sürümü indirin."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "En sonuncu geliştirme sürümleri için kontrol edilemedi"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "En son geliştirme sürümlerini aşağıdan her zaman indirebilirsiniz."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Sizdeki sürüm"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "En son sürüm"
   },
   "Latest Development Build": {
     "message": "Latest Development Build"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "404 - Sayfa Bulunamadı"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Aradığınız her ne ise, bulunamadı."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Bunun için üzgünüz."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Anasayfa"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Alt bölümler"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Etiketler"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Tüm Etiketler"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Site Kılavuzu"
   },
   "More": {
-    "message": "More"
+    "message": "Daha fazla"
   }
 }
