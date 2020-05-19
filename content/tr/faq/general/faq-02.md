@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "Sistem gereksinimleri nelerdir?"
 ---
 
-Minimum Requirements:
+Minimum Gereksinimler:
 - 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+- OpenGL 2.1+ desteği
+- ≈ 150MB boş alan
 
-Recommended Requirements:
+Tavsiye edilen gereksinimler:
 - 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
-- ≈ 1 GB storage space (including the campaign video sequences)
+- OpenGL 3.1+ desteği
+- desteklenmiş ses kartı
+- ≈ 1 GB diskte boş alan (senaryo video sekansları dahil)
