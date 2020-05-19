@@ -1,71 +1,71 @@
 [
   {
     "id": "Home",
-    "translation": "Start"
+    "translation": "Ana Sayfa"
   },
   {
     "id": "Features",
-    "translation": "Features"
+    "translation": "Özellikler"
   },
   {
     "id": "History",
-    "translation": "Historie"
+    "translation": "Tarihçe"
   },
   {
     "id": "FAQ",
-    "translation": "FAQ"
+    "translation": "SSS"
   },
   {
     "id": "Resources",
-    "translation": "Ressourcen"
+    "translation": "Kaynaklar"
   },
   {
     "id": "News",
-    "translation": "Neuigkeiten"
+    "translation": "Haberler"
   },
   {
     "id": "Webchat",
-    "translation": "Webchat"
+    "translation": "Web sohbeti"
   },
   {
     "id": "Forums",
-    "translation": "Forum"
+    "translation": "Forumlar"
   },
   {
     "id": "Addons",
-    "translation": "Addons"
+    "translation": "Eklentiler"
   },
   {
     "id": "WZ Guide",
-    "translation": "WZ-Guide"
+    "translation": "WZ Rehberi"
   },
   {
     "id": "Wiki",
-    "translation": "Wiki"
+    "translation": "Viki"
   },
   {
     "id": "Report Bugs",
-    "translation": "Fehler melden"
+    "translation": "Hataları Bildir"
   },
   {
     "id": "Donate",
-    "translation": "Spenden"
+    "translation": "Bağış Yap"
   },
   {
     "id": "Help us Translate",
-    "translation": "Hilf uns zu Übersetzen"
+    "translation": "Çevirmemize Yardımcı Olun"
   },
   {
     "id": "A 100% free and open-source 3D real-time strategy game.",
-    "translation": "Ein 100% kostenloses und Open-Source 3D Echtzeit-Strategiespiel."
+    "translation": "Açık kaynak ve %100 ücretsiz 3D gerçek-zamanlı strateji oyunu."
   },
   {
     "id": "Download Now",
-    "translation": "Jetzt herunterladen"
+    "translation": "Şimdi İndir"
   },
   {
     "id": "Toggle Dropdown",
-    "translation": "Toggle Dropdown"
+    "translation": "Açılır Listeyi Aç/Kapa"
   },
   {
     "id": "Windows",
@@ -73,35 +73,35 @@
   },
   {
     "id": "Portable Version",
-    "translation": "Portable Version"
+    "translation": "Taşınabilir Sürüm"
   },
   {
     "id": "Can be installed to / run from a USB drive, local folder, etc.",
-    "translation": "Can be installed to / run from a USB drive, local folder, etc."
+    "translation": "USB sürücüsüne veya yerel klasöre yüklenebilir."
   },
   {
     "id": "Fully self-contained in a single directory - stores all settings / saves in that same directory too.",
-    "translation": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "translation": "Tek dizide kendi kendine yetebilir, ayarları ve hafızasını da o diziye kaydeder."
   },
   {
     "id": "(Does not require admin privileges.)",
-    "translation": "(Does not require admin privileges.)"
+    "translation": "(Yönetici yetkisi gerektirmez.)"
   },
   {
     "id": "Full Installer",
-    "translation": "Full Installer"
+    "translation": "Tam Kurulum"
   },
   {
     "id": "Installs for all users on a system.",
-    "translation": "Installs for all users on a system."
+    "translation": "Sistemde bulunan tüm kullanıcılara yükler."
   },
   {
     "id": "Settings / saves are user-specific.",
-    "translation": "Settings / saves are user-specific."
+    "translation": "Ayarlar / oyun hafızaları kullanıcıya özgüdür."
   },
   {
     "id": "(Requires admin privileges to install.)",
-    "translation": "(Requires admin privileges to install.)"
+    "translation": "(Kurulum için yönetici yetkisi gerektirir.)"
   },
   {
     "id": "macOS",
@@ -109,7 +109,7 @@
   },
   {
     "id": "macOS App Bundle",
-    "translation": "macOS App Bundle"
+    "translation": "macOS Uygulama Paketi"
   },
   {
     "id": "Linux",
@@ -117,39 +117,39 @@
   },
   {
     "id": "Install the Snap",
-    "translation": "Install the Snap"
+    "translation": "Snap yükleyin"
   },
   {
     "id": "Get the Source",
-    "translation": "Get the Source"
+    "translation": "Kaynağı Al"
   },
   {
     "id": "and more...",
-    "translation": "and more..."
+    "translation": "ve dahası..."
   },
   {
     "id": "All downloads & platforms",
-    "translation": "All downloads & platforms"
+    "translation": "Tüm indirme & platformlar"
   },
   {
     "id": "New",
-    "translation": "New"
+    "translation": "Yeni"
   },
   {
     "id": "Version",
-    "translation": "Version"
+    "translation": "Sürüm"
   },
   {
     "id": "for Windows 7-10",
-    "translation": "for Windows 7-10"
+    "translation": "Windows 7-10 için"
   },
   {
     "id": "for macOS 10.10+",
-    "translation": "for macOS 10.10+"
+    "translation": "macOS 10.10+ üstü için"
   },
   {
     "id": "for Linux",
-    "translation": "for Linux"
+    "translation": "Linux için"
   },
   {
     "id": "Windows, macOS, Linux",
@@ -157,27 +157,27 @@
   },
   {
     "id": "Advanced install options & other platforms",
-    "translation": "Advanced install options & other platforms"
+    "translation": "Gelişmiş kurulum seçenekleri ve diğer platformlar"
   },
   {
     "id": "Get the source code",
-    "translation": "Get the source code"
+    "translation": "Kaynağı al"
   },
   {
     "id": "Get the Source Code",
-    "translation": "Get the Source Code"
+    "translation": "Kaynağı Al"
   },
   {
     "id": "View on GitHub",
-    "translation": "View on GitHub"
+    "translation": "GitHub'da görüntüle"
   },
   {
     "id": "Star on GitHub",
-    "translation": "Star on GitHub"
+    "translation": "GitHub'da Yıldızla"
   },
   {
     "id": "Report a Bug",
-    "translation": "Report a Bug"
+    "translation": "Hata Bildirimi"
   },
   {
     "id": "Copyright © Warzone 2100 Project.",
@@ -185,43 +185,43 @@
   },
   {
     "id": "Warzone is licensed under the GPLv2+ license (& others).",
-    "translation": "Warzone is licensed under the GPLv2+ license (& others)."
+    "translation": "Warzone, GPLv2+ lisansı (ve diğerleri) tarafından lisanslıdır."
   },
   {
     "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
-    "translation": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "translation": "İnsanlık neredeyse nükleer füzeler tarafından yok edildikten sonra The Project kuvvetlerini savaşta komuta ederek dünyayı yeniden inşaa edin."
   },
   {
     "id": "Sieze territory and resources, build extensive bases, and expand your production & research.",
-    "translation": "Sieze territory and resources, build extensive bases, and expand your production & research."
+    "translation": "Bölgeleri ve kaynakları ele geçirin, kapsamlı üsler inşaa edin ve üretiminizi & araştırmanızı genişletin."
   },
   {
     "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
-    "translation": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "translation": "10 oyuncu sayısına kadar devasa LAN / online çok oyunculu savaşlarda rekabet edin."
   },
   {
     "id": "Previous",
-    "translation": "Previous"
+    "translation": "Önceki"
   },
   {
     "id": "Next",
-    "translation": "Next"
+    "translation": "Sonraki"
   },
   {
     "id": "Close",
-    "translation": "Close"
+    "translation": "Kapat"
   },
   {
     "id": "Downloads not working?",
-    "translation": "Downloads not working?"
+    "translation": "İndirme çalışmıyor mu?"
   },
   {
     "id": "Try browsing the download mirrors directly:",
-    "translation": "Try browsing the download mirrors directly:"
+    "translation": "İndirme linklerini doğrudan açmayı deneyin:"
   },
   {
     "id": "GitHub Releases",
-    "translation": "GitHub Releases"
+    "translation": "GitHub sürümleri"
   },
   {
     "id": "SourceForge Mirror",
@@ -237,39 +237,39 @@
   },
   {
     "id": "Snap Installer",
-    "translation": "Snap Installer"
+    "translation": "Snap Yükleyici"
   },
   {
     "id": "Easy installation.",
-    "translation": "Easy installation."
+    "translation": "Kolay kurulum."
   },
   {
     "id": "Supports most Linux distributions.",
-    "translation": "Supports most Linux distributions."
+    "translation": "Çoğu Linux dağıtımlarını destekler."
   },
   {
     "id": "(See link for details.)",
-    "translation": "(See link for details.)"
+    "translation": "Ayrıntılar için (bkz: link.)"
   },
   {
     "id": "Compile Source",
-    "translation": "Compile Source"
+    "translation": "Kaynağı derleyin"
   },
   {
     "id": "Compile the source yourself using our build instructions.",
-    "translation": "Compile the source yourself using our build instructions."
+    "translation": "Yapı yönergelerini kullanarak kaynağı kendiniz derleyin."
   },
   {
     "id": "Source Code (.tar.xz)",
-    "translation": "Quellcode (.tar.xz)"
+    "translation": "Kaynak Kodu (.tar.xz)"
   },
   {
     "id": "Mac App Bundle",
-    "translation": "Mac App Bundle"
+    "translation": "Mac Uygulama Paketi"
   },
   {
     "id": "Download, unzip, and copy to your Applications folder.",
-    "translation": "Download, unzip, and copy to your Applications folder."
+    "translation": "İndirin, açın ve uygulama dosyalarına kopyalayın."
   },
   {
     "id": "64-bit Intel",
@@ -277,15 +277,15 @@
   },
   {
     "id": "How to handle “Warzone cannot be opened” errors.",
-    "translation": "How to handle “Warzone cannot be opened” errors."
+    "translation": "\"Warzone açılamıyor\" hataları nasıl üstesinden gelinir."
   },
   {
     "id": "Other",
-    "translation": "Other"
+    "translation": "Diğer"
   },
   {
     "id": "Campaign Videos",
-    "translation": "Campaign Videos"
+    "translation": "Campaign videoları"
   },
   {
     "id": "WMIT (Warzone Model Import Tool)",
@@ -293,95 +293,95 @@
   },
   {
     "id": "Development Builds",
-    "translation": "Development Builds"
+    "translation": "Geliştirme sürümleri"
   },
   {
     "id": "Development Source Code",
-    "translation": "Development Source Code"
+    "translation": "Geliştirme Kaynak Kodu"
   },
   {
     "id": "Verify Download Integrity (SHA256)",
-    "translation": "Verify Download Integrity (SHA256)"
+    "translation": "İndirme Bütünlüğünü Doğrula (SHA256)"
   },
   {
     "id": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:",
-    "translation": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "translation": "Komut penceresi / Terminalinden, indirdiğiniz dosya(lar) dizisini bulun. ondan sonra uygun komutu girerek dosyanın SHA256 sağlamasını hesaplayın ve aşağıdaki tablo ile karşılaştırın:"
   },
   {
     "id": "SHA256 Checksums for Version",
-    "translation": "SHA256 Checksums for Version"
+    "translation": "SHA256 versiyon kontrolü"
   },
   {
     "id": "Why Warzone 2100 Rocks",
-    "translation": "Why Warzone 2100 Rocks"
+    "translation": "Warzone 2100 neden harikadır"
   },
   {
     "id": "Strategy by Design.",
-    "translation": "Strategy by Design."
+    "translation": "Tasarım tabanlı Strateji."
   },
   {
     "id": "Endless replayability.",
-    "translation": "Endless replayability."
+    "translation": "Sınırsız tekrarlanabilirlik."
   },
   {
     "id": "Single-Player Campaign",
-    "translation": "Single-Player Campaign"
+    "translation": "Tek-Oyunculuk Senaryo"
   },
   {
     "id": "LAN / Internet Multiplayer",
-    "translation": "LAN / Internet Multiplayer"
+    "translation": "LAN / Internet Çoklu oyuncu"
   },
   {
     "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
-    "translation": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "translation": "Yerel ağ üzerinden arkadaşlarınıza karşı oynayın, ya da entegre edili çoklu oyuncu lobisinde kendinizi deneyin."
   },
   {
     "id": "AI Bots",
-    "translation": "AI Bots"
+    "translation": "AI Botları"
   },
   {
     "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",
-    "translation": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "translation": "Yerel çatışma oyun modunda yapay zekaya karşı oynayın (çoklu oyuncu modunda takım arkadaşınız / rakibiniz ile beraber) ve sonsuz oyun tekrarlanabilirliği ile yeteneğinizi geliştirin."
   },
   {
     "id": "Extensive Tech Tree",
-    "translation": "Extensive Tech Tree"
+    "translation": "Kapsamlı Teknoloji Ağacı"
   },
   {
     "id": "Over 400 different technologies yield an extensive tech tree with many paths to choose.",
-    "translation": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "translation": "400'ün üzerinde teknoloji sayısı, kapsamlı araştırma ağacı ile beraber birçok farklı yol sunar."
   },
   {
     "id": "Unit Designer",
-    "translation": "Unit Designer"
+    "translation": "Birim Tasarımcısı"
   },
   {
     "id": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.",
-    "translation": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "translation": "Geniş yelpazeli birimler ve taktikler imkanı veren esnek tasarım sistemiyle birimlerinizi özelleştirin."
   },
   {
     "id": "Cross-Platform",
-    "translation": "Cross-Platform"
+    "translation": "Platformlar arası"
   },
   {
     "id": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!",
-    "translation": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "translation": "Windows, macOS, Linux, FreeBSD ve daha fazlası - Hepsi ve platformlar arası çoklu oyuncu desteğiyle!"
   },
   {
     "id": "Years",
-    "translation": "Years"
+    "translation": "Yıllar"
   },
   {
     "id": "Downloads",
-    "translation": "Downloads"
+    "translation": "İndir"
   },
   {
     "id": "Forum Posts",
-    "translation": "Forum Posts"
+    "translation": "Forum Mesajları"
   },
   {
     "id": "GitHub Stars",
-    "translation": "GitHub Stars"
+    "translation": "GitHub Yıldızları"
   },
   {
     "id": "100s",
@@ -389,175 +389,175 @@
   },
   {
     "id": "Contributors",
-    "translation": "Contributors"
+    "translation": "Katkıda Bulunanlar"
   },
   {
     "id": "100%",
-    "translation": "100%"
+    "translation": "%100"
   },
   {
     "id": "Free",
-    "translation": "Kostenlos"
+    "translation": "Ücretsiz"
   },
   {
     "id": "100% Open & Free",
-    "translation": "100% Open & Free"
+    "translation": "%100 Açık kaynak ve Ücretsiz"
   },
   {
     "id": "Open source, open development, open community - free as in freedom!",
-    "translation": "Open source, open development, open community - free as in freedom!"
+    "translation": "Açık kaynak, açık geliştirme, açık topluluk - özgürlük kadar ücretsiz!"
   },
   {
     "id": "100% Open-Source",
-    "translation": "100% Open-Source"
+    "translation": "%100 Açık Kaynak"
   },
   {
     "id": "Exclusively open-source technologies, software, & tools.",
-    "translation": "Exclusively open-source technologies, software, & tools."
+    "translation": "Özel açık-kaynak teknolojileri, yazılım ve araçları."
   },
   {
     "id": "Community content is licensed under liberal licenses (ex. CC0).",
-    "translation": "Community content is licensed under liberal licenses (ex. CC0)."
+    "translation": "Topluluk içeriği liberal lisanslarla lisanslanmıştır (ör. CC0)."
   },
   {
     "id": "100% Open Development",
-    "translation": "100% Open Development"
+    "translation": "%100 Açık Geliştirme"
   },
   {
     "id": "Join the public project on GitHub!",
-    "translation": "Join the public project on GitHub!"
+    "translation": "GitHub kamu projesi katıl!"
   },
   {
     "id": "Anyone can file bugs, contribute patches, and request enhancements.",
-    "translation": "Anyone can file bugs, contribute patches, and request enhancements."
+    "translation": "Herkes Hata raporlayabilir, yamalara katkıda bulunabilir ve geliştirme talep edebilir."
   },
   {
     "id": "100% Open Community",
-    "translation": "100% Open Community"
+    "translation": "%100 Açık Toplum"
   },
   {
     "id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
-    "translation": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "translation": "Forumlarda sohbet edin, eklenti (add-on) içeriği üretin ve paylaşın, online turnuvalara katılın ve Warzone 2100 tecrübesine katkı sağlayın."
   },
   {
     "id": "People around the world are waiting!",
-    "translation": "People around the world are waiting!"
+    "translation": "Dünyanın her yerinden insanlar sizi bekliyor!"
   },
   {
     "id": "100% Free",
-    "translation": "100% Free"
+    "translation": "100% Ücretsiz"
   },
   {
     "id": "Everything is free, including source code, downloads, and all features.",
-    "translation": "Everything is free, including source code, downloads, and all features."
+    "translation": "Her şey ücretsiz, kaynak kodu, indirme ve tüm özellikleri dahil."
   },
   {
     "id": "No in-app purchases.",
-    "translation": "No in-app purchases."
+    "translation": "Uygulama-içi satın alım yok."
   },
   {
     "id": "No subscriptions.",
-    "translation": "No subscriptions."
+    "translation": "Abonelik yok."
   },
   {
     "id": "No ads.",
-    "translation": "No ads."
+    "translation": "Reklam yok."
   },
   {
     "id": "Just free.",
-    "translation": "Just free."
+    "translation": "Sadece ücretsiz."
   },
   {
     "id": "A Long History",
-    "translation": "A Long History"
+    "translation": "Uzun Bir Geçmiş"
   },
   {
     "id": "Developed in the 90s by Pumpkin Studios.",
-    "translation": "Developed in the 90s by Pumpkin Studios."
+    "translation": "90'lı yıllarda Pumpkin Studios tarafından geliştirildi."
   },
   {
     "id": "Liberated in 2004.",
-    "translation": "Liberated in 2004."
+    "translation": "2004 Yılında Özgürleştirildi."
   },
   {
     "id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
-    "translation": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "translation": "Warzone 2100 asıl yapımcıları Pumpkin Studios tarafından geliştirilmiş olup Eidos Interactive tarafından yayınlanmıştır."
   },
   {
     "id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
-    "translation": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "translation": "1999 yılında, ticari sebeple Microsoft Windows ve Sony PlayStation için yayınlanmıştır."
   },
   {
     "id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
-    "translation": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "translation": "Pumpkin Studios, 5 ocak 2000 yılında Warzone 2100 desteğini çekmiştir."
   },
   {
     "id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
-    "translation": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "translation": "2004 yılında, hayranlarının talepleri üzerine Warzone kaynak kodu kamuya açık-kaynak lisansı altında çıkarıldı."
   },
   {
     "id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
-    "translation": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "translation": "\"Warzone 2100 Project\" sancağı altında hayran topluluğu tarafından geliştirildi, muhafaza edildi ve daha iyi hale getirildi."
   },
   {
     "id": "More Info",
-    "translation": "More Info"
+    "translation": "Daha Fazla Bilgi"
   },
   {
     "id": "Frequently Asked Questions",
-    "translation": "Frequently Asked Questions"
+    "translation": "Sıkça Sorulan Sorular"
   },
   {
     "id": "Answers to common questions.",
-    "translation": "Answers to common questions."
+    "translation": "Genel soruların cevapları."
   },
   {
     "id": "Can't find the answer you're looking for?",
-    "translation": "Can't find the answer you're looking for?"
+    "translation": "Aradığınız cevabı bulamıyor musunuz?"
   },
   {
     "id": "Check out the Forums and Webchat.",
-    "translation": "Check out the Forums and Webchat."
+    "translation": "Forumu ve Webchat'i gözden geçirin."
   },
   {
     "id": "General",
-    "translation": "General"
+    "translation": "Genel"
   },
   {
     "id": "Multiplayer",
-    "translation": "Multiplayer"
+    "translation": "Çok Oyunculu"
   },
   {
     "id": "Troubleshooting",
-    "translation": "Troubleshooting"
+    "translation": "Sorun giderme"
   },
   {
     "id": "JavaScript is disabled.",
-    "translation": "JavaScript is disabled."
+    "translation": "JavaScript devre dışı."
   },
   {
     "id": "This site may not work properly without it.",
-    "translation": "This site may not work properly without it."
+    "translation": "Bu site onsuz düzgün çalışmayabilir."
   },
   {
     "id": "About",
-    "translation": "About"
+    "translation": "Hakkında"
   },
   {
     "id": "The Team",
-    "translation": "The Team"
+    "translation": "Takım"
   },
   {
     "id": "Changelog",
-    "translation": "Changelog"
+    "translation": "Değişiklikler"
   },
   {
     "id": "Privacy Policy",
-    "translation": "Privacy Policy"
+    "translation": "Gizlilik Politikası"
   },
   {
     "id": "Download",
-    "translation": "Download"
+    "translation": "İndir"
   },
   {
     "id": "Snap Store (Linux)",
@@ -565,27 +565,27 @@
   },
   {
     "id": "Source Code",
-    "translation": "Source Code"
+    "translation": "Kaynak Kodu"
   },
   {
     "id": "Source Code.",
-    "translation": "Source Code."
+    "translation": "Kaynak Kodu."
   },
   {
     "id": "Contribute",
-    "translation": "Contribute"
+    "translation": "Katkıda bulunun"
   },
   {
     "id": "Help with Translations",
-    "translation": "Help with Translations"
+    "translation": "Çevirilerde yardımcı olun"
   },
   {
     "id": "Documentation",
-    "translation": "Documentation"
+    "translation": "Dökümanlar"
   },
   {
     "id": "Connect",
-    "translation": "Connect"
+    "translation": "Bağlan"
   },
   {
     "id": "Copyright © past-due.",
@@ -593,122 +593,122 @@
   },
   {
     "id": "theme",
-    "translation": "theme"
+    "translation": "tema"
   },
   {
     "id": "Licensed under the GNU AGPLv3.",
-    "translation": "Licensed under the GNU AGPLv3."
+    "translation": "GNU AGPLv3 altında lisanslıdır."
   },
   {
     "id": "Powered by Hugo",
-    "translation": "Powered by Hugo"
+    "translation": "Hizmet sağlayıcı: Hugo"
   },
   {
     "id": "All trademarks are the property of their respective owners.",
-    "translation": "All trademarks are the property of their respective owners."
+    "translation": "Tüm ticari markalar ilgili sahiplerinin mülkiyetindedir."
   },
   {
     "id": "YOU'VE BEEN INVITED TO JOIN A SERVER",
-    "translation": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "translation": "BİR SUNUCU KATILMAK İÇİN DAVET EDİLDİN"
   },
   {
     "id": "Join",
-    "translation": "Join"
+    "translation": "Katılın"
   },
   {
     "id": "Loading...",
-    "translation": "Loading..."
+    "translation": "Yükleniyor..."
   },
   {
     "id": "You are running the latest release of Warzone 2100.",
-    "translation": "You are running the latest release of Warzone 2100."
+    "translation": "En sonuncu Warzone 2100 çıkış sürümünü çalıştırıyorsunuz."
   },
   {
     "id": "You are running the latest development build.",
-    "translation": "You are running the latest development build."
+    "translation": "En sonuncu geliştirme sürümünü çalıştırıyorsunuz."
   },
   {
     "id": "Thanks for trying out these builds, and looking for bugs - it is appreciated!",
-    "translation": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "translation": "Hata arayıp, geliştirme sürümlerini denediğiniz için teşekkürler. - minnetarız!"
   },
   {
     "id": "A new release is available!",
-    "translation": "A new release is available!"
+    "translation": "Yeni bir sürüm mevcut!"
   },
   {
     "id": "A new development build is available!",
-    "translation": "A new development build is available!"
+    "translation": "Yeni bir geliştirme sürümü mevcut!"
   },
   {
     "id": "Download Latest Development Builds",
-    "translation": "Download Latest Development Builds"
+    "translation": "En sonuncu Geliştirme sürümlerini indir"
   },
   {
     "id": "Unable to check for updates",
-    "translation": "Unable to check for updates"
+    "translation": "Güncellemeler denetlenemiyor"
   },
   {
     "id": "This site requires JavaScript, and it looks like you have it disabled.",
-    "translation": "This site requires JavaScript, and it looks like you have it disabled."
+    "translation": "Bu site JavaScript gereksinimi duyar ve görünüşe göre sizde devre dışı bırakılmış."
   },
   {
     "id": "If you aren't sure, download the latest version now.",
-    "translation": "If you aren't sure, download the latest version now."
+    "translation": "Eğer emin değilseniz, şimdi en sonuncu sürümü indirin."
   },
   {
     "id": "Couldn't check for latest development builds",
-    "translation": "Couldn't check for latest development builds"
+    "translation": "En sonuncu geliştirme sürümleri için kontrol edilemedi"
   },
   {
     "id": "You can always download the latest development builds below.",
-    "translation": "You can always download the latest development builds below."
+    "translation": "En son geliştirme sürümlerini aşağıdan her zaman indirebilirsiniz."
   },
   {
     "id": "Your version",
-    "translation": "Your version"
+    "translation": "Sizdeki sürüm"
   },
   {
     "id": "Latest Release",
-    "translation": "Latest Release"
+    "translation": "En son sürüm"
   },
   {
     "id": "Latest Development Build",
-    "translation": "Latest Development Build"
+    "translation": "En sonuncu Geliştirme Sürümü"
   },
   {
     "id": "404 - Not Found",
-    "translation": "404 - Not Found"
+    "translation": "404 - Sayfa Bulunamadı"
   },
   {
     "id": "Whatever that was, it couldn't be found.",
-    "translation": "Whatever that was, it couldn't be found."
+    "translation": "Aradığınız her ne ise, bulunamadı."
   },
   {
     "id": "Sorry about that.",
-    "translation": "Sorry about that."
+    "translation": "Bunun için üzgünüz."
   },
   {
     "id": "Go Home",
-    "translation": "Go Home"
+    "translation": "Anasayfa"
   },
   {
     "id": "Subsections",
-    "translation": "Subsections"
+    "translation": "Alt bölümler"
   },
   {
     "id": "Tags",
-    "translation": "Tags"
+    "translation": "Etiketler"
   },
   {
     "id": "All Tags",
-    "translation": "All Tags"
+    "translation": "Tüm Etiketler"
   },
   {
     "id": "Site Navigation",
-    "translation": "Site Navigation"
+    "translation": "Site Kılavuzu"
   },
   {
     "id": "More",
-    "translation": "More"
+    "translation": "Daha fazla"
   }
 ]
