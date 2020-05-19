@@ -57,10 +57,10 @@
     "message": "Taşınabilir Sürüm"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc."
+    "message": "USB sürücüsüne veya yerel klasöre yüklenebilir."
   },
   "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
-    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "message": "Tek dizide kendi kendine yetebilir, ayarları ve hafızasını da o diziye kaydeder."
   },
   "(Does not require admin privileges.)": {
     "message": "(Yönetici yetkisi gerektirmez.)"
@@ -87,7 +87,7 @@
     "message": "Linux"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Snap yükleyin"
   },
   "Get the Source": {
     "message": "Kaynağı Al"
@@ -102,7 +102,7 @@
     "message": "Yeni"
   },
   "Version": {
-    "message": "Version"
+    "message": "Sürüm"
   },
   "for Windows 7-10": {
     "message": "Windows 7-10 için"
@@ -126,10 +126,10 @@
     "message": "Kaynağı Al"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "GitHub'da görüntüle"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "GitHub'da Yıldızla"
   },
   "Report a Bug": {
     "message": "Hata Bildirimi"
@@ -165,7 +165,7 @@
     "message": "İndirme linklerini doğrudan açmayı deneyin:"
   },
   "GitHub Releases": {
-    "message": "GitHub Releases"
+    "message": "GitHub sürümleri"
   },
   "SourceForge Mirror": {
     "message": "SourceForge Mirror"
@@ -177,7 +177,7 @@
     "message": "64-bit (x64)"
   },
   "Snap Installer": {
-    "message": "Snap Installer"
+    "message": "Snap Yükleyici"
   },
   "Easy installation.": {
     "message": "Kolay kurulum."
@@ -201,7 +201,7 @@
     "message": "Mac Uygulama Paketi"
   },
   "Download, unzip, and copy to your Applications folder.": {
-    "message": "Download, unzip, and copy to your Applications folder."
+    "message": "İndirin, açın ve uygulama dosyalarına kopyalayın."
   },
   "64-bit Intel": {
     "message": "64-bit Intel"
@@ -213,13 +213,13 @@
     "message": "Diğer"
   },
   "Campaign Videos": {
-    "message": "Campaign Videos"
+    "message": "Campaign videoları"
   },
   "WMIT (Warzone Model Import Tool)": {
     "message": "WMIT (Warzone Model Import Tool)"
   },
   "Development Builds": {
-    "message": "Development Builds"
+    "message": "Geliştirme sürümleri"
   },
   "Development Source Code": {
     "message": "Geliştirme Kaynak Kodu"
@@ -243,7 +243,7 @@
     "message": "Sınırsız tekrarlanabilirlik."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Tek-Oyunculuk Senaryo"
   },
   "LAN / Internet Multiplayer": {
     "message": "LAN / Internet Çoklu oyuncu"
@@ -252,7 +252,7 @@
     "message": "Yerel ağ üzerinden arkadaşlarınıza karşı oynayın, ya da entegre edili çoklu oyuncu lobisinde kendinizi deneyin."
   },
   "AI Bots": {
-    "message": "AI Bots"
+    "message": "AI Botları"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
     "message": "Yerel çatışma oyun modunda yapay zekaya karşı oynayın (çoklu oyuncu modunda takım arkadaşınız / rakibiniz ile beraber) ve sonsuz oyun tekrarlanabilirliği ile yeteneğinizi geliştirin."
@@ -273,7 +273,7 @@
     "message": "Platformlar arası"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
-    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "message": "Windows, macOS, Linux, FreeBSD ve daha fazlası - Hepsi ve platformlar arası çoklu oyuncu desteğiyle!"
   },
   "Years": {
     "message": "Yıllar"
@@ -282,10 +282,10 @@
     "message": "İndir"
   },
   "Forum Posts": {
-    "message": "Forum Posts"
+    "message": "Forum Mesajları"
   },
   "GitHub Stars": {
-    "message": "GitHub Stars"
+    "message": "GitHub Yıldızları"
   },
   "100s": {
     "message": "100s"
@@ -429,13 +429,13 @@
     "message": "Kaynak Kodu."
   },
   "Contribute": {
-    "message": "Contribute"
+    "message": "Katkıda bulunun"
   },
   "Help with Translations": {
     "message": "Çevirilerde yardımcı olun"
   },
   "Documentation": {
-    "message": "Documentation"
+    "message": "Dökümanlar"
   },
   "Connect": {
     "message": "Bağlan"
@@ -450,7 +450,7 @@
     "message": "GNU AGPLv3 altında lisanslıdır."
   },
   "Powered by Hugo": {
-    "message": "Powered by Hugo"
+    "message": "Hizmet sağlayıcı: Hugo"
   },
   "All trademarks are the property of their respective owners.": {
     "message": "Tüm ticari markalar ilgili sahiplerinin mülkiyetindedir."
@@ -486,7 +486,7 @@
     "message": "Güncellemeler denetlenemiyor"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Bu site JavaScript gereksinimi duyar ve görünüşe göre sizde devre dışı bırakılmış."
   },
   "If you aren't sure, download the latest version now.": {
     "message": "Eğer emin değilseniz, şimdi en sonuncu sürümü indirin."
@@ -504,7 +504,7 @@
     "message": "En son sürüm"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "En sonuncu Geliştirme Sürümü"
   },
   "404 - Not Found": {
     "message": "404 - Sayfa Bulunamadı"
