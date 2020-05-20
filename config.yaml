@@ -173,6 +173,10 @@ languages:
     languageName: "Русский"
     weight: 2
     contentDir: "content/ru"
+  tr:
+    languageName: "Türkçe"
+    weight: 2
+    contentDir: "content/tr"
 
 minify:
   disableSVG: true
