@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting online games"
+title: "Çevrimiçi oyunlarda Sorun giderin"
 ---
 
-If it you can't join a game that you see, check the following:
+Gördüğünüz oyuna katılamıyorsanız aşağıdakileri uygulayın:
 
-1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
+1. Sunucu ile aynı sürüme sahip olmanız gerekmektedir. En son sürülmüş versiyonu veya resmi olarak çıkarılmış en sonuncu geliştirme sürümünü kullanıyorsanız problem yaşamamalısınız.
 
-2. You need to have no mods installed, unless you are joining a modded game. Map-mods are usually ok to have.
+2. Modlu sunucu olmadığı takdirde hiçbir mod yüklememeniz gerekmektedir. Harita modları normalde sorun teşkil etmez.
 
-3. Some games are protected with a password. You will not be able to join them unless you are invited.
+3. Bazı sunucular şifre koymuş olabilir. Davet edilmediğiniz sürece onlara katılamazsınız.
 
-The game uses outgoing port `2100` to connect the host and outgoing port `9990` to retrieve the list of games.
+Sunucular Host'a bağlanmak için `2100` çıkış port'unu kullanıyor ve çıkış port'u `9990` ile oyun listesini geri alıyor.
