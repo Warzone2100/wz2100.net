@@ -1,5 +1,5 @@
 ---
-title: "How do I play with my friend at home via LAN?"
+title: "Arkadaşımla evimde LAN üzerinden nasıl oynarım?"
 ---
 
-Connect two computers to the same local network, host a game on one of them and join by IP on the other: Multi Player → Join Game → IP. Then enter the IP address of the host.
+İki bilgisayarı da aynı ağa bağlayın, bir tanesinde oyun oluşturun ve diğerinden IP yoluyla katılın: Çoklu oyuncu → Katıl → IP. Host bilgisayarın IP adresini girin.
