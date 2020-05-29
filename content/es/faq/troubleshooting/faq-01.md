@@ -1,22 +1,22 @@
 ---
-title: "Where is the configuration / savegame directory?"
+title: "¿Dónde está el directorio de configuración / partidas guardadas?"
 ---
 
-It depends on your platform:
+Depende de tu plataforma:
 
-{{% inlinesvg "fontawesome/brands/windows.svg" %}} **On Windows:**
+{{% inlinesvg "fontawesome/brands/windows.svg" %}} **En Windows:**
 
-The directory `Warzone 2100 Project\Warzone 2100 <version>` is located under the `%APPDATA%` folder.
+El directorio `Warzone 2100 Project\Warzone 2100 <version>` está ubicado bajo el directorio `%APPDATA%`.
 
-Hence, the default path for the Warzone 2100 configuration data on Windows Vista+ would be: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
+Por lo tanto, la ruta predeterminada para los datos de configuración de Warzone 2100 en Windows Vista o superior sería: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
 
-By default, the `%APPDATA%` folder is hidden. Entering: `%APPDATA%\Warzone 2100 Project\` into the address bar of Windows Explorer / File Explorer will browse to your Warzone directory.
+La carpeta `%APPDATA%` está oculta por defecto. Introduciendo: `%APPDATA%\Warzone 2100 Project\` en la barra de direcciones del Explorador de Windows / Explorador de archivos se dirigirá a su directorio Warzone.
 
-{{% inlinesvg "fontawesome/brands/apple.svg" %}} **On macOS:**
+{{% inlinesvg "fontawesome/brands/apple.svg" %}} **En macOS:**
 
-The directory `Warzone 2100 <version>` can be found in your home-directory at: `~/Library/Application Support/`
+El directorio `Warzone 2100 <version>` puede encontrarse en su directorio principal en: `~/Library/Application Support/`
 
-By default, recent version of macOS hide your account's Library folder. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
+Por defecto, las versiones reciente de macOS ocultan la carpeta Biblioteca de tu cuenta. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
 
 {{% inlinesvg "fontawesome/brands/linux.svg" %}} **On Linux:**
 
