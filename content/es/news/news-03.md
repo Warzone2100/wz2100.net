@@ -1,6 +1,6 @@
 ---
 title: "Nuevo sitio web lanzado"
-slug: "new-website-released"
+slug: "nueva-web-lanzada"
 ---
 
 Warzone 2100 tiene ahora un nuevo sitio web diseñado por [@past-due](https://github.com/past-due).
