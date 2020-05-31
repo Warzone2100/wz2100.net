@@ -1,7 +1,7 @@
 ---
-title: "Where do I find people to play with / tournaments?"
+title: "Oynamak için / Turnuvalar için diğer oyuncuları nasıl bulurum?"
 ---
 
-While hosting games or joining games in the lobby is an easy way to play online, you can also interact with players via Discord / webchat / IRC:
+Sunucu oluşturma veya lobideki oyunlara katılmak kolay olduğu gibi, oyuncular ile iletişime geçebileceğiniz Discord / Web Sohbeti / IRC:
 
-{{< button href="/webchat/" class="btn-d" >}}Webchat Info{{< /button >}}
+{{< button href="/webchat/" class="btn-d" >}}Web Sohbeti Bilgisi{{< /button >}}

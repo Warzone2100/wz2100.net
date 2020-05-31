@@ -1,24 +1,24 @@
 ---
-title: "Where is the configuration / savegame directory?"
+title: "Yapılandırma / Oyun kaydı dizi nerede?"
 ---
 
-It depends on your platform:
+Platformunuza bağlı olarak:
 
-{{% inlinesvg "fontawesome/brands/windows.svg" %}} **On Windows:**
+{{% inlinesvg "fontawesome/brands/windows.svg" %}} **Windows:**
 
-The directory `Warzone 2100 Project\Warzone 2100 <version>` is located under the `%APPDATA%` folder.
+`Warzone 2100 Project\Warzone 2100 <version>` dizisi `%APPDATA%` dosyası altında kayıtlıdır.
 
-Hence, the default path for the Warzone 2100 configuration data on Windows Vista+ would be: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
+Dolayısıyla Windows Vista+ üzerinden Warzone 2100 varsayılan yapılandırma data dosyasının yeri: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
 
-By default, the `%APPDATA%` folder is hidden. Entering: `%APPDATA%\Warzone 2100 Project\` into the address bar of Windows Explorer / File Explorer will browse to your Warzone directory.
+Varsayılan olarak `%APPDATA%` dosyası gizlidir. Windows/dosya aramasından `%APPDATA%\Warzone 2100 Project\` şeklinde arama yaparak Warzone dizinini açabilirsiniz.
 
-{{% inlinesvg "fontawesome/brands/apple.svg" %}} **On macOS:**
+{{% inlinesvg "fontawesome/brands/apple.svg" %}} **macOS:**
 
-The directory `Warzone 2100 <version>` can be found in your home-directory at: `~/Library/Application Support/`
+`Warzone 2100 <version>` Ana dizininizde bu noktada bulunabilir: `~/Library/Application Support/`
 
-By default, recent version of macOS hide your account's Library folder. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
+Varsayılan olarak yeni macOS sürümü, hesabınızın kütüphanesini gizler. Bulucuda görmek için, **Option (⌥)** Tuşuna basarak **Go** menüsüne tıklayın, kütüphane dosyanız menü seçimiyle görünecektir.
 
-{{% inlinesvg "fontawesome/brands/linux.svg" %}} **On Linux:**
+{{% inlinesvg "fontawesome/brands/linux.svg" %}} **Linux:**
 
 Under GNU/Linux, Warzone 2100 conforms to the [XDG base directory spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 

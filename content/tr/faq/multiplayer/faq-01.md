@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Çevrimiçi oyununa nasıl katılabilirim?"
 ---
 
-Joining existing games is usually easy.
+Varolan oyunlara katılmak genellikle kolaydır.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Oyunu başlatın, Çoklu oyuncuyu → Oyuna katıl → Lobi.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Eğer mevcut bir oyun varsa, tıklayıp katılabilirsiniz. Sonra "Hazır" kutusunu işaretleyin. Herkes "Hazır" kutusunu işaretlediğinde oyun başlar.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+Üst soldaki isim kutusuna tıklayarak isminizi değiştirebilirsiniz. 

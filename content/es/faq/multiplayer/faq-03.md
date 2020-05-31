@@ -1,5 +1,5 @@
 ---
-title: "How do I play with my friend at home via LAN?"
+title: "¿Cómo puedo jugar con mi amigo en casa a través de LAN?"
 ---
 
-Connect two computers to the same local network, host a game on one of them and join by IP on the other: Multi Player → Join Game → IP. Then enter the IP address of the host.
+Conecta dos ordenadores a la misma red local, aloja un juego en uno de ellos y unirse por IP en el otro: Multi Player → Unirse al Juego → IP. A continuación, introduce la dirección IP del host.

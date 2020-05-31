@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "¿Cómo puedo unirme a una partida online?"
 ---
 
-Joining existing games is usually easy.
+Unirse a los juegos existentes por lo general es fácil.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Inicie el juego, haga clic en Multi Player → Unirse al juego → Lobby.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Si hay algún juego disponible, podrás hacer clic y unirte. A continuación, marque la opción "listo" en la casilla. Cuando todo el mundo marca "listo", comienza el juego.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+No te olvides de elegir tu nombre haciendo clic en el nombre en el cuadro de la izquierda. 
