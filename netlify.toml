@@ -6,7 +6,7 @@ command = "hugo --gc --minify --i18n-warnings"
 command = "hugo --gc --minify --i18n-warnings -b $URL"
 
 [context.production.environment]
-HUGO_VERSION = "0.71.0"
+HUGO_VERSION = "0.71.1"
 HUGO_ENV = "production"
 # HUGO_ENABLEGITINFO = "true"
 
@@ -14,13 +14,13 @@ HUGO_ENV = "production"
 command = "hugo --gc --minify --i18n-warnings --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.71.0"
+HUGO_VERSION = "0.71.1"
 
 [context.branch-deploy]
 command = "hugo --gc --minify --i18n-warnings -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.71.0"
+HUGO_VERSION = "0.71.1"
 
 
 # Redirects and headers are GLOBAL for all builds – they do not get scoped to

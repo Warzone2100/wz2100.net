@@ -12,7 +12,7 @@ jobs:
   build:
     strategy:
       matrix:
-        version: [0.71.0]
+        version: [0.71.1]
         image: [ext-alpine, ext-ubuntu]
     name: 'Test Hugo Build [${{ matrix.version }}-${{ matrix.image }}]'
     runs-on: ubuntu-latest
