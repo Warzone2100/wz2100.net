@@ -157,6 +157,10 @@ languages:
     languageName: "English - US"
     weight: 1
     contentDir: "content/en"
+  es:
+    languageName: "Español"
+    weight: 2
+    contentDir: "content/es"
   it:
     languageName: "Italiano"
     weight: 2
