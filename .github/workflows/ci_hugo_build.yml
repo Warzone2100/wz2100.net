@@ -63,7 +63,7 @@ jobs:
       - name: Clean gh-pages branch
         working-directory: "./gh-pages"
         run: |
-          git rm -rf .
+          git rm -rf . || exit 0
           git clean -fxd
       - name: Build with Hugo docker image
         env:
