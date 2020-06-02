@@ -58,7 +58,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
       - name: Clean gh-pages branch
-        working-directory: "./gh-pages"
+        working-directory: "${{ github.workspace }}/gh-pages"
         run: |
           git rm -rf . || exit 0
           git clean -fxd
@@ -83,9 +83,9 @@ jobs:
             -v ${SOURCE_DIR}:/src \
             -v ${OUTPUT_DIR}:/target \
             klakegg/hugo:${label} \
-            --minify --i18n-warnings --gc --path-warnings --verbose --baseURL="https://wz2100.net/"
+            --minify --i18n-warnings --gc --path-warnings --verbose --baseURL="https://wz2100.net/" --destination="/target"
       - name: Publish gh-pages
-        working-directory: "./gh-pages"
+        working-directory: "${{ github.workspace }}/gh-pages"
         run: |
           git config user.name "wzdev-ci"
           git config user.email "61424532+wzdev-ci@users.noreply.github.com"
