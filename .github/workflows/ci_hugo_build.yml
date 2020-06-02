@@ -20,9 +20,6 @@ jobs:
     if: startsWith(github.head_ref, 'translation_integration') == false
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: master
-          path: master
       - name: Build with Hugo docker image
         env:
           HUGO_VERSION: ${{ matrix.version }}
@@ -83,7 +80,7 @@ jobs:
           # Run Hugo build
           docker run --rm -t \
             -e "HUGO_ENV=production" \
-            -v $(SOURCE_DIR):/src \
+            -v ${SOURCE_DIR}:/src \
             -v ${OUTPUT_DIR}:/target \
             klakegg/hugo:${label} \
             --minify --i18n-warnings --gc --path-warnings --verbose --baseURL="https://wz2100.net/"
