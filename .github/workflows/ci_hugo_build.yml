@@ -60,8 +60,17 @@ jobs:
       - name: Clean gh-pages branch
         working-directory: "${{ github.workspace }}/gh-pages"
         run: |
-          git rm -rf . || exit 0
+          BACKUP_GH_PAGES_FILES="${GITHUB_WORKSPACE}/temp/backup_gh_pages_files"
+          mkdir -p "${BACKUP_GH_PAGES_FILES}"
+          # Copy CNAME file, if it exists, temporarily elsewhere
+          if [ -f "CNAME" ]; then
+            cp "CNAME" "${BACKUP_GH_PAGES_FILES}/CNAME"
+          fi
+          # Clean the gh-pages branch
+          git rm --ignore-unmatch -rf .
           git clean -fxd
+          # Restore saved files
+          rsync -r "${BACKUP_GH_PAGES_FILES}/" .
       - name: Build with Hugo docker image
         env:
           HUGO_VERSION: 0.71.1
