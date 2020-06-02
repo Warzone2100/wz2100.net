@@ -5,6 +5,7 @@ on:
     branches-ignore:
       - 'l10n_**' # Push events to translation service branches (that begin with "l10n_")
       - 'translation_integration' # Separate branch for translation-service-formatted files
+      - 'gh-pages'
   pull_request:
     # Match all pull requests
 
@@ -19,6 +20,9 @@ jobs:
     if: startsWith(github.head_ref, 'translation_integration') == false
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: master
+          path: master
       - name: Build with Hugo docker image
         env:
           HUGO_VERSION: ${{ matrix.version }}
@@ -42,3 +46,53 @@ jobs:
             -v ${OUTPUT_DIR}:/target \
             klakegg/hugo:${label} \
             --minify --i18n-warnings --gc --path-warnings --verbose
+  deploy:
+    name: 'Deploy to GitHub Pages'
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+          path: master
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Clean gh-pages branch
+        working-directory: "./gh-pages"
+        run: |
+          git rm -rf .
+          git clean -fxd
+      - name: Build with Hugo docker image
+        env:
+          HUGO_VERSION: 0.71.1
+          HUGO_IMAGE: ext-ubuntu
+        run: |
+          # Prepare docker image label
+          label=""
+          if [[ ! -z "${HUGO_VERSION}" ]]; then
+            label="${HUGO_VERSION}-"
+          fi
+          label="${label}${HUGO_IMAGE}"
+          echo "Using klakegg/hugo:${label}"
+          # Set up input / output directories
+          SOURCE_DIR="${GITHUB_WORKSPACE}/master"
+          OUTPUT_DIR="${GITHUB_WORKSPACE}/gh-pages"
+          # Run Hugo build
+          docker run --rm -t \
+            -e "HUGO_ENV=production" \
+            -v $(SOURCE_DIR):/src \
+            -v ${OUTPUT_DIR}:/target \
+            klakegg/hugo:${label} \
+            --minify --i18n-warnings --gc --path-warnings --verbose --baseURL="https://wz2100.net/"
+      - name: Publish gh-pages
+        working-directory: "./gh-pages"
+        run: |
+          git config user.name "wzdev-ci"
+          git config user.email "61424532+wzdev-ci@users.noreply.github.com"
+          git add -A
+          short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
+          git commit -m "Deploy master branch: ${short_sha}" || exit 0
+          git push
