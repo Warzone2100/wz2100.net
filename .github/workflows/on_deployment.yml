@@ -1,18 +1,80 @@
 name: 'On Deploy gh-pages'
 
 on:
-  page_build:
+  push:
+    branches:
+      - gh-pages
+  # why not use page_build or deployment_status events? they don't seem to be triggering when expected...
 
 jobs:
+  # This job is a workaround for page_build / deployment_status events not working as expected
+  wait-until-deployment-succeeds:
+    name: 'Wait for Deployment'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Poll Deployments'
+        id: deployments
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Poll until we find a deployment with a sha == the push's commit's SHA
+          status=1
+          POLL_ATTEMPTS=0
+          while [ $POLL_ATTEMPTS -le 15 ]
+          do
+            sleep_interval=$(( POLL_ATTEMPTS * POLL_ATTEMPTS ))
+            sleep ${sleep_interval}
+            curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/deployments" | jq --exit-status '.[] | select(.sha == "${GITHUB_SHA}" and .environment == "github-pages")' > "deployment.json"
+            status=$?
+            (( POLL_ATTEMPTS++ ))
+            if [ status -eq 0 ]; then
+              break
+            fi
+          done
+          if [ status -ne 0 ]; then
+            # Did not find matching deployment
+            echo "::error ::Failed to find matching deployment for: ${GITHUB_SHA}"
+            exit 1
+          fi
+          DEPLOYMENT_ID=$(cat "deployment.json" | jq --raw-output '.id')
+          if [ -z "$DEPLOYMENT_ID" ]; then
+            echo "::error ::Missing expected '.id' field"
+            exit 1
+          fi
+          echo "Found deployment ID: ${DEPLOYMENT_ID}"
+          echo "::set-output name=DEPLOYMENT_ID::${DEPLOYMENT_ID}"
+      - name: 'Poll Deployment Statuses'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEPLOYMENT_ID: ${{ steps.deployments.outputs.DEPLOYMENT_ID }}
+        run: |
+          # Poll deployment statuses until we find a status with:
+          # "state": "success"
+          # "environment": "github-pages"
+          POLL_ATTEMPTS=0
+          while [ $POLL_ATTEMPTS -le 12 ]
+          do
+            sleep_interval=$(( POLL_ATTEMPTS * POLL_ATTEMPTS ))
+            sleep ${sleep_interval}
+            curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/deployments/${DEPLOYMENT_ID}/statuses" | jq --exit-status '.[] | select(.state == "success" and .environment == "github-pages")'
+            status=$?
+            (( POLL_ATTEMPTS++ ))
+            if [ status -eq 0 ]; then
+              break
+            fi
+          done
+          if [ status -ne 0 ]; then
+            # Did not find matching deployment
+            echo "::error ::Deployment did not succeed before timeout"
+            exit 1
+          fi
+          echo "Found successful deployment status"
   purge-cache:
+    needs: wait-until-deployment-succeeds
     name: 'Purge Cloudflare Cache'
     runs-on: ubuntu-latest
     steps:
-      - name: Output Debug Info
-        run: |
-          echo "build.status: ${{ github.event.build.status }}"
       - name: 'Purge Cloudflare Cache'
-        if: github.event.build.status == 'built'
         env:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_WZ2100_ZONE }}
           CLOUDFLARE_CACHEPURGE_TOKEN: ${{ secrets.CLOUDFLARE_WZ2100_CACHEPURGE_TOKEN }}
