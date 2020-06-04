@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
       - name: Build with Hugo docker image
         env:
           HUGO_VERSION: ${{ matrix.version }}
@@ -51,11 +53,13 @@ jobs:
         with:
           ref: master
           path: master
+          persist-credentials: false
       - name: Checkout gh-pages branch
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: gh-pages
+          persist-credentials: false
       - name: Clean gh-pages branch
         working-directory: "${{ github.workspace }}/gh-pages"
         run: |
