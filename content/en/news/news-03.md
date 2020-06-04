@@ -1,6 +1,6 @@
 ---
 title: "New website released"
-date: 2020-04-03 # no-translate
+date: 2020-06-04 # no-translate
 draft: false # no-translate
 slug: "new-website-released"
 ---
