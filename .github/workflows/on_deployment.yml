@@ -1,17 +1,17 @@
 name: On Deploy gh-pages
 on:
-  deployment_status
+  page_build
 
 jobs:
   purge-cache:
     name: 'Purge Cloudflare Cache'
-    if: github.event.deployment_status.state == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Output Debug Info
         run: |
-          echo "Environment: ${{ github.event.deployment_status.environment }}"
+          echo "build.status: ${{ github.event.build.status }}"
       - name: 'Purge Cloudflare Cache'
+        if: github.event.build.status == 'built'
         env:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_WZ2100_ZONE }}
           CLOUDFLARE_CACHEPURGE_TOKEN: ${{ secrets.CLOUDFLARE_WZ2100_CACHEPURGE_TOKEN }}
