@@ -51,11 +51,13 @@
 					<p class="text-lg-center mg-clear text-sm-center text-center footer-credits-style" lang="en">
 						"Twemoji" by Twitter is <a href="https://github.com/twitter/twemoji/blob/master/LICENSE-GRAPHICS" rel="nofollow noopener noreferrer" data-target="_blank" target="_blank">licensed under CC-BY 4.0</a>. “FAQ” icon by Gilbert Bages from the Noun Project. FontAwesome is&nbsp;<a href="https://fontawesome.com/license/free" rel="nofollow noopener noreferrer" data-target="_blank" target="_blank">licensed under CC-BY 4.0</a>.
 					</p>
+					{{- if eq (getenv "HUGO_PROVIDER") "netlify" -}}
 					<p class="text-lg-center mg-clear text-sm-center text-center footer-credits-style footer-credits-logos">
 						<a href="https://www.netlify.com" rel="nofollow noopener noreferrer" data-target="_blank" target="_blank">
 							{{ partial "inlinesvg.html" (dict "class" "netlify-svg" "path" "netlify-dark.svg" "width" "80") }}
 						</a>
 					</p>
+					{{- end -}}
 				</div>
 			</div>
 	</div>
