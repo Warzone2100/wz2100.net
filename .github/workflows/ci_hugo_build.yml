@@ -95,7 +95,7 @@ jobs:
       - name: Publish gh-pages
         env:
           GITHUB_ACTOR: ${{ secrets.WZ2100_PUSH_USERNAME }}
-          GITHUB_TOKEN: ${{ secrets.WZ2100_PUSH_SECRET_TOKEN }} # use a PAT so that subsequent workflows are triggered on push
+          PUSH_PAT: ${{ secrets.WZ2100_PUSH_SECRET_TOKEN }} # use a PAT so that subsequent workflows are triggered on push
         working-directory: "${{ github.workspace }}/gh-pages"
         run: |
           git config user.name "wzdev-ci"
@@ -103,4 +103,4 @@ jobs:
           git add -A
           short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
           git commit -m "Deploy master branch: ${short_sha}" || exit 0
-          git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/Warzone2100/wz2100.net.git" gh-pages
+          git push "https://${PUSH_PAT}@github.com/Warzone2100/wz2100.net.git" gh-pages
