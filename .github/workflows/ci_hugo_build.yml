@@ -107,4 +107,4 @@ jobs:
           git add -A
           short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
           git commit -m "Deploy master branch: ${short_sha}" || exit 0
-          git push "https://${PUSH_PAT}@github.com/Warzone2100/wz2100.net.git" gh-pages
+          git push "https://${PUSH_PAT}@github.com/Warzone2100/wz2100.net.git" gh-pages:gh-pages
