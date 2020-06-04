@@ -52,7 +52,7 @@ jobs:
       - name: Push changes to master branch
         env:
           GITHUB_ACTOR: ${{ secrets.WZ2100_PUSH_USERNAME }}
-          GITHUB_TOKEN: ${{ secrets.WZ2100_PUSH_SECRET_TOKEN }} # use a PAT so that subsequent workflows are triggered on push
+          PUSH_PAT: ${{ secrets.WZ2100_PUSH_SECRET_TOKEN }} # use a PAT so that subsequent workflows are triggered on push
         working-directory: "./master"
         run: |
-          git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/Warzone2100/wz2100.net.git" master
+          git push "https://${PUSH_PAT}@github.com/Warzone2100/wz2100.net.git" master:master
