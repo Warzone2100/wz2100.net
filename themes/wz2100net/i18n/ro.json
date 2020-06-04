@@ -3,7 +3,7 @@
     "message": "Acasă"
   },
   "Features": {
-    "message": "Features"
+    "message": "Caracteristici"
   },
   "History": {
     "message": "Istoric"
@@ -69,7 +69,7 @@
     "message": "Full Installer"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "Se instalează pentru toți utilizatorii de pe un sistem."
   },
   "Settings / saves are user-specific.": {
     "message": "Setările / salvările sunt specifice utilizatorului."
@@ -186,16 +186,16 @@
     "message": "Suportă majoritatea distribuțiilor Linux."
   },
   "(See link for details.)": {
-    "message": "(See link for details.)"
+    "message": "(Vezi link-ul pentru detalii.)"
   },
   "Compile Source": {
-    "message": "Compile Source"
+    "message": "Compilează Sursa"
   },
   "Compile the source yourself using our build instructions.": {
-    "message": "Compile the source yourself using our build instructions."
+    "message": "Compilează Sursa chiar tu, folosind instrucţiunile noastre."
   },
   "Source Code (.tar.xz)": {
-    "message": "Source Code (.tar.xz)"
+    "message": "Codul Sursă (.tar.xz)"
   },
   "Mac App Bundle": {
     "message": "Mac App Bundle"
@@ -231,7 +231,7 @@
     "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
   },
   "SHA256 Checksums for Version": {
-    "message": "SHA256 Checksums for Version"
+    "message": "Sume de control SHA256 pentru Versiunea"
   },
   "Why Warzone 2100 Rocks": {
     "message": "Why Warzone 2100 Rocks"
@@ -240,7 +240,7 @@
     "message": "Strategy by Design."
   },
   "Endless replayability.": {
-    "message": "Endless replayability."
+    "message": "Rejucabilitate fără sfârșit."
   },
   "Single-Player Campaign": {
     "message": "Single-Player Campaign"
@@ -258,7 +258,7 @@
     "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
   },
   "Extensive Tech Tree": {
-    "message": "Extensive Tech Tree"
+    "message": "Arbore Tehnologic Extins"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
     "message": "Peste 400 de tehnologii diferite generează un arbore tehnologic extensiv cu multe căi de ales."
@@ -297,7 +297,7 @@
     "message": "100%"
   },
   "Free": {
-    "message": "Free"
+    "message": "Gratis"
   },
   "100% Open & Free": {
     "message": "100% Open & Free"
@@ -333,7 +333,7 @@
     "message": "People around the world are waiting!"
   },
   "100% Free": {
-    "message": "100% Free"
+    "message": "100% Gratuit"
   },
   "Everything is free, including source code, downloads, and all features.": {
     "message": "Everything is free, including source code, downloads, and all features."
@@ -342,13 +342,13 @@
     "message": "No in-app purchases."
   },
   "No subscriptions.": {
-    "message": "No subscriptions."
+    "message": "Fără abonament."
   },
   "No ads.": {
-    "message": "No ads."
+    "message": "Fără reclame."
   },
   "Just free.": {
-    "message": "Just free."
+    "message": "Doar gratuit."
   },
   "A Long History": {
     "message": "A Long History"
@@ -396,46 +396,46 @@
     "message": "Multiplayer"
   },
   "Troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Depanare"
   },
   "JavaScript is disabled.": {
-    "message": "JavaScript is disabled."
+    "message": "JavaScript dezactivat."
   },
   "This site may not work properly without it.": {
-    "message": "This site may not work properly without it."
+    "message": "Este posibil ca acest site să nu funcţioneze corect fără el."
   },
   "About": {
-    "message": "About"
+    "message": "Despre"
   },
   "The Team": {
-    "message": "The Team"
+    "message": "Echipa"
   },
   "Changelog": {
-    "message": "Changelog"
+    "message": "Istoric modificări"
   },
   "Privacy Policy": {
     "message": "Privacy Policy"
   },
   "Download": {
-    "message": "Download"
+    "message": "Descarcă"
   },
   "Snap Store (Linux)": {
     "message": "Snap Store (Linux)"
   },
   "Source Code": {
-    "message": "Source Code"
+    "message": "Codul sursă"
   },
   "Source Code.": {
-    "message": "Source Code."
+    "message": "Codul sursă."
   },
   "Contribute": {
-    "message": "Contribute"
+    "message": "Contribuie"
   },
   "Help with Translations": {
-    "message": "Help with Translations"
+    "message": "Ajută-ne cu Traduceri"
   },
   "Documentation": {
-    "message": "Documentation"
+    "message": "Documentaţie"
   },
   "Connect": {
     "message": "Connect"
@@ -447,7 +447,7 @@
     "message": "theme"
   },
   "Licensed under the GNU AGPLv3.": {
-    "message": "Licensed under the GNU AGPLv3."
+    "message": "Licențiat sub GNU AGPLv3."
   },
   "Powered by Hugo": {
     "message": "Powered by Hugo"
