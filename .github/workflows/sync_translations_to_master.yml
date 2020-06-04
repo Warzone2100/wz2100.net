@@ -14,10 +14,12 @@ jobs:
       - uses: actions/checkout@v2
         with:
           path: translations
+          persist-credentials: false
       - uses: actions/checkout@v2
         with:
           ref: master
           path: master
+          persist-credentials: false
       - name: "Install yq"
         run: sudo snap install yq
       - name: 'Sync translation changes to master branch'
