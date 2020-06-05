@@ -123,6 +123,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAGES_BRANCH_COMMIT_SHA: ${{ steps.publishpages.outputs.GH_PAGES_BRANCH_COMMIT_SHA }}
+        shell: bash --noprofile --norc {0}
         run: |
           echo "Searching for deployment matching commit: ${GH_PAGES_BRANCH_COMMIT_SHA} ..."
           # Poll until we find a deployment with a sha == the push's commit's SHA
@@ -133,14 +134,16 @@ jobs:
             sleep_interval=$(( POLL_ATTEMPTS * POLL_ATTEMPTS ))
             if [ $sleep_interval -ne 0 ]; then
               echo "Sleeping ${sleep_interval} seconds..."
+              sleep ${sleep_interval}
+              echo "Finished sleep"
             fi
-            sleep ${sleep_interval}
             curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/deployments" | jq --exit-status --arg desired_sha "${GH_PAGES_BRANCH_COMMIT_SHA}" '.[] | select(.sha == $desired_sha and .environment == "github-pages")' > "deployment.json"
             status=$?
-            (( POLL_ATTEMPTS++ ))
             if [ $status -eq 0 ]; then
               break
             fi
+            echo "Not found yet ..."
+            (( POLL_ATTEMPTS++ ))
           done
           if [ $status -ne 0 ]; then
             # Did not find matching deployment
@@ -159,6 +162,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOYMENT_ID: ${{ steps.deployments.outputs.DEPLOYMENT_ID }}
+        shell: bash --noprofile --norc {0}
         run: |
           echo "Waiting for deployment ${DEPLOYMENT_ID} to finish ..."
           # Poll deployment statuses until we find a status with:
@@ -169,7 +173,11 @@ jobs:
           while [ $POLL_ATTEMPTS -le 12 ]
           do
             sleep_interval=$(( POLL_ATTEMPTS * POLL_ATTEMPTS ))
-            sleep ${sleep_interval}
+            if [ $sleep_interval -ne 0 ]; then
+              echo "Sleeping ${sleep_interval} seconds..."
+              sleep ${sleep_interval}
+              echo "Finished sleep"
+            fi
             DEPLOYMENT_STATE=$(curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/deployments/${DEPLOYMENT_ID}/statuses" | jq --raw-output --exit-status --argjson end_states '["success","error","failure"]' '.[] | select( (.state as $state | $end_states | index($state) != null ) and (.environment == "github-pages") ) | .state')
             status=$?
             (( POLL_ATTEMPTS++ ))
