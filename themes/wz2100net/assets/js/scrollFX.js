@@ -30,8 +30,8 @@ function scrollFX()
 					targetObj.addClass('scroll-fx-in-range');
 				}
 				
-				var centerPoint = (windowH/2)-(targetObj.outerHeight()/2);
-				var exitPoint = (windowH/2)-targetObj.outerHeight();
+				var centerPoint = (windowH/1.5)-(targetObj.outerHeight()/2);
+				var exitPoint = (windowH/1.5)-targetObj.outerHeight();
 				var scrollVal = $(window).scrollTop() - targetObj.offset().top + (targetObj.outerHeight()/100)+centerPoint;
 				var scrollZoomIn = window.scrollY / (targetObj.offset().top-centerPoint);
 				var scrollZoomOut = (targetObj.offset().top-centerPoint) / window.scrollY;
