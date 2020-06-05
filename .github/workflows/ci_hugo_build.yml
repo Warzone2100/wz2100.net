@@ -107,7 +107,7 @@ jobs:
           git config user.email "61424532+wzdev-ci@users.noreply.github.com"
           git add -A
           short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
-          git commit -m "Deploy master branch: ${short_sha}" || echo "::set-output name=PROCESS_DEPLOYMENT::false" && exit 0
+          git commit -m "Deploy master branch: ${short_sha}" || { echo "::set-output name=PROCESS_DEPLOYMENT::false" && exit 0; }
           # Get the new commit's SHA
           NEW_COMMIT_SHA=$(git rev-parse --verify HEAD)
           echo "NEW_COMMIT_SHA=${NEW_COMMIT_SHA}"
