@@ -9,6 +9,9 @@ jobs:
     if: github.event.action == 'github_release_update'
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: master
+          persist-credentials: false
       - name: Download latest GitHub Release info
         uses: past-due/fetch-release-info@master
         with:
@@ -18,6 +21,8 @@ jobs:
           output_directory: 'data/github_releases_info'
           cache_directory: '_tmp_cache_data/github_releases_info'
       - name: Commit any changes to data files
+        env:
+          PUSH_PAT: ${{ secrets.WZ2100_PUSH_SECRET_TOKEN }} # use a PAT so that subsequent workflows are triggered on push
         run: |
           git config user.name "wzdev-ci"
           git config user.email "61424532+wzdev-ci@users.noreply.github.com"
@@ -25,4 +30,4 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Automated update of GitHub Releases data: ${timestamp}" || exit 0
           git pull --rebase
-          git push
+          git push "https://${PUSH_PAT}@github.com/Warzone2100/wz2100.net.git" master:master
