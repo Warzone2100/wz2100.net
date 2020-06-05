@@ -6,7 +6,7 @@ title: "Cum pot să mă alătur / contribui / ajut?"
 
 Iată aici doar o mică selecție:
 
-- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Raportează Erori/Bug-uri](https://github.com/Warzone2100/warzone2100/issues/new)
+- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Raportează Erori/Bug-uri](https://github.com/Warzone2100/warzone2100/issues/new/choose)
 - [{{% inlinesvg "fontawesome/solid/language.svg" %}} Ajută cu Traducerile](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#translating-warzone-2100)
 - [{{% inlinesvg "fontawesome/solid/heart.svg" %}} Donează (ajută la menţinerea serverului şi alte costuri)](http://donations.wz2100.net)
 - [{{% inlinesvg "fontawesome/solid/users.svg" %}} Vorbiţi cu noi pe Discord, IRC, sau pe Forumuri](/webchat)

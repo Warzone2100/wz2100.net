@@ -6,7 +6,7 @@ L'intero progetto è guidato dalla comunità, formata da centinaia di contributo
 
 Ecco una piccola selezione:
 
-- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Segnala bug](https://github.com/Warzone2100/warzone2100/issues/new)
+- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Segnala bug](https://github.com/Warzone2100/warzone2100/issues/new/choose)
 - [{{% inlinesvg "fontawesome/solid/language.svg" %}} Aiuta con le traduzioni](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#translating-warzone-2100)
 - [{{% inlinesvg "fontawesome/solid/heart.svg" %}} Dona (aiuta a supportare il server e altri costi)](http://donations.wz2100.net)
 - [{{% inlinesvg "fontawesome/solid/users.svg" %}} Chatta con noi su Discord, IRC o sui forum](/webchat)

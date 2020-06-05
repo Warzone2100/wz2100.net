@@ -72,7 +72,7 @@ menu:
   - identifier: reportbugs
     name: Report Bugs
     title: Report Bugs
-    url: "https://github.com/Warzone2100/warzone2100/issues/new"
+    url: "https://github.com/Warzone2100/warzone2100/issues/new/choose"
     weight: 204
   - identifier: donate
     name: Donate
