@@ -82,9 +82,7 @@
 						<div class=" btn-flex-container">
 							<div class="btn-group btn-clean2 float-lg-none btn-flex">
 								<a href="https://github.com/Warzone2100/warzone2100/releases/latest" data-toggle="modal" data-target="#modal-downloads-large" class="btn btn-part1 btn-lg btn-sapphire bloc-button">{{ i18n "Download Now" }}</a>
-								<button type="button" class="btn btn-caret btn-sapphire dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<span class="sr-only">{{ i18n "Toggle Dropdown" }}</span>
-								</button>
+								<button type="button" class="btn btn-caret btn-sapphire dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="{{ i18n "Toggle Dropdown" | htmlEscape }}"></button>
 
 								<div class="dropdown-menu dropdown-menu-right" role="menu" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(129px, 48px, 0px);">
 									{{- with .Param "quick_downloads_list" -}}
@@ -242,7 +240,7 @@
 								</div>
 							</div>
 						</div>
-					</div><a class="carousel-nav-controls carousel-control-prev" href="#carousel-main-screenshots" role="button" data-slide="prev">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/chevron-left.svg") }}<span class="sr-only">{{ i18n "Previous" }}</span></a><a class="carousel-nav-controls carousel-control-next" href="#carousel-main-screenshots" role="button" data-slide="next">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/chevron-right.svg") }}<span class="sr-only">{{ i18n "Next" }}</span></a>
+					</div><a class="carousel-nav-controls carousel-control-prev" href="#carousel-main-screenshots" role="button" data-slide="prev" aria-label="{{ i18n "Previous" | htmlEscape }}">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/chevron-left.svg") }}</a><a class="carousel-nav-controls carousel-control-next" href="#carousel-main-screenshots" role="button" data-slide="next" aria-label="{{ i18n "Next" | htmlEscape }}">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/chevron-right.svg") }}</a>
 				</div>
 			</div>
 		</div>
