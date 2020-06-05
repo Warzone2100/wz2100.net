@@ -131,15 +131,18 @@ jobs:
           while [ $POLL_ATTEMPTS -le 15 ]
           do
             sleep_interval=$(( POLL_ATTEMPTS * POLL_ATTEMPTS ))
+            if [ $sleep_interval -ne 0 ]; then
+              echo "Sleeping ${sleep_interval} seconds..."
+            fi
             sleep ${sleep_interval}
-            curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/deployments" | jq --exit-status '.[] | select(.sha == "${GH_PAGES_BRANCH_COMMIT_SHA}" and .environment == "github-pages")' > "deployment.json"
+            curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/deployments" | jq --exit-status --arg desired_sha "${GH_PAGES_BRANCH_COMMIT_SHA}" '.[] | select(.sha == $desired_sha and .environment == "github-pages")' > "deployment.json"
             status=$?
             (( POLL_ATTEMPTS++ ))
-            if [ status -eq 0 ]; then
+            if [ $status -eq 0 ]; then
               break
             fi
           done
-          if [ status -ne 0 ]; then
+          if [ $status -ne 0 ]; then
             # Did not find matching deployment
             echo "::error ::Failed to find matching deployment for: ${GITHUB_SHA}"
             exit 1
@@ -170,11 +173,11 @@ jobs:
             DEPLOYMENT_STATE=$(curl -H "Authorization: token ${GITHUB_TOKEN}" -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/deployments/${DEPLOYMENT_ID}/statuses" | jq --raw-output --exit-status --argjson end_states '["success","error","failure"]' '.[] | select( (.state as $state | $end_states | index($state) != null ) and (.environment == "github-pages") ) | .state')
             status=$?
             (( POLL_ATTEMPTS++ ))
-            if [ status -eq 0 ]; then
+            if [ $status -eq 0 ]; then
               break
             fi
           done
-          if [ status -ne 0 ]; then
+          if [ $status -ne 0 ]; then
             # Did not find matching deployment
             echo "::error ::Deployment did not finish before timeout"
             exit 1
