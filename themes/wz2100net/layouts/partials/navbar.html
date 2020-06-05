@@ -56,7 +56,7 @@
 									{{- end -}}
 									{{- if not $foundTranslatedPage }}
 									<li class="nav-item">
-										<a href="{{ $mainSitePage.RelPermalink }}" class="nav-link a-btn">{{ i18n $mainSitePage.Title | default $mainSitePage.Title }} <img src="/img/lazyload-ph.png" data-src="/img/flags/{{ $.Sites.First.Language.Lang }}.svg" class="lazyloaded lazyload" alt="{{ $.Sites.First.Language.Lang }}" height="23px" width="25px" style="padding-left:8px"></a>
+										<a href="{{ $mainSitePage.RelPermalink }}" class="nav-link a-btn" hreflang="{{ $.Sites.First.Language.Lang }}" lang="{{ $.Sites.First.Language.Lang }}">{{ i18n $mainSitePage.Title | default $mainSitePage.Title }} <img src="/img/lazyload-ph.png" data-src="/img/flags/{{ $.Sites.First.Language.Lang }}.svg" class="lazyloaded lazyload" alt="{{ $.Sites.First.Language.Lang }}" height="23px" width="25px" style="padding-left:8px"></a>
 									</li>
 									{{- end -}}
 									{{- end -}}
