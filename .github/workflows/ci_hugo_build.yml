@@ -97,7 +97,7 @@ jobs:
             klakegg/hugo:${label} \
             --minify --i18n-warnings --gc --path-warnings --verbose --baseURL="https://wz2100.net/" --destination="/target"
       - name: Publish gh-pages
-        id: 'publish-pages'
+        id: publishpages
         env:
           GITHUB_ACTOR: ${{ secrets.WZ2100_PUSH_USERNAME }}
           PUSH_PAT: ${{ secrets.WZ2100_PUSH_SECRET_TOKEN }} # use a PAT so that subsequent workflows are triggered on push
@@ -107,20 +107,24 @@ jobs:
           git config user.email "61424532+wzdev-ci@users.noreply.github.com"
           git add -A
           short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
-          git commit -m "Deploy master branch: ${short_sha}" || echo "::set-output name=SKIPPED_DEPLOYMENT::true" && exit 0
+          git commit -m "Deploy master branch: ${short_sha}" || echo "::set-output name=PROCESS_DEPLOYMENT::false" && exit 0
           # Get the new commit's SHA
           NEW_COMMIT_SHA=$(git rev-parse --verify HEAD)
+          echo "NEW_COMMIT_SHA=${NEW_COMMIT_SHA}"
           # Push the new commit to the gh-pages branch
           git push "https://${PUSH_PAT}@github.com/Warzone2100/wz2100.net.git" gh-pages:gh-pages
-          echo "::set-output name=SKIPPED_DEPLOYMENT::false"
+          echo "::set-output name=PROCESS_DEPLOYMENT::true"
           echo "::set-output name=GH_PAGES_BRANCH_COMMIT_SHA::${NEW_COMMIT_SHA}"
+          echo "Done."
+          exit 0
       - name: 'Wait for Deployment'
         id: deployments
-        if: success() && (steps.publish-pages.outputs.SKIPPED_DEPLOYMENT == 'false')
+        if: success() && (steps.publishpages.outputs.PROCESS_DEPLOYMENT == 'true')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_PAGES_BRANCH_COMMIT_SHA: ${{ steps.publish-pages.outputs.GH_PAGES_BRANCH_COMMIT_SHA }}
+          GH_PAGES_BRANCH_COMMIT_SHA: ${{ steps.publishpages.outputs.GH_PAGES_BRANCH_COMMIT_SHA }}
         run: |
+          echo "Searching for deployment matching commit: ${GH_PAGES_BRANCH_COMMIT_SHA} ..."
           # Poll until we find a deployment with a sha == the push's commit's SHA
           status=1
           POLL_ATTEMPTS=0
@@ -148,11 +152,12 @@ jobs:
           echo "Found deployment ID: ${DEPLOYMENT_ID}"
           echo "::set-output name=DEPLOYMENT_ID::${DEPLOYMENT_ID}"
       - name: 'Wait for Deployment Success'
-        if: success() && (steps.publish-pages.outputs.SKIPPED_DEPLOYMENT == 'false')
+        if: success() && (steps.publishpages.outputs.PROCESS_DEPLOYMENT == 'true')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOYMENT_ID: ${{ steps.deployments.outputs.DEPLOYMENT_ID }}
         run: |
+          echo "Waiting for deployment ${DEPLOYMENT_ID} to finish ..."
           # Poll deployment statuses until we find a status with:
           # "state": "success"
           # "environment": "github-pages"
@@ -180,7 +185,7 @@ jobs:
             exit 1
           fi
       - name: 'Purge Cloudflare Cache'
-        if: success() && (steps.publish-pages.outputs.SKIPPED_DEPLOYMENT == 'false')
+        if: success() && (steps.publishpages.outputs.PROCESS_DEPLOYMENT == 'true')
         env:
           CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_WZ2100_ZONE }}
           CLOUDFLARE_CACHEPURGE_TOKEN: ${{ secrets.CLOUDFLARE_WZ2100_CACHEPURGE_TOKEN }}
