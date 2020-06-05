@@ -102,6 +102,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .texture-darken-strong::before{
 	background: rgba(0,0,0,0.8);
 }
+.texture-darken-stronger::before{
+	background: rgba(0,0,0,0.85);
+}
 
 
 /* Background Effects */
