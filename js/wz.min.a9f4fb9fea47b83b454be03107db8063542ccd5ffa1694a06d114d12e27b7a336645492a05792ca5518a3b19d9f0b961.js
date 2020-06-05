@@ -85,7 +85,7 @@ else
 {var targetObj=$(this);var windowH=$(window).height();var windowMax=$(window).scrollTop()+(windowH*3);if(targetObj.offset().top<windowMax)
 {if(!targetObj.hasClass('scroll-fx-in-range')&&targetObj.is('[class*="scroll-fx-in-fade"], [class*="scroll-fx-out-fade"]'))
 {targetObj.addClass('scroll-fx-in-range');}
-var centerPoint=(windowH/2)-(targetObj.outerHeight()/2);var exitPoint=(windowH/2)-targetObj.outerHeight();var scrollVal=$(window).scrollTop()-targetObj.offset().top+(targetObj.outerHeight()/100)+centerPoint;var scrollZoomIn=window.scrollY/(targetObj.offset().top-centerPoint);var scrollZoomOut=(targetObj.offset().top-centerPoint)/window.scrollY;var offSetVal=(scrollVal/10);var leftVal=offSetVal+"%";var rightVal=-offSetVal+"%";var opacity=1+(scrollVal/250);var FXState='in';if(offSetVal>0||!targetObj.is('[class*="-in"]'))
+var centerPoint=(windowH/1.5)-(targetObj.outerHeight()/2);var exitPoint=(windowH/1.5)-targetObj.outerHeight();var scrollVal=$(window).scrollTop()-targetObj.offset().top+(targetObj.outerHeight()/100)+centerPoint;var scrollZoomIn=window.scrollY/(targetObj.offset().top-centerPoint);var scrollZoomOut=(targetObj.offset().top-centerPoint)/window.scrollY;var offSetVal=(scrollVal/10);var leftVal=offSetVal+"%";var rightVal=-offSetVal+"%";var opacity=1+(scrollVal/250);var FXState='in';if(offSetVal>0||!targetObj.is('[class*="-in"]'))
 {leftVal=0;rightVal=0;if(offSetVal>0)
 {scrollZoomIn=1;scrollZoomOut=1;}
 if(targetObj.is('[class*="-in-fade"],[class*="-out-fade"]')){targetObj.css({'opacity':'1.0'});}}
