@@ -6,7 +6,7 @@ title: "Как я могу присоединиться / внести вкла�
 
 Вот лишь небольшой список:
 
-- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Сообщайте о ошибках в игре](https://github.com/Warzone2100/warzone2100/issues/new)
+- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Сообщайте о ошибках в игре](https://github.com/Warzone2100/warzone2100/issues/new/choose)
 - [{{% inlinesvg "fontawesome/solid/language.svg" %}} Помогайте нам с переводом](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#translating-warzone-2100)
 - [{{% inlinesvg "fontawesome/solid/heart.svg" %}} Помогайте материально (поможет оплачивать хостинг сервера и на другие расходы)](http://donations.wz2100.net)
 - [{{% inlinesvg "fontawesome/solid/users.svg" %}} Общайтесь с нами в Discord, IRC или форумах](/webchat)
