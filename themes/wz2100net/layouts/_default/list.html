@@ -81,7 +81,7 @@
 					<ul>
 					{{ range $paginator.Pages }}
 						<li>
-							<a href="{{.RelPermalink}}">{{ if .IsPage }}{{.Date.Format "2006-01-02"}} | {{ end }}{{.Title}}</a>
+							<a href="{{.RelPermalink}}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ if .IsPage }}{{.Date.Format "2006-01-02"}} | {{ end }}{{.Title}}{{ if ne .Language.Lang $.Site.Language.Lang }}<img src="/img/flags/{{ .Language.Lang }}.svg" alt="{{ .Language.Lang }}" height="23px" width="25px" style="padding-left:8px">{{ end }}</a>
 						</li>
 					{{ end }}
 					</ul>
