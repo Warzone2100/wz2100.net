@@ -4,6 +4,7 @@
 - [Notes for translators](#notes-for-translators)
 - [Notes for developers](#notes-for-developers)
 - [For developers merging translation PRs](#for-developers-merging-translation-prs)
+- [For developers activating a new language](#for-developers-activating-a-new-language)
 
 ## How do I help translate?
 Help us get wz2100.net translated into your native language and reach more people.
@@ -38,3 +39,16 @@ Help us get wz2100.net translated into your native language and reach more peopl
    - Close the Pull Request.
    - Delete the `l10n_translation_integration` branch.
    > Crowdin will then (eventually) re-create the `l10n_translation_integration` branch, and submit a new PR, effectively rebased on the latest `translation_integration` branch. _This may take up to 24 hours to occur, as we have configured Crowdin to batch pushes to its `l10n_*` service branch._
+
+## For developers activating a new language:
+To activate a new language, there are two steps:
+1. Edit `config.yaml`
+   1. Add a new section to the `languages:` section with the appropriate language identifier and:
+      - localized `languageName`
+      - a `weight` of `2` (or more, but should almost always be 2, especially if you aren't sure)
+      - the proper `contentDir`
+2. Add the corresponding flag (if missing) to `themes/wz2100net/static/img/flags/<lang>.svg`
+   - Flags are from: https://github.com/twitter/twemoji/tree/master/assets/svg
+   - (You will likely need to download the Twemoji archive locally, as GitHub limits the number of files displayed.)
+   - You can determine the appropriate filename using any of the various emoji search sites to look up the corresponding Unicode codepoints.
+   - Rename the svg to `<lang>.svg`
