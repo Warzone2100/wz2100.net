@@ -165,6 +165,10 @@ languages:
     languageName: "Italiano"
     weight: 2
     contentDir: "content/it"
+  nl:
+    languageName: "Nederlands"
+    weight: 2
+    contentDir: "content/nl"
   pt:
     languageName: "Português"
     weight: 2
