@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "Wat zijn de systeemvereisten?"
 ---
 
-Minimum Requirements:
+Minimale vereisten:
 - 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+- ondersteuning voor OpenGL 2.1 of hoger
+- ≈ 150MB opslagruimte
 
-Recommended Requirements:
-- 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
-- ≈ 1 GB storage space (including the campaign video sequences)
+Aanbevolen vereisten:
+- 4 GB RAM of meer
+- ondersteuning voor OpenGL 3.1 of hoger
+- een ondersteunde geluidskaart
+- ≈ 1 GB opslagruimte (onder andere voor video’s)

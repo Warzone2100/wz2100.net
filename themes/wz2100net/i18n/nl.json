@@ -1,420 +1,420 @@
 {
   "Home": {
-    "message": "Home"
+    "message": "Start"
   },
   "Features": {
-    "message": "Features"
+    "message": "Eigenschappen"
   },
   "History": {
-    "message": "History"
+    "message": "Geschiedenis"
   },
   "FAQ": {
     "message": "FAQ"
   },
   "Resources": {
-    "message": "Resources"
+    "message": "Hulpmiddelen"
   },
   "News": {
-    "message": "News"
+    "message": "Nieuws"
   },
   "Webchat": {
     "message": "Webchat"
   },
   "Forums": {
-    "message": "Forums"
+    "message": "Forum"
   },
   "Addons": {
-    "message": "Addons"
+    "message": "Add-ons"
   },
   "WZ Guide": {
-    "message": "WZ Guide"
+    "message": "WZ-gids"
   },
   "Wiki": {
     "message": "Wiki"
   },
   "Report Bugs": {
-    "message": "Report Bugs"
+    "message": "Bugs melden"
   },
   "Donate": {
-    "message": "Donate"
+    "message": "Doneren"
   },
   "Help us Translate": {
-    "message": "Help us Translate"
+    "message": "Help ons vertalen"
   },
   "A 100% free and open-source 3D real-time strategy game.": {
-    "message": "A 100% free and open-source 3D real-time strategy game."
+    "message": "Een 100% gratis en open source realtime strategiespel in 3D."
   },
   "Download Now": {
-    "message": "Download Now"
+    "message": "Nu downloaden"
   },
   "Toggle Dropdown": {
-    "message": "Toggle Dropdown"
+    "message": "Menu in-/uitklappen"
   },
   "Windows": {
     "message": "Windows"
   },
   "Portable Version": {
-    "message": "Portable Version"
+    "message": "Draagbare versie"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc."
+    "message": "Kan worden geïnstalleerd in en uitgevoerd vanuit een USB-stick, lokale map etc."
   },
   "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
-    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "message": "Alles in één map, inclusief alle instellingen en opgeslagen spellen."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(Hier zijn geen beheerdersrechten voor nodig.)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Volledige installatie"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "Installeert het spel voor alle gebruikers van een systeem."
   },
   "Settings / saves are user-specific.": {
-    "message": "Settings / saves are user-specific."
+    "message": "Elke gebruiker heeft zijn eigen instellingen en opgeslagen spellen."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(Hier zijn beheerdersrechten voor nodig.)"
   },
   "macOS": {
     "message": "macOS"
   },
   "macOS App Bundle": {
-    "message": "macOS App Bundle"
+    "message": "macOS-appbundel"
   },
   "Linux": {
     "message": "Linux"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Installeer het Snapbestand"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Download de broncode"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "en meer..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "Alle downloads en platformen"
   },
   "New": {
-    "message": "New"
+    "message": "Nieuw"
   },
   "Version": {
-    "message": "Version"
+    "message": "Versie"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "voor Windows 7-10"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "voor macOS 10.10 of nieuwer"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "voor Linux"
   },
   "Windows, macOS, Linux": {
     "message": "Windows, macOS, Linux"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "Geavanceerde installatieopties en andere platformen"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "Download de broncode"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "Download de Broncode"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "Bekijk op GitHub"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "Geef een ster op GitHub"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "Meld een fout"
   },
   "Copyright © Warzone 2100 Project.": {
     "message": "Copyright © Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone heeft een GPLv2+-licentie (en andere licenties)."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "Voer het bevel over de troepen van Het Project in een vecht om de wereld te herbouwen, nadat de mensheid haar bijna had vernietigd met nucleaire raketten."
   },
   "Sieze territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Sieze territory and resources, build extensive bases, and expand your production & research."
+    "message": "Verover grondgebieden en grondstoffen, bouw enorme bases en breid je productie en onderzoek uit."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "message": "Vecht via LAN of online met maximaal tien spelers enorme veldslagen uit."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "Vorige"
   },
   "Next": {
-    "message": "Next"
+    "message": "Volgende"
   },
   "Close": {
-    "message": "Close"
+    "message": "Sluiten"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "Werken de downloads niet?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "Zoek rechtstreeks in de spiegelservers:"
   },
   "GitHub Releases": {
-    "message": "GitHub Releases"
+    "message": "Uitgaves op GitHub"
   },
   "SourceForge Mirror": {
-    "message": "SourceForge Mirror"
+    "message": "SourceForge-spiegelserver"
   },
   "32-bit (x86)": {
-    "message": "32-bit (x86)"
+    "message": "32 bits (x86)"
   },
   "64-bit (x64)": {
-    "message": "64-bit (x64)"
+    "message": "64 bits (x64)"
   },
   "Snap Installer": {
-    "message": "Snap Installer"
+    "message": "Snapinstallatiebestand"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "Eenvoudig installeren."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "Ondersteunt de meeste Linux-distributies."
   },
   "(See link for details.)": {
-    "message": "(See link for details.)"
+    "message": "(Zie de link voor details.)"
   },
   "Compile Source": {
-    "message": "Compile Source"
+    "message": "Broncode compileren"
   },
   "Compile the source yourself using our build instructions.": {
-    "message": "Compile the source yourself using our build instructions."
+    "message": "Compileer de broncode zelf aan de hand van onze instructies."
   },
   "Source Code (.tar.xz)": {
-    "message": "Source Code (.tar.xz)"
+    "message": "Broncode (.tar.xz)"
   },
   "Mac App Bundle": {
-    "message": "Mac App Bundle"
+    "message": "Mac-appbundel"
   },
   "Download, unzip, and copy to your Applications folder.": {
-    "message": "Download, unzip, and copy to your Applications folder."
+    "message": "Downloaden, uitpakken en naar je appmap kopiëren."
   },
   "64-bit Intel": {
-    "message": "64-bit Intel"
+    "message": "64 bit Intel"
   },
   "How to handle “Warzone cannot be opened” errors.": {
-    "message": "How to handle “Warzone cannot be opened” errors."
+    "message": "Hoe om te gaan met \"Warzone cannot be opened\" foutmeldingen."
   },
   "Other": {
-    "message": "Other"
+    "message": "Andere"
   },
   "Campaign Videos": {
-    "message": "Campaign Videos"
+    "message": "Campagnevideo's"
   },
   "WMIT (Warzone Model Import Tool)": {
     "message": "WMIT (Warzone Model Import Tool)"
   },
   "Development Builds": {
-    "message": "Development Builds"
+    "message": "Ontwikkelversies"
   },
   "Development Source Code": {
-    "message": "Development Source Code"
+    "message": "Software-broncode"
   },
   "Verify Download Integrity (SHA256)": {
-    "message": "Verify Download Integrity (SHA256)"
+    "message": "Verifieer Download Integriteit (SHA256)"
   },
   "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
-    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "message": "Ga naar de locatie van de gedownloade bestand(en), vanuit een Command Prompt / Terminal. Voer vervolgens het juiste commando uit om de SHA256 checksum van het bestand te berekenen en vergelijk deze met de onderstaande tabel:"
   },
   "SHA256 Checksums for Version": {
-    "message": "SHA256 Checksums for Version"
+    "message": "SHA256 Checksums voor Versie"
   },
   "Why Warzone 2100 Rocks": {
-    "message": "Why Warzone 2100 Rocks"
+    "message": "Waarom Warzone 2100 rockt"
   },
   "Strategy by Design.": {
     "message": "Strategy by Design."
   },
   "Endless replayability.": {
-    "message": "Endless replayability."
+    "message": "Eindeloze herspeelbaarheid."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Singleplayer Campagne"
   },
   "LAN / Internet Multiplayer": {
     "message": "LAN / Internet Multiplayer"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
-    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "message": "Speel tegen je vrienden op een lokaal netwerk, of probeer online multiplayer met een geïntegreerde lobby."
   },
   "AI Bots": {
     "message": "AI Bots"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Speel tegen AI bots in lokale schermutselingen (of met teamgenoten / vijanden in multiplayer), en oefen je vaardigheden met eindeloze herspeelbaarheid."
   },
   "Extensive Tech Tree": {
-    "message": "Extensive Tech Tree"
+    "message": "Uitgebreide Onderzoeksboom"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
-    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "message": "Meer dan 400 verschillende technologieën zorgen voor een uitgebreide onderzoeksboom met vele wegen om te kiezen."
   },
   "Unit Designer": {
-    "message": "Unit Designer"
+    "message": "Unitontwerper"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
-    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "message": "Pas je eenheden aan met een flexibel ontwerpsysteem dat grote variëteit aan verschillende eenheden en tactieken mogelijk maakt."
   },
   "Cross-Platform": {
-    "message": "Cross-Platform"
+    "message": "Multiplatform"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
-    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "message": "Ondersteund met Windows, macOS, Linux, FreeBSD en meer; allemaal met ondersteuning voor multiplatform multiplayer!"
   },
   "Years": {
-    "message": "Years"
+    "message": "Jaar"
   },
   "Downloads": {
     "message": "Downloads"
   },
   "Forum Posts": {
-    "message": "Forum Posts"
+    "message": "Forumberichten"
   },
   "GitHub Stars": {
-    "message": "GitHub Stars"
+    "message": "GitHub Sterren"
   },
   "100s": {
-    "message": "100s"
+    "message": "Honderden"
   },
   "Contributors": {
-    "message": "Contributors"
+    "message": "Bijdragers"
   },
   "100%": {
     "message": "100%"
   },
   "Free": {
-    "message": "Free"
+    "message": "Gratis"
   },
   "100% Open & Free": {
-    "message": "100% Open & Free"
+    "message": "100% Open & Gratis"
   },
   "Open source, open development, open community - free as in freedom!": {
-    "message": "Open source, open development, open community - free as in freedom!"
+    "message": "Open source, open ontwikkeling, open gemeenschap; vrij als in vrijheid!"
   },
   "100% Open-Source": {
     "message": "100% Open-Source"
   },
   "Exclusively open-source technologies, software, & tools.": {
-    "message": "Exclusively open-source technologies, software, & tools."
+    "message": "Uitsluitend open-source technologieën, software en tools."
   },
   "Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+    "message": "Community-inhoud hebben liberale-licenties (bijv. CC0)."
   },
   "100% Open Development": {
-    "message": "100% Open Development"
+    "message": "100% Open Ontwikkeling"
   },
   "Join the public project on GitHub!": {
-    "message": "Join the public project on GitHub!"
+    "message": "Doe mee aan het publieke project op GitHub!"
   },
   "Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+    "message": "Iedereen kan fouten melden, patches bijdragen en verbetering aanvragen."
   },
   "100% Open Community": {
-    "message": "100% Open Community"
+    "message": "100% Open Gemeenschap"
   },
   "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "message": "Chat op het forum, maak en deel add-ons, neem deel aan online toernooien en draag bij aan de Warzone 2100 ervaring."
   },
   "People around the world are waiting!": {
-    "message": "People around the world are waiting!"
+    "message": "Mensen over de hele wereld wachten!"
   },
   "100% Free": {
-    "message": "100% Free"
+    "message": "100% Gratis"
   },
   "Everything is free, including source code, downloads, and all features.": {
-    "message": "Everything is free, including source code, downloads, and all features."
+    "message": "Alles is gratis, inclusief broncode, downloads en alle functies."
   },
   "No in-app purchases.": {
-    "message": "No in-app purchases."
+    "message": "Geen in-app aankopen."
   },
   "No subscriptions.": {
-    "message": "No subscriptions."
+    "message": "Geen abonnementen."
   },
   "No ads.": {
-    "message": "No ads."
+    "message": "Geen advertenties."
   },
   "Just free.": {
-    "message": "Just free."
+    "message": "Gewoon gratis."
   },
   "A Long History": {
-    "message": "A Long History"
+    "message": "Een Lange Geschiedenis"
   },
   "Developed in the 90s by Pumpkin Studios.": {
-    "message": "Developed in the 90s by Pumpkin Studios."
+    "message": "Ontwikkeld in de jaren negentig door Pumpkin Studios."
   },
   "Liberated in 2004.": {
-    "message": "Liberated in 2004."
+    "message": "Bevrijd in 2004."
   },
   "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "message": "Warzone 2100 werd oorspronkelijk ontwikkeld door Pumpkin Studios en gepubliceerd door Eidos Interactive."
   },
   "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
-    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "message": "In 1999 werd het commercieel uitgebracht voor Microsoft Windows en Sony PlayStation."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "message": "Pumpkin Studios is op 5 januari 2000 gestopt met het ondersteunen van Warzone 2100."
   },
   "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "message": "In 2004, na een petitie van fans, werd de broncode van Warzone 2100 publiekelijk vrijgegeven onder een open source licentie."
   },
   "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "message": "Sindsdien is het door de gemeenschap ontwikkeld, onderhouden en verbeterd onder de noemer van het \"Warzone 2100 Project\"."
   },
   "More Info": {
-    "message": "More Info"
+    "message": "Meer informatie"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions"
+    "message": "Veelgestelde vragen (FAQ's)"
   },
   "Answers to common questions.": {
-    "message": "Answers to common questions."
+    "message": "Antwoorden op veelgestelde vragen."
   },
   "Can't find the answer you're looking for?": {
-    "message": "Can't find the answer you're looking for?"
+    "message": "Kun je het antwoord dat je zoekt niet vinden?"
   },
   "Check out the Forums and Webchat.": {
-    "message": "Check out the Forums and Webchat."
+    "message": "Bekijk het forum of de webchat."
   },
   "General": {
-    "message": "General"
+    "message": "Algemeen"
   },
   "Multiplayer": {
     "message": "Multiplayer"
   },
   "Troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Tips en oplossingen"
   },
   "JavaScript is disabled.": {
-    "message": "JavaScript is disabled."
+    "message": "JavaScript is uitgeschakeld."
   },
   "This site may not work properly without it.": {
-    "message": "This site may not work properly without it."
+    "message": "Deze website werkt mogelijk niet correct zonder."
   },
   "About": {
-    "message": "About"
+    "message": "Over"
   },
   "The Team": {
-    "message": "The Team"
+    "message": "Het team"
   },
   "Changelog": {
-    "message": "Changelog"
+    "message": "Veranderingslogboek"
   },
   "Privacy Policy": {
-    "message": "Privacy Policy"
+    "message": "Privacybeleid"
   },
   "Download": {
     "message": "Download"
@@ -423,114 +423,114 @@
     "message": "Snap Store (Linux)"
   },
   "Source Code": {
-    "message": "Source Code"
+    "message": "Broncode"
   },
   "Source Code.": {
-    "message": "Source Code."
+    "message": "Broncode."
   },
   "Contribute": {
-    "message": "Contribute"
+    "message": "Help mee"
   },
   "Help with Translations": {
-    "message": "Help with Translations"
+    "message": "Help met vertalen"
   },
   "Documentation": {
-    "message": "Documentation"
+    "message": "Documentatie"
   },
   "Connect": {
-    "message": "Connect"
+    "message": "Verbind"
   },
   "Copyright © past-due.": {
     "message": "Copyright © past-due."
   },
   "theme": {
-    "message": "theme"
+    "message": "thema"
   },
   "Licensed under the GNU AGPLv3.": {
-    "message": "Licensed under the GNU AGPLv3."
+    "message": "Licentie uitgegeven onder GNU AGPLv3."
   },
   "Powered by Hugo": {
-    "message": "Powered by Hugo"
+    "message": "Mogelijk gemaakt door Hugo"
   },
   "All trademarks are the property of their respective owners.": {
-    "message": "All trademarks are the property of their respective owners."
+    "message": "Alle handelsmerken zijn het eigendom van hun respectieve eigenaren."
   },
   "YOU'VE BEEN INVITED TO JOIN A SERVER": {
-    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "message": "U BENT UITGENODIGD OM LID TE WORDEN VAN EEN SERVER"
   },
   "Join": {
-    "message": "Join"
+    "message": "Wordt lid"
   },
   "Loading...": {
-    "message": "Loading..."
+    "message": "Laden..."
   },
   "You are running the latest release of Warzone 2100.": {
-    "message": "You are running the latest release of Warzone 2100."
+    "message": "Je hebt de laatste versie van Warzone 2100."
   },
   "You are running the latest development build.": {
-    "message": "You are running the latest development build."
+    "message": "Je hebt de laatste ontwikkelversie."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Bedankt voor het zoeken van bugs in deze versies; het wordt gewaardeerd!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "Er is een nieuwe versie beschikbaar!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "Er is een nieuwe ontwikkelingsversie beschikbaar!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "Download de laatste ontwikkelversie"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Kan niet controleren op updates"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Deze website vereist JavaScript, en het lijkt erop dat je het hebt uitgeschakeld."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Als je het niet zeker weet, download dan nu de laatste versie."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "Kon niet controleren op de laatste ontwikkelversies"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "Je kunt altijd hieronder de laatste ontwikkelversie downloaden."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Jouw versie"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "Laatste uitgave"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "Laatste ontwikkelversie"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "404 - Niet gevonden"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Wat dat ook was, het kon niet worden gevonden."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Sorry daarvoor."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Ga naar start"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Subsecties"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Labels"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Alle labels"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Sitenavigatie"
   },
   "More": {
-    "message": "More"
+    "message": "Meer"
   }
 }
