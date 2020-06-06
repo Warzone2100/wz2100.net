@@ -1,15 +1,15 @@
 [
   {
     "id": "Home",
-    "translation": "Start"
+    "translation": "Home"
   },
   {
     "id": "Features",
-    "translation": "Eigenschappen"
+    "translation": "Features"
   },
   {
     "id": "History",
-    "translation": "Geschiedenis"
+    "translation": "History"
   },
   {
     "id": "FAQ",
@@ -17,11 +17,11 @@
   },
   {
     "id": "Resources",
-    "translation": "Hulpmiddelen"
+    "translation": "Resources"
   },
   {
     "id": "News",
-    "translation": "Nieuws"
+    "translation": "News"
   },
   {
     "id": "Webchat",
@@ -29,15 +29,15 @@
   },
   {
     "id": "Forums",
-    "translation": "Forum"
+    "translation": "Forums"
   },
   {
     "id": "Addons",
-    "translation": "Add-ons"
+    "translation": "Addons"
   },
   {
     "id": "WZ Guide",
-    "translation": "WZ-gids"
+    "translation": "WZ Guide"
   },
   {
     "id": "Wiki",
@@ -45,27 +45,27 @@
   },
   {
     "id": "Report Bugs",
-    "translation": "Bugs melden"
+    "translation": "Report Bugs"
   },
   {
     "id": "Donate",
-    "translation": "Doneren"
+    "translation": "Donate"
   },
   {
     "id": "Help us Translate",
-    "translation": "Help ons vertalen"
+    "translation": "Help us Translate"
   },
   {
     "id": "A 100% free and open-source 3D real-time strategy game.",
-    "translation": "Een 100% gratis en open source realtime strategiespel in 3D."
+    "translation": "A 100% free and open-source 3D real-time strategy game."
   },
   {
     "id": "Download Now",
-    "translation": "Nu downloaden"
+    "translation": "Download Now"
   },
   {
     "id": "Toggle Dropdown",
-    "translation": "Menu in-/uitklappen"
+    "translation": "Toggle Dropdown"
   },
   {
     "id": "Windows",
@@ -73,35 +73,35 @@
   },
   {
     "id": "Portable Version",
-    "translation": "Draagbare versie"
+    "translation": "Portable Version"
   },
   {
     "id": "Can be installed to / run from a USB drive, local folder, etc.",
-    "translation": "Kan worden geïnstalleerd in en uitgevoerd vanuit een USB-stick, lokale map etc."
+    "translation": "Can be installed to / run from a USB drive, local folder, etc."
   },
   {
     "id": "Fully self-contained in a single directory - stores all settings / saves in that same directory too.",
-    "translation": "Alles in één map, inclusief alle instellingen en opgeslagen spellen."
+    "translation": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
   },
   {
     "id": "(Does not require admin privileges.)",
-    "translation": "(Hier zijn geen beheerdersrechten voor nodig.)"
+    "translation": "(Does not require admin privileges.)"
   },
   {
     "id": "Full Installer",
-    "translation": "Volledige installatie"
+    "translation": "Full Installer"
   },
   {
     "id": "Installs for all users on a system.",
-    "translation": "Installeert het spel voor alle gebruikers van een systeem."
+    "translation": "Installs for all users on a system."
   },
   {
     "id": "Settings / saves are user-specific.",
-    "translation": "Elke gebruiker heeft zijn eigen instellingen en opgeslagen spellen."
+    "translation": "Settings / saves are user-specific."
   },
   {
     "id": "(Requires admin privileges to install.)",
-    "translation": "(Hier zijn beheerdersrechten voor nodig.)"
+    "translation": "(Requires admin privileges to install.)"
   },
   {
     "id": "macOS",
@@ -109,7 +109,7 @@
   },
   {
     "id": "macOS App Bundle",
-    "translation": "macOS-appbundel"
+    "translation": "macOS App Bundle"
   },
   {
     "id": "Linux",
@@ -117,39 +117,39 @@
   },
   {
     "id": "Install the Snap",
-    "translation": "Installeer het Snapbestand"
+    "translation": "Install the Snap"
   },
   {
     "id": "Get the Source",
-    "translation": "Download de broncode"
+    "translation": "Get the Source"
   },
   {
     "id": "and more...",
-    "translation": "en meer..."
+    "translation": "and more..."
   },
   {
     "id": "All downloads & platforms",
-    "translation": "Alle downloads en platformen"
+    "translation": "All downloads & platforms"
   },
   {
     "id": "New",
-    "translation": "Nieuw"
+    "translation": "New"
   },
   {
     "id": "Version",
-    "translation": "Versie"
+    "translation": "Version"
   },
   {
     "id": "for Windows 7-10",
-    "translation": "voor Windows 7-10"
+    "translation": "for Windows 7-10"
   },
   {
     "id": "for macOS 10.10+",
-    "translation": "voor macOS 10.10 of nieuwer"
+    "translation": "for macOS 10.10+"
   },
   {
     "id": "for Linux",
-    "translation": "voor Linux"
+    "translation": "for Linux"
   },
   {
     "id": "Windows, macOS, Linux",
@@ -157,27 +157,27 @@
   },
   {
     "id": "Advanced install options & other platforms",
-    "translation": "Geavanceerde installatieopties en andere platformen"
+    "translation": "Advanced install options & other platforms"
   },
   {
     "id": "Get the source code",
-    "translation": "Download de broncode"
+    "translation": "Get the source code"
   },
   {
     "id": "Get the Source Code",
-    "translation": "Download de Broncode"
+    "translation": "Get the Source Code"
   },
   {
     "id": "View on GitHub",
-    "translation": "Bekijk op GitHub"
+    "translation": "View on GitHub"
   },
   {
     "id": "Star on GitHub",
-    "translation": "Geef een ster op GitHub"
+    "translation": "Star on GitHub"
   },
   {
     "id": "Report a Bug",
-    "translation": "Meld een fout"
+    "translation": "Report a Bug"
   },
   {
     "id": "Copyright © Warzone 2100 Project.",
@@ -185,107 +185,107 @@
   },
   {
     "id": "Warzone is licensed under the GPLv2+ license (& others).",
-    "translation": "Warzone heeft een GPLv2+-licentie (en andere licenties)."
+    "translation": "Warzone is licensed under the GPLv2+ license (& others)."
   },
   {
     "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
-    "translation": "Voer het bevel over de troepen van Het Project in een vecht om de wereld te herbouwen, nadat de mensheid haar bijna had vernietigd met nucleaire raketten."
+    "translation": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
   },
   {
     "id": "Sieze territory and resources, build extensive bases, and expand your production & research.",
-    "translation": "Verover grondgebieden en grondstoffen, bouw enorme bases en breid je productie en onderzoek uit."
+    "translation": "Sieze territory and resources, build extensive bases, and expand your production & research."
   },
   {
     "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
-    "translation": "Vecht via LAN of online met maximaal tien spelers enorme veldslagen uit."
+    "translation": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
   },
   {
     "id": "Previous",
-    "translation": "Vorige"
+    "translation": "Previous"
   },
   {
     "id": "Next",
-    "translation": "Volgende"
+    "translation": "Next"
   },
   {
     "id": "Close",
-    "translation": "Sluiten"
+    "translation": "Close"
   },
   {
     "id": "Downloads not working?",
-    "translation": "Werken de downloads niet?"
+    "translation": "Downloads not working?"
   },
   {
     "id": "Try browsing the download mirrors directly:",
-    "translation": "Zoek rechtstreeks in de spiegelservers:"
+    "translation": "Try browsing the download mirrors directly:"
   },
   {
     "id": "GitHub Releases",
-    "translation": "Uitgaves op GitHub"
+    "translation": "GitHub Releases"
   },
   {
     "id": "SourceForge Mirror",
-    "translation": "SourceForge-spiegelserver"
+    "translation": "SourceForge Mirror"
   },
   {
     "id": "32-bit (x86)",
-    "translation": "32 bits (x86)"
+    "translation": "32-bit (x86)"
   },
   {
     "id": "64-bit (x64)",
-    "translation": "64 bits (x64)"
+    "translation": "64-bit (x64)"
   },
   {
     "id": "Snap Installer",
-    "translation": "Snapinstallatiebestand"
+    "translation": "Snap Installer"
   },
   {
     "id": "Easy installation.",
-    "translation": "Eenvoudig installeren."
+    "translation": "Easy installation."
   },
   {
     "id": "Supports most Linux distributions.",
-    "translation": "Ondersteunt de meeste Linux-distributies."
+    "translation": "Supports most Linux distributions."
   },
   {
     "id": "(See link for details.)",
-    "translation": "(Zie de link voor details.)"
+    "translation": "(See link for details.)"
   },
   {
     "id": "Compile Source",
-    "translation": "Broncode compileren"
+    "translation": "Compile Source"
   },
   {
     "id": "Compile the source yourself using our build instructions.",
-    "translation": "Compileer de broncode zelf aan de hand van onze instructies."
+    "translation": "Compile the source yourself using our build instructions."
   },
   {
     "id": "Source Code (.tar.xz)",
-    "translation": "Broncode (.tar.xz)"
+    "translation": "Source Code (.tar.xz)"
   },
   {
     "id": "Mac App Bundle",
-    "translation": "Mac-appbundel"
+    "translation": "Mac App Bundle"
   },
   {
     "id": "Download, unzip, and copy to your Applications folder.",
-    "translation": "Downloaden, uitpakken en naar je appmap kopiëren."
+    "translation": "Download, unzip, and copy to your Applications folder."
   },
   {
     "id": "64-bit Intel",
-    "translation": "64 bit Intel"
+    "translation": "64-bit Intel"
   },
   {
     "id": "How to handle “Warzone cannot be opened” errors.",
-    "translation": "Hoe om te gaan met \"Warzone cannot be opened\" foutmeldingen."
+    "translation": "How to handle “Warzone cannot be opened” errors."
   },
   {
     "id": "Other",
-    "translation": "Andere"
+    "translation": "Other"
   },
   {
     "id": "Campaign Videos",
-    "translation": "Campagnevideo's"
+    "translation": "Campaign Videos"
   },
   {
     "id": "WMIT (Warzone Model Import Tool)",
@@ -293,27 +293,27 @@
   },
   {
     "id": "Development Builds",
-    "translation": "Ontwikkelversies"
+    "translation": "Development Builds"
   },
   {
     "id": "Development Source Code",
-    "translation": "Software-broncode"
+    "translation": "Development Source Code"
   },
   {
     "id": "Verify Download Integrity (SHA256)",
-    "translation": "Verifieer Download Integriteit (SHA256)"
+    "translation": "Verify Download Integrity (SHA256)"
   },
   {
     "id": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:",
-    "translation": "Ga naar de locatie van de gedownloade bestand(en), vanuit een Command Prompt / Terminal. Voer vervolgens het juiste commando uit om de SHA256 checksum van het bestand te berekenen en vergelijk deze met de onderstaande tabel:"
+    "translation": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
   },
   {
     "id": "SHA256 Checksums for Version",
-    "translation": "SHA256 Checksums voor Versie"
+    "translation": "SHA256 Checksums for Version"
   },
   {
     "id": "Why Warzone 2100 Rocks",
-    "translation": "Waarom Warzone 2100 rockt"
+    "translation": "Why Warzone 2100 Rocks"
   },
   {
     "id": "Strategy by Design.",
@@ -321,11 +321,11 @@
   },
   {
     "id": "Endless replayability.",
-    "translation": "Eindeloze herspeelbaarheid."
+    "translation": "Endless replayability."
   },
   {
     "id": "Single-Player Campaign",
-    "translation": "Singleplayer Campagne"
+    "translation": "Single-Player Campaign"
   },
   {
     "id": "LAN / Internet Multiplayer",
@@ -333,7 +333,7 @@
   },
   {
     "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
-    "translation": "Speel tegen je vrienden op een lokaal netwerk, of probeer online multiplayer met een geïntegreerde lobby."
+    "translation": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
   },
   {
     "id": "AI Bots",
@@ -341,35 +341,35 @@
   },
   {
     "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",
-    "translation": "Speel tegen AI bots in lokale schermutselingen (of met teamgenoten / vijanden in multiplayer), en oefen je vaardigheden met eindeloze herspeelbaarheid."
+    "translation": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
   },
   {
     "id": "Extensive Tech Tree",
-    "translation": "Uitgebreide Onderzoeksboom"
+    "translation": "Extensive Tech Tree"
   },
   {
     "id": "Over 400 different technologies yield an extensive tech tree with many paths to choose.",
-    "translation": "Meer dan 400 verschillende technologieën zorgen voor een uitgebreide onderzoeksboom met vele wegen om te kiezen."
+    "translation": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
   },
   {
     "id": "Unit Designer",
-    "translation": "Unitontwerper"
+    "translation": "Unit Designer"
   },
   {
     "id": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.",
-    "translation": "Pas je eenheden aan met een flexibel ontwerpsysteem dat grote variëteit aan verschillende eenheden en tactieken mogelijk maakt."
+    "translation": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
   },
   {
     "id": "Cross-Platform",
-    "translation": "Multiplatform"
+    "translation": "Cross-Platform"
   },
   {
     "id": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!",
-    "translation": "Ondersteund met Windows, macOS, Linux, FreeBSD en meer; allemaal met ondersteuning voor multiplatform multiplayer!"
+    "translation": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
   },
   {
     "id": "Years",
-    "translation": "Jaar"
+    "translation": "Years"
   },
   {
     "id": "Downloads",
@@ -377,19 +377,19 @@
   },
   {
     "id": "Forum Posts",
-    "translation": "Forumberichten"
+    "translation": "Forum Posts"
   },
   {
     "id": "GitHub Stars",
-    "translation": "GitHub Sterren"
+    "translation": "GitHub Stars"
   },
   {
     "id": "100s",
-    "translation": "Honderden"
+    "translation": "100s"
   },
   {
     "id": "Contributors",
-    "translation": "Bijdragers"
+    "translation": "Contributors"
   },
   {
     "id": "100%",
@@ -397,15 +397,15 @@
   },
   {
     "id": "Free",
-    "translation": "Gratis"
+    "translation": "Free"
   },
   {
     "id": "100% Open & Free",
-    "translation": "100% Open & Gratis"
+    "translation": "100% Open & Free"
   },
   {
     "id": "Open source, open development, open community - free as in freedom!",
-    "translation": "Open source, open ontwikkeling, open gemeenschap; vrij als in vrijheid!"
+    "translation": "Open source, open development, open community - free as in freedom!"
   },
   {
     "id": "100% Open-Source",
@@ -413,115 +413,115 @@
   },
   {
     "id": "Exclusively open-source technologies, software, & tools.",
-    "translation": "Uitsluitend open-source technologieën, software en tools."
+    "translation": "Exclusively open-source technologies, software, & tools."
   },
   {
     "id": "Community content is licensed under liberal licenses (ex. CC0).",
-    "translation": "Community-inhoud hebben liberale-licenties (bijv. CC0)."
+    "translation": "Community content is licensed under liberal licenses (ex. CC0)."
   },
   {
     "id": "100% Open Development",
-    "translation": "100% Open Ontwikkeling"
+    "translation": "100% Open Development"
   },
   {
     "id": "Join the public project on GitHub!",
-    "translation": "Doe mee aan het publieke project op GitHub!"
+    "translation": "Join the public project on GitHub!"
   },
   {
     "id": "Anyone can file bugs, contribute patches, and request enhancements.",
-    "translation": "Iedereen kan fouten melden, patches bijdragen en verbetering aanvragen."
+    "translation": "Anyone can file bugs, contribute patches, and request enhancements."
   },
   {
     "id": "100% Open Community",
-    "translation": "100% Open Gemeenschap"
+    "translation": "100% Open Community"
   },
   {
     "id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
-    "translation": "Chat op het forum, maak en deel add-ons, neem deel aan online toernooien en draag bij aan de Warzone 2100 ervaring."
+    "translation": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
   },
   {
     "id": "People around the world are waiting!",
-    "translation": "Mensen over de hele wereld wachten!"
+    "translation": "People around the world are waiting!"
   },
   {
     "id": "100% Free",
-    "translation": "100% Gratis"
+    "translation": "100% Free"
   },
   {
     "id": "Everything is free, including source code, downloads, and all features.",
-    "translation": "Alles is gratis, inclusief broncode, downloads en alle functies."
+    "translation": "Everything is free, including source code, downloads, and all features."
   },
   {
     "id": "No in-app purchases.",
-    "translation": "Geen in-app aankopen."
+    "translation": "No in-app purchases."
   },
   {
     "id": "No subscriptions.",
-    "translation": "Geen abonnementen."
+    "translation": "No subscriptions."
   },
   {
     "id": "No ads.",
-    "translation": "Geen advertenties."
+    "translation": "No ads."
   },
   {
     "id": "Just free.",
-    "translation": "Gewoon gratis."
+    "translation": "Just free."
   },
   {
     "id": "A Long History",
-    "translation": "Een Lange Geschiedenis"
+    "translation": "A Long History"
   },
   {
     "id": "Developed in the 90s by Pumpkin Studios.",
-    "translation": "Ontwikkeld in de jaren negentig door Pumpkin Studios."
+    "translation": "Developed in the 90s by Pumpkin Studios."
   },
   {
     "id": "Liberated in 2004.",
-    "translation": "Bevrijd in 2004."
+    "translation": "Liberated in 2004."
   },
   {
     "id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
-    "translation": "Warzone 2100 werd oorspronkelijk ontwikkeld door Pumpkin Studios en gepubliceerd door Eidos Interactive."
+    "translation": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
   },
   {
     "id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
-    "translation": "In 1999 werd het commercieel uitgebracht voor Microsoft Windows en Sony PlayStation."
+    "translation": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
   },
   {
     "id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
-    "translation": "Pumpkin Studios is op 5 januari 2000 gestopt met het ondersteunen van Warzone 2100."
+    "translation": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
   },
   {
     "id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
-    "translation": "In 2004, na een petitie van fans, werd de broncode van Warzone 2100 publiekelijk vrijgegeven onder een open source licentie."
+    "translation": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
   },
   {
     "id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
-    "translation": "Sindsdien is het door de gemeenschap ontwikkeld, onderhouden en verbeterd onder de noemer van het \"Warzone 2100 Project\"."
+    "translation": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
   },
   {
     "id": "More Info",
-    "translation": "Meer informatie"
+    "translation": "More Info"
   },
   {
     "id": "Frequently Asked Questions",
-    "translation": "Veelgestelde vragen (FAQ's)"
+    "translation": "Frequently Asked Questions"
   },
   {
     "id": "Answers to common questions.",
-    "translation": "Antwoorden op veelgestelde vragen."
+    "translation": "Answers to common questions."
   },
   {
     "id": "Can't find the answer you're looking for?",
-    "translation": "Kun je het antwoord dat je zoekt niet vinden?"
+    "translation": "Can't find the answer you're looking for?"
   },
   {
     "id": "Check out the Forums and Webchat.",
-    "translation": "Bekijk het forum of de webchat."
+    "translation": "Check out the Forums and Webchat."
   },
   {
     "id": "General",
-    "translation": "Algemeen"
+    "translation": "General"
   },
   {
     "id": "Multiplayer",
@@ -529,31 +529,31 @@
   },
   {
     "id": "Troubleshooting",
-    "translation": "Tips en oplossingen"
+    "translation": "Troubleshooting"
   },
   {
     "id": "JavaScript is disabled.",
-    "translation": "JavaScript is uitgeschakeld."
+    "translation": "JavaScript is disabled."
   },
   {
     "id": "This site may not work properly without it.",
-    "translation": "Deze website werkt mogelijk niet correct zonder."
+    "translation": "This site may not work properly without it."
   },
   {
     "id": "About",
-    "translation": "Over"
+    "translation": "About"
   },
   {
     "id": "The Team",
-    "translation": "Het team"
+    "translation": "The Team"
   },
   {
     "id": "Changelog",
-    "translation": "Veranderingslogboek"
+    "translation": "Changelog"
   },
   {
     "id": "Privacy Policy",
-    "translation": "Privacybeleid"
+    "translation": "Privacy Policy"
   },
   {
     "id": "Download",
@@ -565,27 +565,27 @@
   },
   {
     "id": "Source Code",
-    "translation": "Broncode"
+    "translation": "Source Code"
   },
   {
     "id": "Source Code.",
-    "translation": "Broncode."
+    "translation": "Source Code."
   },
   {
     "id": "Contribute",
-    "translation": "Help mee"
+    "translation": "Contribute"
   },
   {
     "id": "Help with Translations",
-    "translation": "Help met vertalen"
+    "translation": "Help with Translations"
   },
   {
     "id": "Documentation",
-    "translation": "Documentatie"
+    "translation": "Documentation"
   },
   {
     "id": "Connect",
-    "translation": "Verbind"
+    "translation": "Connect"
   },
   {
     "id": "Copyright © past-due.",
@@ -593,122 +593,122 @@
   },
   {
     "id": "theme",
-    "translation": "thema"
+    "translation": "theme"
   },
   {
     "id": "Licensed under the GNU AGPLv3.",
-    "translation": "Licentie uitgegeven onder GNU AGPLv3."
+    "translation": "Licensed under the GNU AGPLv3."
   },
   {
     "id": "Powered by Hugo",
-    "translation": "Mogelijk gemaakt door Hugo"
+    "translation": "Powered by Hugo"
   },
   {
     "id": "All trademarks are the property of their respective owners.",
-    "translation": "Alle handelsmerken zijn het eigendom van hun respectieve eigenaren."
+    "translation": "All trademarks are the property of their respective owners."
   },
   {
     "id": "YOU'VE BEEN INVITED TO JOIN A SERVER",
-    "translation": "U BENT UITGENODIGD OM LID TE WORDEN VAN EEN SERVER"
+    "translation": "YOU'VE BEEN INVITED TO JOIN A SERVER"
   },
   {
     "id": "Join",
-    "translation": "Wordt lid"
+    "translation": "Join"
   },
   {
     "id": "Loading...",
-    "translation": "Laden..."
+    "translation": "Loading..."
   },
   {
     "id": "You are running the latest release of Warzone 2100.",
-    "translation": "Je hebt de laatste versie van Warzone 2100."
+    "translation": "You are running the latest release of Warzone 2100."
   },
   {
     "id": "You are running the latest development build.",
-    "translation": "Je hebt de laatste ontwikkelversie."
+    "translation": "You are running the latest development build."
   },
   {
     "id": "Thanks for trying out these builds, and looking for bugs - it is appreciated!",
-    "translation": "Bedankt voor het zoeken van bugs in deze versies; het wordt gewaardeerd!"
+    "translation": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
   },
   {
     "id": "A new release is available!",
-    "translation": "Er is een nieuwe versie beschikbaar!"
+    "translation": "A new release is available!"
   },
   {
     "id": "A new development build is available!",
-    "translation": "Er is een nieuwe ontwikkelingsversie beschikbaar!"
+    "translation": "A new development build is available!"
   },
   {
     "id": "Download Latest Development Builds",
-    "translation": "Download de laatste ontwikkelversie"
+    "translation": "Download Latest Development Builds"
   },
   {
     "id": "Unable to check for updates",
-    "translation": "Kan niet controleren op updates"
+    "translation": "Unable to check for updates"
   },
   {
     "id": "This site requires JavaScript, and it looks like you have it disabled.",
-    "translation": "Deze website vereist JavaScript, en het lijkt erop dat je het hebt uitgeschakeld."
+    "translation": "This site requires JavaScript, and it looks like you have it disabled."
   },
   {
     "id": "If you aren't sure, download the latest version now.",
-    "translation": "Als je het niet zeker weet, download dan nu de laatste versie."
+    "translation": "If you aren't sure, download the latest version now."
   },
   {
     "id": "Couldn't check for latest development builds",
-    "translation": "Kon niet controleren op de laatste ontwikkelversies"
+    "translation": "Couldn't check for latest development builds"
   },
   {
     "id": "You can always download the latest development builds below.",
-    "translation": "Je kunt altijd hieronder de laatste ontwikkelversie downloaden."
+    "translation": "You can always download the latest development builds below."
   },
   {
     "id": "Your version",
-    "translation": "Jouw versie"
+    "translation": "Your version"
   },
   {
     "id": "Latest Release",
-    "translation": "Laatste uitgave"
+    "translation": "Latest Release"
   },
   {
     "id": "Latest Development Build",
-    "translation": "Laatste ontwikkelversie"
+    "translation": "Latest Development Build"
   },
   {
     "id": "404 - Not Found",
-    "translation": "404 - Niet gevonden"
+    "translation": "404 - Not Found"
   },
   {
     "id": "Whatever that was, it couldn't be found.",
-    "translation": "Wat dat ook was, het kon niet worden gevonden."
+    "translation": "Whatever that was, it couldn't be found."
   },
   {
     "id": "Sorry about that.",
-    "translation": "Sorry daarvoor."
+    "translation": "Sorry about that."
   },
   {
     "id": "Go Home",
-    "translation": "Ga naar start"
+    "translation": "Go Home"
   },
   {
     "id": "Subsections",
-    "translation": "Subsecties"
+    "translation": "Subsections"
   },
   {
     "id": "Tags",
-    "translation": "Labels"
+    "translation": "Tags"
   },
   {
     "id": "All Tags",
-    "translation": "Alle labels"
+    "translation": "All Tags"
   },
   {
     "id": "Site Navigation",
-    "translation": "Sitenavigatie"
+    "translation": "Site Navigation"
   },
   {
     "id": "More",
-    "translation": "Meer"
+    "translation": "More"
   }
 ]
