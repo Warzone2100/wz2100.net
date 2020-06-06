@@ -1,5 +1,5 @@
 ---
-title: "Will Warzone 2100 run on my system?"
+title: "Kan Warzone 2100 op mijn systeem draaien?"
 ---
 
-Warzone 2100 runs well on even relatively modest systems with integrated graphics (and has options to turn graphics settings up / down as needed). The easiest way to verify is to download it - it's free!
+Warzone 2100 kan best goed draaien op relatief bescheiden systemen met een geïntegreerde grafische kaart (en de grafische instellingen kunnen worden aangepast). Maar de makkelijkste manier om daar achter te komen is om het te downloaden. Het is gratis!
