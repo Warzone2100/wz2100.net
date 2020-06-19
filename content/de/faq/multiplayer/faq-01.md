@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Wie nehme ich an einem Online-Spiel teil?"
 ---
 
-Joining existing games is usually easy.
+Die Teilnahme an bestehenden Spielen ist in der Regel einfach.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Starte das Spiel, klicke auf Mehrspieler → Spiel beitreten → Lobby.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Wenn Spiele verfügbar sind kannst Du sie anklicken und beitreten. Dann setze einen Haken in die "Bereit" Box. Wenn alle "Bereit" abgehakt haben startet das Spiel.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+Vergiss nicht, Deinen Namen auszuwählen, indem du links auf das Namensfeld klickst. 
