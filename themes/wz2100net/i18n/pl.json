@@ -3,7 +3,7 @@
     "message": "Strona główna"
   },
   "Features": {
-    "message": "Features"
+    "message": "Funkcje"
   },
   "History": {
     "message": "Historia"
@@ -36,13 +36,13 @@
     "message": "Zgłoś błąd"
   },
   "Donate": {
-    "message": "Donate"
+    "message": "Wesprzyj Projekt"
   },
   "Help us Translate": {
     "message": "Pomóż nam tłumaczyć"
   },
   "A 100% free and open-source 3D real-time strategy game.": {
-    "message": "A 100% free and open-source 3D real-time strategy game."
+    "message": "W 100% Darmowa, trójwymiarowa strategia czasu rzeczywistego na licencji open source."
   },
   "Download Now": {
     "message": "Pobierz teraz"
@@ -66,7 +66,7 @@
     "message": "(Nie wymaga uprawnień administratora)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Pełen Instalator"
   },
   "Installs for all users on a system.": {
     "message": "Instaluje grę dla wszystkich użytkowników na komputerze."
@@ -168,7 +168,7 @@
     "message": "GitHub Releases"
   },
   "SourceForge Mirror": {
-    "message": "SourceForge Mirror"
+    "message": "Mirror na SourceForge"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -255,7 +255,7 @@
     "message": "Boty SI"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Graj przeciwko botom w pojedynkach (lub jako dodanym sojusznikom / wrogom w grze wieloosobowej) i ćwicz swoje umiejętności."
   },
   "Extensive Tech Tree": {
     "message": "Rozległe Drzewo Technologiczne"
@@ -471,66 +471,66 @@
     "message": "Używasz najnowszej wersji niestabilnej."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Dziękujemy za wypróbowanie tych wersji i szukanie błędów - Jesteśmy wdzięczni!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "Dostępna jest nowa wersja!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "Dostępna jest nowa wersja niestabilna!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "Pobierz najnowszą wersję niestabilną"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Nie udało się sprawdzić dostępności aktualizacji"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Ta strona wymaga protokołu JavaScript, a wygląda na to że masz go wyłącznego."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Jeśli nie jesteś pewien, pobierz najnowszą wersję."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "Nie udało się sprawdzić dostępności aktualizacji wersji niestabilnej"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "Zawsze możesz pobrać najnowszą wersję niestabilną poniżej."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Twoja wersja"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "Najnowsza Wersja"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "Najnowsza Wersja Niestabilna"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "Błąd 404 - Nie Znaleziono"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Cokolwiek to było, nie mogło być odnalezione."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Przepraszamy."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Strona Główna"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Podsekcje"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Tagi"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Wszystkie Tagi"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Nawigacja Strony"
   },
   "More": {
-    "message": "More"
+    "message": "Więcej"
   }
 }
