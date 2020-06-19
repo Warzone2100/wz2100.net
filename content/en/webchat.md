@@ -9,7 +9,7 @@ menu:
 # end: no-translate
 ---
 
-If you want to arrange online games, or have a quick quesion to ask, you might want to use one of our chat options:
+If you want to arrange online games, or have a quick question to ask, you might want to use one of our chat options:
 
 {{% divider %}}
 
