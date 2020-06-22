@@ -1,174 +1,174 @@
 {
   "Home": {
-    "message": "Home"
+    "message": "Strona główna"
   },
   "Features": {
-    "message": "Features"
+    "message": "Funkcje"
   },
   "History": {
-    "message": "History"
+    "message": "Historia"
   },
   "FAQ": {
     "message": "FAQ"
   },
   "Resources": {
-    "message": "Resources"
+    "message": "Zasoby"
   },
   "News": {
-    "message": "News"
+    "message": "Aktualności"
   },
   "Webchat": {
-    "message": "Webchat"
+    "message": "Czat internetowy"
   },
   "Forums": {
-    "message": "Forums"
+    "message": "Forum"
   },
   "Addons": {
-    "message": "Addons"
+    "message": "Dodatki"
   },
   "WZ Guide": {
-    "message": "WZ Guide"
+    "message": "Poradnik"
   },
   "Wiki": {
     "message": "Wiki"
   },
   "Report Bugs": {
-    "message": "Report Bugs"
+    "message": "Zgłoś błąd"
   },
   "Donate": {
-    "message": "Donate"
+    "message": "Wesprzyj Projekt"
   },
   "Help us Translate": {
-    "message": "Help us Translate"
+    "message": "Pomóż nam tłumaczyć"
   },
   "A 100% free and open-source 3D real-time strategy game.": {
-    "message": "A 100% free and open-source 3D real-time strategy game."
+    "message": "W 100% Darmowa, trójwymiarowa strategia czasu rzeczywistego na licencji open source."
   },
   "Download Now": {
-    "message": "Download Now"
+    "message": "Pobierz teraz"
   },
   "Toggle Dropdown": {
-    "message": "Toggle Dropdown"
+    "message": "Rozwiń Menu"
   },
   "Windows": {
     "message": "Windows"
   },
   "Portable Version": {
-    "message": "Portable Version"
+    "message": "Wersja przenośna (portable)"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc."
+    "message": "Może być zainstalowana / uruchamiana z pendrive'a, folderu etc."
   },
   "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
-    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "message": "W pełni zawarta w jednym katalogu - wszystkie zapisy / ustawienia są również zawarte w nim przechowywane."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(Nie wymaga uprawnień administratora)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Pełen Instalator"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "Instaluje grę dla wszystkich użytkowników na komputerze."
   },
   "Settings / saves are user-specific.": {
-    "message": "Settings / saves are user-specific."
+    "message": "Ustawienia / zapisy są przypisane do użytkownika."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(Wymaga uprawnień administratora.)"
   },
   "macOS": {
     "message": "macOS"
   },
   "macOS App Bundle": {
-    "message": "macOS App Bundle"
+    "message": "Pakiet Aplikacji macOS"
   },
   "Linux": {
     "message": "Linux"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Zainstaluj Snap"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Pobierz kod źródłowy"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "i wiele innych..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "Wszystkie pliki do pobrania i platformy"
   },
   "New": {
-    "message": "New"
+    "message": "Nowość"
   },
   "Version": {
-    "message": "Version"
+    "message": "Wersja"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "dla Windows 7-10"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "dla macOS 10.10+"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "dla systemu Linux"
   },
   "Windows, macOS, Linux": {
     "message": "Windows, macOS, Linux"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "Zaawansowane opcje instalacji i inne platformy"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "Pobierz kod źródłowy"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "Pobierz Kod Źródłowy"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "Zobacz na GitHubie"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "Dodaj gwiazdkę na GitHubie"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "Zgłoś błąd"
   },
   "Copyright © Warzone 2100 Project.": {
     "message": "Copyright © Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone objęty jest między innymi licencją GPLv2+."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "Przejmij dowództwo nad siłami Projektu w bitwie o odbudowę świata po tym jak ludzkość została prawie całkowicie zniszczona przez rakiety nuklearne."
   },
   "Sieze territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Sieze territory and resources, build extensive bases, and expand your production & research."
+    "message": "Przejmij terytorium i zasoby, buduj rozległe bazy, oraz rozwijaj swoją produkcję i badania."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "message": "Rywalizuj w olbrzymich bitwach wieloosobowych przez LAN / lobby, do 10 graczy."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "Poprzedni"
   },
   "Next": {
-    "message": "Next"
+    "message": "Następny"
   },
   "Close": {
-    "message": "Close"
+    "message": "Zamknij"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "Nie możesz pobrać plików?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "Spróbuj przeglądnąć linki bezpośrednie:"
   },
   "GitHub Releases": {
     "message": "GitHub Releases"
   },
   "SourceForge Mirror": {
-    "message": "SourceForge Mirror"
+    "message": "Mirror na SourceForge"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -177,268 +177,268 @@
     "message": "64-bit (x64)"
   },
   "Snap Installer": {
-    "message": "Snap Installer"
+    "message": "Instalator Snap"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "Łatwa instalacja."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "Wspiera większość dystrybucji Linuksa."
   },
   "(See link for details.)": {
-    "message": "(See link for details.)"
+    "message": "(Zobacz link dla szczegółów.)"
   },
   "Compile Source": {
-    "message": "Compile Source"
+    "message": "Skompiluj źródło"
   },
   "Compile the source yourself using our build instructions.": {
-    "message": "Compile the source yourself using our build instructions."
+    "message": "Z pomocą naszych instrukcji, sam skompiluj źródło gry."
   },
   "Source Code (.tar.xz)": {
-    "message": "Source Code (.tar.xz)"
+    "message": "Kod Źródłowy (.tar.xz)"
   },
   "Mac App Bundle": {
-    "message": "Mac App Bundle"
+    "message": "Pakiet Aplikacji macOS"
   },
   "Download, unzip, and copy to your Applications folder.": {
-    "message": "Download, unzip, and copy to your Applications folder."
+    "message": "Pobierz, rozpakuj i skopiuj do twojego folderu Aplikacji."
   },
   "64-bit Intel": {
     "message": "64-bit Intel"
   },
   "How to handle “Warzone cannot be opened” errors.": {
-    "message": "How to handle “Warzone cannot be opened” errors."
+    "message": "Jak rozwiązać błąd \"Warzone cannot be opened\"."
   },
   "Other": {
-    "message": "Other"
+    "message": "Inne"
   },
   "Campaign Videos": {
-    "message": "Campaign Videos"
+    "message": "Filmy Kampanii"
   },
   "WMIT (Warzone Model Import Tool)": {
     "message": "WMIT (Warzone Model Import Tool)"
   },
   "Development Builds": {
-    "message": "Development Builds"
+    "message": "Wersje Rozwojowe / Niestabilne"
   },
   "Development Source Code": {
-    "message": "Development Source Code"
+    "message": "Kod Źródłowy wersji rozwojowych"
   },
   "Verify Download Integrity (SHA256)": {
-    "message": "Verify Download Integrity (SHA256)"
+    "message": "Weryfikacja Integralności Danych (SHA256)"
   },
   "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
-    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "message": "Korzystając z wiersza poleceń / Terminalu przejdź do lokalizacji pobranego pliku / plików i wykonaj odpowiednie polecenie by obliczyć sumę kontrolną SHA256 wybranego pliku i porównać ją z tabelą poniżej:"
   },
   "SHA256 Checksums for Version": {
-    "message": "SHA256 Checksums for Version"
+    "message": "Sumy kontrolne SHA256 dla wersji"
   },
   "Why Warzone 2100 Rocks": {
-    "message": "Why Warzone 2100 Rocks"
+    "message": "Oto dlaczego Warzone 2100 wymiata"
   },
   "Strategy by Design.": {
-    "message": "Strategy by Design."
+    "message": "Strategia z Założenia."
   },
   "Endless replayability.": {
-    "message": "Endless replayability."
+    "message": "Nieskończona grywalność."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Kampania dla Jednego Gracza"
   },
   "LAN / Internet Multiplayer": {
     "message": "LAN / Internet Multiplayer"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
-    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "message": "Graj przeciwko znajomym na sieci lokalnej, lub spróbuj swoich sił w grze wieloosobowej z zintegrowanym lobby."
   },
   "AI Bots": {
-    "message": "AI Bots"
+    "message": "Boty SI"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Graj przeciwko botom w pojedynkach (lub jako dodanym sojusznikom / wrogom w grze wieloosobowej) i ćwicz swoje umiejętności."
   },
   "Extensive Tech Tree": {
-    "message": "Extensive Tech Tree"
+    "message": "Rozległe Drzewo Technologiczne"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
-    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "message": "Ponad 400 różnych technologii tworzy rozległe drzewo technologiczne z wieloma ścieżkami rozwoju do wybrania."
   },
   "Unit Designer": {
-    "message": "Unit Designer"
+    "message": "Projektant Jednostek"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
-    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "message": "Stwórz swoje jednostki za pomocą elastycznego narzędzia projektowania, które pozwala na szeroki wachlarz możliwych jednostek i taktyk."
   },
   "Cross-Platform": {
-    "message": "Cross-Platform"
+    "message": "Wieloplatformowość"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
-    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "message": "Wspieramy Windows, macOS, Linux, FreeBSD i inne - wszystkie z możliwością gry wieloosobowej między platformami!"
   },
   "Years": {
-    "message": "Years"
+    "message": "Lat"
   },
   "Downloads": {
-    "message": "Downloads"
+    "message": "Pobrań"
   },
   "Forum Posts": {
-    "message": "Forum Posts"
+    "message": "Postów na Forum"
   },
   "GitHub Stars": {
-    "message": "GitHub Stars"
+    "message": "Gwiazdek na GitHub"
   },
   "100s": {
-    "message": "100s"
+    "message": "Setki"
   },
   "Contributors": {
-    "message": "Contributors"
+    "message": "Współautorów"
   },
   "100%": {
     "message": "100%"
   },
   "Free": {
-    "message": "Free"
+    "message": "Darmowy"
   },
   "100% Open & Free": {
-    "message": "100% Open & Free"
+    "message": "W 100% Otwarte i Darmowe"
   },
   "Open source, open development, open community - free as in freedom!": {
-    "message": "Open source, open development, open community - free as in freedom!"
+    "message": "Open source, otwarty rozwój, otwarta społeczność - wolność w pigułce!"
   },
   "100% Open-Source": {
-    "message": "100% Open-Source"
+    "message": "W 100% Open-Source"
   },
   "Exclusively open-source technologies, software, & tools.": {
-    "message": "Exclusively open-source technologies, software, & tools."
+    "message": "Technologie, programy i narzędzia wyłącznie na licencji open-source."
   },
   "Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+    "message": "Treść stworzona przez społeczność licencjonowana jest pod wolnymi licencjami (np. CC0)."
   },
   "100% Open Development": {
-    "message": "100% Open Development"
+    "message": "W 100% Otwarty Rozwój"
   },
   "Join the public project on GitHub!": {
-    "message": "Join the public project on GitHub!"
+    "message": "Dołącz do publicznego projektu na GitHub!"
   },
   "Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+    "message": "Każdy może raportować błędy, wspierać tworzenie aktualizacji i proponować ulepszenia."
   },
   "100% Open Community": {
-    "message": "100% Open Community"
+    "message": "W 100% Otwarta Społeczność"
   },
   "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "message": "Rozmawiaj na forach, twórz i dziel się modami, dołącz do zawodów online i bądź częścią doświadczenia jakim jest Warzone 2100."
   },
   "People around the world are waiting!": {
-    "message": "People around the world are waiting!"
+    "message": "Ludzie na całym świecie czekają!"
   },
   "100% Free": {
-    "message": "100% Free"
+    "message": "W 100% za Darmo"
   },
   "Everything is free, including source code, downloads, and all features.": {
-    "message": "Everything is free, including source code, downloads, and all features."
+    "message": "Wszystko jest darmowe, w tym kod źródłowy, pliki gry i wszystkie jej funkcje."
   },
   "No in-app purchases.": {
-    "message": "No in-app purchases."
+    "message": "Bez mikrotransakcji."
   },
   "No subscriptions.": {
-    "message": "No subscriptions."
+    "message": "Bez subskrypcji."
   },
   "No ads.": {
-    "message": "No ads."
+    "message": "Bez reklam."
   },
   "Just free.": {
-    "message": "Just free."
+    "message": "Po prostu za darmo."
   },
   "A Long History": {
-    "message": "A Long History"
+    "message": "Długa Historia"
   },
   "Developed in the 90s by Pumpkin Studios.": {
-    "message": "Developed in the 90s by Pumpkin Studios."
+    "message": "Stworzony w latach 90-tych przez Pumpkin Studios."
   },
   "Liberated in 2004.": {
-    "message": "Liberated in 2004."
+    "message": "Wyzwolone w 2004 roku."
   },
   "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "message": "Warzone 2100 został pierwotnie stworzony przez Pumpkin Studios i opublikowany przez Eidos Interactive."
   },
   "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
-    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "message": "W roku 1999 był wydany komercyjnie na Microsoft Windows, oraz Sony PlayStation."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "message": "Pumpkin Studios zakończyło swoje wsparcie dla Warzone 2100 5 Stycznia 2000 roku."
   },
   "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "message": "W 2004 r., po petycji fanów gry, kod źródłowy Warzone został publicznie wydany na licencji open source."
   },
   "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "message": "Od tej pory jest rozwijany, utrzymywany i ulepszany przez społeczność pod sztandarem \"Projektu Warzone 2100\"."
   },
   "More Info": {
-    "message": "More Info"
+    "message": "Więcej informacji"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions"
+    "message": "Często Zadawane Pytania (FAQ)"
   },
   "Answers to common questions.": {
-    "message": "Answers to common questions."
+    "message": "Odpowiedzi na często zadawane pytania."
   },
   "Can't find the answer you're looking for?": {
-    "message": "Can't find the answer you're looking for?"
+    "message": "Nie możesz znaleźć odpowiedzi?"
   },
   "Check out the Forums and Webchat.": {
-    "message": "Check out the Forums and Webchat."
+    "message": "Poszukaj jej na forum, lub na czacie."
   },
   "General": {
-    "message": "General"
+    "message": "Ogólne"
   },
   "Multiplayer": {
-    "message": "Multiplayer"
+    "message": "Gra wieloosobowa"
   },
   "Troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Rozwiązywanie problemów"
   },
   "JavaScript is disabled.": {
-    "message": "JavaScript is disabled."
+    "message": "JavaScript jest wyłączony."
   },
   "This site may not work properly without it.": {
-    "message": "This site may not work properly without it."
+    "message": "Ta strona może nie działać poprawnie."
   },
   "About": {
-    "message": "About"
+    "message": "O Grze"
   },
   "The Team": {
-    "message": "The Team"
+    "message": "Nasz zespół"
   },
   "Changelog": {
-    "message": "Changelog"
+    "message": "Historia wersji"
   },
   "Privacy Policy": {
-    "message": "Privacy Policy"
+    "message": "Polityka prywatności"
   },
   "Download": {
-    "message": "Download"
+    "message": "Pobierz"
   },
   "Snap Store (Linux)": {
     "message": "Snap Store (Linux)"
   },
   "Source Code": {
-    "message": "Source Code"
+    "message": "Kod źródłowy"
   },
   "Source Code.": {
-    "message": "Source Code."
+    "message": "Kod źródłowy."
   },
   "Contribute": {
-    "message": "Contribute"
+    "message": "Wspomóż projekt"
   },
   "Help with Translations": {
-    "message": "Help with Translations"
+    "message": "Pomóż z tłumaczeniem"
   },
   "Documentation": {
-    "message": "Documentation"
+    "message": "Dokumentacja"
   },
   "Connect": {
-    "message": "Connect"
+    "message": "Dołącz do nas"
   },
   "Copyright © past-due.": {
     "message": "Copyright © past-due."
@@ -447,90 +447,90 @@
     "message": "theme"
   },
   "Licensed under the GNU AGPLv3.": {
-    "message": "Licensed under the GNU AGPLv3."
+    "message": "Na licencji GNU AGPLv3."
   },
   "Powered by Hugo": {
     "message": "Powered by Hugo"
   },
   "All trademarks are the property of their respective owners.": {
-    "message": "All trademarks are the property of their respective owners."
+    "message": "Wszystkie znaki towarowe są własnością ich odpowiednich właścicieli."
   },
   "YOU'VE BEEN INVITED TO JOIN A SERVER": {
-    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "message": "ZOSTAŁEŚ ZAPROSZONY NA SERWER"
   },
   "Join": {
-    "message": "Join"
+    "message": "Dołącz"
   },
   "Loading...": {
-    "message": "Loading..."
+    "message": "Ładowanie..."
   },
   "You are running the latest release of Warzone 2100.": {
-    "message": "You are running the latest release of Warzone 2100."
+    "message": "Używasz najnowszej wersji Warzone 2100."
   },
   "You are running the latest development build.": {
-    "message": "You are running the latest development build."
+    "message": "Używasz najnowszej wersji niestabilnej."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Dziękujemy za wypróbowanie tych wersji i szukanie błędów - Jesteśmy wdzięczni!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "Dostępna jest nowa wersja!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "Dostępna jest nowa wersja niestabilna!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "Pobierz najnowszą wersję niestabilną"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Nie udało się sprawdzić dostępności aktualizacji"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Ta strona wymaga protokołu JavaScript, a wygląda na to że masz go wyłącznego."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Jeśli nie jesteś pewien, pobierz najnowszą wersję."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "Nie udało się sprawdzić dostępności aktualizacji wersji niestabilnej"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "Zawsze możesz pobrać najnowszą wersję niestabilną poniżej."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Twoja wersja"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "Najnowsza Wersja"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "Najnowsza Wersja Niestabilna"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "Błąd 404 - Nie Znaleziono"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Cokolwiek to było, nie mogło być odnalezione."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Przepraszamy."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Strona Główna"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Podsekcje"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Tagi"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Wszystkie Tagi"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Nawigacja Strony"
   },
   "More": {
-    "message": "More"
+    "message": "Więcej"
   }
 }

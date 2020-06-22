@@ -1,10 +1,10 @@
 ---
-title: "New website released"
-slug: "new-website-released"
+title: "Neue Internetseite veröffentlicht"
+slug: "neue-Internetseite-veröffentlicht"
 ---
 
-Warzone 2100 now has a brand-new website, designed by [@past-due](https://github.com/past-due).
+Warzone 2100 hat jetzt eine brandneue Internetseite, gestaltet von [@past-due](https://github.com/past-due).
 
-Want to help?
-- [Report Bugs in the Website](https://github.com/Warzone2100/wz2100.net/issues/new/choose)
-- [Help us Translate the Website](https://github.com/Warzone2100/wz2100.net/docs/Translation.md)
+Möchtest Du helfen?
+- [Melde Fehler auf der Internetseite](https://github.com/Warzone2100/wz2100.net/issues/new/choose)
+- [Hilf uns, die Internetseite zu übersetzen](https://github.com/Warzone2100/wz2100.net/docs/Translation.md)

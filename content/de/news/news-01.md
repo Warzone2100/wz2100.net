@@ -1,28 +1,28 @@
 ---
-title: "Version 3.3.0 released"
+title: "Version 3.3.0 veröffentlicht"
 slug: "version-3-3-0"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-It has been three years since the last stable release. There is an enormous amount of changes in this release compared to 3.2.0. These changes include:
-- Display / UI scaling
-- Performance improvements
-- Major improvements to campaign
-- The return of secondary orders removed in the previous release
-- Fix for shooting through walls
-- The return of macOS builds
-- and many, many other things
+Seit der letzten stabilen Veröffentlichung ist es drei Jahre her. Es gibt eine große Menge von Veränderungen in dieser Veröffentlichung im Vergleich zu 3.2.0. Diese Änderungen beinhalten:
+- Display / UI Skalierung
+- Performance-Verbesserungen
+- Wichtige Verbesserungen in der Kampagne
+- Die Rückkehr der "secondary orders", die in der vorherigen Version entfernt wurden
+- Fix für das Schießen durch Wände
+- Die Rückkehr von macOS Versionen
+- und viele, viele andere Dinge
 
-Below you can see the list of changes compared to the previous beta release.
+Unten siehst Du die Liste der Änderungen im Vergleich zur vorherigen Beta-Version.
 
-It is available at our usual location: [https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/](https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/)
+Sie ist verfügbar an der üblichen Stelle: [https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/](https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/)
 
-You can now also download it from: [https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0](https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0)
+Du kannst sie ebenso herunterladen unter: [https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0](https://github.com/Warzone2100/warzone2100/releases/tag/3.3.0)
 
-We have also changed where to report bugs. Please report all bugs to [https://github.com/Warzone2100/warzone2100/issues](https://github.com/Warzone2100/warzone2100/issues).
+Ebenso haben wir geändert, wo Fehler gemeldet werden. Bitte melde alle Fehler bei [https://github.com/Warzone2100/warzone2100/issues](https://github.com/Warzone2100/warzone2100/issues).
 
-Changelog since 3.3.0-beta1:
+Änderungsprototkol seit 3.3.0-beta1:
 
 #### 2019-08-31: Version 3.3.0
 
