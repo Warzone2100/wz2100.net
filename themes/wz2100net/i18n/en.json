@@ -252,8 +252,16 @@
 		"translation": "(See link for details.)"
 	},
 	{
-		"id": "Compile Source",
-		"translation": "Compile Source"
+		"id": "Debian Package",
+		"translation": "Debian Package"
+	},
+	{
+		"id": "DEB package for Ubuntu (and related Debian-based distros).",
+		"translation": "DEB package for Ubuntu (and related Debian-based distros)."
+	},
+	{
+		"id": "After downloading, install using the following command:",
+		"translation": "After downloading, install using the following command:"
 	},
 	{
 		"id": "Compile the source yourself using our build instructions.",

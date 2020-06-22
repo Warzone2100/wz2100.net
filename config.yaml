@@ -100,6 +100,11 @@ params:
     macos:
     - name: "64-bit Intel"
       filename: "warzone2100_macOS.zip"
+    linux_deb: 
+    - name: "Ubuntu 18.04 (amd64)"
+      filename: "warzone2100_ubuntu18.04_amd64.deb"
+    - name: "Ubuntu 20.04 (amd64)"
+      filename: "warzone2100_ubuntu20.04_amd64.deb"
     source: 
     - name: "Source Code (.tar.xz)"
       filename: "warzone2100_src.tar.xz"
