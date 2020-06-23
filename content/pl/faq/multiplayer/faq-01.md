@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Jak dołączyć do gry online?"
 ---
 
-Joining existing games is usually easy.
+Dołączanie do istniejących gier jest dosyć łatwe.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Uruchom grę, kliknij Gra Wieloosobowa → Dołącz do gry → Lobby.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Jeśli gra będzie dostępna, będziesz mógł kliknąć by do niej dołączyć. Zaznacz wtedy box o nazwie "gotowy". Kiedy wszyscy gracze zaznaczą box "gotowy" zacznie się gra.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+Nie zapomnij ustawić swojej nazwy gracza, poprzez kliknięcie na pole nazwy po lewej. 

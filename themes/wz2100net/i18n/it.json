@@ -143,7 +143,7 @@
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
     "message": "Comanda le forze del Progetto in una battaglia per ricostruire il mondo dopo che l'umanità è stata quasi distrutta dai missili nucleari."
   },
-  "Sieze territory and resources, build extensive bases, and expand your production & research.": {
+  "Seize territory and resources, build extensive bases, and expand your production & research.": {
     "message": "Conquista territorio e risorse, costruisci basi estese ed espandi la tua produzione e ricerca."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
@@ -187,6 +187,15 @@
   },
   "(See link for details.)": {
     "message": "(Vedi link per ulteriori dettagli.)"
+  },
+  "Debian Package": {
+    "message": "Debian Package"
+  },
+  "DEB package for Ubuntu (and related Debian-based distros).": {
+    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+  },
+  "After downloading, install using the following command:": {
+    "message": "After downloading, install using the following command:"
   },
   "Compile Source": {
     "message": "Compila dai sorgenti"

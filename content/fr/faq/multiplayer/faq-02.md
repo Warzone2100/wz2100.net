@@ -2,7 +2,7 @@
 title: "Troubleshooting online games"
 ---
 
-If it you can't join a game that you see, check the following:
+If you can't join a game that you see, check the following:
 
 1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
 

@@ -57,25 +57,25 @@
     "message": "Portable Version"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc."
+    "message": "Kann installiert werden auf / ausgeführt werden von einem USB-Stick, lokalem Ordner etc."
   },
   "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
-    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "message": "Vollständig in einem einzigen Verzeichnis enthalten - speichert alle Einstellungen / Spielstände in demselben Verzeichnis."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(Benötigt keine Administratorrechte.)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Vollständiges Installationsprogramm"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "Installiert für alle Benutzer auf einem System."
   },
   "Settings / saves are user-specific.": {
-    "message": "Settings / saves are user-specific."
+    "message": "Einstellungen / Spielstände sind benutzerspezifisch."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(Benötigt Administratorrechte für die Installation.)"
   },
   "macOS": {
     "message": "macOS"
@@ -87,85 +87,85 @@
     "message": "Linux"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Installiere den Snap"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Hol Dir den Quellcode"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "und mehr..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "Alle Downloads & Plattformen"
   },
   "New": {
-    "message": "New"
+    "message": "Neu"
   },
   "Version": {
     "message": "Version"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "für Windows 7-10"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "für macOS 10.10+"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "für Linux"
   },
   "Windows, macOS, Linux": {
     "message": "Windows, macOS, Linux"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "Erweiterte Installationsoptionen & andere Plattformen"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "Zum Quellcode"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "Zum Quellcode"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "Ansicht auf GitHub"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "Sterne auf GitHub"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "Fehler melden"
   },
   "Copyright © Warzone 2100 Project.": {
     "message": "Copyright © Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone ist lizenziert unter der GPLv2+ Lizenz (& anderen)."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "Befehlige die Truppen des Projektes in dem Kampf die Welt wieder aufzubauen, nachdem die Menschheit fast durch Atomraketen vernichtet wurde."
   },
-  "Sieze territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Sieze territory and resources, build extensive bases, and expand your production & research."
+  "Seize territory and resources, build extensive bases, and expand your production & research.": {
+    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "message": "Trete in riesigen LAN / Mehrspielerkämpfen mit bis zu 10 Spielern an."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "Zurück"
   },
   "Next": {
-    "message": "Next"
+    "message": "Weiter"
   },
   "Close": {
-    "message": "Close"
+    "message": "Schließen"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "Downloads funktionieren nicht?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "Versuche die Download-Mirror direkt zu durchsuchen:"
   },
   "GitHub Releases": {
-    "message": "GitHub Releases"
+    "message": "GitHub Versionen"
   },
   "SourceForge Mirror": {
     "message": "SourceForge Mirror"
@@ -180,19 +180,28 @@
     "message": "Snap Installer"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "Einfache Installation."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "Unterstützt die meisten Linux-Distributionen."
   },
   "(See link for details.)": {
-    "message": "(See link for details.)"
+    "message": "(Siehe Link für Details.)"
+  },
+  "Debian Package": {
+    "message": "Debian Package"
+  },
+  "DEB package for Ubuntu (and related Debian-based distros).": {
+    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+  },
+  "After downloading, install using the following command:": {
+    "message": "After downloading, install using the following command:"
   },
   "Compile Source": {
     "message": "Compile Source"
   },
   "Compile the source yourself using our build instructions.": {
-    "message": "Compile the source yourself using our build instructions."
+    "message": "Kompiliere selbst den Quellcode mit unseren Instruktionen."
   },
   "Source Code (.tar.xz)": {
     "message": "Quellcode (.tar.xz)"
@@ -201,13 +210,13 @@
     "message": "Mac App Bundle"
   },
   "Download, unzip, and copy to your Applications folder.": {
-    "message": "Download, unzip, and copy to your Applications folder."
+    "message": "Herunterladen, entpacken und in Deinen Anwendungsordner kopieren."
   },
   "64-bit Intel": {
     "message": "64-bit Intel"
   },
   "How to handle “Warzone cannot be opened” errors.": {
-    "message": "How to handle “Warzone cannot be opened” errors."
+    "message": "Wie man mit „Warzone kann nicht geöffnet werden“ umgeht."
   },
   "Other": {
     "message": "Other"
@@ -366,55 +375,55 @@
     "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "message": "Pumpkin Studios beendete den Support für Warzone 2100 am 5. Januar 2000."
   },
   "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "message": "2004 wurde nach einer Fanpetition der Quellcode von Warzone unter einer Open-Source-Lizenz veröffentlicht."
   },
   "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "message": "Seither wurde es von der Community unter dem Banner des „Warzone 2100-Project“ entwickelt, gepflegt und verbessert."
   },
   "More Info": {
-    "message": "More Info"
+    "message": "Mehr Informationen"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions"
+    "message": "Häufig gestellte Fragen"
   },
   "Answers to common questions.": {
-    "message": "Answers to common questions."
+    "message": "Antworten auf häufig gestellte Fragen."
   },
   "Can't find the answer you're looking for?": {
     "message": "Can't find the answer you're looking for?"
   },
   "Check out the Forums and Webchat.": {
-    "message": "Check out the Forums and Webchat."
+    "message": "Schau Dir die Foren und Webchat an."
   },
   "General": {
-    "message": "General"
+    "message": "Allgemein"
   },
   "Multiplayer": {
-    "message": "Multiplayer"
+    "message": "Mehrspieler"
   },
   "Troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Problemlösung"
   },
   "JavaScript is disabled.": {
-    "message": "JavaScript is disabled."
+    "message": "JavaScript ist deaktiviert."
   },
   "This site may not work properly without it.": {
-    "message": "This site may not work properly without it."
+    "message": "Diese Seite funktioniert ohne es möglicherweise nicht richtig."
   },
   "About": {
-    "message": "About"
+    "message": "Über uns"
   },
   "The Team": {
-    "message": "The Team"
+    "message": "Das Team"
   },
   "Changelog": {
     "message": "Changelog"
   },
   "Privacy Policy": {
-    "message": "Privacy Policy"
+    "message": "Datenschutzerklärung"
   },
   "Download": {
     "message": "Download"
@@ -423,22 +432,22 @@
     "message": "Snap Store (Linux)"
   },
   "Source Code": {
-    "message": "Source Code"
+    "message": "Quellcode"
   },
   "Source Code.": {
-    "message": "Source Code."
+    "message": "Quellcode."
   },
   "Contribute": {
-    "message": "Contribute"
+    "message": "Mitarbeiten"
   },
   "Help with Translations": {
-    "message": "Help with Translations"
+    "message": "Bei Übersetzungen helfen"
   },
   "Documentation": {
-    "message": "Documentation"
+    "message": "Dokumentation"
   },
   "Connect": {
-    "message": "Connect"
+    "message": "Kontakt"
   },
   "Copyright © past-due.": {
     "message": "Copyright © past-due."
@@ -447,73 +456,73 @@
     "message": "theme"
   },
   "Licensed under the GNU AGPLv3.": {
-    "message": "Licensed under the GNU AGPLv3."
+    "message": "Lizenziert unter GNU AGPLv3."
   },
   "Powered by Hugo": {
-    "message": "Powered by Hugo"
+    "message": "Generiert durch Hugo"
   },
   "All trademarks are the property of their respective owners.": {
-    "message": "All trademarks are the property of their respective owners."
+    "message": "Alle Warenzeichen sind Eigentum ihrer jeweiligen Inhaber."
   },
   "YOU'VE BEEN INVITED TO JOIN A SERVER": {
-    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "message": "DU WURDEST EINGELADEN, EINEM SERVER BEIZUTRETEN"
   },
   "Join": {
-    "message": "Join"
+    "message": "Beitreten"
   },
   "Loading...": {
-    "message": "Loading..."
+    "message": "Wird geladen..."
   },
   "You are running the latest release of Warzone 2100.": {
-    "message": "You are running the latest release of Warzone 2100."
+    "message": "Du verwendest die neueste Version von Warzone 2100."
   },
   "You are running the latest development build.": {
-    "message": "You are running the latest development build."
+    "message": "Du verwendest die neueste Entwicklungsversion."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Danke dass Du diese Versionen ausprobierst und nach Fehlern suchst - es wird geschätzt!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "Neue Version verfügbar!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "Eine neue Entwicklungsversion ist verfügbar!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "Lade die letzte Entwicklungsversion herunter"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Suche nach Updates nicht möglich"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Diese Seite benötigt JavaScript und es sieht so aus, als ob Du es deaktiviert hast."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Wenn Du Dir nicht sicher bist, lade die neueste Version herunter."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "Konnte nicht nach der letzten Entwicklungsversion suchen"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "Du kannst jederzeit die neueste Entwicklungsversion unten herunterladen."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Deine Version"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "Neueste Version"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "Neueste Entwicklungsversion"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "404 - Nicht gefunden"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Was auch immer das war, es konnte nicht gefunden werden."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Das tut uns leid."
   },
   "Go Home": {
     "message": "Go Home"

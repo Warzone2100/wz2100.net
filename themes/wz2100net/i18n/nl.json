@@ -143,7 +143,7 @@
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
     "message": "Voer het bevel over de troepen van Het Project in een gevecht om de wereld te herbouwen, nadat de mensheid haar bijna had vernietigd met nucleaire raketten."
   },
-  "Sieze territory and resources, build extensive bases, and expand your production & research.": {
+  "Seize territory and resources, build extensive bases, and expand your production & research.": {
     "message": "Verover grondgebieden en grondstoffen, bouw enorme bases en breid je productie en onderzoek uit."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
@@ -187,6 +187,15 @@
   },
   "(See link for details.)": {
     "message": "(Zie de link voor details.)"
+  },
+  "Debian Package": {
+    "message": "Debian Package"
+  },
+  "DEB package for Ubuntu (and related Debian-based distros).": {
+    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+  },
+  "After downloading, install using the following command:": {
+    "message": "After downloading, install using the following command:"
   },
   "Compile Source": {
     "message": "Broncode compileren"
