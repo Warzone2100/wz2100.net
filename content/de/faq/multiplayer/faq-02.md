@@ -2,7 +2,7 @@
 title: "Fehlerbehebung bei Online-Spielen"
 ---
 
-If you can't join a game that you see, check the following:
+Wenn Du einem Spiel nicht beitreten kannst überprüfe Folgendes:
 
 1. Du brauchst exakt dieselbe Version wie das Spiel dem Du beitreten willst. Du solltest keine Probleme haben, wenn Du die letzte stabile Version oder die letzte Entwicklungsversion verwendest, wenn sie offiziell verfügbar ist.
 
