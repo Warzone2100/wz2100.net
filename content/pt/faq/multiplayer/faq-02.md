@@ -2,7 +2,7 @@
 title: "Solucionar problemas de jogos online"
 ---
 
-Se não pode entrar num jogo que consegue ver, verifique o seguinte:
+If you can't join a game that you see, check the following:
 
 1. Tem de ter a mesma versão do jogo para entrar. Não deverá ser um problema e estiver a usar a última versão estável, ou provavelmente a última versão de desenvolvimento se esta estiver oficialmente disponível.
 
