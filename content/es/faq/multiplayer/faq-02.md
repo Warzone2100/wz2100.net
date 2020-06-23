@@ -2,7 +2,7 @@
 title: "Solución de problemas en juegos online"
 ---
 
-Si no puedes unirte a una partida que veas, revisa lo siguiente:
+If you can't join a game that you see, check the following:
 
 1. Necesitas tener exactamente la misma versión del juego para unirte. No deberías tener ningún problema si estás utilizando la última versión estable, o probablemente la última versión de desarrollo si está disponible oficialmente.
 
