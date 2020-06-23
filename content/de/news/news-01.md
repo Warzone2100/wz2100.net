@@ -22,7 +22,7 @@ Du kannst sie ebenso herunterladen unter: [https://github.com/Warzone2100/warzon
 
 Ebenso haben wir geändert, wo Fehler gemeldet werden. Bitte melde alle Fehler bei [https://github.com/Warzone2100/warzone2100/issues](https://github.com/Warzone2100/warzone2100/issues).
 
-Änderungsprototkol seit 3.3.0-beta1:
+Änderungsprotokoll seit 3.3.0-beta1:
 
 #### 2019-08-31: Version 3.3.0
 
