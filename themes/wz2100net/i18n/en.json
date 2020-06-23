@@ -264,6 +264,10 @@
 		"translation": "After downloading, install using the following command:"
 	},
 	{
+		"id": "Compile Source",
+		"translation": "Compile Source"
+	},
+	{
 		"id": "Compile the source yourself using our build instructions.",
 		"translation": "Compile the source yourself using our build instructions."
 	},
