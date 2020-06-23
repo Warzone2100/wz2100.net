@@ -143,8 +143,8 @@
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
     "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
   },
-  "Sieze territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Capturează teritorii și resurse, construiește baze extinse, și extinde-ți producția și cercetările."
+  "Seize territory and resources, build extensive bases, and expand your production & research.": {
+    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
     "message": "Concurează în bătălii masive LAN / multi-jucători online, cu până la 10 jucători."
@@ -188,8 +188,17 @@
   "(See link for details.)": {
     "message": "(Vezi link-ul pentru detalii.)"
   },
+  "Debian Package": {
+    "message": "Debian Package"
+  },
+  "DEB package for Ubuntu (and related Debian-based distros).": {
+    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+  },
+  "After downloading, install using the following command:": {
+    "message": "After downloading, install using the following command:"
+  },
   "Compile Source": {
-    "message": "Compilează Sursa"
+    "message": "Compile Source"
   },
   "Compile the source yourself using our build instructions.": {
     "message": "Compilează Sursa chiar tu, folosind instrucţiunile noastre."
