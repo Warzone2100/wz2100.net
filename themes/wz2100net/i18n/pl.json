@@ -192,7 +192,7 @@
     "translation": "Przejmij dowództwo nad siłami Projektu w bitwie o odbudowę świata po tym jak ludzkość została prawie całkowicie zniszczona przez rakiety nuklearne."
   },
   {
-    "id": "Sieze territory and resources, build extensive bases, and expand your production & research.",
+    "id": "Seize territory and resources, build extensive bases, and expand your production & research.",
     "translation": "Przejmij terytorium i zasoby, buduj rozległe bazy, oraz rozwijaj swoją produkcję i badania."
   },
   {
@@ -250,6 +250,18 @@
   {
     "id": "(See link for details.)",
     "translation": "(Zobacz link dla szczegółów.)"
+  },
+  {
+    "id": "Debian Package",
+    "translation": "Debian Package"
+  },
+  {
+    "id": "DEB package for Ubuntu (and related Debian-based distros).",
+    "translation": "DEB package for Ubuntu (and related Debian-based distros)."
+  },
+  {
+    "id": "After downloading, install using the following command:",
+    "translation": "After downloading, install using the following command:"
   },
   {
     "id": "Compile Source",
