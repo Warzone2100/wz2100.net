@@ -2,7 +2,7 @@
 title: "Çevrimiçi oyunlarda Sorun giderin"
 ---
 
-Gördüğünüz oyuna katılamıyorsanız aşağıdakileri uygulayın:
+If you can't join a game that you see, check the following:
 
 1. Sunucu ile aynı sürüme sahip olmanız gerekmektedir. En son sürülmüş versiyonu veya resmi olarak çıkarılmış en sonuncu geliştirme sürümünü kullanıyorsanız problem yaşamamalısınız.
 
