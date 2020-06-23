@@ -2,7 +2,7 @@
 title: "Depanarea jocurilor online"
 ---
 
-If you can't join a game that you see, check the following:
+Dacă nu te poți alătura unui joc pe care îl vezi, verifică următoarele:
 
 1. Trebuie să ai exact aceeași versiune a jocului pentru a te alătura. Nu ar trebui să ai o problemă dacă folosești cea mai recentă versiune stabilă, sau probabil cea mai recentă versiune de dezvoltare dacă este disponibilă în mod oficial.
 
