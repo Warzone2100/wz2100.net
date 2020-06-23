@@ -2,7 +2,7 @@
 title: "Risoluzione dei problemi del gioco online"
 ---
 
-Se non puoi partecipare ad una partita che vedi, controlla:
+If you can't join a game that you see, check the following:
 
 1. Devi avere esattamente la stessa versione del gioco per unirti. Non dovresti avere problemi se stai utilizzando l'ultima versione stabile, o probabilmente l'ultima versione di sviluppo se è attualmente disponibile in via ufficiale.
 
