@@ -143,8 +143,8 @@
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
     "message": "İnsanlık neredeyse nükleer füzeler tarafından yok edildikten sonra The Project kuvvetlerini savaşta komuta ederek dünyayı yeniden inşaa edin."
   },
-  "Sieze territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Bölgeleri ve kaynakları ele geçirin, kapsamlı üsler inşaa edin ve üretiminizi & araştırmanızı genişletin."
+  "Seize territory and resources, build extensive bases, and expand your production & research.": {
+    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
     "message": "10 oyuncu sayısına kadar devasa LAN / online çok oyunculu savaşlarda rekabet edin."
@@ -188,8 +188,17 @@
   "(See link for details.)": {
     "message": "Ayrıntılar için (bkz: link.)"
   },
+  "Debian Package": {
+    "message": "Debian Package"
+  },
+  "DEB package for Ubuntu (and related Debian-based distros).": {
+    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+  },
+  "After downloading, install using the following command:": {
+    "message": "After downloading, install using the following command:"
+  },
   "Compile Source": {
-    "message": "Kaynağı derleyin"
+    "message": "Compile Source"
   },
   "Compile the source yourself using our build instructions.": {
     "message": "Yapı yönergelerini kullanarak kaynağı kendiniz derleyin."
