@@ -1336,6 +1336,10 @@ code {
 	color: #e8743e;
 }
 
+.greycode {
+	color: #878787 !important;
+}
+
 @media (max-width: 767px) {
   .faq-icon {
     width: 100%;

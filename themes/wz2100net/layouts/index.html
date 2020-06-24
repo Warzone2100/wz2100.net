@@ -331,7 +331,7 @@
 										<h4 class="mg-md">
 											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/linux.svg" "paddingRight" "0.1em") }}{{ i18n "Linux" }}
 										</h4>
-										<div class="download-details-block">
+										<!-- <div class="download-details-block">
 											<h6 class="mg-sm">
 												{{ i18n "Snap Installer" }}
 											</h6>
@@ -345,7 +345,32 @@
 													</li>
 												</ul>
 											</div>
+										</div> -->
+										{{- with .Param "downloads.linux_deb" -}}
+										<div class="download-details-block">
+											<h6 class="mg-sm">
+												{{ i18n "Debian Package" }}
+											</h6>
+											<p class="download-details-text">
+												{{ i18n "DEB package for Ubuntu (and related Debian-based distros)." }}
+											</p>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													{{- range . -}}
+													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+													<li>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+													</li>
+													{{- end -}}
+													{{- end -}}
+												</ul>
+											</div>
+											<p class="download-details-text" style="margin-top: 10px">
+												{{ i18n "After downloading, install using the following command:" }}<br />
+												<code class="download-details-low-padding greycode">sudo apt install ./&lt;filename>.deb</code>
+											</p>
 										</div>
+										{{- end -}}
 										{{- with .Param "downloads.source" -}}
 										<div class="download-details-block">
 											<h6 class="mg-sm">
