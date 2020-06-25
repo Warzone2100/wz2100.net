@@ -168,6 +168,10 @@ languages:
     languageName: "English - US"
     weight: 1
     contentDir: "content/en"
+  de:
+    languageName: "Deutsch"
+    weight: 2
+    contentDir: "content/de"
   es:
     languageName: "Español"
     weight: 2
