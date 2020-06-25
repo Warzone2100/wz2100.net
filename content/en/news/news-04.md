@@ -36,8 +36,7 @@ We'd also like to thank all of the new and returning translators who have helped
 
 Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-The old build toolchains have now been fully replaced, and CMake is used for building on all platforms.
-For full build instructions [see the README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.0/README.md#how-to-build).
+The old build toolchains have now been fully replaced, and CMake is used for building on all platforms. For full build instructions [see the README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.0/README.md#how-to-build).
 
 And don't forget to check out the new official Discord server:
 
