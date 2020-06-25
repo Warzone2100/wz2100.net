@@ -48,7 +48,7 @@
     "message": "Jetzt herunterladen"
   },
   "Toggle Dropdown": {
-    "message": "Toggle Dropdown"
+    "message": "Dropdown umschalten"
   },
   "Windows": {
     "message": "Windows"
@@ -144,7 +144,7 @@
     "message": "Befehlige die Truppen des Projektes in dem Kampf die Welt wieder aufzubauen, nachdem die Menschheit fast durch Atomraketen vernichtet wurde."
   },
   "Seize territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
+    "message": "Besetze Territorien und Ressourcen, baue umfangreiche Basen und erweitere Deine Produktion und Forschung."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
     "message": "Trete in riesigen LAN / Mehrspielerkämpfen mit bis zu 10 Spielern an."
@@ -189,16 +189,16 @@
     "message": "(Siehe Link für Details.)"
   },
   "Debian Package": {
-    "message": "Debian Package"
+    "message": "Debian Paket"
   },
   "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+    "message": "DEB Paket für Ubuntu (und zugehörige Debian Distributionen)."
   },
   "After downloading, install using the following command:": {
-    "message": "After downloading, install using the following command:"
+    "message": "Nach dem Herunterladen mit folgendem Befehl installieren:"
   },
   "Compile Source": {
-    "message": "Compile Source"
+    "message": "Kompiliere den Quellcode"
   },
   "Compile the source yourself using our build instructions.": {
     "message": "Kompiliere selbst den Quellcode mit unseren Instruktionen."
@@ -219,88 +219,88 @@
     "message": "Wie man mit „Warzone kann nicht geöffnet werden“ umgeht."
   },
   "Other": {
-    "message": "Other"
+    "message": "Weitere"
   },
   "Campaign Videos": {
-    "message": "Campaign Videos"
+    "message": "Kampagnenvideos"
   },
   "WMIT (Warzone Model Import Tool)": {
     "message": "WMIT (Warzone Model Import Tool)"
   },
   "Development Builds": {
-    "message": "Development Builds"
+    "message": "Entwicklungsversionen"
   },
   "Development Source Code": {
-    "message": "Development Source Code"
+    "message": "Entwicklungsquellcode"
   },
   "Verify Download Integrity (SHA256)": {
-    "message": "Verify Download Integrity (SHA256)"
+    "message": "Überprüfe Download Integrität (SHA256)"
   },
   "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
-    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "message": "Von einer Eingabeaufforderung / Terminal navigierst Du zum Speicherort der heruntergeladenen Datei(en), führst den entsprechenden Befehl zur Berechnung der SHA256 Prüfsumme aus und vergleichst das Ergebnis mit dem in der Tabelle unten:"
   },
   "SHA256 Checksums for Version": {
-    "message": "SHA256 Checksums for Version"
+    "message": "SHA256 Prüfsummen für Version"
   },
   "Why Warzone 2100 Rocks": {
-    "message": "Why Warzone 2100 Rocks"
+    "message": "Warum Warzone 2100 rockt"
   },
   "Strategy by Design.": {
-    "message": "Strategy by Design."
+    "message": "Strategie mittels Design."
   },
   "Endless replayability.": {
-    "message": "Endless replayability."
+    "message": "Endloser Wiederspielwert."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Einzelspieler-Kampagne"
   },
   "LAN / Internet Multiplayer": {
-    "message": "LAN / Internet Multiplayer"
+    "message": "LAN / Internet Mehrspielermodus"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
-    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "message": "Spiele gegen Deine Freunde in einem lokalen Netzwerk oder versuche Dich im Online-Mehrspielermodus mit einer integrierten Lobby."
   },
   "AI Bots": {
-    "message": "AI Bots"
+    "message": "KI Bots"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Spiele gegen KI Bots in lokalen Geplänkeln (oder als hinzugefügter Teamkollege / Feind im Mehrspielermodus) und verbessere Deine Fähigkeiten mit endlosem Wiederspielwert."
   },
   "Extensive Tech Tree": {
-    "message": "Extensive Tech Tree"
+    "message": "Umfangreicher Technikbaum"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
-    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "message": "Über 400 verschiedene Technologien ergeben einen umfangreichen Technikbaum mit vielen Varianten zur Auswahl."
   },
   "Unit Designer": {
-    "message": "Unit Designer"
+    "message": "Einheiten-Designer"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
-    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "message": "Passe Deine Einheiten mit einem flexiblen Entwurfsystem an, das eine Vielzahl von möglichen Einheiten und Taktiken ermöglicht."
   },
   "Cross-Platform": {
-    "message": "Cross-Platform"
+    "message": "Plattformübergreifend"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
-    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "message": "Unterstützt Windows, macOS, Linux, FreeBSD und vieles mehr - alles mit plattformübergreifender Mehrspielerunterstützung!"
   },
   "Years": {
-    "message": "Years"
+    "message": "Jahre"
   },
   "Downloads": {
     "message": "Downloads"
   },
   "Forum Posts": {
-    "message": "Forum Posts"
+    "message": "Forenbeiträge"
   },
   "GitHub Stars": {
-    "message": "GitHub Stars"
+    "message": "GitHub Sterne"
   },
   "100s": {
-    "message": "100s"
+    "message": "100erte"
   },
   "Contributors": {
-    "message": "Contributors"
+    "message": "Mitwirkende"
   },
   "100%": {
     "message": "100%"
@@ -309,70 +309,70 @@
     "message": "Kostenlos"
   },
   "100% Open & Free": {
-    "message": "100% Open & Free"
+    "message": "100% offen & kostenlos"
   },
   "Open source, open development, open community - free as in freedom!": {
-    "message": "Open source, open development, open community - free as in freedom!"
+    "message": "Offener Quellcode, offene Entwicklung, offene Gemeinschaft - frei wie in Freiheit!"
   },
   "100% Open-Source": {
     "message": "100% Open-Source"
   },
   "Exclusively open-source technologies, software, & tools.": {
-    "message": "Exclusively open-source technologies, software, & tools."
+    "message": "Ausschließlich Open-Source-Technologien, Software & Tools."
   },
   "Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+    "message": "Gemeinschaftsinhalte sind unter liberalen Lizenzen lizenziert (z.B. CC0)."
   },
   "100% Open Development": {
-    "message": "100% Open Development"
+    "message": "100% offene Entwicklung"
   },
   "Join the public project on GitHub!": {
-    "message": "Join the public project on GitHub!"
+    "message": "Trete dem öffentlichen Projekt auf GitHub bei!"
   },
   "Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+    "message": "Jeder kann Fehler bearbeiten, Patches beisteuern und Verbesserungen anfordern."
   },
   "100% Open Community": {
-    "message": "100% Open Community"
+    "message": "100% offene Gemeinschaft"
   },
   "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "message": "Chatte in den Foren, entwickle und teile Add-ons, nimm an Online-Turnieren teil und trage zum Warzone 2100 Erlebnis bei."
   },
   "People around the world are waiting!": {
-    "message": "People around the world are waiting!"
+    "message": "Menschen auf der ganzen Welt warten darauf!"
   },
   "100% Free": {
-    "message": "100% Free"
+    "message": "100% kostenlos"
   },
   "Everything is free, including source code, downloads, and all features.": {
-    "message": "Everything is free, including source code, downloads, and all features."
+    "message": "Alles ist kostenlos, inklusive dem Quellcode, den Downloads und allen Funktionen."
   },
   "No in-app purchases.": {
-    "message": "No in-app purchases."
+    "message": "Keine In-App-Käufe."
   },
   "No subscriptions.": {
-    "message": "No subscriptions."
+    "message": "Keine Abonnements."
   },
   "No ads.": {
-    "message": "No ads."
+    "message": "Keine Werbung."
   },
   "Just free.": {
-    "message": "Just free."
+    "message": "Einfach kostenlos."
   },
   "A Long History": {
-    "message": "A Long History"
+    "message": "Eine lange Geschichte"
   },
   "Developed in the 90s by Pumpkin Studios.": {
-    "message": "Developed in the 90s by Pumpkin Studios."
+    "message": "Entwickelt in den 90ern von Pumpkin Studios."
   },
   "Liberated in 2004.": {
-    "message": "Liberated in 2004."
+    "message": "Freigegeben 2004."
   },
   "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "message": "Warzone 2100 wurde ursprünglich von Pumpkin Studios entwickelt und von Eidos Interactive veröffentlicht."
   },
   "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
-    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "message": "Im Jahr 1999 wurde es kommerziell für Microsoft Windows und Sony PlayStation veröffentlicht."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
     "message": "Pumpkin Studios beendete den Support für Warzone 2100 am 5. Januar 2000."
@@ -393,7 +393,7 @@
     "message": "Antworten auf häufig gestellte Fragen."
   },
   "Can't find the answer you're looking for?": {
-    "message": "Can't find the answer you're looking for?"
+    "message": "Du findest nicht die Antwort die Du suchst?"
   },
   "Check out the Forums and Webchat.": {
     "message": "Schau Dir die Foren und Webchat an."
@@ -453,7 +453,7 @@
     "message": "Copyright © past-due."
   },
   "theme": {
-    "message": "theme"
+    "message": "layout"
   },
   "Licensed under the GNU AGPLv3.": {
     "message": "Lizenziert unter GNU AGPLv3."
@@ -525,21 +525,21 @@
     "message": "Das tut uns leid."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Zurück zu Start"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Unterabschnitte"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Schlagworte"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Alle Schlagwörter"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Seitennavigation"
   },
   "More": {
-    "message": "More"
+    "message": "Mehr"
   }
 }
