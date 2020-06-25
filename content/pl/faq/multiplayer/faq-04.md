@@ -1,7 +1,7 @@
 ---
-title: "Where do I find people to play with / tournaments?"
+title: "Gdzie znaleźć ludzi z którymi można pograć / turnieje?"
 ---
 
-While hosting games or joining games in the lobby is an easy way to play online, you can also interact with players via Discord / webchat / IRC:
+Podczas gdy hostowanie, lub dołączanie do gier w lobby jest łatwym sposobem na grę online, możesz także znaleźć innych graczy na Discordzie / Czacie internetowym / IRC:
 
-{{< button href="/webchat/" class="btn-d" >}}Webchat Info{{< /button >}}
+{{< button href="/webchat/" class="btn-d" >}}Informacja o Czacie internetowym{{< /button >}}
