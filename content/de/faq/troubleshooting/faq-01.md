@@ -1,27 +1,27 @@
 ---
-title: "Where is the configuration / savegame directory?"
+title: "Wo ist das Konfiguration bzw. Savegame-Verzeichnis?"
 ---
 
-It depends on your platform:
+Es hängt von der Plattform ab:
 
-{{% inlinesvg "fontawesome/brands/windows.svg" %}} **On Windows:**
+{{% inlinesvg "fontawesome/brands/windows.svg" %}} **Unter Windows:**
 
-The directory `Warzone 2100 Project\Warzone 2100 <version>` is located under the `%APPDATA%` folder.
+Das Verzeichnis `Warzone 2100 Project\Warzone 2100 <version>` befindet sich unter dem `%APPDATA%` Ordner.
 
-Hence, the default path for the Warzone 2100 configuration data on Windows Vista+ would be: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
+Das bedeutet, dass das Standardverzeichnis für die Warzone 2100 Konfigurationsdatei unter Windows Vista+ unter `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100\` zu finden ist. <version>\`
 
-By default, the `%APPDATA%` folder is hidden. Entering: `%APPDATA%\Warzone 2100 Project\` into the address bar of Windows Explorer / File Explorer will browse to your Warzone directory.
+Standardmäßig ist der `%APPDATA%` Ordner versteckt. Wenn du `%APPDATA%\Warzone 2100 Project\` in die Adressleiste deines Windows Explorer / Dateien Explorer eingibst, wirst du zum Warzone Verzeichnis weitergeleitet.
 
-{{% inlinesvg "fontawesome/brands/apple.svg" %}} **On macOS:**
+{{% inlinesvg "fontawesome/brands/apple.svg" %}} **Unter macOS:**
 
-The directory `Warzone 2100 <version>` can be found in your home-directory at: `~/Library/Application Support/`
+Das Verzeichnis `Warzone 2100 <version>` kann in dem Home-Verzeichnis unter `~/Library/Application Support/` gefunden werden.
 
-By default, recent version of macOS hide your account's Library folder. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
+Standardmäßig verstecken neuere Versionen von macOS den Bibliotheksordner deines Kontos. Um ihn im Finder zu finden, halte die **Option (⌥)** Taste gedrückt, während Du das **Go** Menü anklickst und Dein Bibliotheksordner wird als Menüpunkt angezeigt.
 
-{{% inlinesvg "fontawesome/brands/linux.svg" %}} **On Linux:**
+{{% inlinesvg "fontawesome/brands/linux.svg" %}} **Unter Linux:**
 
-Under GNU/Linux, Warzone 2100 conforms to the [XDG base directory spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+Unter GNU/Linux, entspricht Warzone 2100 den [XDG Basisverzeichnis Spezifikationen](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
-By default, the directory `warzone2100-<version>` can be found in your home-directory under the path `~/.local/share/`. (If the `XDG_DATA_HOME` environment variable is defined, the Warzone folder will be located within `$XDG_DATA_HOME`.)
+Standardmäßig ist das `warzone2100-<version>` Verzeichnis in Deinem Home-Verzeichnis unter dem Pfad `~/.local/share/` zu finden. (Wenn die `XDG_DATA_HOME` Umgebungsvariable definiert ist, wird der Warzone_Ordner unter `$XDG_DATA_HOME` zu finden sein.)
 
-The leading dot in the `.local` part of the path indicates that it is a hidden directory, so depending on your configuration you may not be able to see it. However, you can still access it by typing the path into your address-bar.
+Der führende Punkt im `.local` Teil des Pfades zeigt an, dass es sich um ein verstecktes Verzeichnis handelt, so dass Sie in Abhängigkeit von Ihrer Konfiguration dieses möglicherweise nicht sehen können. Sie können aber trotzdem darauf zugreifen, indem Sie den Pfad in Ihre Adressleiste eingeben.
