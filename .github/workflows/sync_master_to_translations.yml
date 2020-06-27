@@ -6,7 +6,20 @@ on:
       - 'master'
 
 jobs:
+  # Wait for up to 10 minutes for previous workflow run to complete, abort if not done by then
+  serialize-sync:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[Sync: translations->master]')"
+    timeout-minutes: 10
+    steps:
+      - name: 'Block Concurrent Executions'
+        uses: past-due/turnstyle@v1
+        with:
+          poll-interval-seconds: 15
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   sync_master_to_translation_integration:
+    needs: serialize-sync
     name: 'Sync master -> translation_integration'
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[Sync: translations->master]')"
