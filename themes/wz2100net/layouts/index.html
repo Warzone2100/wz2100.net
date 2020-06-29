@@ -112,7 +112,7 @@
 												{{ $linkurl = .url }}
 											{{- end -}}
 											{{- if $linkurl -}}
-											<a href="{{ $linkurl }}" class="dropdown-item a-block" data-target="_blank" target="_blank" rel="noopener"><span class="text">{{ i18n .name | default .name }}</span>{{ if or (.filetype) (.filetype_svg) }}<span class="badge badge-light filetype-badge">{{ with .filetype_svg }}{{ partial "inlinesvg.html" (dict "path" .) }}{{ end }}{{ with .filetype }}{{ . }}{{ end }}</span>{{ end }}</a>
+											<a href="{{ $linkurl }}" class="dropdown-item a-block handle-download" data-target="_blank" target="_blank" rel="noopener"><span class="text">{{ i18n .name | default .name }}</span>{{ if or (.filetype) (.filetype_svg) }}<span class="badge badge-light filetype-badge">{{ with .filetype_svg }}{{ partial "inlinesvg.html" (dict "path" .) }}{{ end }}{{ with .filetype }}{{ . }}{{ end }}</span>{{ end }}</a>
 											{{- end -}}
 											{{- end -}}
 											{{- end -}}
@@ -297,7 +297,7 @@
 													{{- range . -}}
 													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
 													<li>
-														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a>
 													</li>
 													{{- end -}}
 													{{- end -}}
@@ -318,7 +318,7 @@
 													{{- range . -}}
 													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
 													<li>
-														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a>
 													</li>
 													{{- end -}}
 													{{- end -}}
@@ -341,7 +341,7 @@
 											<div class="flex-list">
 												<ul class="list-unstyled">
 													<li>
-														<a href="https://snapcraft.io/warzone2100" class="a-btn download-link">{{ i18n "Install the Snap" }}</a>
+														<a href="https://snapcraft.io/warzone2100" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Install the Snap" }}</a>
 													</li>
 												</ul>
 											</div>
@@ -359,7 +359,7 @@
 													{{- range . -}}
 													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
 													<li>
-														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a>
 													</li>
 													{{- end -}}
 													{{- end -}}
@@ -384,7 +384,7 @@
 													{{- range . -}}
 													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
 													<li>
-														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a>
 													</li>
 													{{- end -}}
 													{{- end -}}
@@ -412,7 +412,7 @@
 													{{- range . -}}
 													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
 													<li>
-														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link">{{ i18n .name | default .name }}</a>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a>
 													</li>
 													{{- end -}}
 													{{- end -}}
@@ -1060,6 +1060,13 @@
 					$(this).carouselHeights();
 				});
 			});
+			
+			// handle-download
+			function handle_download_func()
+			{
+				$('#modal-downloads-large').modal('hide');
+			}
+			$('a.handle-download').click( function(e) { setTimeout(handle_download_func, 1000); return true; } );
 		});
 	</script>
 {{ end }}
