@@ -120,6 +120,22 @@
 		"translation": "Install the Snap"
 	},
 	{
+		"id": "Ubuntu 18.04",
+		"translation": "Ubuntu 18.04"
+	},
+	{
+		"id": "Ubuntu 20.04+",
+		"translation": "Ubuntu 20.04+"
+	},
+	{
+		"id": "Ubuntu 18.04 (x64)",
+		"translation": "Ubuntu 18.04 (x64)"
+	},
+	{
+		"id": "Ubuntu 20.04+ (x64)",
+		"translation": "Ubuntu 20.04+ (x64)"
+	},
+	{
 		"id": "Get the Source",
 		"translation": "Get the Source"
 	},
