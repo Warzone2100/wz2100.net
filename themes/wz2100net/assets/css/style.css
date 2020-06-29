@@ -20,6 +20,15 @@ a:hover{text-decoration: none; cursor:pointer;}
 	min-width: auto;
 }
 
+/* = Bootstrap modal dialog sizing overrides
+-------------------------------------------------------------- */
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: min(800px, 90%);
+      margin: 1.75rem auto;
+  }
+}
+
 /* = Blocs
 -------------------------------------------------------------- */
 
