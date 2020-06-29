@@ -1097,6 +1097,14 @@ li{
 
 /* Button colour styles */
 
+/*.btn-brandeis-blue{
+	background:#0068FF;
+	color:#FFFFFF!important;
+}
+.btn-brandeis-blue:hover{
+	background:#0053cc!important;
+	color:#FFFFFF!important;
+}*/
 .btn-sapphire{
 	background:#0053CC;
 	color:#FFFFFF!important;
@@ -1449,6 +1457,64 @@ code {
 }
 .download-checksum-table td.checksum {
 	font-family: 'Inconsolata', monospace;
+}
+
+.download-modal-after .next-step-block p {
+	color: #929292!important;
+}
+.download-modal-after .a-btn {
+	color: #0088ea!important;
+}
+.download-modal-after .a-btn:hover {
+	text-decoration:underline !important
+}
+.after-download-card {
+	border-color: #d6d6d6;
+	min-width: 220px;
+	transition:color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+.after-download-card-container:hover .after-download-card {
+	border-color: rgba(0, 104, 255, 0.8);
+}
+.after-download-card .modal-body {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.after-download-card .modal-body p {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	margin-bottom: 0;
+	color: #727272!important;
+	font-size: 0.8em;
+	text-align: center;
+}
+.after-download-card-container:hover .after-download-card .modal-body p {
+	color: #545454!important;
+}
+.after-download-card-container .after-download-card .modal-body svg {
+	color: #575757;
+	transition:color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.after-download-card-container:hover .after-download-card .modal-body .discord-svg svg {
+	color: #23272A!important;
+}
+.after-download-card-container:hover .after-download-card .modal-body .github-svg svg {
+	color: #000000!important;
+}
+.after-download-card-container:hover .after-download-card .modal-body .heart-svg svg {
+	color: rgb(201, 0, 14)!important;
+}
+.after-download-card-container .btn-brandeis-blue {
+	background:#676767!important;
+	color:#FFFFFF!important;
+}
+.after-download-card-container:hover .btn-brandeis-blue {
+	background:#0068FF!important;
+	color:#FFFFFF!important;
+}
+.after-download-card .modal-footer {
+	border-top: none;
 }
 
 .btn-flex-container {

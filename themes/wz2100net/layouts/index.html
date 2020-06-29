@@ -502,6 +502,108 @@
 					</div>
 				</div>
 			</div>
+			<div>
+				<div id="modal-download-after" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+						<div class="download-modal download-modal-after modal-content">
+							<div class="download-modal-header bgc-sapphire modal-header">
+								<h3 class="mg-clear">
+									{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/download.svg") }}&nbsp; {{ i18n "Downloading Warzone 2100" }} …</h3><a href="#" class="btn btn-lg btn-style-none btn-d" data-dismiss="modal" aria-label="{{ i18n "Close" }}"><span class="close icon-white" style="font-size: 90%;">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/times.svg") }}</span></a>
+							</div>
+							<div class="download-modal-body modal-body">
+								<div class="row">
+									<div class="col download-details-col">
+										<h4 class="mg-md">
+											{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/arrow-circle-right.svg") }}&nbsp;{{ i18n "Next Steps:" }}<br>
+										</h4>
+										<div class="download-details-block next-step-block">
+											<h6 class="mg-sm">
+												{{ i18n "If you’ve never played before," }}
+											</h6>
+											<p>
+												{{ i18n "start with the in-game Tutorial, and then check out:" }} <a class="a-btn" href="https://github.com/Warzone2100/warzone2100/blob/master/doc/quickstartguide.asciidoc#warzone-2100-quick-start-guide" data-target="_blank" target="_blank" rel="noopener" hreflang="en">{{ i18n "the Quickstart Guide" }}</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col mb-4">
+										<a href="https://discordapp.com/invite/{{ $.Site.Params.discordInviteCode }}" class="after-download-card-container" data-target="_blank" target="_blank" rel="noopener">
+											<div class="card h-100 after-download-card">
+												<div class="modal-body">
+													<div class="text-lg-center text-md-center text-sm-center text-center w-100">
+														{{ partial "inlinesvg.html" (dict "class" "discord-svg" "path" "Discord-Logo+Wordmark-Black.svg" "width" "190" "height" "120") }}
+													</div>
+													<p>
+															{{ i18n "Chat with players on the official Discord server!" }}
+													</p>
+												</div>
+												<div class="modal-footer">
+														<button class="btn float-sm-none btn-block btn-brandeis-blue" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Join" }}</button>
+													</div>
+											</div>
+										</a>
+									</div>
+									<div class="col mb-4">
+										<a href="https://github.com/Warzone2100/warzone2100" class="after-download-card-container" data-target="_blank" target="_blank" rel="noopener">
+											<div class="card h-100 after-download-card">
+													<div class="modal-body">
+														<div class="text-lg-center text-md-center text-sm-center text-center w-100">
+															{{ partial "inlinesvg.html" (dict "class" "github-svg" "path" "fontawesome/brands/github.svg" "width" "98" "height" "120") }}
+														</div>
+														<p>
+																{{ i18n "Star the project on GitHub and help spread the news!" }}
+														</p>
+													</div>
+													<div class="modal-footer">
+															<button class="btn float-sm-none btn-block btn-brandeis-blue" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Star on GitHub" }}</button>
+														</div>
+												</div>
+											</a>
+										</div>
+									<div class="col mb-4">
+											<a href="http://donations.wz2100.net/" class="after-download-card-container" data-target="_blank" target="_blank" rel="noopener">
+												<div class="card h-100 after-download-card">
+														<div class="modal-body">
+															<div class="text-lg-center text-md-center text-sm-center text-center w-100">
+																{{ partial "inlinesvg.html" (dict "class" "heart-svg" "path" "fontawesome/solid/heart.svg" "width" "98" "height" "120") }}
+															</div>
+															<p>
+																	{{ i18n "Donate to help support server and other costs!" }}
+															</p>
+														</div>
+														<div class="modal-footer">
+																<button class="btn float-sm-none btn-block btn-brandeis-blue" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Donate" }}</button>
+															</div>
+													</div>
+											</div>
+										</a>
+								</div>
+								<div class="row" style="padding-top: 10px">
+									<div class="col download-top-info-col">
+										<div class="blockquote download-modal-mirrors">
+											<div class="row">
+												<div class="col">
+													<p class="mg-clear dl-troubleshooting-header">
+														{{ i18n "Downloads not working?" }}
+													</p>
+													<p class="mg-clear dl-troubleshooting-details">
+														{{ i18n "Try browsing the download mirrors directly:" }}
+													</p>
+												</div>
+												<div class="col">
+													<a href="https://github.com/Warzone2100/warzone2100/releases/latest" class="a-btn a-block" data-target="_blank" target="_blank" rel="noopener">{{ i18n "GitHub Releases" }}</a>
+													<a href="https://sourceforge.net/projects/warzone2100/files/releases/{{.Site.Data.github_releases_info.latest.tag_name}}/" class="a-btn a-block" data-target="_blank" target="_blank" rel="noopener">{{ i18n "SourceForge Mirror" }}</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="col-12 chevron-down-container">
 			<div class="text-center">
@@ -1065,8 +1167,9 @@
 			function handle_download_func()
 			{
 				$('#modal-downloads-large').modal('hide');
+				$('#modal-download-after').modal('show');
 			}
-			$('a.handle-download').click( function(e) { setTimeout(handle_download_func, 1000); return true; } );
+			$('a.handle-download').click( function(e) { setTimeout(handle_download_func, 500); return true; } );
 		});
 	</script>
 {{ end }}
