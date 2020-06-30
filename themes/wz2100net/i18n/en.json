@@ -89,6 +89,18 @@
   "Install the Snap": {
     "message": "Install the Snap"
   },
+  "Ubuntu 18.04": {
+    "message": "Ubuntu 18.04"
+  },
+  "Ubuntu 20.04+": {
+    "message": "Ubuntu 20.04+"
+  },
+  "Ubuntu 18.04 (x64)": {
+    "message": "Ubuntu 18.04 (x64)"
+  },
+  "Ubuntu 20.04+ (x64)": {
+    "message": "Ubuntu 20.04+ (x64)"
+  },
   "Get the Source": {
     "message": "Get the Source"
   },
@@ -241,6 +253,30 @@
   },
   "SHA256 Checksums for Version": {
     "message": "SHA256 Checksums for Version"
+  },
+  "Downloading Warzone 2100": {
+    "message": "Downloading Warzone 2100"
+  },
+  "Next Steps:": {
+    "message": "Next Steps:"
+  },
+  "If you’ve never played before,": {
+    "message": "If you’ve never played before,"
+  },
+  "start with the in-game Tutorial, and then check out:": {
+    "message": "start with the in-game Tutorial, and then check out:"
+  },
+  "the Quickstart Guide": {
+    "message": "the Quickstart Guide"
+  },
+  "Chat with players on the official Discord server!": {
+    "message": "Chat with players on the official Discord server!"
+  },
+  "Star the project on GitHub and help spread the news!": {
+    "message": "Star the project on GitHub and help spread the news!"
+  },
+  "Donate to help support server and other costs!": {
+    "message": "Donate to help support server and other costs!"
   },
   "Why Warzone 2100 Rocks": {
     "message": "Why Warzone 2100 Rocks"
