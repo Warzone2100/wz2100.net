@@ -502,6 +502,8 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="col-12">
 			<div>
 				<div id="modal-download-after" class="modal fade" tabindex="-1" role="dialog">
 					<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -1170,6 +1172,12 @@
 				$('#modal-download-after').modal('show');
 			}
 			$('a.handle-download').click( function(e) { setTimeout(handle_download_func, 500); return true; } );
+		});
+		
+		// Fix scrolling issues with multiple Bootstrap modals
+		// see: https://stackoverflow.com/a/55162846
+		$(document).on('hidden.bs.modal', '.modal', function () {
+			$('.modal:visible').length && $(document.body).addClass('modal-open');
 		});
 	</script>
 {{ end }}
