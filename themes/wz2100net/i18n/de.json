@@ -252,6 +252,14 @@
     "translation": "(Siehe Link für Details.)"
   },
   {
+		"id": "Flatpak Install Title",
+		"translation": "Flatpak"
+	},
+  {
+		"id": "Install with Flatpak",
+		"translation": "Mit Flatpak installieren"
+	},
+  {
     "id": "Debian Package",
     "translation": "Debian Paket"
   },

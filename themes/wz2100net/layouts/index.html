@@ -346,6 +346,26 @@
 												</ul>
 											</div>
 										</div> -->
+										{{ if $.Site.Params.downloads.flatpak }}
+											<div class="download-details-block">
+												{{ range $.Site.Params.downloads.flatpak }}
+												<h6 class="mg-sm">
+													{{ i18n "Flatpak Install Title" }}
+												</h6>
+												<p class="download-details-text">
+													{{ i18n "Easy installation." }} {{ i18n "Supports most Linux distributions." }} {{ i18n "(See link for details.)" }}
+												</p>
+												<div class="flex-list">
+													<ul class="list-unstyled">
+														<li>
+															<a href="{{ .url }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Install with Flatpak" }}</a>
+														</li>
+													</ul>
+												</div>
+												{{ end }}
+											</div>
+										{{ end }}
+
 										{{- with .Param "downloads.linux_deb" -}}
 										<div class="download-details-block">
 											<h6 class="mg-sm">

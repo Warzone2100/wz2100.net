@@ -100,6 +100,9 @@ params:
     macos:
     - name: "64-bit Intel"
       filename: "warzone2100_macOS.zip"
+    flatpak:
+    - name: "Flatpak"
+      url: "https://flathub.org/apps/details/net.wz2100.wz2100"
     linux_deb: 
     - name: "Ubuntu 18.04 (x64)"
       filename: "warzone2100_ubuntu18.04_amd64.deb"
@@ -153,6 +156,8 @@ params:
       # - name: "Install the Snap"
       #   filetype_svg: "snapcraft.svg"
       #   url: "https://snapcraft.io/warzone2100"
+      - name: "Flatpak"
+        url: "https://flathub.org/apps/details/net.wz2100.wz2100"
       - name: "Ubuntu 18.04"
         filetype: "x64 - deb"
         filename: "warzone2100_ubuntu18.04_amd64.deb"
