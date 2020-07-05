@@ -6,31 +6,31 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 11
+                "download_count": 33
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 37
+                "download_count": 62
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 26
+                "download_count": 45
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 31
+                "download_count": 70
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 9
+                "download_count": 12
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 116
+                "download_count": 167
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 101
+                "download_count": 136
             }
         ]
     },
@@ -45,7 +45,7 @@
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 484
+                "download_count": 490
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
@@ -53,11 +53,11 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 674
+                "download_count": 681
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 750
+                "download_count": 753
             }
         ]
     },
@@ -80,11 +80,11 @@
             },
             {
                 "name": "warzone2100-master_x86_installer.zip",
-                "download_count": 87
+                "download_count": 88
             },
             {
                 "name": "warzone2100-master_x86_portable.zip",
-                "download_count": 1253
+                "download_count": 1256
             }
         ]
     }
