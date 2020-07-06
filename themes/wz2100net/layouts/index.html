@@ -964,7 +964,7 @@
 					{{ range $category_index, $category := $faq_categories }}
 						{{ $output_index := add $category_index 1 }}
 						<div class="tab-pane {{ if eq $category_index 0 }}fade show active{{ else }}fade-tab-bs{{ end }}" id="nav-faq-content-{{ $output_index }}" role="tabpanel" aria-labelledby="nav-faq-content-{{ $output_index }}">
-							<div id="accordion-faq-{{ $output_index }}">
+							<div id="faq-{{ $output_index }}">
 								{{ $full_faq_category_path := $category.category_path | printf "%s/%s" "/faq" | printf "%s" }}
 								{{ $headless_default_lang := $.Sites.First.GetPage $full_faq_category_path }}
 								{{ $faqs_default_lang := $headless_default_lang.Resources.Match "faq*" }}
@@ -980,14 +980,15 @@
 										{{ $faq_lang = $.Site.Language.Lang }}
 									{{ end }}
 									<div class="card bgc-dark-jungle-green" lang="{{ $faq_lang }}">
-										<div class="card-header faq-header collapsed" id="heading{{ $index }}" data-toggle="collapse" data-target="#accordion-faq-{{ $output_index }}-item-{{ $index }}" aria-expanded="false" aria-controls="accordion-faq-{{ $output_index }}-item-{{ $index }}">
+										<div class="card-header faq-header collapsed" id="heading{{ $index }}" data-toggle="collapse" data-target="#faq-{{ $output_index }}-{{ $index }}" aria-expanded="false" aria-controls="faq-{{ $output_index }}-{{ $index }}">
 											<h6 class="mg-md accordion-toggle">
 												{{ $faq.Title }}
 												{{ partial "inlinesvg.html" (dict "class" "chevron" "path" "fontawesome/solid/chevron-up.svg") }}
 											</h6>
 										</div>
-										<div id="accordion-faq-{{ $output_index }}-item-{{ $index }}" class="collapse" aria-labelledby="heading{{ $index }}" data-parent="#accordion-faq-{{ $output_index }}">
+										<div id="faq-{{ $output_index }}-{{ $index }}" class="collapse" aria-labelledby="heading{{ $index }}" data-parent="#faq-{{ $output_index }}">
 											<div class="card-body bgc-medium-jungle-green faq-card-body">
+												<div style="position: sticky; top: 0; float: right;"><a class="faq-share-link" data-title="{{ $faq.Title }}" title="{{ i18n "Copy URL" }}" href="{{ $.Permalink }}#faq-{{ $output_index }}-{{ $index }}">{{ partial "inlinesvg.html" (dict "path" "fontawesome/regular/copy.svg" "fill" "rgba(255,255,255,0.3)") }}</a></div>
 												{{ $faq.Content }}
 											</div>
 										</div>
@@ -1178,6 +1179,88 @@
 		// see: https://stackoverflow.com/a/55162846
 		$(document).on('hidden.bs.modal', '.modal', function () {
 			$('.modal:visible').length && $(document.body).addClass('modal-open');
+		});
+
+		// Handle FAQ entry hashes
+		function handle_hash() {
+			var hash = window.location.hash;
+			// Handle direct-links to FAQ entries
+			const FAQ_ENTRY_PREFIX = "#faq-";
+			if (hash.lastIndexOf(FAQ_ENTRY_PREFIX, 0) === 0) {
+				const regex = /#faq-(\d)+-\d+/gm;
+				var match = regex.exec(hash);
+				const parent_tab_num = match[1];
+				const parent_tab_id = "#nav-faq-tab-"+parent_tab_num;
+				// Show parent FAQ section (tab)
+				$(parent_tab_id).tab('show');
+				// Scroll to show the FAQ entry
+				var scrollTopHeight = $(hash).parent().offset().top;
+				if ($('.sticky-nav').length) // Sticky Nav in use
+				{
+					scrollTopHeight -= $('.sticky-nav').outerHeight();
+				}
+				$('html,body').animate({scrollTop:scrollTopHeight}, 250);
+				if (!($(hash).hasClass('show'))) {
+					// Configure a one-time handler for the "shown" event
+					$(hash).on('shown.bs.collapse', function () {
+						// Scroll to show the FAQ entry
+						var scrollTopHeight = $(this).parent().offset().top;
+						if ($('.sticky-nav').length) // Sticky Nav in use
+						{
+							scrollTopHeight -= $('.sticky-nav').outerHeight();
+						}
+						const viewportHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+						$('html,body').animate({scrollTop:scrollTopHeight}, 250);
+						$(this).off('shown.bs.collapse');
+					})
+					// Expand the specific FAQ item in the section
+					$(hash + '.collapse').collapse('show');
+				}
+				return true;
+			}
+			return false;
+		}
+		window.onload = function() {
+			handle_hash();
+		};
+		window.addEventListener('hashchange', function(e){
+			if (handle_hash()) { e.preventDefault(); return false; }
+		});
+
+		// Handle FAQ entry "share" (copy to clipboard) links
+		$('.faq-share-link').click(function(e){
+			e.preventDefault();
+		});
+		var clipboard = new ClipboardJS('.faq-share-link', {
+			text: function(trigger) {
+				return trigger.getAttribute('href');
+			}
+		});
+		function showTooltip(trigger, message) {
+			$(trigger).attr('title', message);
+			$(trigger).attr('data-original-title', message);
+			$(trigger).tooltip('update');
+			$(trigger).tooltip('show');
+		}
+		function hideTooltip(trigger) {
+			setTimeout(function() {
+				$(trigger).tooltip('hide');
+				$(trigger).attr('title', "{{ i18n "Copy URL" }}");
+				$(trigger).attr('data-original-title', "{{ i18n "Copy URL" }}");
+				$(trigger).tooltip('update');
+			}, 1000);
+		}
+		clipboard.on('success', function(e) {
+			showTooltip(e.trigger,'{{ i18n "Copied URL!" }}');
+			hideTooltip(e.trigger);
+		});
+		clipboard.on('error', function(e) {
+			showTooltip(e.trigger, 'Failed!');
+			hideTooltip(e.trigger);
+		});
+		$('.faq-share-link').tooltip({
+			trigger: 'hover focus manual',
+			placement: 'bottom'
 		});
 	</script>
 {{ end }}
