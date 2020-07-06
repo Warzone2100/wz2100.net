@@ -2,34 +2,34 @@
 title: "Webchat"
 ---
 
-If you want to arrange online games, or have a quick question to ask, you might want to use one of our chat options:
+Gebruik één van onze chatopties om snel een vraag te stellen of een online game wilt organiseren.
 
 {{% divider %}}
 
 ## {{< inlinefigure path="/svg/Discord-Logo+Wordmark-White.svg" mediatype="image/svg+xml" height="80" alt="Discord" >}}
 
-Like Discord? Join the official Warzone 2100 Discord server:
+Vind je Discord leuk? Neem deel aan de officiële Warzone 2100 Discord-server:
 
 {{< discordinvite description="Official Server" >}}
 
-##### Discord Benefits:
+##### Discord Voordelen:
 
-Pick your nickname, view chat history, easily chat on mobile devices, (optionally) subscribe to receive announcements of new releases, voice chat, and more.
+Kies je bijnaam, bekijk chatgeschiedenis, gemakkelijk chatten op mobiele apparaten, (optioneel) abonneren om aankondigingen van nieuwe releases, chat, en meer te ontvangen.
 
-Signing up for Discord, chatting on the server, etc. is free.
+Aanmelden op Discord, chatten op de server, etc. is gratis.
 
-Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
+Chat in je browser, of download de client voor Windows, macOS, Linux of mobiel.
 
 {{% divider %}}
 
 ## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
 
-IRC webchat is available from Freenode here:
+IRC webchat van Freenode is hier beschikbaar:
 
 {{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Enter Chat{{< /button >}}
 
-Experienced users can also enter this chat room by visiting `#warzone2100-games` on Freenode with an IRC client.
+Ervaren gebruikers kunnen ook meepraten in de chatroom `#warzone2100-games` op Freenode met een IRC-client.
 
-> Note: Because of abuse, you must register with Freenode & not use Freenode's webchat applet to enter `#warzone2100-dev`. We do not control that server, so if your nickname is used we can't do anything about it!
+> Opmerking: naar aanleiding van misbruik, registreer met Freenode en gebruik niet de Freenode's webchat-applet om deel te nemen aan `#warzone2100-dev`. Wij beheren de server niet, als je bijnaam in gebruik is kunnen wij helaas niks voor je betekenen!
 
-See the [Freenode registration FAQ](https://freenode.net/kb/answer/registration) for details on how to register.
+Bekijk [Freenode registratie FAQ](https://freenode.net/kb/answer/registration) voor meer details over hoe te registreren.

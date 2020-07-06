@@ -89,6 +89,18 @@
   "Install the Snap": {
     "message": "Installeer het Snapbestand"
   },
+  "Ubuntu 18.04": {
+    "message": "Ubuntu 18.04"
+  },
+  "Ubuntu 20.04+": {
+    "message": "Ubuntu 20.04+"
+  },
+  "Ubuntu 18.04 (x64)": {
+    "message": "Ubuntu 18.04 (x64)"
+  },
+  "Ubuntu 20.04+ (x64)": {
+    "message": "Ubuntu 20.04+ (x64)"
+  },
   "Get the Source": {
     "message": "Download de broncode"
   },
@@ -241,6 +253,30 @@
   },
   "SHA256 Checksums for Version": {
     "message": "SHA256 Checksums voor Versie"
+  },
+  "Downloading Warzone 2100": {
+    "message": "Warzone 2100 downloaden"
+  },
+  "Next Steps:": {
+    "message": "Volgende stappen:"
+  },
+  "If you’ve never played before,": {
+    "message": "Als je nog nooit eerder hebt gespeeld,"
+  },
+  "start with the in-game Tutorial, and then check out:": {
+    "message": "begin met de in-game tutorial en bekijk dan:"
+  },
+  "the Quickstart Guide": {
+    "message": "de startersgids"
+  },
+  "Chat with players on the official Discord server!": {
+    "message": "Chat met spelers op de officiële Discord-server!"
+  },
+  "Star the project on GitHub and help spread the news!": {
+    "message": "Geef een ster op het GitHub-project en verspreid het nieuws!"
+  },
+  "Donate to help support server and other costs!": {
+    "message": "Doneer en help mee met server en andere kosten!"
   },
   "Why Warzone 2100 Rocks": {
     "message": "Waarom Warzone 2100 rockt"
@@ -406,6 +442,12 @@
   },
   "Troubleshooting": {
     "message": "Tips en oplossingen"
+  },
+  "Copy URL": {
+    "message": "Copy URL"
+  },
+  "Copied URL!": {
+    "message": "Copied URL!"
   },
   "JavaScript is disabled.": {
     "message": "JavaScript is uitgeschakeld."

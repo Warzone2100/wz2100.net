@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Hoe neem ik deel aan een online sessie?"
 ---
 
-Joining existing games is usually easy.
+Meedoen aan een bestaande sessie is meestal eenvoudig.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Start het spel op, klik op Meerdere spelers→ Deelnemen aan spel → Lobby.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Als en sessies beschikbaar zijn kun je erop klikken om mee te doen. Klik vervolgens op de "klaar" checkbox. Wanneer iedereen klaar is begint het spel.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+Vergeet niet om je naam te kiezen door links op het naamvak te klikken. 
