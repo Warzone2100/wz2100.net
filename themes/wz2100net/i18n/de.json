@@ -120,6 +120,22 @@
     "translation": "Installiere den Snap"
   },
   {
+    "id": "Ubuntu 18.04",
+    "translation": "Ubuntu 18.04"
+  },
+  {
+    "id": "Ubuntu 20.04+",
+    "translation": "Ubuntu 20.04+"
+  },
+  {
+    "id": "Ubuntu 18.04 (x64)",
+    "translation": "Ubuntu 18.04 (x64)"
+  },
+  {
+    "id": "Ubuntu 20.04+ (x64)",
+    "translation": "Ubuntu 20.04+ (x64)"
+  },
+  {
     "id": "Get the Source",
     "translation": "Hol Dir den Quellcode"
   },
@@ -322,6 +338,38 @@
   {
     "id": "SHA256 Checksums for Version",
     "translation": "SHA256 Prüfsummen für Version"
+  },
+  {
+    "id": "Downloading Warzone 2100",
+    "translation": "Warzone 2100 herunterladen"
+  },
+  {
+    "id": "Next Steps:",
+    "translation": "Nächste Schritte:"
+  },
+  {
+    "id": "If you’ve never played before,",
+    "translation": "Wenn Du nie vorher gespielt hast"
+  },
+  {
+    "id": "start with the in-game Tutorial, and then check out:",
+    "translation": "beginne mit dem Tutorial im Spiel und lies dann:"
+  },
+  {
+    "id": "the Quickstart Guide",
+    "translation": "die Kurzanleitung"
+  },
+  {
+    "id": "Chat with players on the official Discord server!",
+    "translation": "Chatte mit Spielern auf dem offiziellen Discord Server!"
+  },
+  {
+    "id": "Star the project on GitHub and help spread the news!",
+    "translation": "Gib dem Projekt einen Stern auf GitHub und hilf mit, die Nachrichten zu verbreiten!"
+  },
+  {
+    "id": "Donate to help support server and other costs!",
+    "translation": "Spende, um uns bei Server und anderen Kosten zu unterstützen!"
   },
   {
     "id": "Why Warzone 2100 Rocks",
@@ -542,6 +590,14 @@
   {
     "id": "Troubleshooting",
     "translation": "Problemlösung"
+  },
+  {
+    "id": "Copy URL",
+    "translation": "Copy URL"
+  },
+  {
+    "id": "Copied URL!",
+    "translation": "Copied URL!"
   },
   {
     "id": "JavaScript is disabled.",

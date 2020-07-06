@@ -120,6 +120,22 @@
     "translation": "Install the Snap"
   },
   {
+    "id": "Ubuntu 18.04",
+    "translation": "Ubuntu 18.04"
+  },
+  {
+    "id": "Ubuntu 20.04+",
+    "translation": "Ubuntu 20.04+"
+  },
+  {
+    "id": "Ubuntu 18.04 (x64)",
+    "translation": "Ubuntu 18.04 (x64)"
+  },
+  {
+    "id": "Ubuntu 20.04+ (x64)",
+    "translation": "Ubuntu 20.04+ (x64)"
+  },
+  {
     "id": "Get the Source",
     "translation": "Get the Source"
   },
@@ -322,6 +338,38 @@
   {
     "id": "SHA256 Checksums for Version",
     "translation": "SHA256 Checksums for Version"
+  },
+  {
+    "id": "Downloading Warzone 2100",
+    "translation": "Downloading Warzone 2100"
+  },
+  {
+    "id": "Next Steps:",
+    "translation": "Next Steps:"
+  },
+  {
+    "id": "If you’ve never played before,",
+    "translation": "If you’ve never played before,"
+  },
+  {
+    "id": "start with the in-game Tutorial, and then check out:",
+    "translation": "start with the in-game Tutorial, and then check out:"
+  },
+  {
+    "id": "the Quickstart Guide",
+    "translation": "the Quickstart Guide"
+  },
+  {
+    "id": "Chat with players on the official Discord server!",
+    "translation": "Chat with players on the official Discord server!"
+  },
+  {
+    "id": "Star the project on GitHub and help spread the news!",
+    "translation": "Star the project on GitHub and help spread the news!"
+  },
+  {
+    "id": "Donate to help support server and other costs!",
+    "translation": "Donate to help support server and other costs!"
   },
   {
     "id": "Why Warzone 2100 Rocks",
@@ -542,6 +590,14 @@
   {
     "id": "Troubleshooting",
     "translation": "Troubleshooting"
+  },
+  {
+    "id": "Copy URL",
+    "translation": "Copy URL"
+  },
+  {
+    "id": "Copied URL!",
+    "translation": "Copied URL!"
   },
   {
     "id": "JavaScript is disabled.",
