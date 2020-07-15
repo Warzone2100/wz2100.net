@@ -2075,3 +2075,48 @@ h6>.badge {
     margin:0 8.83px;
 	color:#fff;
 }
+
+/* = Sharing buttons
+-------------------------------------------------------------- */
+
+.sharing-button__link,
+.sharing-button__icon {
+  display: inline-block;
+}
+
+.sharing-button__link {
+  text-decoration: none;
+  color: #fff!important;
+  margin: 0.5em
+}
+
+.sharing-button {
+	font-size: 12px;
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: 'Montserrat', 'MontserratFallback', sans-serif;
+}
+
+.sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: middle
+}
+
+.sharing-button__icon {
+  fill: #fff;
+  stroke: none
+}
+
+.sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.sharing-button--twitter:hover,
+.sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
