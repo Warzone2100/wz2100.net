@@ -208,6 +208,9 @@ jobs:
             echo "::error ::Deployment did not appear to succeed? (state: ${DEPLOYMENT_STATE})"
             exit 1
           fi
+          # Sleep for 10 seconds
+          sleep 10
+          echo "Done."
       - name: 'Purge Cloudflare Cache'
         if: success() && (steps.publishpages.outputs.PROCESS_DEPLOYMENT == 'true')
         env:
