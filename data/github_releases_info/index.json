@@ -6,31 +6,31 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 46
+                "download_count": 65
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 83
+                "download_count": 95
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 73
+                "download_count": 80
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 103
+                "download_count": 115
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 14
+                "download_count": 17
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 230
+                "download_count": 281
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 182
+                "download_count": 214
             }
         ]
     },
@@ -45,7 +45,7 @@
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 492
+                "download_count": 496
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
@@ -53,11 +53,11 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 683
+                "download_count": 685
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 755
+                "download_count": 756
             }
         ]
     },
@@ -84,7 +84,7 @@
             },
             {
                 "name": "warzone2100-master_x86_portable.zip",
-                "download_count": 1256
+                "download_count": 1262
             }
         ]
     }
