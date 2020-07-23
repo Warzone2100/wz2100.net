@@ -19,14 +19,14 @@ Einschließlich Korrekturen für:
 
 **(Für alle Änderungen seit 3.3.0, lies die [Version 3.4.0 Veröffentlichungsankündigung]({{< ref "news-04.md" >}}).)**
 
-There have been **over 70 commits since 3.4.0**, from many contributors including: Colin MacDonald, Cyp, Ilari Tommiska, KJeff01, past-due, Prot, Vitya Andreev
+Es gab von vielen Mitwirkenden **über 70 Commits seit 3.4.0**, unter anderem: Colin MacDonald, Cyp, Ilari Tommiska, KJeff01, past-due, Prot, Vitya Andreev
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns auch bei allen neuen und wiederkehrenden Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
+Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-The old build toolchains have now been fully replaced, and CMake is used for building on all platforms. For full build instructions [see the README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.1/README.md#how-to-build).
+Die alten Build-Toolchains sind vollständig ersetzt worden und CMake wird jetzt auf allen Plattformen verwendet. Für die vollständigen Build-Anweisungen [lies die README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.1/README.md#how-to-build).
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
