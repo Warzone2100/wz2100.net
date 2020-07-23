@@ -1,23 +1,23 @@
 ---
-title: "Version 3.4.1 released"
+title: "Version 3.4.1 veröffentlicht"
 slug: "version-3-4-1"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-With the help of many bug reporters & contributors, we're happy to announce the release of **3.4.1**, a bug-fix release.
+Mit der Hilfe vieler Fehlermelder & Mitwirkenden, freuen wir uns, die Veröffentlichung von **3.4.1** bekanntgeben zu können, einem Bug-Fix-Release.
 
-Including fixes for:
-- UI issues
-- Keymap defaults
-- Simple keybinds not firing when a meta key is held down
-- Campaign bugs
-- Compilation / compatibility issues
-- Multiplayer lobby issues
+Einschließlich Korrekturen für:
+- UI-Probleme
+- Tastaturkürzelvoreinstellungen
+- Einfache Tastenkombinationen funktionieren nicht, wenn eine Meta-Taste gedrückt ist
+- Kampagnenfehler
+- Kompilation- / Kompabilitätsprobleme
+- Mehrspielerlobbyprobleme
 
-[View the full 3.4.1 changelog](https://github.com/Warzone2100/warzone2100/raw/3.4.1/ChangeLog)
+[Zeige das komplette 3.4.1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/3.4.1/ChangeLog)
 
-**(For all the changes since 3.3.0, see the [Version 3.4.0 release announcement]({{< ref "news-04.md" >}}).)**
+**(Für alle Änderungen seit 3.3.0, lies die [Version 3.4.0 Veröffentlichungsankündigung]({{< ref "news-04.md" >}}).)**
 
 There have been **over 70 commits since 3.4.0**, from many contributors including: Colin MacDonald, Cyp, Ilari Tommiska, KJeff01, past-due, Prot, Vitya Andreev
 
