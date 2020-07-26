@@ -331,7 +331,7 @@
 										<h4 class="mg-md">
 											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/linux.svg" "paddingRight" "0.1em") }}{{ i18n "Linux" }}
 										</h4>
-										<!-- <div class="download-details-block">
+										<div class="download-details-block">
 											<h6 class="mg-sm">
 												{{ i18n "Snap Installer" }}
 											</h6>
@@ -345,7 +345,7 @@
 													</li>
 												</ul>
 											</div>
-										</div> -->
+										</div>
 										{{- with .Param "downloads.linux_deb" -}}
 										<div class="download-details-block">
 											<h6 class="mg-sm">
@@ -371,7 +371,7 @@
 											</p>
 										</div>
 										{{- end -}}
-										{{- with .Param "downloads.source" -}}
+										<!-- {{- with .Param "downloads.source" -}}
 										<div class="download-details-block">
 											<h6 class="mg-sm">
 												{{ i18n "Compile Source" }}
@@ -391,7 +391,7 @@
 												</ul>
 											</div>
 										</div>
-										{{- end -}}
+										{{- end -}} -->
 									</div>
 								</div>
 								<div class="row">
@@ -426,7 +426,21 @@
 											{{ i18n "Other" }}
 										</h4>
 										<div class="download-details-block">
-											<a href="https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/" class="a-btn a-block download-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Campaign Videos" }}</a><a href="https://github.com/Warzone2100/WMIT" class="a-btn a-block download-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "WMIT (Warzone Model Import Tool)" }}</a><a href="https://github.com/Warzone2100/warzone2100/" class="a-btn a-block download-link" hreflang="en">{{ i18n "Development Source Code" }}</a><a href="https://github.com/Warzone2100/warzone2100/blob/master/README.md#latest-development-builds" class="a-btn a-block download-link" hreflang="en">{{ i18n "Development Builds" }}</a>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													{{- with .Param "downloads.source" -}}
+													{{- range . -}}
+													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+													<li><a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a></li>
+													{{- end -}}
+													{{- end -}}
+													{{- end -}}
+													<li><a href="https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/" class="a-btn download-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Campaign Videos" }}</a></li>
+													<li><a href="https://github.com/Warzone2100/WMIT" class="a-btn download-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "WMIT (Warzone Model Import Tool)" }}</a></li>
+													<li><a href="https://github.com/Warzone2100/warzone2100/" class="a-btn download-link" hreflang="en">{{ i18n "Development Source Code" }}</a></li>
+													<li><a href="https://github.com/Warzone2100/warzone2100/blob/master/README.md#latest-development-builds" class="a-btn download-link" hreflang="en">{{ i18n "Development Builds" }}</a></li>
+												</ul>
+											</div>
 										</div>
 									</div>
 								</div>

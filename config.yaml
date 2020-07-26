@@ -150,9 +150,9 @@ params:
       name: "Linux"
       class: "linux-platform"
       downloads:
-      # - name: "Install the Snap"
-      #   filetype_svg: "snapcraft.svg"
-      #   url: "https://snapcraft.io/warzone2100"
+      - name: "Install the Snap"
+        filetype_svg: "snapcraft.svg"
+        url: "https://snapcraft.io/warzone2100"
       - name: "Ubuntu 18.04"
         filetype: "x64 - deb"
         filename: "warzone2100_ubuntu18.04_amd64.deb"
