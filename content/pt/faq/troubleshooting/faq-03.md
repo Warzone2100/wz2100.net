@@ -1,13 +1,13 @@
 ---
-title: "Why don't I see any videos while playing the campaign?"
+title: "Por que não consigo ver os vídeos ao jogar a campanha?"
 ---
 
-The campaign videos must be downloaded.
+Os vídeos da campanha devem ser descarregados.
 
-If you're using the Windows installers, there is an option you can check during install to do this automatically.
+Se estiver a utilizar os instaladores do Windows, há uma opção que pode verificar durante a instalação para fazer isso automaticamente.
 
-For other platforms, please download the desired quality `sequences.wz` file below, and place in Warzone 2100's **configuration directory**:
+Para outras plataformas, por favor descarregue o ficheiro `sequences.wz` na qualidade desejada a partir das ligações abaixo indicadas, e coloque-o no **diretório de configuração**:
 
-- [High Quality](https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/high-quality-en/sequences.wz/download) (965 MB)
-- [Standard Quality](https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/standard-quality-en/sequences.wz/download) (572 MB)
-- [Low Quality](https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/low-quality-en/sequences.wz/download) (170 MB)
+- [Alta Qualidade](https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/high-quality-en/sequences.wz/download) (965 MB)
+- [Qualidade Regular](https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/standard-quality-en/sequences.wz/download) (572 MB)
+- [Baixa Qualidade](https://sourceforge.net/projects/warzone2100/files/warzone2100/Videos/low-quality-en/sequences.wz/download) (170 MB)
