@@ -1,26 +1,26 @@
 ---
-title: "Vulkan, DirectX, & Metal support in-progress"
-slug: "vulkan-directx-metal-in-progress"
+title: "Suporte de Vulkan, DirectX & Metal em progresso"
+slug: "vulkan-directx-metal-andamento"
 ---
 
-Building on the great inital `gfx_api` and Vulkan work by @vlj, we're now testing [multiple new graphics backend support](https://github.com/Warzone2100/warzone2100/pull/489) (slated for release in 3.4.0):
+Tendo como base o excelente trabalho feito por @vlj para `gfx_api` e no Vulkan, estamos agora a testar [o suporte backend para várias API gráficas](https://github.com/Warzone2100/warzone2100/pull/489) (previsão de lançamento na versão 3.4.0):
 
 - **[OpenGL ES 3.0 / 2.0](https://en.wikipedia.org/wiki/OpenGL_ES)**
 - **[Vulkan 1.0+](https://en.wikipedia.org/wiki/Vulkan_(API))**
-- **[DirectX](https://en.wikipedia.org/wiki/DirectX) _(via [LibANGLE](https://en.wikipedia.org/wiki/ANGLE_(software)))_** (on Windows)
+- **[DirectX](https://en.wikipedia.org/wiki/DirectX) _(via [LibANGLE](https://en.wikipedia.org/wiki/ANGLE_(software)))_** (no Windows)
 
-This is in addition to the existing support for:
+Isto vem em adição ao support já existente para:
 - **OpenGL 3.0+ Core Profile** (default), **OpenGL 2.1 Compatibility Profile**
 
-On macOS, Vulkan is supported via **[MoltenVK](https://github.com/KhronosGroup/MoltenVK)**, which means Warzone2100 is capable of running on top of **[Metal](https://en.wikipedia.org/wiki/Metal_(API))** now as well.
+No macOS, o Vulkan é suportado por **[Molten VK](https://github.com/KhronosGroup/MoltenVK)**, o que significa que o Warzone2100 é agora capaz de correr com o **[Metal](https://en.wikipedia.org/wiki/Metal_(API))**.
 
-This PR also adds many other enhancements, including:
-- A new  "**[Adaptive Vsync](https://www.khronos.org/opengl/wiki/Swap_Interval#Adaptive_Vsync)**" option (where supported), in addition to Vsync on / off
-- A new "**Graphics Backend**" option in the Video Options menu
-- Includes "**Allow optional per-vertex normals in PIE format**" [#338](https://github.com/Warzone2100/warzone2100/pull/338)
-- Substantial improvements to resources cleanup
-- [and more](https://github.com/Warzone2100/warzone2100/pull/489)
+Esta PR inclui também muitas outras melhorias, incluindo:
+- Uma nova opção "**[Vsync Adaptável](https://www.khronos.org/opengl/wiki/Swap_Interval#Adaptive_Vsync)** (quando suportada), em adição ao Vsync on/off
+- Uma nova opção "**Backend Gráfico**" no menu de Opções de Vídeo
+- Inclusão de "**Normais por-vertex opcionais no formato PIE**" [#338](https://github.com/Warzone2100/warzone2100/pull/338)
+- Melhorias substanciais na limpeza dos recursos
+- [e mais](https://github.com/Warzone2100/warzone2100/pull/489)
 
-For more details, and to obtain a test build, see the PR: [https://github.com/Warzone2100/warzone2100/pull/489](https://github.com/Warzone2100/warzone2100/pull/489)
+Para mais detalhes, e para obter uma compilação de teste, veja a PR: [https://github.com/Warzone2100/warzone2100/pull/489](https://github.com/Warzone2100/warzone2100/pull/489)
 
-This work is currently slated to become part of 3.4.0.
+Este trabalho está agendado para se tornar parte da versão 3.4.0.
