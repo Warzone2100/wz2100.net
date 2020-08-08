@@ -1,0 +1,593 @@
+{
+  "Home": {
+    "message": "Home"
+  },
+  "Features": {
+    "message": "Features"
+  },
+  "History": {
+    "message": "History"
+  },
+  "FAQ": {
+    "message": "FAQ"
+  },
+  "Resources": {
+    "message": "Resources"
+  },
+  "News": {
+    "message": "News"
+  },
+  "Webchat": {
+    "message": "Webchat"
+  },
+  "Forums": {
+    "message": "Forums"
+  },
+  "Addons": {
+    "message": "Addons"
+  },
+  "WZ Guide": {
+    "message": "WZ Guide"
+  },
+  "Wiki": {
+    "message": "Wiki"
+  },
+  "Report Bugs": {
+    "message": "Report Bugs"
+  },
+  "Donate": {
+    "message": "Donate"
+  },
+  "Help us Translate": {
+    "message": "Help us Translate"
+  },
+  "A 100% free and open-source 3D real-time strategy game.": {
+    "message": "A 100% free and open-source 3D real-time strategy game."
+  },
+  "Download Now": {
+    "message": "Download Now"
+  },
+  "Toggle Dropdown": {
+    "message": "Toggle Dropdown"
+  },
+  "Windows": {
+    "message": "Windows"
+  },
+  "Portable Version": {
+    "message": "Portable Version"
+  },
+  "Can be installed to / run from a USB drive, local folder, etc.": {
+    "message": "Can be installed to / run from a USB drive, local folder, etc."
+  },
+  "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
+    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+  },
+  "(Does not require admin privileges.)": {
+    "message": "(Does not require admin privileges.)"
+  },
+  "Full Installer": {
+    "message": "Full Installer"
+  },
+  "Installs for all users on a system.": {
+    "message": "Installs for all users on a system."
+  },
+  "Settings / saves are user-specific.": {
+    "message": "Settings / saves are user-specific."
+  },
+  "(Requires admin privileges to install.)": {
+    "message": "(Requires admin privileges to install.)"
+  },
+  "macOS": {
+    "message": "macOS"
+  },
+  "macOS App Bundle": {
+    "message": "macOS App Bundle"
+  },
+  "Linux": {
+    "message": "Linux"
+  },
+  "Install the Snap": {
+    "message": "Install the Snap"
+  },
+  "Ubuntu 18.04": {
+    "message": "Ubuntu 18.04"
+  },
+  "Ubuntu 20.04+": {
+    "message": "Ubuntu 20.04+"
+  },
+  "Ubuntu 18.04 (x64)": {
+    "message": "Ubuntu 18.04 (x64)"
+  },
+  "Ubuntu 20.04+ (x64)": {
+    "message": "Ubuntu 20.04+ (x64)"
+  },
+  "Get the Source": {
+    "message": "Get the Source"
+  },
+  "and more...": {
+    "message": "and more..."
+  },
+  "All downloads & platforms": {
+    "message": "All downloads & platforms"
+  },
+  "New": {
+    "message": "New"
+  },
+  "Version": {
+    "message": "Version"
+  },
+  "for Windows 7-10": {
+    "message": "for Windows 7-10"
+  },
+  "for macOS 10.10+": {
+    "message": "for macOS 10.10+"
+  },
+  "for Linux": {
+    "message": "for Linux"
+  },
+  "Windows, macOS, Linux": {
+    "message": "Windows, macOS, Linux"
+  },
+  "Advanced install options & other platforms": {
+    "message": "Advanced install options & other platforms"
+  },
+  "Get the source code": {
+    "message": "Get the source code"
+  },
+  "Get the Source Code": {
+    "message": "Get the Source Code"
+  },
+  "View on GitHub": {
+    "message": "View on GitHub"
+  },
+  "Star on GitHub": {
+    "message": "Star on GitHub"
+  },
+  "Report a Bug": {
+    "message": "Report a Bug"
+  },
+  "Copyright © Warzone 2100 Project.": {
+    "message": "Copyright © Warzone 2100 Project."
+  },
+  "Warzone is licensed under the GPLv2+ license (& others).": {
+    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+  },
+  "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
+    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+  },
+  "Seize territory and resources, build extensive bases, and expand your production & research.": {
+    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
+  },
+  "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
+    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+  },
+  "Previous": {
+    "message": "Previous"
+  },
+  "Next": {
+    "message": "Next"
+  },
+  "Close": {
+    "message": "Close"
+  },
+  "Downloads not working?": {
+    "message": "Downloads not working?"
+  },
+  "Try browsing the download mirrors directly:": {
+    "message": "Try browsing the download mirrors directly:"
+  },
+  "GitHub Releases": {
+    "message": "GitHub Releases"
+  },
+  "SourceForge Mirror": {
+    "message": "SourceForge Mirror"
+  },
+  "32-bit (x86)": {
+    "message": "32-bit (x86)"
+  },
+  "64-bit (x64)": {
+    "message": "64-bit (x64)"
+  },
+  "Snap Installer": {
+    "message": "Snap Installer"
+  },
+  "Easy installation.": {
+    "message": "Easy installation."
+  },
+  "Supports most Linux distributions.": {
+    "message": "Supports most Linux distributions."
+  },
+  "(See link for details.)": {
+    "message": "(See link for details.)"
+  },
+  "Debian Package": {
+    "message": "Debian Package"
+  },
+  "DEB package for Ubuntu (and related Debian-based distros).": {
+    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+  },
+  "After downloading, install using the following command:": {
+    "message": "After downloading, install using the following command:"
+  },
+  "Compile Source": {
+    "message": "Compile Source"
+  },
+  "Compile the source yourself using our build instructions.": {
+    "message": "Compile the source yourself using our build instructions."
+  },
+  "Source Code (.tar.xz)": {
+    "message": "Source Code (.tar.xz)"
+  },
+  "Mac App Bundle": {
+    "message": "Mac App Bundle"
+  },
+  "Download, unzip, and copy to your Applications folder.": {
+    "message": "Download, unzip, and copy to your Applications folder."
+  },
+  "64-bit Intel": {
+    "message": "64-bit Intel"
+  },
+  "How to handle “Warzone cannot be opened” errors.": {
+    "message": "How to handle “Warzone cannot be opened” errors."
+  },
+  "Other": {
+    "message": "Other"
+  },
+  "Campaign Videos": {
+    "message": "Campaign Videos"
+  },
+  "WMIT (Warzone Model Import Tool)": {
+    "message": "WMIT (Warzone Model Import Tool)"
+  },
+  "Development Builds": {
+    "message": "Development Builds"
+  },
+  "Development Source Code": {
+    "message": "Development Source Code"
+  },
+  "Verify Download Integrity (SHA256)": {
+    "message": "Verify Download Integrity (SHA256)"
+  },
+  "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
+    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+  },
+  "SHA256 Checksums for Version": {
+    "message": "SHA256 Checksums for Version"
+  },
+  "Downloading Warzone 2100": {
+    "message": "Downloading Warzone 2100"
+  },
+  "Next Steps:": {
+    "message": "Next Steps:"
+  },
+  "Share on Twitter": {
+    "message": "Share on Twitter"
+  },
+  "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
+    "message": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+  },
+  "If you’ve never played before,": {
+    "message": "If you’ve never played before,"
+  },
+  "start with the in-game Tutorial, and then check out:": {
+    "message": "start with the in-game Tutorial, and then check out:"
+  },
+  "the Quickstart Guide": {
+    "message": "the Quickstart Guide"
+  },
+  "Chat with players on the official Discord server!": {
+    "message": "Chat with players on the official Discord server!"
+  },
+  "Star the project on GitHub and help spread the news!": {
+    "message": "Star the project on GitHub and help spread the news!"
+  },
+  "Donate to help support server and other costs!": {
+    "message": "Donate to help support server and other costs!"
+  },
+  "Why Warzone 2100 Rocks": {
+    "message": "Why Warzone 2100 Rocks"
+  },
+  "Strategy by Design.": {
+    "message": "Strategy by Design."
+  },
+  "Endless replayability.": {
+    "message": "Endless replayability."
+  },
+  "Single-Player Campaign": {
+    "message": "Single-Player Campaign"
+  },
+  "LAN / Internet Multiplayer": {
+    "message": "LAN / Internet Multiplayer"
+  },
+  "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
+    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+  },
+  "AI Bots": {
+    "message": "AI Bots"
+  },
+  "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
+    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+  },
+  "Extensive Tech Tree": {
+    "message": "Extensive Tech Tree"
+  },
+  "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
+    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+  },
+  "Unit Designer": {
+    "message": "Unit Designer"
+  },
+  "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
+    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+  },
+  "Cross-Platform": {
+    "message": "Cross-Platform"
+  },
+  "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
+    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+  },
+  "Years": {
+    "message": "Years"
+  },
+  "Downloads": {
+    "message": "Downloads"
+  },
+  "Forum Posts": {
+    "message": "Forum Posts"
+  },
+  "GitHub Stars": {
+    "message": "GitHub Stars"
+  },
+  "100s": {
+    "message": "100s"
+  },
+  "Contributors": {
+    "message": "Contributors"
+  },
+  "100%": {
+    "message": "100%"
+  },
+  "Free": {
+    "message": "Free"
+  },
+  "100% Open & Free": {
+    "message": "100% Open & Free"
+  },
+  "Open source, open development, open community - free as in freedom!": {
+    "message": "Open source, open development, open community - free as in freedom!"
+  },
+  "100% Open-Source": {
+    "message": "100% Open-Source"
+  },
+  "Exclusively open-source technologies, software, & tools.": {
+    "message": "Exclusively open-source technologies, software, & tools."
+  },
+  "Community content is licensed under liberal licenses (ex. CC0).": {
+    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+  },
+  "100% Open Development": {
+    "message": "100% Open Development"
+  },
+  "Join the public project on GitHub!": {
+    "message": "Join the public project on GitHub!"
+  },
+  "Anyone can file bugs, contribute patches, and request enhancements.": {
+    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+  },
+  "100% Open Community": {
+    "message": "100% Open Community"
+  },
+  "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
+    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+  },
+  "People around the world are waiting!": {
+    "message": "People around the world are waiting!"
+  },
+  "100% Free": {
+    "message": "100% Free"
+  },
+  "Everything is free, including source code, downloads, and all features.": {
+    "message": "Everything is free, including source code, downloads, and all features."
+  },
+  "No in-app purchases.": {
+    "message": "No in-app purchases."
+  },
+  "No subscriptions.": {
+    "message": "No subscriptions."
+  },
+  "No ads.": {
+    "message": "No ads."
+  },
+  "Just free.": {
+    "message": "Just free."
+  },
+  "A Long History": {
+    "message": "A Long History"
+  },
+  "Developed in the 90s by Pumpkin Studios.": {
+    "message": "Developed in the 90s by Pumpkin Studios."
+  },
+  "Liberated in 2004.": {
+    "message": "Liberated in 2004."
+  },
+  "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
+    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+  },
+  "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
+    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+  },
+  "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
+    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+  },
+  "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
+    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+  },
+  "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
+    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+  },
+  "More Info": {
+    "message": "More Info"
+  },
+  "Frequently Asked Questions": {
+    "message": "Frequently Asked Questions"
+  },
+  "Answers to common questions.": {
+    "message": "Answers to common questions."
+  },
+  "Can't find the answer you're looking for?": {
+    "message": "Can't find the answer you're looking for?"
+  },
+  "Check out the Forums and Webchat.": {
+    "message": "Check out the Forums and Webchat."
+  },
+  "General": {
+    "message": "General"
+  },
+  "Multiplayer": {
+    "message": "Multiplayer"
+  },
+  "Troubleshooting": {
+    "message": "Troubleshooting"
+  },
+  "Copy URL": {
+    "message": "Copy URL"
+  },
+  "Copied URL!": {
+    "message": "Copied URL!"
+  },
+  "JavaScript is disabled.": {
+    "message": "JavaScript is disabled."
+  },
+  "This site may not work properly without it.": {
+    "message": "This site may not work properly without it."
+  },
+  "About": {
+    "message": "About"
+  },
+  "The Team": {
+    "message": "The Team"
+  },
+  "Changelog": {
+    "message": "Changelog"
+  },
+  "Privacy Policy": {
+    "message": "Privacy Policy"
+  },
+  "Download": {
+    "message": "Download"
+  },
+  "Snap Store (Linux)": {
+    "message": "Snap Store (Linux)"
+  },
+  "Source Code": {
+    "message": "Source Code"
+  },
+  "Source Code.": {
+    "message": "Source Code."
+  },
+  "Contribute": {
+    "message": "Contribute"
+  },
+  "Help with Translations": {
+    "message": "Help with Translations"
+  },
+  "Documentation": {
+    "message": "Documentation"
+  },
+  "Connect": {
+    "message": "Connect"
+  },
+  "Copyright © past-due.": {
+    "message": "Copyright © past-due."
+  },
+  "theme": {
+    "message": "theme"
+  },
+  "Licensed under the GNU AGPLv3.": {
+    "message": "Licensed under the GNU AGPLv3."
+  },
+  "Powered by Hugo": {
+    "message": "Powered by Hugo"
+  },
+  "All trademarks are the property of their respective owners.": {
+    "message": "All trademarks are the property of their respective owners."
+  },
+  "YOU'VE BEEN INVITED TO JOIN A SERVER": {
+    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+  },
+  "Join": {
+    "message": "Join"
+  },
+  "Loading...": {
+    "message": "Loading..."
+  },
+  "You are running the latest release of Warzone 2100.": {
+    "message": "You are running the latest release of Warzone 2100."
+  },
+  "You are running the latest development build.": {
+    "message": "You are running the latest development build."
+  },
+  "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
+    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+  },
+  "A new release is available!": {
+    "message": "A new release is available!"
+  },
+  "A new development build is available!": {
+    "message": "A new development build is available!"
+  },
+  "Download Latest Development Builds": {
+    "message": "Download Latest Development Builds"
+  },
+  "Unable to check for updates": {
+    "message": "Unable to check for updates"
+  },
+  "This site requires JavaScript, and it looks like you have it disabled.": {
+    "message": "This site requires JavaScript, and it looks like you have it disabled."
+  },
+  "If you aren't sure, download the latest version now.": {
+    "message": "If you aren't sure, download the latest version now."
+  },
+  "Couldn't check for latest development builds": {
+    "message": "Couldn't check for latest development builds"
+  },
+  "You can always download the latest development builds below.": {
+    "message": "You can always download the latest development builds below."
+  },
+  "Your version": {
+    "message": "Your version"
+  },
+  "Latest Release": {
+    "message": "Latest Release"
+  },
+  "Latest Development Build": {
+    "message": "Latest Development Build"
+  },
+  "404 - Not Found": {
+    "message": "404 - Not Found"
+  },
+  "Whatever that was, it couldn't be found.": {
+    "message": "Whatever that was, it couldn't be found."
+  },
+  "Sorry about that.": {
+    "message": "Sorry about that."
+  },
+  "Go Home": {
+    "message": "Go Home"
+  },
+  "Subsections": {
+    "message": "Subsections"
+  },
+  "Tags": {
+    "message": "Tags"
+  },
+  "All Tags": {
+    "message": "All Tags"
+  },
+  "Site Navigation": {
+    "message": "Site Navigation"
+  },
+  "More": {
+    "message": "More"
+  }
+}
