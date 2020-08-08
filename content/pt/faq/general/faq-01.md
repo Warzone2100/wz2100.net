@@ -1,11 +1,11 @@
 ---
-title: "Which platforms are supported?"
+title: "Quais são as plataformas suportadas?"
 ---
 
-Warzone 2100 is supported on:
+O Warzone 2100 é suportado em:
 
 - {{% inlinesvg "fontawesome/brands/windows.svg" %}} Windows 7 - 10
 - {{% inlinesvg "fontawesome/brands/apple.svg" %}} macOS 10.10+
 - {{% inlinesvg "fontawesome/brands/linux.svg" %}} Linux
 
-It also compiles on FreeBSD, and many other *nix / BSD variants.
+Também pode ser compilado no FreeBSD e muitas outras variantes *nix / BSD.
