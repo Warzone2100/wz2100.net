@@ -5,6 +5,7 @@ files:
     translation: /content/%two_letters_code%/**/%file_name%.md
     languages_mapping:
       two_letters_code:
+        pt-BR: pt-BR
         zh-CN: zh-CN
         zh-TW: zh-TW
         zh-HK: zh-HK
@@ -16,6 +17,7 @@ files:
     update_option: update_as_unapproved
     languages_mapping:
       two_letters_code:
+        pt-BR: pt-BR
         zh-CN: zh-CN
         zh-TW: zh-TW
         zh-HK: zh-HK
