@@ -1,4 +1,4 @@
 ---
-title: "Verificação de Versão"
+title: "Version Check"
 ---
 
