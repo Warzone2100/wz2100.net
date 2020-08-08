@@ -1,11 +1,11 @@
 ---
-title: "Como é que me junto a um jogo online?"
+title: "How do I join an online game?"
 ---
 
-Juntar-se aos jogos existentes é geralmente fácil.
+Joining existing games is usually easy.
 
-Inicie o jogo, clique em Multijogador → Entrar no Jogo → Lobby.
+Start the game, click Multi Player → Join Game → Lobby.
 
-Se qualquer jogo estiver disponível, você poderá clicar e entrar. Em seguida, selecione a opção "pronto" da caixa. Quando todos verificam "pronto", o jogo começa.
+If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
 
-Não se esqueça de escolher seu nome clicando na caixa de nomes à esquerda. 
+Don't forget to choose your name by clicking on the name box on the left. 
