@@ -6,23 +6,23 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 69
+                "download_count": 75
             },
             {
                 "name": "warzone2100_macOS_novideos.zip",
-                "download_count": 19
+                "download_count": 20
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 125
+                "download_count": 135
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 27
+                "download_count": 33
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 47
+                "download_count": 63
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
@@ -30,15 +30,15 @@
             },
             {
                 "name": "warzone2100_win_x86_archive.zip",
-                "download_count": 56
+                "download_count": 61
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 263
+                "download_count": 299
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 239
+                "download_count": 255
             }
         ]
     },
@@ -49,11 +49,11 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 74
+                "download_count": 76
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 115
+                "download_count": 116
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
@@ -61,7 +61,7 @@
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 123
+                "download_count": 126
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
@@ -69,11 +69,11 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 302
+                "download_count": 303
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 222
+                "download_count": 223
             }
         ]
     },
@@ -84,23 +84,23 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 113
+                "download_count": 114
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 510
+                "download_count": 513
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 52
+                "download_count": 53
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 693
+                "download_count": 694
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 762
+                "download_count": 764
             }
         ]
     },
@@ -111,11 +111,11 @@
         "assets": [
             {
                 "name": "warzone2100-3.3.0-beta1.tar.gz",
-                "download_count": 85
+                "download_count": 86
             },
             {
                 "name": "warzone2100-master-20190210-195945-998e137_macOS.zip",
-                "download_count": 32
+                "download_count": 33
             },
             {
                 "name": "warzone2100-master_x86.DEBUGSYMBOLS.7z",
@@ -127,7 +127,7 @@
             },
             {
                 "name": "warzone2100-master_x86_portable.zip",
-                "download_count": 1278
+                "download_count": 1280
             }
         ]
     }
