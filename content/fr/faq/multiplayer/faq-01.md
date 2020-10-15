@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Comment rejoindre une partie en ligne?"
 ---
 
-Joining existing games is usually easy.
+Il est généralement facile de rejoindre une partie existante.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Démarrez le jeu, cliquez sur Multi Player → Rejoindre Partie → Lobby.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Si une partie est disponible, vous pourrez cliquer et vous inscrire. Cochez ensuite la case "prêt". Quand tout les participants sont "prêt"s, le jeu commence.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+N'oubliez pas de choisir votre nom en cliquant sur la case de votre nom à gauche. 
