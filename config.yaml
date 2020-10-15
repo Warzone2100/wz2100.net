@@ -176,6 +176,10 @@ languages:
     languageName: "Español"
     weight: 2
     contentDir: "content/es"
+  fr:
+    languageName: "Français"
+    weight: 2
+    contentDir: "content/fr"
   it:
     languageName: "Italiano"
     weight: 2
