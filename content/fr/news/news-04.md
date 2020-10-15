@@ -1,44 +1,44 @@
 ---
-title: "Version 3.4.0 released"
+title: "Version 3.4.0 publiée"
 slug: "version-3-4-0"
 tags:
-  - "Releases"
+  - "Publications"
 ---
 
-With **over 485 commits** since the last release, it's time for **3.4.0**!
+Avec **plus de 485 commits** depuis la dernière version, il est temps de sortie la **3.4.0**!
 
-#### 3.4.0 Highlights:
+#### Eléments clés de la 3.4.0:
 
-- Graphics and UI improvements, including: fade effect when starting games, smoother mouse rotation, smoother zooming, interpolate frames in animation, occlude terrain ambiently
-- Add: Frontend "continue last save" option
-- Add: Quicksave feature
-- Add: Autosave feature
-- Add: Way to change most game settings with the in-game pause menu
-- Add: Shortcut to quit to main-menu after victory
-- Add: T4 technology level where all research is completed
-- Add: Randomization of game options button in skirmish/multiplayer games
-- Add: Add support for changing map, game name, and hosting player's name after already hosting
-- Add: Configuration of OpenAL-HRTF mode
-- Add: In-game notification widgets
-- Add: Keybinding configuration for camera pan
-- Add: Discord rich presence / join support
-- Add: Unit / kill count gui feature
-- Add: BoneCrusher! AI, Cobra AI, Nexus AI (ported from original)
-- Add: Right-click AI slot to quickly copy it to all other AI slots
-- Many translation improvements
-- Campaign bug fixes and balance adjustments
-- and too many other bug fixes to list
+- Améliorations graphiques et de l'interface utilisateur, y compris: effet de fondu lors du démarrage des parties, rotation de la souris plus souple, zoom plus fluide, interpoler les images dans l'animation, occlusion du terrain en fonction de l'ambiance
+- Ajout: option "continuer la dernière sauvegarde"
+- Ajout: fonctionnalité de sauvegarde rapide
+- Ajout: fonctionnalité de sauvegarde automatique
+- Ajout: modification de la plupart des paramètres de jeu dans le menu de pause
+- Ajout: raccourci pour retourner au menu principal après une victoire
+- Ajout: niveau de technologie T4 où toutes les recherches sont terminées
+- Ajout: création aléatoire des boutons d'options de jeu dans les parties escarmouches/multijoueur
+- Ajout: ajouter la prise en charge du changement de carte, du nom du jeu et du nom de l'hôte après avoir lancement l'hébergement
+- Ajout: configuration du mode OpenAL-HRTF
+- Ajout: widgets de notification en jeu
+- Ajout: configuration du raccourci clavier pour la caméra
+- Ajout: présence améliorée et contact du support de Discord
+- Ajout: fonctionnalité d'affichage du compteur des unités/morts
+- Ajout: broyeur d'os! IA, Cobra IA, Nexus IA (porté à partir de l'original)
+- Ajout: clic avec le bouton droit sur l'emplacement IA pour le copier rapidement vers tous les autres emplacements IA
+- De nombreuses améliorations de traduction
+- Correction de bugs de campagne et ajustements des scores
+- et beaucoup plus de corrections de bugs
 
-[View the full 3.4.0 changelog](https://github.com/Warzone2100/warzone2100/raw/3.4.0/ChangeLog)
+[Voir le journal des modifications complet de la version 3.4.0](https://github.com/Warzone2100/warzone2100/raw/3.4.0/ChangeLog)
 
-There have been **over 485 commits** since the last release, from many contributors including: 20kdc, Alistair Findlay, Bers, Björn Ali Göransson, Colin MacDonald, cpdef, Cyp, Enrico Fasoli, Forgon2100, KJeff01, maxsupermanhd, past-due, Per Inge Mathisen, Prot, Subsentient, Topi Miettinen, Vitya Andreev
+Il y a eu **plus de 485 commits** depuis la dernière version, provenant de nombreux contributeurs, dont : 20kdc, Alistair Findlay, Bers, Björn Ali Göransson, Colin MacDonald, cpdef, Cyp, Enrico Fasoli, Forgon2100, KJeff01, maxsupermanhd, past-due, Per Inge Mathisen, Prot, Subsentient, Topi Miettinen, Vitya Andreev
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Nous aimerions également remercier tous les nouveaux et anciens traducteurs qui ont contribué à améliorer les traductions du jeu via le projet [Crowdin](https://crowdin.com/project/warzone2100). Pour plus d'informations sur comment participer aux traductions, voir [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
+Veuillez signaler tous les bugs [sur GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-The old build toolchains have now been fully replaced, and CMake is used for building on all platforms. For full build instructions [see the README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.0/README.md#how-to-build).
+Les anciennes chaînes de compilation ont maintenant été entièrement remplacées, et CMake est utilisé pour compiler sur toutes les plates-formes. Pour les instructions de compilation complètes [voir le README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.0/README.md#how-to-build).
 
-And don't forget to check out the new official Discord server:
+Et n'oubliez pas de consulter le nouveau serveur officiel Discord:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Serveur officiel" >}}
