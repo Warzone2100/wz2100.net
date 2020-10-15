@@ -1,32 +1,32 @@
 ---
-title: "Version 3.4.1 released"
+title: "Version 3.4.1 publiée"
 slug: "version-3-4-1"
 tags:
-  - "Releases"
+  - "Publications"
 ---
 
-With the help of many bug reporters & contributors, we're happy to announce the release of **3.4.1**, a bug-fix release.
+Avec l'aide de nombreux rapporteurs & contributeurs, nous sommes heureux d'annoncer la publication de la version **3.4.1**, une version de correction de bugs.
 
-Including fixes for:
-- UI issues
-- Keymap defaults
-- Simple keybinds not firing when a meta key is held down
-- Campaign bugs
-- Compilation / compatibility issues
-- Multiplayer lobby issues
+Dont les correctifs pour:
+- Problèmes d'interface utilisateur
+- Keymap par défaut
+- Les raccourcis simples ne sont pas lancés lorsqu'une touche meta est maintenue enfoncée
+- Bugs de la campagne
+- Problèmes de compilation / compatibilité
+- Problèmes de salon multijoueur
 
-[View the full 3.4.1 changelog](https://github.com/Warzone2100/warzone2100/raw/3.4.1/ChangeLog)
+[Voir le journal complet des modifications de la version 3.4.1](https://github.com/Warzone2100/warzone2100/raw/3.4.1/ChangeLog)
 
-**(For all the changes since 3.3.0, see the [Version 3.4.0 release announcement]({{< ref "news-04.md" >}}).)**
+**(Pour toutes les modifications depuis la 3.3.0, voir [Annonce de version 3.4.0]({{< ref "news-04.md" >}}))**
 
-There have been **over 70 commits since 3.4.0**, from many contributors including: Colin MacDonald, Cyp, Ilari Tommiska, KJeff01, past-due, Prot, Vitya Andreev
+Il y a eu **plus de 70 commits depuis la 3.4.0**, de nombreux contributeurs, dont : Colin MacDonald, Cyp, Ilari Tommiska, KJeff01, past-due, Prot, Vitya Andreev
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Nous aimerions également remercier tous les nouveaux traducteurs et les habitués qui ont contribué à améliorer les traductions du jeu via le projet [Crowdin](https://crowdin.com/project/warzone2100). Pour plus d'informations sur la façon de participer aux traductions, voir [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
+Veuillez signaler tous les bugs [sur GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-The old build toolchains have now been fully replaced, and CMake is used for building on all platforms. For full build instructions [see the README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.1/README.md#how-to-build).
+Les anciennes chaînes de compilation ont maintenant été entièrement remplacées, et CMake est utilisé pour compiler sur toutes les plates-formes. Pour les instructions de compilation complètes [voir le README.md](https://github.com/Warzone2100/warzone2100/blob/3.4.1/README.md#how-to-build).
 
-And don't forget to check out the new official Discord server:
+Et n'oubliez pas de consulter le nouveau serveur officiel Discord:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Serveur officiel" >}}
