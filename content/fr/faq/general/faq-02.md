@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "Quels sont les prérequis système?"
 ---
 
-Minimum Requirements:
-- 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+Configuration minimale requise:
+- 1 Go de RAM
+- Prise en charge OpenGL 2.1+
+- 150 Mo d'espace de stockage
 
-Recommended Requirements:
-- 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
-- ≈ 1 GB storage space (including the campaign video sequences)
+Configuration recommandée:
+- 4Go de RAM minimum
+- Prise en charge OpenGL 3.1+
+- une carte son supportée
+- 1 Go d'espace de stockage (y compris les séquences vidéo de la campagne)
