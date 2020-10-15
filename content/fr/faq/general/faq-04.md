@@ -1,16 +1,16 @@
 ---
-title: "How can I join / contribute / help?"
+title: "Comment puis-je rejoindre / contribuer / aider?"
 ---
 
-The entire project is community-driven, by hundreds of contributors, so there are many ways you can help!
+L'ensemble du projet est piloté pas la communauté, par des centaines de contributeurs; il y a donc de nombreuses façons d'aider!
 
-Here’s just a small selection:
+Voici une petite sélection:
 
-- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Report Bugs](https://github.com/Warzone2100/warzone2100/issues/new/choose)
-- [{{% inlinesvg "fontawesome/solid/language.svg" %}} Help with Translations](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#translating-warzone-2100)
-- [{{% inlinesvg "fontawesome/solid/heart.svg" %}} Donate (helps support server and other costs)](http://donations.wz2100.net)
-- [{{% inlinesvg "fontawesome/solid/users.svg" %}} Chat with us on Discord, IRC, or the Forums](/webchat)
+- [{{% inlinesvg "fontawesome/solid/bug.svg" %}} Signaler des bugs](https://github.com/Warzone2100/warzone2100/issues/new/choose)
+- [{{% inlinesvg "fontawesome/solid/language.svg" %}} Aide à la traduction](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#translating-warzone-2100)
+- [{{% inlinesvg "fontawesome/solid/heart.svg" %}} Faire un don (aide à maintenir le serveur et d'autres coûts)](http://donations.wz2100.net)
+- [{{% inlinesvg "fontawesome/solid/users.svg" %}} Chat avec nous sur Discord, IRC ou les Forums](/webchat)
 
-Know how to code? Want to help improve documentation? Have ideas for improvements?
+Vous savez coder? Vous voulez aider à améliorer la documentation? Vous avez des idées d'améliorations?
 
-- [{{% inlinesvg "fontawesome/brands/github.svg" %}} Join the development on GitHub](https://github.com/Warzone2100/warzone2100)
+- [{{% inlinesvg "fontawesome/brands/github.svg" %}} Rejoignez nous sur GitHub](https://github.com/Warzone2100/warzone2100)
