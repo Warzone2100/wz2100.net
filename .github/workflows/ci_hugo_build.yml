@@ -36,7 +36,7 @@ jobs:
           # Set up output directory
           OUTPUT_DIR="${HOME}/output/public"
           echo "OUTPUT_DIR=${OUTPUT_DIR}"
-          echo "::set-env name=OUTPUT_DIR::${OUTPUT_DIR}"
+          echo "OUTPUT_DIR=${OUTPUT_DIR}" >> $GITHUB_ENV
           mkdir -p "${OUTPUT_DIR}"
           # Run Hugo build
           docker run --rm -t \
