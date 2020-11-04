@@ -1,10 +1,10 @@
 ---
-title: "New website released"
-slug: "new-website-released"
+title: "Yeni web sitesi yayınlandı"
+slug: "yeni-websitesi-yayınlandı"
 ---
 
-Warzone 2100 now has a brand-new website, designed by [@past-due](https://github.com/past-due).
+Warzone 2100, [@past-due](https://github.com/past-due) tarafından dizayn edilmiş artık yepyeni web sitesine sahip.
 
-Want to help?
-- [Report Bugs in the Website](https://github.com/Warzone2100/wz2100.net/issues/new/choose)
-- [Help us Translate the Website](https://github.com/Warzone2100/wz2100.net/docs/Translation.md)
+Yardım etmek mi istiyorsun?
+- [Web sitesinde bulunan hataları bildirin](https://github.com/Warzone2100/wz2100.net/issues/new/choose)
+- [Bu web sitesini çevirmekte bize yardım edin](https://github.com/Warzone2100/wz2100.net/docs/Translation.md)
