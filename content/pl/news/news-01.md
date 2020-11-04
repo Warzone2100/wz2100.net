@@ -1,22 +1,22 @@
 ---
-title: "Version 3.3.0 publiée"
+title: "Version 3.3.0 released"
 date: 2019-08-31 # no-translate
 draft: false # no-translate
 slug: "version-3-3-0"
 tags:
-  - "Publications"
+  - "Releases"
 ---
 
-Trois ans se sont écoulés depuis la dernière version stable. Il y a une énorme quantité de changements dans cette version par rapport à la version 3.2.0. Ces changements incluent:
-- Affichage / Mise à l'échelle de l'interface utilisateur
-- Amélioration des performances
-- Améliorations majeures des campagnes
-- Le retour des ordres secondaires, supprimés dans la version précédente
-- Correction des tirs à travers les murs
-- Le retour des versions macOS
-- et beaucoup, beaucoup d'autres choses
+It has been three years since the last stable release. There is an enormous amount of changes in this release compared to 3.2.0. These changes include:
+- Display / UI scaling
+- Performance improvements
+- Major improvements to campaign
+- The return of secondary orders removed in the previous release
+- Fix for shooting through walls
+- The return of macOS builds
+- and many, many other things
 
-Vous trouverez ci-dessous la liste des changements par rapport à la version bêta précédente.
+Below you can see the list of changes compared to the previous beta release.
 
 It is available at our usual location: [https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/](https://sourceforge.net/projects/warzone2100/files/releases/3.3.0/)
 

@@ -3,7 +3,8 @@ title: "Version 3.4.1 publiée"
 date: 2020-07-19 # no-translate
 draft: false # no-translate
 slug: "version-3-4-1"
-tags: ["Publications"]
+tags:
+  - "Publications"
 ---
 
 Avec l'aide de nombreux rapporteurs & contributeurs, nous sommes heureux d'annoncer la publication de la version **3.4.1**, une version de correction de bugs.
