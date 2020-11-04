@@ -1,35 +1,35 @@
 ---
-title: "Webchat"
+title: "Web sohbeti"
 ---
 
-If you want to arrange online games, or have a quick question to ask, you might want to use one of our chat options:
+Çevrimiçi oyun oluşturmak istiyorsanız veya sorularınız var ise, sohbet seçeneklerinden birini kullanın:
 
 {{% divider %}}
 
 ## {{< inlinefigure path="/svg/Discord-Logo+Wordmark-White.svg" mediatype="image/svg+xml" height="80" alt="Discord" >}}
 
-Like Discord? Join the official Warzone 2100 Discord server:
+Mesela Discord? Resmi Warzone 2100 Discord sunucusuna katılın:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Resmi Sunucu" >}}
 
-##### Discord Benefits:
+##### Discord avantajları:
 
-Pick your nickname, view chat history, easily chat on mobile devices, (optionally) subscribe to receive announcements of new releases, voice chat, and more.
+Nickname seçin, sohbet geçmişini görüntüleyin, mobil cihazlarınızdan kolayca erişin, (isteğe bağlı) duyuru, sesli sohbet, yeni sürümler ve dahası için abone olun.
 
-Signing up for Discord, chatting on the server, etc. is free.
+Discord için kaydolun, sunucu üzerinden sohbet vs. ücretsizdir.
 
-Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
+tarayıcı üzerinden sohbet edin, veya Windows / macOS / Linux / mobil istemcisini indirin.
 
 {{% divider %}}
 
 ## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
 
-IRC webchat is available from Freenode here:
+IRC web sohbeti Freenode üzerinden mevcuttur:
 
-{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Enter Chat{{< /button >}}
+{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Buraya yazın..{{< /button >}}
 
-Experienced users can also enter this chat room by visiting `#warzone2100-games` on Freenode with an IRC client.
+Deneyimli kullanıcılar, aynı zamanda IRC istemcisi ile Freenode üzerinden `#warzone2100-games` ziyaret ederek bu sohbet odasına girebilir.
 
-> Note: Because of abuse, you must register with Freenode & not use Freenode's webchat applet to enter `#warzone2100-dev`. We do not control that server, so if your nickname is used we can't do anything about it!
+> Not: kötüye kullanım sebebiyle, Freenode web sohbeti uygulamasını kullanmadan Freenode & ile `#warzone2100-dev` kayıt olun. Oradaki sunucuyu kontrol etmiyoruz, dolayısıyla daha önceden kullanılmış Nickname mevcut ise yapabileceğimiz birşey yok!
 
-See the [Freenode registration FAQ](https://freenode.net/kb/answer/registration) for details on how to register.
+Kaydolma detayları için [Freenode kayıt SSS](https://freenode.net/kb/answer/registration) Sıkça Sorulan Soruları görüntüleyin.
