@@ -201,13 +201,13 @@
     "message": "Ayrıntılar için (bkz: link.)"
   },
   "Debian Package": {
-    "message": "Debian Package"
+    "message": "Debian Paketi"
   },
   "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+    "message": "Ubuntu (ve bağlı Debian-tabanlı dağımlar için) DEB paketi."
   },
   "After downloading, install using the following command:": {
-    "message": "After downloading, install using the following command:"
+    "message": "İndirdikten sonra aşağıdaki komutu kullanarak yükleyin:"
   },
   "Compile Source": {
     "message": "Kaynağı derleyin"
@@ -255,34 +255,34 @@
     "message": "SHA256 versiyon kontrolü"
   },
   "Downloading Warzone 2100": {
-    "message": "Downloading Warzone 2100"
+    "message": "Warzone 2100 indiriliyor"
   },
   "Next Steps:": {
-    "message": "Next Steps:"
+    "message": "Sonraki Aşamalar:"
   },
   "Share on Twitter": {
-    "message": "Share on Twitter"
+    "message": "Twitter'da Paylaşın"
   },
   "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
-    "message": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "message": "Warzone 2100 - Windows / macOS / Linux destekli %100 ücretsiz açık kaynak 3D gerçek-zamanlı strateji oyunu."
   },
   "If you’ve never played before,": {
-    "message": "If you’ve never played before,"
+    "message": "Daha önceden oynamadıysanız,"
   },
   "start with the in-game Tutorial, and then check out:": {
-    "message": "start with the in-game Tutorial, and then check out:"
+    "message": "oyun-içi öğreticisi ile başlayın ve şuna bakın:"
   },
   "the Quickstart Guide": {
-    "message": "the Quickstart Guide"
+    "message": "hızlı başlangıç Rehberi"
   },
   "Chat with players on the official Discord server!": {
-    "message": "Chat with players on the official Discord server!"
+    "message": "Oyuncular ile Discord resmi sunucusunda sohbet edin!"
   },
   "Star the project on GitHub and help spread the news!": {
-    "message": "Star the project on GitHub and help spread the news!"
+    "message": "GitHub üzerinden projeyi değerlendirin ve haberleri yaymamıza yardımcı olun!"
   },
   "Donate to help support server and other costs!": {
-    "message": "Donate to help support server and other costs!"
+    "message": "Sunucu ve diğer masraflara destek olmak için bağışta bulunun!"
   },
   "Why Warzone 2100 Rocks": {
     "message": "Warzone 2100 neden harikadır"
@@ -450,10 +450,10 @@
     "message": "Sorun giderme"
   },
   "Copy URL": {
-    "message": "Copy URL"
+    "message": "URL kopyala"
   },
   "Copied URL!": {
-    "message": "Copied URL!"
+    "message": "URL kopyalandı!"
   },
   "JavaScript is disabled.": {
     "message": "JavaScript devre dışı."
@@ -504,7 +504,7 @@
     "message": "tema"
   },
   "Licensed under the GNU GPLv3.": {
-    "message": "Licensed under the GNU GPLv3."
+    "message": "GNU GPLv3 altında lisanslıdır."
   },
   "Powered by Hugo": {
     "message": "Hizmet sağlayıcı: Hugo"
