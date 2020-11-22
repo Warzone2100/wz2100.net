@@ -6,39 +6,39 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 160
+                "download_count": 171
             },
             {
                 "name": "warzone2100_macOS_novideos.zip",
-                "download_count": 33
+                "download_count": 37
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 304
+                "download_count": 315
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 82
+                "download_count": 88
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 151
+                "download_count": 160
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 26
+                "download_count": 28
             },
             {
                 "name": "warzone2100_win_x86_archive.zip",
-                "download_count": 128
+                "download_count": 135
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 685
+                "download_count": 717
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 449
+                "download_count": 462
             }
         ]
     },
@@ -49,31 +49,31 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 99
+                "download_count": 102
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 133
+                "download_count": 136
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 96
+                "download_count": 98
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 145
+                "download_count": 150
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 22
+                "download_count": 24
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 371
+                "download_count": 378
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 241
+                "download_count": 245
             }
         ]
     },
@@ -84,23 +84,23 @@
         "assets": [
             {
                 "name": "warzone2100_macOS.zip",
-                "download_count": 121
+                "download_count": 124
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 528
+                "download_count": 530
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 58
+                "download_count": 60
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 706
+                "download_count": 710
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 786
+                "download_count": 790
             }
         ]
     },
@@ -111,23 +111,23 @@
         "assets": [
             {
                 "name": "warzone2100-3.3.0-beta1.tar.gz",
-                "download_count": 91
-            },
-            {
-                "name": "warzone2100-master-20190210-195945-998e137_macOS.zip",
-                "download_count": 38
-            },
-            {
-                "name": "warzone2100-master_x86.DEBUGSYMBOLS.7z",
-                "download_count": 17
-            },
-            {
-                "name": "warzone2100-master_x86_installer.zip",
                 "download_count": 93
             },
             {
+                "name": "warzone2100-master-20190210-195945-998e137_macOS.zip",
+                "download_count": 40
+            },
+            {
+                "name": "warzone2100-master_x86.DEBUGSYMBOLS.7z",
+                "download_count": 19
+            },
+            {
+                "name": "warzone2100-master_x86_installer.zip",
+                "download_count": 95
+            },
+            {
                 "name": "warzone2100-master_x86_portable.zip",
-                "download_count": 1329
+                "download_count": 1331
             }
         ]
     }
