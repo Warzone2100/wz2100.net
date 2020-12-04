@@ -1,12 +1,22 @@
 name: Fetch Latest GitHub Release Info
 on:
   repository_dispatch:
+  push:
+    branches:
+      - 'master'
+    paths:
+      - '.github/workflows/fetch_latest_release_info.yml'
+  pull_request:
+    branches:
+      - 'master'
+    paths:
+      - '.github/workflows/fetch_latest_release_info.yml'
 
 jobs:
   # Wait for up to 10 minutes for previous workflow run to complete, abort if not done by then
   pre-ci:
     runs-on: ubuntu-latest
-    if: github.event.action == 'github_release_update'
+    if: (github.event_name == 'repository_dispatch' && github.event.action == 'github_release_update') || github.event_name != 'repository_dispatch'
     timeout-minutes: 10
     steps:
       - name: 'Block Concurrent Executions'
@@ -19,7 +29,7 @@ jobs:
     needs: pre-ci
     name: 'Fetch Latest GitHub Release Info'
     runs-on: ubuntu-latest
-    if: github.event.action == 'github_release_update'
+    if: (github.event_name == 'repository_dispatch' && github.event.action == 'github_release_update') || github.event_name != 'repository_dispatch'
     steps:
       - uses: actions/checkout@v2
         with:
@@ -33,7 +43,83 @@ jobs:
           calculate_asset_info: true
           output_directory: 'data/github_releases_info'
           cache_directory: '_tmp_cache_data/github_releases_info'
+      - name: Install mktorrent
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y mktorrent
+      - name: Generate .torrent files for latest release assets
+        id: generate-torrent
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tmp_dl_path="${HOME}/release_assets"
+          if [ ! -d "${tmp_dl_path}" ]; then
+            mkdir -p "${tmp_dl_path}"
+          fi
+        
+          tag_name="$(cat "data/github_releases_info/latest.json" | jq -r '.tag_name')"
+          torrent_output_dir="static/download/wz"
+
+          if [ ! -d "${torrent_output_dir}" ]; then
+            mkdir -p "${torrent_output_dir}"
+          fi
+
+          cat "data/github_releases_info/latest.json" | jq -r '.assets[] | [.name, .url, .browser_download_url] | @tsv' |
+          while IFS=$'\t' read -r github_release_asset_name github_release_asset_url github_release_asset_browser_download_url; do
+
+            echo "********************************************"
+            echo "* [${github_release_asset_name}]"
+            echo "********************************************"
+
+            # Explicitly ignore release assets with "DEBUGSYMBOLS" in name
+            if [[ "${github_release_asset_name}" == *DEBUGSYMBOLS* ]]; then
+              echo "Skipping .torrent generation for release asset: ${github_release_asset_name} (reason: DEBUGSYMBOLS)"
+              continue
+            fi
+            
+            asset_dl_path="${tmp_dl_path}/${github_release_asset_name}"
+
+            # Download release asset from GitHub
+            curl -H "Accept: application/octet-stream" -H "Authorization: token ${GITHUB_TOKEN}" -Lf -o "${asset_dl_path}" "${github_release_asset_url}"
+            CURL_RETURN_CODE=$?
+            if [ "${CURL_RETURN_CODE}" -ne 0 ]; then
+              echo "curl failed for: ${github_release_asset_name}"
+              continue
+            fi
+
+            # Get filesize in kb
+            filesize_in_kb=$(du -k "${asset_dl_path}" | cut -f1)
+            if [ "${filesize_in_kb}" -lt 25000 ]; then
+              # Ignore smaller release assets
+              echo "Skipping .torrent generation for release asset: ${github_release_asset_name} (reason: too small)"
+              rm "${asset_dl_path}"
+              continue
+            fi
+  
+            # Calculate SourceForge alternative download URL
+            sf_webseed_url="https://downloads.sourceforge.net/project/warzone2100/releases/${tag_name}/${github_release_asset_name}"
+            echo "sf_webseed_url=${sf_webseed_url}"
+
+            # Generate torrent name
+            prefix="warzone2100_"
+            torrent_name=${github_release_asset_name#"$prefix"}
+            torrent_name="${prefix}${tag_name}_${torrent_name}"
+            echo "torrent_name=${torrent_name}"
+            torrent_output_file="${torrent_output_dir}/${github_release_asset_name}.torrent"
+  
+            # Clear any old .torrent file by this name
+            if [ -f "${torrent_output_file}" ]; then
+              rm "${torrent_output_file}"
+            fi
+  
+            # Generate .torrent file
+            env -u GITHUB_TOKEN mktorrent -v -a http://tracker.opentrackr.org:1337/announce -c "${github_release_asset_name} (${tag_name})" -n "${torrent_name}" --no-date -w "${github_release_asset_browser_download_url}" -w "${sf_webseed_url}" -o "${torrent_output_file}" "${asset_dl_path}"
+
+            # Remove the downloaded asset
+            rm "${asset_dl_path}"
+          done
       - name: Commit any changes to data files
+        if: github.event_name == 'repository_dispatch' || (github.event_name == 'push' && (github.ref == 'refs/heads/master'))
         env:
           PUSH_PAT: ${{ secrets.WZ2100_PUSH_SECRET_TOKEN }} # use a PAT so that subsequent workflows are triggered on push
         run: |
