@@ -652,6 +652,9 @@ a.highlight {
 	color:#878787!important;
 	margin-bottom:10px;
 }
+table.download-details-text a {
+	font-size: 11px!important;
+}
 .dl-troubleshooting-header{
 	font-size:16px;
 	color:#000000!important;

@@ -491,7 +491,7 @@
 															<table class="table table-sm table-responsive download-details-text download-checksum-table">
 															  <thead>
 																<tr>
-																  <th scope="col" colspan="2">{{ i18n "SHA256 Checksums for Version"}} {{.Site.Data.github_releases_info.latest.tag_name}}:</th>
+																  <th scope="col" colspan="3">{{ i18n "SHA256 Checksums for Version"}} {{.Site.Data.github_releases_info.latest.tag_name}}:</th>
 																</tr>
 															  </thead>
 															  <tbody>
@@ -500,6 +500,12 @@
 																	<tr>
 																	  <td>{{ $element.name }}</td>
 																	  <td class="checksum">{{ $element.sha256 }}</td>
+																	  {{ $torrent_path := $element.name | printf "/static/download/wz/%s.torrent" }}
+																	  {{ if fileExists $torrent_path -}}
+																	  <td><a href="{{ print "/download/wz/" $element.name ".torrent" }}" class="a-btn download-link" data-target="_blank" target="_blank" rel="noopener">({{ i18n "Torrent" }})</a></td>
+																	  {{- else -}}
+																	  <td></td>
+																	  {{- end }}
 																	</tr>
 																{{ end }}
 															  </tbody>
