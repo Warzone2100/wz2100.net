@@ -1,7 +1,8 @@
 ---
 title: "Version 3.4.0 released"
 slug: "version-3-4-0"
-tags: ["Releases"]
+tags:
+  - "Releases"
 ---
 
 With **over 485 commits** since the last release, it's time for **3.4.0**!
