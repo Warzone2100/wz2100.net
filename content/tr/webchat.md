@@ -1,12 +1,10 @@
 ---
 title: "Web sohbeti"
-# begin: no-translate
 type: "solopage"
 translationKey: "webchat"
 menu:
   main:
     weight: 100
-# end: no-translate
 ---
 
 Çevrimiçi oyun oluşturmak istiyorsanız veya sorularınız var ise, sohbet seçeneklerinden birini kullanın:

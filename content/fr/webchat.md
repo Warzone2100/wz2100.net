@@ -1,12 +1,10 @@
 ---
 title: "Chat Web"
-# begin: no-translate
 type: "solopage"
 translationKey: "webchat"
 menu:
   main:
     weight: 100
-# end: no-translate
 ---
 
 Si vous voulez organiser des jeux en ligne ou si vous avez une question rapide à poser, vous pouvez utiliser l'une de nos options de chat:

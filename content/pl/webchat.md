@@ -1,12 +1,10 @@
 ---
 title: "Czat internetowy"
-# begin: no-translate
 type: "solopage"
 translationKey: "webchat"
 menu:
   main:
     weight: 100
-# end: no-translate
 ---
 
 Jeśli chcesz zorganizować grę online, lub zadać pytanie, możesz użyć jednej z poniższych opcji czatu:

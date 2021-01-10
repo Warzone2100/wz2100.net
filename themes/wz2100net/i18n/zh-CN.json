@@ -1,0 +1,794 @@
+[
+  {
+    "id": "Home",
+    "translation": "首页"
+  },
+  {
+    "id": "Features",
+    "translation": "特点"
+  },
+  {
+    "id": "History",
+    "translation": "历史"
+  },
+  {
+    "id": "FAQ",
+    "translation": "常见问答（FAQ）"
+  },
+  {
+    "id": "Resources",
+    "translation": "资源"
+  },
+  {
+    "id": "News",
+    "translation": "新闻"
+  },
+  {
+    "id": "Webchat",
+    "translation": "网络聊天"
+  },
+  {
+    "id": "Forums",
+    "translation": "论坛"
+  },
+  {
+    "id": "Addons",
+    "translation": "拓展包"
+  },
+  {
+    "id": "WZ Guide",
+    "translation": "WZ 引导"
+  },
+  {
+    "id": "Wiki",
+    "translation": "Wiki"
+  },
+  {
+    "id": "Report Bugs",
+    "translation": "报告错误"
+  },
+  {
+    "id": "Donate",
+    "translation": "捐赠"
+  },
+  {
+    "id": "Help us Translate",
+    "translation": "帮助我们翻译"
+  },
+  {
+    "id": "A 100% free and open-source 3D real-time strategy game.",
+    "translation": "100%免费且开源的3D即时策略游戏。"
+  },
+  {
+    "id": "Download Now",
+    "translation": "立即下载"
+  },
+  {
+    "id": "Toggle Dropdown",
+    "translation": "切换下拉列表"
+  },
+  {
+    "id": "Windows",
+    "translation": "Windows"
+  },
+  {
+    "id": "Portable Version",
+    "translation": "便携式版本"
+  },
+  {
+    "id": "Can be installed to / run from a USB drive, local folder, etc.",
+    "translation": "支持USB 驱动器、本地文件夹等安装、运行。"
+  },
+  {
+    "id": "Fully self-contained in a single directory - stores all settings / saves in that same directory too.",
+    "translation": "所有文件存放在一个目录中，包括配置和存档。"
+  },
+  {
+    "id": "(Does not require admin privileges.)",
+    "translation": "(不需要管理员权限。)"
+  },
+  {
+    "id": "Full Installer",
+    "translation": "完整安装程序"
+  },
+  {
+    "id": "Installs for all users on a system.",
+    "translation": "为系统上的所有用户安装。"
+  },
+  {
+    "id": "Settings / saves are user-specific.",
+    "translation": "配置和存档是区分用户的。"
+  },
+  {
+    "id": "(Requires admin privileges to install.)",
+    "translation": "(安装需要管理员权限。)"
+  },
+  {
+    "id": "macOS",
+    "translation": "macOS"
+  },
+  {
+    "id": "macOS App Bundle",
+    "translation": "macOS 应用包"
+  },
+  {
+    "id": "Linux",
+    "translation": "Linux"
+  },
+  {
+    "id": "Install the Snap",
+    "translation": "安装 Snap"
+  },
+  {
+    "id": "Ubuntu 18.04",
+    "translation": "Ubuntu 18.04"
+  },
+  {
+    "id": "Ubuntu 20.04+",
+    "translation": "Ubuntu 20.04+"
+  },
+  {
+    "id": "Ubuntu 18.04 (x64)",
+    "translation": "Ubuntu 18.04 (x64)"
+  },
+  {
+    "id": "Ubuntu 20.04+ (x64)",
+    "translation": "Ubuntu 20.04+ (x64)"
+  },
+  {
+    "id": "Get the Source",
+    "translation": "获取源码"
+  },
+  {
+    "id": "and more...",
+    "translation": "以及更多..."
+  },
+  {
+    "id": "All downloads & platforms",
+    "translation": "所有下载和平台"
+  },
+  {
+    "id": "New",
+    "translation": "新"
+  },
+  {
+    "id": "Version",
+    "translation": "版本"
+  },
+  {
+    "id": "for Windows 7-10",
+    "translation": "适用于Windows 7-10"
+  },
+  {
+    "id": "for macOS 10.10+",
+    "translation": "适用于 macOS 10.10+"
+  },
+  {
+    "id": "for Linux",
+    "translation": "适用于 Linux"
+  },
+  {
+    "id": "Windows, macOS, Linux",
+    "translation": "Windows, macOS, Linux"
+  },
+  {
+    "id": "Advanced install options & other platforms",
+    "translation": "高级安装选项和其他平台"
+  },
+  {
+    "id": "Get the source code",
+    "translation": "获取源码"
+  },
+  {
+    "id": "Get the Source Code",
+    "translation": "获取源码"
+  },
+  {
+    "id": "View on GitHub",
+    "translation": "在 GitHub 上查看"
+  },
+  {
+    "id": "Star on GitHub",
+    "translation": "在 GitHub 上点星"
+  },
+  {
+    "id": "Report a Bug",
+    "translation": "报告错误"
+  },
+  {
+    "id": "Copyright © Warzone 2100 Project.",
+    "translation": "版权 © Warzone 2100项目组"
+  },
+  {
+    "id": "Warzone is licensed under the GPLv2+ license (& others).",
+    "translation": "Warzone 是根据 GPLv2+ 许可证 (及其他) 许可的。"
+  },
+  {
+    "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
+    "translation": "在人类几乎被核弹摧毁之后，指挥武装力量重建世界。"
+  },
+  {
+    "id": "Seize territory and resources, build extensive bases, and expand your production & research.",
+    "translation": "争夺领土和资源，建立大规模基地，并扩大你的生产和研究。"
+  },
+  {
+    "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
+    "translation": "局域网/在线多人联机竞赛，每局最多支持10名玩家。"
+  },
+  {
+    "id": "Previous",
+    "translation": "上一步"
+  },
+  {
+    "id": "Next",
+    "translation": "下一步"
+  },
+  {
+    "id": "Close",
+    "translation": "关闭"
+  },
+  {
+    "id": "Downloads not working?",
+    "translation": "下载失败？"
+  },
+  {
+    "id": "Try browsing the download mirrors directly:",
+    "translation": "试试直接进入镜像下载地址："
+  },
+  {
+    "id": "GitHub Releases",
+    "translation": "GitHub 发布"
+  },
+  {
+    "id": "SourceForge Mirror",
+    "translation": "SourceForge 镜像"
+  },
+  {
+    "id": "32-bit (x86)",
+    "translation": "32 位 (x86)"
+  },
+  {
+    "id": "64-bit (x64)",
+    "translation": "64 位 (x64)"
+  },
+  {
+    "id": "Snap Installer",
+    "translation": "Snap 安装包"
+  },
+  {
+    "id": "Easy installation.",
+    "translation": "轻松安装。"
+  },
+  {
+    "id": "Supports most Linux distributions.",
+    "translation": "支持大部分Linux发行版。"
+  },
+  {
+    "id": "(See link for details.)",
+    "translation": "(详情见链接。)"
+  },
+  {
+    "id": "Debian Package",
+    "translation": "Debian 软件包"
+  },
+  {
+    "id": "DEB package for Ubuntu (and related Debian-based distros).",
+    "translation": "Ubuntu (以及其他基于Debian的发行版) 的DEB包。"
+  },
+  {
+    "id": "After downloading, install using the following command:",
+    "translation": "下载后使用以下命令安装："
+  },
+  {
+    "id": "Compile Source",
+    "translation": "编译源代码"
+  },
+  {
+    "id": "Compile the source yourself using our build instructions.",
+    "translation": "使用我们的构建说明编译源代码。"
+  },
+  {
+    "id": "Source Code (.tar.xz)",
+    "translation": "源代码 (.tar.xz)"
+  },
+  {
+    "id": "Mac App Bundle",
+    "translation": "Mac 应用包"
+  },
+  {
+    "id": "Download, unzip, and copy to your Applications folder.",
+    "translation": "下载、解压缩并复制到应用程序文件夹。"
+  },
+  {
+    "id": "64-bit Intel",
+    "translation": "64 位 因特尔"
+  },
+  {
+    "id": "How to handle “Warzone cannot be opened” errors.",
+    "translation": "如何处理“Warzone 无法打开”错误。"
+  },
+  {
+    "id": "Other",
+    "translation": "其他"
+  },
+  {
+    "id": "Campaign Videos",
+    "translation": "战役视频"
+  },
+  {
+    "id": "WMIT (Warzone Model Import Tool)",
+    "translation": "WMIT (Warzone 模型导入工具)"
+  },
+  {
+    "id": "Development Builds",
+    "translation": "开发版本"
+  },
+  {
+    "id": "Development Source Code",
+    "translation": "开发源代码"
+  },
+  {
+    "id": "Verify Download Integrity (SHA256)",
+    "translation": "验证下载完整性(SHA256)"
+  },
+  {
+    "id": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:",
+    "translation": "从命令提示/终端，浏览到下载文件的位置， 然后运行适当的命令来计算文件的 SHA256 校验和并与下表比较："
+  },
+  {
+    "id": "SHA256 Checksums for Version",
+    "translation": "版本的SHA256校验码"
+  },
+  {
+    "id": "Torrent",
+    "translation": "Torrent"
+  },
+  {
+    "id": "Downloading Warzone 2100",
+    "translation": "下载 Warzone 2100"
+  },
+  {
+    "id": "Next Steps:",
+    "translation": "后续步骤："
+  },
+  {
+    "id": "Share on Twitter",
+    "translation": "分享到 Twitter"
+  },
+  {
+    "id": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.",
+    "translation": "Warzone 2100-一个100%免费和开源的 3D 即时战略游戏，支持 Windows / macOS / Linux。"
+  },
+  {
+    "id": "If you’ve never played before,",
+    "translation": "如果你以前从未玩过，"
+  },
+  {
+    "id": "start with the in-game Tutorial, and then check out:",
+    "translation": "从游戏内教程开始，然后查看："
+  },
+  {
+    "id": "the Quickstart Guide",
+    "translation": "速成指南"
+  },
+  {
+    "id": "Chat with players on the official Discord server!",
+    "translation": "在官方的Discord服务器上与玩家聊天！"
+  },
+  {
+    "id": "Star the project on GitHub and help spread the news!",
+    "translation": "在 GitHub 上加入项目并帮助传播新闻！"
+  },
+  {
+    "id": "Donate to help support server and other costs!",
+    "translation": "捐赠以支持服务器和其他开支！"
+  },
+  {
+    "id": "Why Warzone 2100 Rocks",
+    "translation": "为什么 Warzone 2100 震撼"
+  },
+  {
+    "id": "Strategy by Design.",
+    "translation": "设计战略。"
+  },
+  {
+    "id": "Endless replayability.",
+    "translation": "无限可重新玩。"
+  },
+  {
+    "id": "Single-Player Campaign",
+    "translation": "单人战役"
+  },
+  {
+    "id": "LAN / Internet Multiplayer",
+    "translation": "局域网 / 因特网多玩家"
+  },
+  {
+    "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
+    "translation": "在本地网络上与您的朋友们玩游戏，或者在一个在线多人游戏大厅中试试手吧。"
+  },
+  {
+    "id": "AI Bots",
+    "translation": "AI 机器人"
+  },
+  {
+    "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",
+    "translation": "与AI 机器人进行本地小规模战斗(或在多人游戏中添加为队友/敌人)，在无限重玩中练习你的技能。"
+  },
+  {
+    "id": "Extensive Tech Tree",
+    "translation": "广阔的科技树"
+  },
+  {
+    "id": "Over 400 different technologies yield an extensive tech tree with many paths to choose.",
+    "translation": "超过400种不同的科技成就和丰富的科技树路径选择。"
+  },
+  {
+    "id": "Unit Designer",
+    "translation": "单位设计"
+  },
+  {
+    "id": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.",
+    "translation": "使用灵活的设计系统定制你的单位，提供各种可能的单位和战术。"
+  },
+  {
+    "id": "Cross-Platform",
+    "translation": "跨平台"
+  },
+  {
+    "id": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!",
+    "translation": "支持 Windows，macOS，Linux，FreeBSD 等等，都有跨平台多人游戏支持！"
+  },
+  {
+    "id": "Years",
+    "translation": "年"
+  },
+  {
+    "id": "Downloads",
+    "translation": "下载"
+  },
+  {
+    "id": "Forum Posts",
+    "translation": "论坛帖子"
+  },
+  {
+    "id": "GitHub Stars",
+    "translation": "GitHub 点赞数"
+  },
+  {
+    "id": "100s",
+    "translation": "100s"
+  },
+  {
+    "id": "Contributors",
+    "translation": "贡献者"
+  },
+  {
+    "id": "100%",
+    "translation": "100%"
+  },
+  {
+    "id": "Free",
+    "translation": "免费"
+  },
+  {
+    "id": "100% Open & Free",
+    "translation": "100% 开源和免费"
+  },
+  {
+    "id": "Open source, open development, open community - free as in freedom!",
+    "translation": "开放源码开发，开放社区——自由！"
+  },
+  {
+    "id": "100% Open-Source",
+    "translation": "100% 开源"
+  },
+  {
+    "id": "Exclusively open-source technologies, software, & tools.",
+    "translation": "独家开源技术、软件和工具。"
+  },
+  {
+    "id": "Community content is licensed under liberal licenses (ex. CC0).",
+    "translation": "社区内容得到自由许可证的许可(例如CC0)。"
+  },
+  {
+    "id": "100% Open Development",
+    "translation": "100% 开放开发"
+  },
+  {
+    "id": "Join the public project on GitHub!",
+    "translation": "加入GitHub上的公共项目！"
+  },
+  {
+    "id": "Anyone can file bugs, contribute patches, and request enhancements.",
+    "translation": "任何人都可以提交错误、提交补丁和请求改进。"
+  },
+  {
+    "id": "100% Open Community",
+    "translation": "100%开放社区"
+  },
+  {
+    "id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
+    "translation": "在论坛上聊天、制作并分享附加组件、加入在线锦标赛并为 Warzone 2100 贡献力量。"
+  },
+  {
+    "id": "People around the world are waiting!",
+    "translation": "全世界人们都在等待！"
+  },
+  {
+    "id": "100% Free",
+    "translation": "100% 免费"
+  },
+  {
+    "id": "Everything is free, including source code, downloads, and all features.",
+    "translation": "一切都是免费的，包括源代码、下载和所有功能。"
+  },
+  {
+    "id": "No in-app purchases.",
+    "translation": "没有应用内购买。"
+  },
+  {
+    "id": "No subscriptions.",
+    "translation": "没有订阅。"
+  },
+  {
+    "id": "No ads.",
+    "translation": "没有广告。"
+  },
+  {
+    "id": "Just free.",
+    "translation": "完全免费。"
+  },
+  {
+    "id": "A Long History",
+    "translation": "历史悠久"
+  },
+  {
+    "id": "Developed in the 90s by Pumpkin Studios.",
+    "translation": "由南瓜工作室开发于90年代。"
+  },
+  {
+    "id": "Liberated in 2004.",
+    "translation": "2004年独立。"
+  },
+  {
+    "id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
+    "translation": "2100 Warzone 最初由南瓜工作室开发，由Eidos Interactivity发行。"
+  },
+  {
+    "id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
+    "translation": "1999年，在微软的Windows和索尼的PlayStation上投放了该产品。"
+  },
+  {
+    "id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
+    "translation": "南瓜工作室于2000年1月5日结束了对 Warzone 2100 的支持。"
+  },
+  {
+    "id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
+    "translation": "2004年，在粉丝们请愿后，根据开放源码许可证公开发布了 Warzone 的源码。"
+  },
+  {
+    "id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
+    "translation": "自那时以来，在“Warzone 2100”项目的旗帜下，该项目一直得到社区的开发、维护和改进。"
+  },
+  {
+    "id": "More Info",
+    "translation": "更多信息"
+  },
+  {
+    "id": "Frequently Asked Questions",
+    "translation": "常见问题"
+  },
+  {
+    "id": "Answers to common questions.",
+    "translation": "对共同问题的答复。"
+  },
+  {
+    "id": "Can't find the answer you're looking for?",
+    "translation": "找不到您正在寻找的答案？"
+  },
+  {
+    "id": "Check out the Forums and Webchat.",
+    "translation": "查看论坛和网络聊天。"
+  },
+  {
+    "id": "General",
+    "translation": "概况"
+  },
+  {
+    "id": "Multiplayer",
+    "translation": "多人游戏"
+  },
+  {
+    "id": "Troubleshooting",
+    "translation": "故障排除"
+  },
+  {
+    "id": "Copy URL",
+    "translation": "复制网址"
+  },
+  {
+    "id": "Copied URL!",
+    "translation": "已复制网址！"
+  },
+  {
+    "id": "JavaScript is disabled.",
+    "translation": "JavaScript 已禁用。"
+  },
+  {
+    "id": "This site may not work properly without it.",
+    "translation": "没有它网站可能无法正常工作。"
+  },
+  {
+    "id": "About",
+    "translation": "关于"
+  },
+  {
+    "id": "The Team",
+    "translation": "开发团队"
+  },
+  {
+    "id": "Changelog",
+    "translation": "更新日志"
+  },
+  {
+    "id": "Privacy Policy",
+    "translation": "隐私政策"
+  },
+  {
+    "id": "Download",
+    "translation": "下载"
+  },
+  {
+    "id": "Snap Store (Linux)",
+    "translation": "Snap 商店 (Linux)"
+  },
+  {
+    "id": "Source Code",
+    "translation": "源代码"
+  },
+  {
+    "id": "Source Code.",
+    "translation": "源代码."
+  },
+  {
+    "id": "Contribute",
+    "translation": "贡献"
+  },
+  {
+    "id": "Help with Translations",
+    "translation": "帮助翻译"
+  },
+  {
+    "id": "Documentation",
+    "translation": "文档"
+  },
+  {
+    "id": "Connect",
+    "translation": "连接"
+  },
+  {
+    "id": "Copyright © past-due.",
+    "translation": "版权 © past-due."
+  },
+  {
+    "id": "theme",
+    "translation": "主题"
+  },
+  {
+    "id": "Licensed under the GNU GPLv3.",
+    "translation": "根据GNU GPLv3签发许可证。"
+  },
+  {
+    "id": "Powered by Hugo",
+    "translation": "Powered by Hugo"
+  },
+  {
+    "id": "All trademarks are the property of their respective owners.",
+    "translation": "所有品牌图标属于各自所有者。"
+  },
+  {
+    "id": "YOU'VE BEEN INVITED TO JOIN A SERVER",
+    "translation": "您被邀请加入服务器"
+  },
+  {
+    "id": "Join",
+    "translation": "加入"
+  },
+  {
+    "id": "Loading...",
+    "translation": "加载中..."
+  },
+  {
+    "id": "You are running the latest release of Warzone 2100.",
+    "translation": "你正在运行最新版本的 Warzone 2100。"
+  },
+  {
+    "id": "You are running the latest development build.",
+    "translation": "您正在运行最新的开发版本。"
+  },
+  {
+    "id": "Thanks for trying out these builds, and looking for bugs - it is appreciated!",
+    "translation": "感谢您尝试这些构建并寻找bug - 感谢您！"
+  },
+  {
+    "id": "A new release is available!",
+    "translation": "有新版本可用！"
+  },
+  {
+    "id": "A new development build is available!",
+    "translation": "有新的开发版本可用！"
+  },
+  {
+    "id": "Download Latest Development Builds",
+    "translation": "下载最新开发版本"
+  },
+  {
+    "id": "Unable to check for updates",
+    "translation": "无法检查更新"
+  },
+  {
+    "id": "This site requires JavaScript, and it looks like you have it disabled.",
+    "translation": "此网站需要 JavaScript，已被您禁用。"
+  },
+  {
+    "id": "If you aren't sure, download the latest version now.",
+    "translation": "如果您不确定，现在下载最新版本。"
+  },
+  {
+    "id": "Couldn't check for latest development builds",
+    "translation": "无法检查最新的开发版本"
+  },
+  {
+    "id": "You can always download the latest development builds below.",
+    "translation": "您可以随时下载下面的最新开发版本。"
+  },
+  {
+    "id": "Your version",
+    "translation": "您的版本"
+  },
+  {
+    "id": "Latest Release",
+    "translation": "最新版本"
+  },
+  {
+    "id": "Latest Development Build",
+    "translation": "最新开发版本"
+  },
+  {
+    "id": "404 - Not Found",
+    "translation": "404 页面不存在"
+  },
+  {
+    "id": "Whatever that was, it couldn't be found.",
+    "translation": "不管是什么，找不到。"
+  },
+  {
+    "id": "Sorry about that.",
+    "translation": "很抱歉。"
+  },
+  {
+    "id": "Go Home",
+    "translation": "返回首页"
+  },
+  {
+    "id": "Subsections",
+    "translation": "子版块"
+  },
+  {
+    "id": "Tags",
+    "translation": "标签"
+  },
+  {
+    "id": "All Tags",
+    "translation": "所有标签"
+  },
+  {
+    "id": "Site Navigation",
+    "translation": "站点导航"
+  },
+  {
+    "id": "More",
+    "translation": "更多"
+  }
+]

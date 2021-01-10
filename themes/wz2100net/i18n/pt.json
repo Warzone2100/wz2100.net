@@ -269,15 +269,15 @@
   },
   {
     "id": "Debian Package",
-    "translation": "Debian Package"
+    "translation": "Pacote Debian"
   },
   {
     "id": "DEB package for Ubuntu (and related Debian-based distros).",
-    "translation": "DEB package for Ubuntu (and related Debian-based distros)."
+    "translation": "Pacote DEB para Ubuntu (e distros relacionadas com Debian)."
   },
   {
     "id": "After downloading, install using the following command:",
-    "translation": "After downloading, install using the following command:"
+    "translation": "Depois de descarregar, instale usando o seguinte comando:"
   },
   {
     "id": "Compile Source",
@@ -340,44 +340,48 @@
     "translation": "Checksum SHA256 para a Versão"
   },
   {
+    "id": "Torrent",
+    "translation": "Torrent"
+  },
+  {
     "id": "Downloading Warzone 2100",
-    "translation": "Downloading Warzone 2100"
+    "translation": "Baixando Warzone 2100"
   },
   {
     "id": "Next Steps:",
-    "translation": "Next Steps:"
+    "translation": "Próximos passos:"
   },
   {
     "id": "Share on Twitter",
-    "translation": "Share on Twitter"
+    "translation": "Partilhar no Twitter"
   },
   {
     "id": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.",
-    "translation": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "translation": "Warzone 2100 - um jogo de estratégia 3D em tempo real 100% gratuito e de código aberto para Windows / macOS / Linux."
   },
   {
     "id": "If you’ve never played before,",
-    "translation": "If you’ve never played before,"
+    "translation": "Se nunca jogou antes,"
   },
   {
     "id": "start with the in-game Tutorial, and then check out:",
-    "translation": "start with the in-game Tutorial, and then check out:"
+    "translation": "comece com o Tutorial do jogo e depois leia:"
   },
   {
     "id": "the Quickstart Guide",
-    "translation": "the Quickstart Guide"
+    "translation": "o guia de início rápido"
   },
   {
     "id": "Chat with players on the official Discord server!",
-    "translation": "Chat with players on the official Discord server!"
+    "translation": "Converse com jogadores no servidor oficial do Discord!"
   },
   {
     "id": "Star the project on GitHub and help spread the news!",
-    "translation": "Star the project on GitHub and help spread the news!"
+    "translation": "Ponha uma estrela no projecto no GitHub e ajude a espalhar as notícias!"
   },
   {
     "id": "Donate to help support server and other costs!",
-    "translation": "Donate to help support server and other costs!"
+    "translation": "Faça um donativo para ajudar a suportar os custos do servidor de suporte, entre outros!"
   },
   {
     "id": "Why Warzone 2100 Rocks",
@@ -601,11 +605,11 @@
   },
   {
     "id": "Copy URL",
-    "translation": "Copy URL"
+    "translation": "Copiar URL"
   },
   {
     "id": "Copied URL!",
-    "translation": "Copied URL!"
+    "translation": "URL Copiada!"
   },
   {
     "id": "JavaScript is disabled.",
