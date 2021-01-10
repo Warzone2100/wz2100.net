@@ -21,7 +21,7 @@ jobs:
           path: master
           persist-credentials: false
       - name: "Install yq"
-        run: 
+        run: |
           sudo snap install yq --channel=v3/stable
           yq --version
       - name: 'Sync translation changes to master branch'
