@@ -10,8 +10,8 @@ source_lang="en"
 # Check yq version
 yq_version="$(yq --version | perl -pe 'if(($v)=/([0-9]+([.][0-9]+)+)/){print"$v\n";exit}$_=""')"
 yq_major_version="$(echo "${yq_version}" | cut -d. -f1)"
-if [ "${yq_major_version}" -lt "4" ]; then
-  echo "Script requires yq 4+ (detected version: ${yq_version})"
+if [ "${yq_major_version}" -gt "3" ]; then
+  echo "Script currently requires yq 3 (detected version: ${yq_version})"
   exit 1
 fi
 
@@ -109,7 +109,7 @@ find * -prune -type d | while IFS= read -r d; do
         python3 "${split_script}" "${file}"
 
         # Use yq to merge translated front-matter back into full base file front-matter
-        yq eval-all 'select(fileIndex == 0) * select(fileIndex == 1)' "${working_dir}/base_frontmatter/${file}.base_frontmatter" "${file}.frontmatter" > "${file}.frontmatter.merged"
+        yq m --overwrite --autocreate=false "${working_dir}/base_frontmatter/${file}.base_frontmatter" "${file}.frontmatter" > "${file}.frontmatter.merged"
 
         # Concatenate the merged front-matter with the translated content
         echo "---" > "${file}.merged"
