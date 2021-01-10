@@ -1,10 +1,12 @@
 ---
 title: "Веб-чат"
+# begin: no-translate
 type: "solopage"
 translationKey: "webchat"
 menu:
   main:
     weight: 100
+# end: no-translate
 ---
 
 Если вы хотите договориться о онлайн-играх или задать вопрос, вы можете воспользоваться одной из опций чата:

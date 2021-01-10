@@ -1,10 +1,12 @@
 ---
 title: "Webchat"
+# begin: no-translate
 type: "solopage"
 translationKey: "webchat"
 menu:
   main:
     weight: 100
+# end: no-translate
 ---
 
 Se quiser combinar jogos online, ou tiver uma questão rápida para perguntar, pode recorrer a uma das nossas opções de chat:
