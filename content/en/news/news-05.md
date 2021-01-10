@@ -3,7 +3,8 @@ title: "Version 3.4.1 released"
 date: 2020-07-19 # no-translate
 draft: false # no-translate
 slug: "version-3-4-1"
-tags: ["Releases"]
+tags:
+  - "Releases"
 ---
 
 With the help of many bug reporters & contributors, we're happy to announce the release of **3.4.1**, a bug-fix release.

@@ -3,7 +3,8 @@ title: "Version 3.3.0 released"
 date: 2019-08-31 # no-translate
 draft: false # no-translate
 slug: "version-3-3-0"
-tags: ["Releases"]
+tags:
+  - "Releases"
 ---
 
 It has been three years since the last stable release. There is an enormous amount of changes in this release compared to 3.2.0. These changes include:

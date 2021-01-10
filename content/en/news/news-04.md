@@ -3,7 +3,8 @@ title: "Version 3.4.0 released"
 date: 2020-06-24 # no-translate
 draft: false # no-translate
 slug: "version-3-4-0"
-tags: ["Releases"]
+tags:
+  - "Releases"
 ---
 
 With **over 485 commits** since the last release, it's time for **3.4.0**!
