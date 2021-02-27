@@ -8,28 +8,28 @@ Dacă vrei să pregatești jocurile online sau să ai o întrebare rapidă, ai p
 
 ## {{< inlinefigure path="/svg/Discord-Logo+Wordmark-White.svg" mediatype="image/svg+xml" height="80" alt="Discord" >}}
 
-Îți place Discord? Join the official Warzone 2100 Discord server:
+Îți place Discord? Alătură-te serverului oficial de Discord Warzone 2100:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Server Oficial" >}}
 
-##### Discord Benefits:
+##### Beneficii Discord:
 
-Pick your nickname, view chat history, easily chat on mobile devices, (optionally) subscribe to receive announcements of new releases, voice chat, and more.
+Alege porecla, vizualizează istoricul chat-ului, conversează ușor pe dispozitive mobile, abonează-te (opțional) pentru a primi anunțuri de noi lansări, chat vocal și multe altele.
 
-Signing up for Discord, chatting on the server, etc. is free.
+Înscrierea pentru Discord, conversații pe server, etc. este gratuită.
 
-Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
+Conversează în browser-ul tău sau descarcă clienții pentru Windows / macOS / Linux / mobil.
 
 {{% divider %}}
 
 ## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
 
-IRC webchat is available from Freenode here:
+IRC webchat este disponibil de la Freenode aici:
 
-{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Enter Chat{{< /button >}}
+{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Intră în Chat{{< /button >}}
 
-Experienced users can also enter this chat room by visiting `#warzone2100-games` on Freenode with an IRC client.
+Utilizatorii experimentați pot de asemenea intra în această cameră de chat vizitând `#warzone2100-games` pe Freenode cu un client IRC.
 
-> Note: Because of abuse, you must register with Freenode & not use Freenode's webchat applet to enter `#warzone2100-dev`. We do not control that server, so if your nickname is used we can't do anything about it!
+> Notă: Din cauza abuzurilor, trebuie să vă înregistrați la Freenode & nu folosiți appletul web chat al Freenode pentru a introduce `#warzone2100-dev`. Noi nu controlăm acel server, deci dacă porecla ta este folosită, nu putem face nimic în legătură cu acest lucru!
 
-See the [Freenode registration FAQ](https://freenode.net/kb/answer/registration) for details on how to register.
+Consultaţi [FAQ pentru înregistrare Freenode](https://freenode.net/kb/answer/registration) pentru detalii despre cum să vă înregistraţi.
