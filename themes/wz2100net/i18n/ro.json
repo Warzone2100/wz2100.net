@@ -65,7 +65,7 @@
   },
   {
     "id": "Toggle Dropdown",
-    "translation": "Toggle Dropdown"
+    "translation": "Comută lista verticală"
   },
   {
     "id": "Windows",
@@ -89,7 +89,7 @@
   },
   {
     "id": "Full Installer",
-    "translation": "Full Installer"
+    "translation": "Instalator Complet"
   },
   {
     "id": "Installs for all users on a system.",
@@ -201,11 +201,11 @@
   },
   {
     "id": "Warzone is licensed under the GPLv2+ license (& others).",
-    "translation": "Warzone is licensed under the GPLv2+ license (& others)."
+    "translation": "Warzone este licențiat sub licența GPLv2+ (și altele)."
   },
   {
     "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
-    "translation": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "translation": "Comandă forțele Proiectului într-o luptă de reconstruire a lumii după ce omenirea a fost aproape distrusă de rachete nucleare."
   },
   {
     "id": "Seize territory and resources, build extensive bases, and expand your production & research.",
@@ -213,7 +213,7 @@
   },
   {
     "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
-    "translation": "Concurează în bătălii masive LAN / multi-jucători online, cu până la 10 jucători."
+    "translation": "Concurează în bătălii masive LAN / Multiplayer online, cu până la 10 jucători."
   },
   {
     "id": "Previous",
@@ -233,15 +233,15 @@
   },
   {
     "id": "Try browsing the download mirrors directly:",
-    "translation": "Try browsing the download mirrors directly:"
+    "translation": "Încercați să navigați direct oglinzile/mirrors de descărcare:"
   },
   {
     "id": "GitHub Releases",
-    "translation": "GitHub Releases"
+    "translation": "Versiuni pe GitHub"
   },
   {
     "id": "SourceForge Mirror",
-    "translation": "SourceForge Mirror"
+    "translation": "Oglinda/Mirror SourceForge"
   },
   {
     "id": "32-bit (x86)",
@@ -253,7 +253,7 @@
   },
   {
     "id": "Snap Installer",
-    "translation": "Snap Installer"
+    "translation": "Instalator Snap"
   },
   {
     "id": "Easy installation.",
@@ -269,15 +269,15 @@
   },
   {
     "id": "Debian Package",
-    "translation": "Debian Package"
+    "translation": "Pachet Debian"
   },
   {
     "id": "DEB package for Ubuntu (and related Debian-based distros).",
-    "translation": "DEB package for Ubuntu (and related Debian-based distros)."
+    "translation": "Pachet DEB pentru Ubuntu (și pentru distro-urile bazate pe Debian)."
   },
   {
     "id": "After downloading, install using the following command:",
-    "translation": "After downloading, install using the following command:"
+    "translation": "După descărcare, instalați folosind următoarea comandă:"
   },
   {
     "id": "Compile Source",
@@ -293,11 +293,11 @@
   },
   {
     "id": "Mac App Bundle",
-    "translation": "Mac App Bundle"
+    "translation": "Pachet App Mac"
   },
   {
     "id": "Download, unzip, and copy to your Applications folder.",
-    "translation": "Download, unzip, and copy to your Applications folder."
+    "translation": "Descărcaţi, dezarhivaţi şi copiaţi în dosarul Aplicaţii."
   },
   {
     "id": "64-bit Intel",
@@ -313,27 +313,27 @@
   },
   {
     "id": "Campaign Videos",
-    "translation": "Campaign Videos"
+    "translation": "Videoclipuri Campanie"
   },
   {
     "id": "WMIT (Warzone Model Import Tool)",
-    "translation": "WMIT (Warzone Model Import Tool)"
+    "translation": "WMIT (Unealtă de Import pentru Modele Warzone)"
   },
   {
     "id": "Development Builds",
-    "translation": "Development Builds"
+    "translation": "Versiuni în Lucru"
   },
   {
     "id": "Development Source Code",
-    "translation": "Development Source Code"
+    "translation": "Cod Sursă de Dezvoltare"
   },
   {
     "id": "Verify Download Integrity (SHA256)",
-    "translation": "Verify Download Integrity (SHA256)"
+    "translation": "Verificați Integritatea Descărcării (SHA256)"
   },
   {
     "id": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:",
-    "translation": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "translation": "De la un Command Prompt / Terminal, navigați la locația fișierului(elor) descărcat(e), apoi rulați comanda corespunzătoare pentru a calcula suma de control SHA256 a fișierului și comparați cu tabelul de mai jos:"
   },
   {
     "id": "SHA256 Checksums for Version",
@@ -345,51 +345,51 @@
   },
   {
     "id": "Downloading Warzone 2100",
-    "translation": "Downloading Warzone 2100"
+    "translation": "Se descarcă Warzone 2100"
   },
   {
     "id": "Next Steps:",
-    "translation": "Next Steps:"
+    "translation": "Următorii Pași:"
   },
   {
     "id": "Share on Twitter",
-    "translation": "Share on Twitter"
+    "translation": "Distribuie pe Twitter"
   },
   {
     "id": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.",
-    "translation": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "translation": "Warzone 2100 - un joc 3D de strategie in timp real 100% gratuit și cu sursă deschisă pentru Windows / macOS / Linux."
   },
   {
     "id": "If you’ve never played before,",
-    "translation": "If you’ve never played before,"
+    "translation": "Dacă nu ai jucat niciodată înainte,"
   },
   {
     "id": "start with the in-game Tutorial, and then check out:",
-    "translation": "start with the in-game Tutorial, and then check out:"
+    "translation": "începe cu Tutorialul din joc, și apoi verifică:"
   },
   {
     "id": "the Quickstart Guide",
-    "translation": "the Quickstart Guide"
+    "translation": "Ghidul de pornire Rapidă"
   },
   {
     "id": "Chat with players on the official Discord server!",
-    "translation": "Chat with players on the official Discord server!"
+    "translation": "Vorbește cu jucători pe serverul oficial Discord!"
   },
   {
     "id": "Star the project on GitHub and help spread the news!",
-    "translation": "Star the project on GitHub and help spread the news!"
+    "translation": "Dă-i o stea proiectului pe GitHub și ajută la răspândirea știrilor!"
   },
   {
     "id": "Donate to help support server and other costs!",
-    "translation": "Donate to help support server and other costs!"
+    "translation": "Donează pentru a ajuta la menținerea serverului și alte costuri!"
   },
   {
     "id": "Why Warzone 2100 Rocks",
-    "translation": "Why Warzone 2100 Rocks"
+    "translation": "De ce e Warzone 2100 Tare"
   },
   {
     "id": "Strategy by Design.",
-    "translation": "Strategy by Design."
+    "translation": "Strategie prin Proiectare."
   },
   {
     "id": "Endless replayability.",
@@ -397,7 +397,7 @@
   },
   {
     "id": "Single-Player Campaign",
-    "translation": "Single-Player Campaign"
+    "translation": "Campanie Single-Player"
   },
   {
     "id": "LAN / Internet Multiplayer",
@@ -405,15 +405,15 @@
   },
   {
     "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
-    "translation": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "translation": "Jucați împotriva prietenilor dvs. într-o rețea locală, sau încercați-va mâna la multiplayer online cu un lobby integrat."
   },
   {
     "id": "AI Bots",
-    "translation": "AI Bots"
+    "translation": "Boți IA"
   },
   {
     "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",
-    "translation": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "translation": "Jucați împotriva boților IA în ciocniri locale (sau ca coechipieri / inamici adăugați în mai mulți jucători) și exersați-vă abilitățile cu un potential de joc de nesfârșit."
   },
   {
     "id": "Extensive Tech Tree",
@@ -425,7 +425,7 @@
   },
   {
     "id": "Unit Designer",
-    "translation": "Unit Designer"
+    "translation": "Designer de Unități"
   },
   {
     "id": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.",
@@ -449,19 +449,19 @@
   },
   {
     "id": "Forum Posts",
-    "translation": "Forum Posts"
+    "translation": "Postări pe Forum"
   },
   {
     "id": "GitHub Stars",
-    "translation": "GitHub Stars"
+    "translation": "Stele pe GitHub"
   },
   {
     "id": "100s",
-    "translation": "100s"
+    "translation": "Sute de"
   },
   {
     "id": "Contributors",
-    "translation": "Contributors"
+    "translation": "Contribuitori"
   },
   {
     "id": "100%",
@@ -473,47 +473,47 @@
   },
   {
     "id": "100% Open & Free",
-    "translation": "100% Open & Free"
+    "translation": "100% Deschis & Gratuit"
   },
   {
     "id": "Open source, open development, open community - free as in freedom!",
-    "translation": "Open source, open development, open community - free as in freedom!"
+    "translation": "Sursă deschisă, dezvoltare deschisă, comunitate deschisă - liberă ca în libertate!"
   },
   {
     "id": "100% Open-Source",
-    "translation": "100% Open-Source"
+    "translation": "100% Sursă-Deschisă"
   },
   {
     "id": "Exclusively open-source technologies, software, & tools.",
-    "translation": "Exclusively open-source technologies, software, & tools."
+    "translation": "Tehnologii, programe și unelte exclusiv cu sursă-deschisă."
   },
   {
     "id": "Community content is licensed under liberal licenses (ex. CC0).",
-    "translation": "Community content is licensed under liberal licenses (ex. CC0)."
+    "translation": "Conținutul comunitar este licențiat în temeiul licențelor liberale (ex. CC0)."
   },
   {
     "id": "100% Open Development",
-    "translation": "100% Open Development"
+    "translation": "100% Dezvoltare Deschisă"
   },
   {
     "id": "Join the public project on GitHub!",
-    "translation": "Join the public project on GitHub!"
+    "translation": "Alătură-te proiectului public pe GitHub!"
   },
   {
     "id": "Anyone can file bugs, contribute patches, and request enhancements.",
-    "translation": "Anyone can file bugs, contribute patches, and request enhancements."
+    "translation": "Oricine poate să depună rapoarte de erori, să contribuie cu patch-uri și să solicite îmbunătățiri."
   },
   {
     "id": "100% Open Community",
-    "translation": "100% Open Community"
+    "translation": "100% Comunitate deschisă"
   },
   {
     "id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
-    "translation": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "translation": "Vorbește pe forumuri, fă și partajează suplimente online, alătură-te turneelor online și contribuie la experiența Warzone 2100."
   },
   {
     "id": "People around the world are waiting!",
-    "translation": "People around the world are waiting!"
+    "translation": "Oamenii din întreaga lume așteaptă!"
   },
   {
     "id": "100% Free",
@@ -521,11 +521,11 @@
   },
   {
     "id": "Everything is free, including source code, downloads, and all features.",
-    "translation": "Everything is free, including source code, downloads, and all features."
+    "translation": "Totul este gratuit, inclusiv codul sursă, descărcările şi toate caracteristicile."
   },
   {
     "id": "No in-app purchases.",
-    "translation": "No in-app purchases."
+    "translation": "Nicio achiziție în aplicație."
   },
   {
     "id": "No subscriptions.",
@@ -541,55 +541,55 @@
   },
   {
     "id": "A Long History",
-    "translation": "A Long History"
+    "translation": "O Istorie Lungă"
   },
   {
     "id": "Developed in the 90s by Pumpkin Studios.",
-    "translation": "Developed in the 90s by Pumpkin Studios."
+    "translation": "Dezvoltat în anii '90 de Pumpkin Studios."
   },
   {
     "id": "Liberated in 2004.",
-    "translation": "Liberated in 2004."
+    "translation": "Eliberat în 2004."
   },
   {
     "id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
-    "translation": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "translation": "Warzone 2100 a fost iniţial dezvoltat de Pumpkin Studios şi publicat de Eidos Interactive."
   },
   {
     "id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
-    "translation": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "translation": "În 1999, a fost lansat pentru Microsoft Windows şi Sony PlayStation."
   },
   {
     "id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
-    "translation": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "translation": "Pumpkin Studios a încetat sa mai mentina suportul pentru de Warzone 2100 pe 5 ianuarie 2000."
   },
   {
     "id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
-    "translation": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "translation": "În 2004, după petiţia fanilor, codul sursă al jocului a fost lansat public sub o licenţă cu sursă deschisă."
   },
   {
     "id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
-    "translation": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "translation": "De atunci, aceasta a fost dezvoltat, întreținut și îmbunătățit de către comunitate, sub numele de „Warzone 2100 Project”."
   },
   {
     "id": "More Info",
-    "translation": "More Info"
+    "translation": "Informații suplimentare"
   },
   {
     "id": "Frequently Asked Questions",
-    "translation": "Frequently Asked Questions"
+    "translation": "Întrebări Adresate Frecvent"
   },
   {
     "id": "Answers to common questions.",
-    "translation": "Answers to common questions."
+    "translation": "Răspunsuri la întrebările frecvente."
   },
   {
     "id": "Can't find the answer you're looking for?",
-    "translation": "Can't find the answer you're looking for?"
+    "translation": "Nu găsești răspunsul pe care îl cauți?"
   },
   {
     "id": "Check out the Forums and Webchat.",
-    "translation": "Check out the Forums and Webchat."
+    "translation": "Încearcă Forumurile și Webchat-ul."
   },
   {
     "id": "General",
@@ -605,11 +605,11 @@
   },
   {
     "id": "Copy URL",
-    "translation": "Copy URL"
+    "translation": "Copiază adresa URL"
   },
   {
     "id": "Copied URL!",
-    "translation": "Copied URL!"
+    "translation": "Adresă URL copiată!"
   },
   {
     "id": "JavaScript is disabled.",
@@ -633,7 +633,7 @@
   },
   {
     "id": "Privacy Policy",
-    "translation": "Privacy Policy"
+    "translation": "Politică de Confidenţialitate"
   },
   {
     "id": "Download",
@@ -665,7 +665,7 @@
   },
   {
     "id": "Connect",
-    "translation": "Connect"
+    "translation": "Conectează-te"
   },
   {
     "id": "Copyright © past-due.",
@@ -673,7 +673,7 @@
   },
   {
     "id": "theme",
-    "translation": "theme"
+    "translation": "temă"
   },
   {
     "id": "Licensed under the GNU GPLv3.",
@@ -681,114 +681,114 @@
   },
   {
     "id": "Powered by Hugo",
-    "translation": "Powered by Hugo"
+    "translation": "Oferit de Hugo"
   },
   {
     "id": "All trademarks are the property of their respective owners.",
-    "translation": "All trademarks are the property of their respective owners."
+    "translation": "Toate mărcile comerciale sunt proprietatea deținătorilor lor."
   },
   {
     "id": "YOU'VE BEEN INVITED TO JOIN A SERVER",
-    "translation": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "translation": "AI FOST INVITAT SĂ TE ALĂTURI UNUI SERVER"
   },
   {
     "id": "Join",
-    "translation": "Join"
+    "translation": "Alătură-te"
   },
   {
     "id": "Loading...",
-    "translation": "Loading..."
+    "translation": "Se încarcă..."
   },
   {
     "id": "You are running the latest release of Warzone 2100.",
-    "translation": "You are running the latest release of Warzone 2100."
+    "translation": "Rulați cea mai recentă versiune stabilă a Warzone 2100."
   },
   {
     "id": "You are running the latest development build.",
-    "translation": "You are running the latest development build."
+    "translation": "Rulați versiunea în lucru cea mai recentă."
   },
   {
     "id": "Thanks for trying out these builds, and looking for bugs - it is appreciated!",
-    "translation": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "translation": "Vă mulțumim pentu că incercați aceste versiuni în lucru, și vă uitați dupa probleme - apreciem!"
   },
   {
     "id": "A new release is available!",
-    "translation": "A new release is available!"
+    "translation": "O nouă versiune stabila este disponibilă!"
   },
   {
     "id": "A new development build is available!",
-    "translation": "A new development build is available!"
+    "translation": "O nouă versiune în lucru este disponibilă!"
   },
   {
     "id": "Download Latest Development Builds",
-    "translation": "Download Latest Development Builds"
+    "translation": "Descarcă Ultimele Versiuni în Lucru"
   },
   {
     "id": "Unable to check for updates",
-    "translation": "Unable to check for updates"
+    "translation": "Nu se pot face verificări pentru actualizări"
   },
   {
     "id": "This site requires JavaScript, and it looks like you have it disabled.",
-    "translation": "This site requires JavaScript, and it looks like you have it disabled."
+    "translation": "Acest site necesită JavaScript, si se pare că îl aveți dezactivat."
   },
   {
     "id": "If you aren't sure, download the latest version now.",
-    "translation": "If you aren't sure, download the latest version now."
+    "translation": "Dacă nu ești sigur, descarcă cea mai recentă versiune acum."
   },
   {
     "id": "Couldn't check for latest development builds",
-    "translation": "Couldn't check for latest development builds"
+    "translation": "Nu s-a putut verifica pentru cele mai recente versiuni în lucru"
   },
   {
     "id": "You can always download the latest development builds below.",
-    "translation": "You can always download the latest development builds below."
+    "translation": "Puteți descărca întotdeauna cele mai recente versiuni în lucru de mai jos."
   },
   {
     "id": "Your version",
-    "translation": "Your version"
+    "translation": "Versiunea ta"
   },
   {
     "id": "Latest Release",
-    "translation": "Latest Release"
+    "translation": "Ultima Versiune Stabilă"
   },
   {
     "id": "Latest Development Build",
-    "translation": "Latest Development Build"
+    "translation": "Ultima Versiune în Lucru"
   },
   {
     "id": "404 - Not Found",
-    "translation": "404 - Not Found"
+    "translation": "404 - Nu a fost găsit"
   },
   {
     "id": "Whatever that was, it couldn't be found.",
-    "translation": "Whatever that was, it couldn't be found."
+    "translation": "Orice ar fi fost asta, nu a putut fi găsit."
   },
   {
     "id": "Sorry about that.",
-    "translation": "Sorry about that."
+    "translation": "Ne pare rău pentru asta."
   },
   {
     "id": "Go Home",
-    "translation": "Go Home"
+    "translation": "Du-te acasă"
   },
   {
     "id": "Subsections",
-    "translation": "Subsections"
+    "translation": "Subsecțiuni"
   },
   {
     "id": "Tags",
-    "translation": "Tags"
+    "translation": "Etichete"
   },
   {
     "id": "All Tags",
-    "translation": "All Tags"
+    "translation": "Toate Etichetele"
   },
   {
     "id": "Site Navigation",
-    "translation": "Site Navigation"
+    "translation": "Navigare Site"
   },
   {
     "id": "More",
-    "translation": "More"
+    "translation": "Mai multe"
   }
 ]
