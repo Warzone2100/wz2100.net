@@ -48,7 +48,7 @@
     "message": "Descarcă acum"
   },
   "Toggle Dropdown": {
-    "message": "Toggle Dropdown"
+    "message": "Comută lista verticală"
   },
   "Windows": {
     "message": "Windows"
@@ -66,7 +66,7 @@
     "message": "(Nu are nevoie de privilegii de administrator.)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Instalator Complet"
   },
   "Installs for all users on a system.": {
     "message": "Se instalează pentru toți utilizatorii de pe un sistem."
@@ -150,16 +150,16 @@
     "message": "Copyright © Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone este licențiat sub licența GPLv2+ (și altele)."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "Comandă forțele Proiectului într-o luptă de reconstruire a lumii după ce omenirea a fost aproape distrusă de rachete nucleare."
   },
   "Seize territory and resources, build extensive bases, and expand your production & research.": {
     "message": "Capturează teritorii și resurse, construiește baze extinse, și extinde-ți producția și cercetările."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Concurează în bătălii masive LAN / multi-jucători online, cu până la 10 jucători."
+    "message": "Concurează în bătălii masive LAN / Multiplayer online, cu până la 10 jucători."
   },
   "Previous": {
     "message": "Anteriorul"
@@ -174,13 +174,13 @@
     "message": "Descărcările nu funcționează?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "Încercați să navigați direct oglinzile/mirrors de descărcare:"
   },
   "GitHub Releases": {
-    "message": "GitHub Releases"
+    "message": "Versiuni pe GitHub"
   },
   "SourceForge Mirror": {
-    "message": "SourceForge Mirror"
+    "message": "Oglinda/Mirror SourceForge"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -189,7 +189,7 @@
     "message": "64-bit (x64)"
   },
   "Snap Installer": {
-    "message": "Snap Installer"
+    "message": "Instalator Snap"
   },
   "Easy installation.": {
     "message": "Instalare ușoară."
@@ -201,13 +201,13 @@
     "message": "(Vezi link-ul pentru detalii.)"
   },
   "Debian Package": {
-    "message": "Debian Package"
+    "message": "Pachet Debian"
   },
   "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+    "message": "Pachet DEB pentru Ubuntu (și pentru distro-urile bazate pe Debian)."
   },
   "After downloading, install using the following command:": {
-    "message": "After downloading, install using the following command:"
+    "message": "După descărcare, instalați folosind următoarea comandă:"
   },
   "Compile Source": {
     "message": "Compilează Sursa"
@@ -219,10 +219,10 @@
     "message": "Codul Sursă (.tar.xz)"
   },
   "Mac App Bundle": {
-    "message": "Mac App Bundle"
+    "message": "Pachet App Mac"
   },
   "Download, unzip, and copy to your Applications folder.": {
-    "message": "Download, unzip, and copy to your Applications folder."
+    "message": "Descărcaţi, dezarhivaţi şi copiaţi în dosarul Aplicaţii."
   },
   "64-bit Intel": {
     "message": "64-bit Intel"
@@ -234,22 +234,22 @@
     "message": "Altele"
   },
   "Campaign Videos": {
-    "message": "Campaign Videos"
+    "message": "Videoclipuri Campanie"
   },
   "WMIT (Warzone Model Import Tool)": {
-    "message": "WMIT (Warzone Model Import Tool)"
+    "message": "WMIT (Unealtă de Import pentru Modele Warzone)"
   },
   "Development Builds": {
-    "message": "Development Builds"
+    "message": "Versiuni în Lucru"
   },
   "Development Source Code": {
-    "message": "Development Source Code"
+    "message": "Cod Sursă de Dezvoltare"
   },
   "Verify Download Integrity (SHA256)": {
-    "message": "Verify Download Integrity (SHA256)"
+    "message": "Verificați Integritatea Descărcării (SHA256)"
   },
   "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
-    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "message": "De la un Command Prompt / Terminal, navigați la locația fișierului(elor) descărcat(e), apoi rulați comanda corespunzătoare pentru a calcula suma de control SHA256 a fișierului și comparați cu tabelul de mai jos:"
   },
   "SHA256 Checksums for Version": {
     "message": "Sume de control SHA256 pentru Versiunea"
@@ -258,58 +258,58 @@
     "message": "Torrent"
   },
   "Downloading Warzone 2100": {
-    "message": "Downloading Warzone 2100"
+    "message": "Se descarcă Warzone 2100"
   },
   "Next Steps:": {
-    "message": "Next Steps:"
+    "message": "Următorii Pași:"
   },
   "Share on Twitter": {
-    "message": "Share on Twitter"
+    "message": "Distribuie pe Twitter"
   },
   "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
-    "message": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "message": "Warzone 2100 - un joc 3D de strategie in timp real 100% gratuit și cu sursă deschisă pentru Windows / macOS / Linux."
   },
   "If you’ve never played before,": {
-    "message": "If you’ve never played before,"
+    "message": "Dacă nu ai jucat niciodată înainte,"
   },
   "start with the in-game Tutorial, and then check out:": {
-    "message": "start with the in-game Tutorial, and then check out:"
+    "message": "începe cu Tutorialul din joc, și apoi verifică:"
   },
   "the Quickstart Guide": {
-    "message": "the Quickstart Guide"
+    "message": "Ghidul de pornire Rapidă"
   },
   "Chat with players on the official Discord server!": {
-    "message": "Chat with players on the official Discord server!"
+    "message": "Vorbește cu jucători pe serverul oficial Discord!"
   },
   "Star the project on GitHub and help spread the news!": {
-    "message": "Star the project on GitHub and help spread the news!"
+    "message": "Dă-i o stea proiectului pe GitHub și ajută la răspândirea știrilor!"
   },
   "Donate to help support server and other costs!": {
-    "message": "Donate to help support server and other costs!"
+    "message": "Donează pentru a ajuta la menținerea serverului și alte costuri!"
   },
   "Why Warzone 2100 Rocks": {
-    "message": "Why Warzone 2100 Rocks"
+    "message": "De ce e Warzone 2100 Tare"
   },
   "Strategy by Design.": {
-    "message": "Strategy by Design."
+    "message": "Strategie prin Proiectare."
   },
   "Endless replayability.": {
     "message": "Rejucabilitate fără sfârșit."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Campanie Single-Player"
   },
   "LAN / Internet Multiplayer": {
     "message": "LAN / Internet Multiplayer"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
-    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "message": "Jucați împotriva prietenilor dvs. într-o rețea locală, sau încercați-va mâna la multiplayer online cu un lobby integrat."
   },
   "AI Bots": {
-    "message": "AI Bots"
+    "message": "Boți IA"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Jucați împotriva boților IA în ciocniri locale (sau ca coechipieri / inamici adăugați în mai mulți jucători) și exersați-vă abilitățile cu un potential de joc de nesfârșit."
   },
   "Extensive Tech Tree": {
     "message": "Arbore Tehnologic Extins"
@@ -318,7 +318,7 @@
     "message": "Peste 400 de tehnologii diferite generează un arbore tehnologic extensiv cu multe căi de ales."
   },
   "Unit Designer": {
-    "message": "Unit Designer"
+    "message": "Designer de Unități"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
     "message": "Personalizează-ți unitățile cu un sistem de design flexibil care permite o mare varietate de unități și tactici posibile."
@@ -336,16 +336,16 @@
     "message": "Descărcări"
   },
   "Forum Posts": {
-    "message": "Forum Posts"
+    "message": "Postări pe Forum"
   },
   "GitHub Stars": {
-    "message": "GitHub Stars"
+    "message": "Stele pe GitHub"
   },
   "100s": {
-    "message": "100s"
+    "message": "Sute de"
   },
   "Contributors": {
-    "message": "Contributors"
+    "message": "Contribuitori"
   },
   "100%": {
     "message": "100%"
@@ -354,46 +354,46 @@
     "message": "Gratis"
   },
   "100% Open & Free": {
-    "message": "100% Open & Free"
+    "message": "100% Deschis & Gratuit"
   },
   "Open source, open development, open community - free as in freedom!": {
-    "message": "Open source, open development, open community - free as in freedom!"
+    "message": "Sursă deschisă, dezvoltare deschisă, comunitate deschisă - liberă ca în libertate!"
   },
   "100% Open-Source": {
-    "message": "100% Open-Source"
+    "message": "100% Sursă-Deschisă"
   },
   "Exclusively open-source technologies, software, & tools.": {
-    "message": "Exclusively open-source technologies, software, & tools."
+    "message": "Tehnologii, programe și unelte exclusiv cu sursă-deschisă."
   },
   "Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+    "message": "Conținutul comunitar este licențiat în temeiul licențelor liberale (ex. CC0)."
   },
   "100% Open Development": {
-    "message": "100% Open Development"
+    "message": "100% Dezvoltare Deschisă"
   },
   "Join the public project on GitHub!": {
-    "message": "Join the public project on GitHub!"
+    "message": "Alătură-te proiectului public pe GitHub!"
   },
   "Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+    "message": "Oricine poate să depună rapoarte de erori, să contribuie cu patch-uri și să solicite îmbunătățiri."
   },
   "100% Open Community": {
-    "message": "100% Open Community"
+    "message": "100% Comunitate deschisă"
   },
   "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "message": "Vorbește pe forumuri, fă și partajează suplimente online, alătură-te turneelor online și contribuie la experiența Warzone 2100."
   },
   "People around the world are waiting!": {
-    "message": "People around the world are waiting!"
+    "message": "Oamenii din întreaga lume așteaptă!"
   },
   "100% Free": {
     "message": "100% Gratuit"
   },
   "Everything is free, including source code, downloads, and all features.": {
-    "message": "Everything is free, including source code, downloads, and all features."
+    "message": "Totul este gratuit, inclusiv codul sursă, descărcările şi toate caracteristicile."
   },
   "No in-app purchases.": {
-    "message": "No in-app purchases."
+    "message": "Nicio achiziție în aplicație."
   },
   "No subscriptions.": {
     "message": "Fără abonament."
@@ -405,43 +405,43 @@
     "message": "Doar gratuit."
   },
   "A Long History": {
-    "message": "A Long History"
+    "message": "O Istorie Lungă"
   },
   "Developed in the 90s by Pumpkin Studios.": {
-    "message": "Developed in the 90s by Pumpkin Studios."
+    "message": "Dezvoltat în anii '90 de Pumpkin Studios."
   },
   "Liberated in 2004.": {
-    "message": "Liberated in 2004."
+    "message": "Eliberat în 2004."
   },
   "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "message": "Warzone 2100 a fost iniţial dezvoltat de Pumpkin Studios şi publicat de Eidos Interactive."
   },
   "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
-    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "message": "În 1999, a fost lansat pentru Microsoft Windows şi Sony PlayStation."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "message": "Pumpkin Studios a încetat sa mai mentina suportul pentru de Warzone 2100 pe 5 ianuarie 2000."
   },
   "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "message": "În 2004, după petiţia fanilor, codul sursă al jocului a fost lansat public sub o licenţă cu sursă deschisă."
   },
   "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "message": "De atunci, aceasta a fost dezvoltat, întreținut și îmbunătățit de către comunitate, sub numele de „Warzone 2100 Project”."
   },
   "More Info": {
-    "message": "More Info"
+    "message": "Informații suplimentare"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions"
+    "message": "Întrebări Adresate Frecvent"
   },
   "Answers to common questions.": {
-    "message": "Answers to common questions."
+    "message": "Răspunsuri la întrebările frecvente."
   },
   "Can't find the answer you're looking for?": {
-    "message": "Can't find the answer you're looking for?"
+    "message": "Nu găsești răspunsul pe care îl cauți?"
   },
   "Check out the Forums and Webchat.": {
-    "message": "Check out the Forums and Webchat."
+    "message": "Încearcă Forumurile și Webchat-ul."
   },
   "General": {
     "message": "General"
@@ -453,10 +453,10 @@
     "message": "Depanare"
   },
   "Copy URL": {
-    "message": "Copy URL"
+    "message": "Copiază adresa URL"
   },
   "Copied URL!": {
-    "message": "Copied URL!"
+    "message": "Adresă URL copiată!"
   },
   "JavaScript is disabled.": {
     "message": "JavaScript dezactivat."
@@ -474,7 +474,7 @@
     "message": "Istoric modificări"
   },
   "Privacy Policy": {
-    "message": "Privacy Policy"
+    "message": "Politică de Confidenţialitate"
   },
   "Download": {
     "message": "Descarcă"
@@ -498,99 +498,99 @@
     "message": "Documentaţie"
   },
   "Connect": {
-    "message": "Connect"
+    "message": "Conectează-te"
   },
   "Copyright © past-due.": {
     "message": "Copyright © past-due."
   },
   "theme": {
-    "message": "theme"
+    "message": "temă"
   },
   "Licensed under the GNU GPLv3.": {
     "message": "Licențiat sub GNU GPLv3."
   },
   "Powered by Hugo": {
-    "message": "Powered by Hugo"
+    "message": "Oferit de Hugo"
   },
   "All trademarks are the property of their respective owners.": {
-    "message": "All trademarks are the property of their respective owners."
+    "message": "Toate mărcile comerciale sunt proprietatea deținătorilor lor."
   },
   "YOU'VE BEEN INVITED TO JOIN A SERVER": {
-    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "message": "AI FOST INVITAT SĂ TE ALĂTURI UNUI SERVER"
   },
   "Join": {
-    "message": "Join"
+    "message": "Alătură-te"
   },
   "Loading...": {
-    "message": "Loading..."
+    "message": "Se încarcă..."
   },
   "You are running the latest release of Warzone 2100.": {
-    "message": "You are running the latest release of Warzone 2100."
+    "message": "Rulați cea mai recentă versiune stabilă a Warzone 2100."
   },
   "You are running the latest development build.": {
-    "message": "You are running the latest development build."
+    "message": "Rulați versiunea în lucru cea mai recentă."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Vă mulțumim pentu că incercați aceste versiuni în lucru, și vă uitați dupa probleme - apreciem!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "O nouă versiune stabila este disponibilă!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "O nouă versiune în lucru este disponibilă!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "Descarcă Ultimele Versiuni în Lucru"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Nu se pot face verificări pentru actualizări"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Acest site necesită JavaScript, si se pare că îl aveți dezactivat."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Dacă nu ești sigur, descarcă cea mai recentă versiune acum."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "Nu s-a putut verifica pentru cele mai recente versiuni în lucru"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "Puteți descărca întotdeauna cele mai recente versiuni în lucru de mai jos."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Versiunea ta"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "Ultima Versiune Stabilă"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "Ultima Versiune în Lucru"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "404 - Nu a fost găsit"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Orice ar fi fost asta, nu a putut fi găsit."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Ne pare rău pentru asta."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Du-te acasă"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Subsecțiuni"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Etichete"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Toate Etichetele"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Navigare Site"
   },
   "More": {
-    "message": "More"
+    "message": "Mai multe"
   }
 }

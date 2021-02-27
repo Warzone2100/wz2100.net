@@ -1,27 +1,27 @@
 ---
-title: "Where is the configuration / savegame directory?"
+title: "Unde este directorul de configurări / jocuri salvate?"
 ---
 
-It depends on your platform:
+Depinde de platforma ta:
 
-{{% inlinesvg "fontawesome/brands/windows.svg" %}} **On Windows:**
+{{% inlinesvg "fontawesome/brands/windows.svg" %}} **pe Windows:**
 
-The directory `Warzone 2100 Project\Warzone 2100 <version>` is located under the `%APPDATA%` folder.
+Directorul `Warzone 2100 Project\Warzone 2100 <version>` este situat sub folderul `%APPDATA%`.
 
-Hence, the default path for the Warzone 2100 configuration data on Windows Vista+ would be: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
+Prin urmare, calea implicită pentru datele de configurare Warzone 2100 pe Windows Vista+ ar fi: `C:\Users\$USER$\AppData\Ra\Warzone 2100 Project\Warzone 2100 <version>\`
 
-By default, the `%APPDATA%` folder is hidden. Entering: `%APPDATA%\Warzone 2100 Project\` into the address bar of Windows Explorer / File Explorer will browse to your Warzone directory.
+În mod implicit, folderul `%APPDATA%` este ascuns. Tastând: `%APPDATA%\Warzone 2100 Project\` în bara de adrese Windows Explorer / File Explorer va naviga către directorul tău de Warzone.
 
-{{% inlinesvg "fontawesome/brands/apple.svg" %}} **On macOS:**
+{{% inlinesvg "fontawesome/brands/apple.svg" %}} **Pe macOS:**
 
-The directory `Warzone 2100 <version>` can be found in your home-directory at: `~/Library/Application Support/`
+Directorul `Warzone 2100 <version>` poate fi găsit în directorul principal la: `~/Library/Application Support/`
 
-By default, recent version of macOS hide your account's Library folder. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
+În mod implicit, versiunea recentă a macOS ascunde folderul Library. Pentru a-l vedea în Finder, țineți apăsat tasta **Opțiune (⌥)** făcând clic pe meniul **Mergi** iar directorul Librărie va apărea ca o alegere de meniu.
 
-{{% inlinesvg "fontawesome/brands/linux.svg" %}} **On Linux:**
+{{% inlinesvg "fontawesome/brands/linux.svg" %}} **Pe Linux:**
 
-Under GNU/Linux, Warzone 2100 conforms to the [XDG base directory spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+Sub GNU/Linux, Warzone 2100 se conformează cu [specificația XDG pentru directorul de bază](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
-By default, the directory `warzone2100-<version>` can be found in your home-directory under the path `~/.local/share/`. (If the `XDG_DATA_HOME` environment variable is defined, the Warzone folder will be located within `$XDG_DATA_HOME`.)
+În mod implicit, directorul `Warzone 2100-<version>` poate fi găsit în directorul principal sub calea `~/.local/share/`. (Dacă variabila de mediu `XDG_DATA_HOME` este definită, folderul Warzone va fi localizat în `$XDG_DATA_HOME`.)
 
-The leading dot in the `.local` part of the path indicates that it is a hidden directory, so depending on your configuration you may not be able to see it. However, you can still access it by typing the path into your address-bar.
+Punctul conducător din `.local` parte a căii indică faptul că este un director ascuns, deci, în funcție de configurație, s-ar putea să nu-l puteți vedea. Cu toate acestea, încă îl poți accesa tastând calea în bara de adrese.
