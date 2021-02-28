@@ -208,6 +208,10 @@ languages:
     languageName: "Türkçe"
     weight: 2
     contentDir: "content/tr"
+  zh-CN:
+    languageName: "大陆简体"
+    weight: 2
+    contentDir: "content/zh-CN"
 
 minify:
   disableSVG: true
