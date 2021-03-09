@@ -12,7 +12,7 @@ Einschließlich Korrekturen für:
 - Tastaturkürzelvoreinstellungen
 - Einfache Tastenkombinationen funktionieren nicht, wenn eine Meta-Taste gedrückt ist
 - Kampagnenfehler
-- Kompilation- / Kompabilitätsprobleme
+- Kompilierungs- / Kompatibilitätsprobleme
 - Mehrspielerlobbyprobleme
 
 [Zeige das komplette 3.4.1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/3.4.1/ChangeLog)
