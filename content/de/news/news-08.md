@@ -1,51 +1,51 @@
 ---
-title: "Version 4.0.0-beta3 available"
+title: "Version 4.0.0-beta3 verfügbar"
 slug: "version-4-0-0-beta3"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-The third beta release of 4.0.0, **4.0.0-beta3**, is available for testing, with *many* bug fixes since beta1 & beta2. This is a very large release, and contains multiple changes. Please test it intensively so that we may soon push out the final 4.0.0.
+Die dritte Beta-Version von 4.0.0, **4.0.0-beta3**, steht zum Testen zur Verfügung, mit *vielen* Fehlerkorrekturen seit Beta 1 & Beta2. Dies ist eine sehr umfangreiche Veröffentlichung und enthält zahlreiche Änderungen. Bitte teste intensiv, damit wir bald die finale 4.0.0 veröffentlichen können.
 
-It is available at the usual locations:
-- [Download 4.0.0-beta3 from SourceForge](https://sourceforge.net/projects/warzone2100/files/releases/4.0.0-beta3/)
-- [Download 4.0.0-beta3 from GitHub Releases](https://github.com/Warzone2100/warzone2100/releases/tag/4.0.0-beta3)
+Sie ist an den üblichen Stellen erhältlich:
+- [4.0.0-beta3 von SourceForge herunterladen](https://sourceforge.net/projects/warzone2100/files/releases/4.0.0-beta3/)
+- [4.0.0-beta3 von GitHub Releases herunterladen](https://github.com/Warzone2100/warzone2100/releases/tag/4.0.0-beta3)
 
-#### 4.0.0 General Highlights:
+#### 4.0.0 Allgemeine Höhepunkte:
 
-- New graphics backend support:
-    - New support for:
+- Neue Grafik-Backend-Unterstützung:
+    - Neue Unterstützung für:
         - **[Vulkan 1.0+](https://en.wikipedia.org/wiki/Vulkan_%28API%29)**
         - **[OpenGL ES 3.0 / 2.0](https://en.wikipedia.org/wiki/OpenGL_ES)**
         - **[DirectX](https://en.wikipedia.org/wiki/DirectX)** (via [libANGLE](https://en.wikipedia.org/wiki/ANGLE_%28software%29), OpenGL ES -> DirectX)
         - **[Metal](https://en.wikipedia.org/wiki/Metal_%28API%29)** (via [MoltenVK](https://github.com/KhronosGroup/MoltenVK), Vulkan -> Metal)
-    - In addition to the existing support for:
-        - **[OpenGL 3.0+ Core Profile](https://en.wikipedia.org/wiki/OpenGL#OpenGL_3.0)** (default), **[OpenGL 2.1 Compatibility Profile](https://en.wikipedia.org/wiki/OpenGL#Version_history)**
-    - See the new "Graphics Backend" option in the Video Options menu.
-- New "Factions" for multiplayer / skirmish
-- Higher-res terrain textures, backdrops
-- New Music Manager, + AlexTheDacian's new soundtrack album
-- Support for "script-generated" / "random" maps (and two new built-in maps that take advantage of this: `6p-Entropy` and `10p-Waterloop`)
-- Scrollable room chat, and many other UI / widget improvements
-- Updated / smarter AI bots (Bonecrusher, Cobra)
-- New "headless" mode (for `--autogame`, `--autohost`, `--skirmish`)
-- JS API enhancements, + a new "Script Debugger"
-- Removal of Qt as a dependency, + a new embedded JS engine: QuickJS
-- Quality-of-Life / smoothness improvements
-- Hundreds of bug fixes
+    - Dies ist zusätzlich zu der bestehenden Unterstützung für:
+        - **[OpenGL 3.0+ Core Profile](https://en.wikipedia.org/wiki/OpenGL#OpenGL_3.0)** (Standard), **[OpenGL 2.1 Compatibility Profile](https://en.wikipedia.org/wiki/OpenGL#Version_history)**
+    - Sieh Dir die neue Option "Grafik-Backend" im Menü "Videoeinstellungen" an.
+- Neue "Fraktionen" für Multiplayer / Scharmützel
+- Geländetexturen und Hintergründe mit höherer Auflösung
+- Neuer Musik-Manager + AlexTheDacian's neues Soundtrack Album!
+- Unterstützung für "skript-generierte" / "zufällige" Karten (und zwei neu eingebaute Karten, die diese Vorteile nutzen: `6p-Entropy` und `10p-Waterloop`)
+- Scrollbarer Chat und viele andere UI / Widget-Verbesserungen
+- Aktualisierte / klügere KI-Bots (Bonecrusher, Cobra)
+- Neuer "kopflos" (Server-) Modus (für `--autogame`, `--autohost`, `--skirmish`)
+- JS API Erweiterungen, + ein neuer "Script Debugger"
+- Abschaffung der Abhängigkeit von Qt, + eine neue eingebettete JS-Engine: QuickJS
+- Bedienungsverbesserungen
+- Hunderte von Fehlerbehebungen
 
-With this release, we also now offer native builds for additional platforms:
-- New: **Windows 64-bit builds** (for both Intel 64-bit / x64, and ARM64)
-- New: **macOS Universal Binaries** with native Apple Silicon support (in addition to Intel 64-bit support)
+Mit dieser Veröffentlichung bieten wir nun auch native Builds für zusätzliche Plattformen an:
+- Neu: **Windows 64-Bit Builds** (für Intel 64-Bit / x64 und ARM64)
+- Neu: **macOS Universal Binaries** mit nativer Apple Silicon Unterstützung (zusätzlich zur Intel 64-Bit Unterstützung)
 
-[View the full 4.0.0-beta3 changelog](https://github.com/Warzone2100/warzone2100/raw/4.0.0-beta3/ChangeLog)
+[Zeige das komplette 4.0.0-beta3 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.0.0-beta3/ChangeLog)
 
-There have been over **1000 commits** since the last stable release, from many contributors including: Alexander Volkov, alfred007 / highlander1599, Bennett Somerville, Björn Ali Göransson, cpdef, Cyp, Daniel Llewellyn, Ilari Tommiska, inodlite, Karamel, KJeff01, lakebeans, Maxim Zhuchkov, Next67, past-due, Paweł Perłakowski, Prot EuPhobos, Thiago Romão Barcala, Tipchik, toilari, Topi Miettinen, TotalCaesar659, Vitya Andreev
+Es gab über **1000 commits** seit der letzten Veröffentlichung, von vielen Mitwirkenden einschließlich: Alexander Volkov, alfred007 / highlander1599, Bennett Somerville, Björn Ali Göransson, cpdef, Cyp, Daniel Llewellyn, Ilari Tommiska, inodlite, Karamel, KJeff01, lakebeans, Maxim Zhuchkov, Next67, past-due, Paweł Perłakowski, Prot EuPhobos, Thiago Romão Barcala, Tipchik, toilari, Topi Miettinen, TotalCaesar659, Vitya Andreev
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns auch bei allen neuen und alten Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-**Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).**
+**Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).**
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
