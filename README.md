@@ -84,7 +84,7 @@ Certain [`data`](/data) is updated automatically / on a schedule:
 
 ## Building for Production
 
-Production builds are handled automatically by the Netlify configuration. For reference:
+Production builds are handled automatically by the GitHub Actions workflow(s). For reference:
 
 To properly build for production, the `HUGO_ENV` environment variable must be set to `"production"`.
 This configures various important options - such as a `robots.txt` file that actually allows search engines.
@@ -94,4 +94,4 @@ Example:
 HUGO_ENV="production" hugo --gc --minify --i18n-warnings
 ```
 
-For more, see the [`netlify.toml`](/netlify.toml) file.
+For more, see the [`ci_hugo_build.yml`](/.github/workflows/ci_hugo_build.yml) workflow.
