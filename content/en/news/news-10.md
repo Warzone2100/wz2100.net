@@ -9,6 +9,7 @@ With the help of many bug reporters & contributors, we're happy to announce the 
 
 Including fixes for:
 - Water rendering performance
+- Additional Collective faction textures
 - Broken map zoom cycle
 - Autosave / saveload issues
 - Multiplayer lobby issues
