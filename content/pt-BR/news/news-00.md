@@ -1,6 +1,6 @@
 ---
-title: "Archived News"
-slug: "older-news"
+title: "Notícias Arquivadas"
+slug: "notícias-antigas"
 ---
 
-For archived releases and announcements, please see the [News & announcements](https://forums.wz2100.net/viewforum.php?f=1) section of the forums.
+Para acessar os anúncios e versões arquivados, por favor consulte a seção [Notícias & anúncios](https://forums.wz2100.net/viewforum.php?f=1) nos fóruns.
