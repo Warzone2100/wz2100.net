@@ -1,5 +1,5 @@
 ---
-title: "How do I reset incompatible resolution / graphics settings changes?"
+title: "Como resetar alterações de resolução / configurações gráficas incompatíveis?"
 ---
 
-If you need to revert settings changes you’ve made, but you’re unable to do so through the game itself, you can manually edit the `config` file in your configuration directory (or delete it to reset game settings to defaults).
+Se você precisar reverter as alterações nas configurações que tenha feito, mas não consegue fazer isso através do próprio jogo, você pode editar manualmente o arquivo de configuração `config` na sua pasta de configuração (ou apenas deletar esse arquivo para redefinir automaticamente as configurações para o padrão).
