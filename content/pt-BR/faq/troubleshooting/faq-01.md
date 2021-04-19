@@ -1,27 +1,27 @@
 ---
-title: "Where is the configuration / savegame directory?"
+title: "Onde está a pasta de configurações / jogos salvos?"
 ---
 
-It depends on your platform:
+Depende da sua plataforma:
 
-{{% inlinesvg "fontawesome/brands/windows.svg" %}} **On Windows:**
+{{% inlinesvg "fontawesome/brands/windows.svg" %}} **No Windows:**
 
-The directory `Warzone 2100 Project\Warzone 2100 <version>` is located under the `%APPDATA%` folder.
+A pasta `Warzone 2100 Project\Warzone 2100 <version>` fica localizada dentro da pasta `%APPDATA%`.
 
-Hence, the default path for the Warzone 2100 configuration data on Windows Vista+ would be: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
+Assim, o caminho padrão para a pasta de configurações do Warzone 2100 no Windows Vista+ seria: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
 
-By default, the `%APPDATA%` folder is hidden. Entering: `%APPDATA%\Warzone 2100 Project\` into the address bar of Windows Explorer / File Explorer will browse to your Warzone directory.
+Por padrão, a pasta `%APPDATA%` fica oculta. Digitar `%APPDATA%\Warzone 2100 Project\` através da barra de endereços do Explorador do Windows / Explorador de Arquivos vai levá-lo diretamente para a pasta do Warzone.
 
-{{% inlinesvg "fontawesome/brands/apple.svg" %}} **On macOS:**
+{{% inlinesvg "fontawesome/brands/apple.svg" %}} **No macOS:**
 
-The directory `Warzone 2100 <version>` can be found in your home-directory at: `~/Library/Application Support/`
+A pasta `Warzone 2100 <version>` pode ser encontrada na sua pasta principal em: `~/Library/Application Support/`
 
-By default, recent version of macOS hide your account's Library folder. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
+Por padrão, versões recentes do macOS ocultam a pasta Biblioteca (Library) da sua conta. Para visualizá-la no Localizador (Finder), mantenha pressionada a tecla **Opção (⌥)** enquanto clica no menu **Ir** e sua pasta Biblioteca (Library) aparecerá como uma escolha do menu.
 
-{{% inlinesvg "fontawesome/brands/linux.svg" %}} **On Linux:**
+{{% inlinesvg "fontawesome/brands/linux.svg" %}} **No Linux:**
 
-Under GNU/Linux, Warzone 2100 conforms to the [XDG base directory spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+No GNU/Linux, o Warzone 2100 está de acordo com as especificações do [XDG base directory spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
-By default, the directory `warzone2100-<version>` can be found in your home-directory under the path `~/.local/share/`. (If the `XDG_DATA_HOME` environment variable is defined, the Warzone folder will be located within `$XDG_DATA_HOME`.)
+Por padrão, a pasta `warzone2100-<version>` pode ser encontrada no seu diretório inicial através do caminho `~/.local/share/`. (Se a variável de ambiente `XDG_DATA_HOME` estiver definida, a pasta do Warzone estará localizada em `$XDG_DATA_HOME`.)
 
-The leading dot in the `.local` part of the path indicates that it is a hidden directory, so depending on your configuration you may not be able to see it. However, you can still access it by typing the path into your address-bar.
+O ponto no início do endereço `.local` indica que é um diretório oculto. Dessa forma, a depender de sua configuração, talvez você não consiga vê-lo. No entanto, você ainda pode acessá-lo digitando o caminho na sua barra de endereços.
