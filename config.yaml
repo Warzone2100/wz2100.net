@@ -98,7 +98,7 @@ params:
     - name: "64-bit (x64)"
       filename: "warzone2100_win_x64_installer.exe"
     macos:
-    - name: "64-bit Intel"
+    - name: "64-bit (Universal Binary)"
       filename: "warzone2100_macOS.zip"
     linux_deb: 
     - name: "Ubuntu 18.04 (x64)"
