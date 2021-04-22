@@ -227,8 +227,14 @@
   "64-bit Intel": {
     "message": "64-разрядный процессор Intel"
   },
+  "64-bit (Universal Binary)": {
+    "message": "64-bit (Universal Binary)"
+  },
   "How to handle “Warzone cannot be opened” errors.": {
     "message": "Решение проблемы с ошибками «Warzone cannot be opened»."
+  },
+  "Universal Binary supports Intel 64-bit and Apple Silicon.": {
+    "message": "Universal Binary supports Intel 64-bit and Apple Silicon."
   },
   "Other": {
     "message": "Другое"
