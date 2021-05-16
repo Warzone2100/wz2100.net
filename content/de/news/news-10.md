@@ -1,34 +1,34 @@
 ---
-title: "Version 4.0.1 released"
+title: "Version 4.0.1 veröffentlicht"
 slug: "version-4-0-1"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-With the help of many bug reporters & contributors, we're happy to announce the release of **4.0.1**, a bug-fix release.
+Mit der Hilfe vieler Fehlermelder & Mitwirkenden, freuen wir uns, die Veröffentlichung von **4.0.1** bekanntgeben zu können, einem Bug-Fix-Release.
 
-Including fixes for:
-- Water rendering performance
-- Additional Collective faction textures
-- Broken map zoom cycle
-- Autosave / saveload issues
-- Multiplayer lobby issues
-- Procedurally-generated map player positioning
-- Compilation / compatibility issues
-- ARM64 / Apple Silicon macOS builds
+Einschließlich Korrekturen für:
+- Wasser-Rendering-Performance
+- Zusätzliche Kollektiv-Fraktion Texturen
+- Gestörter Karten-Zoom Zyklus
+- Autosave / Quickload Probleme
+- Mehrspielerlobbyprobleme
+- Spielerpositionierung in prozessgenerierter Karte
+- Kompilierungs- / Kompatibilitätsprobleme
+- ARM64 / Apple Silicon macOS Builds
 
-**[Download Options]({{< ref "/" >}})**
+**[Download-Optionen]({{< ref "/" >}})**
 
-[View the full 4.0.1 changelog](https://github.com/Warzone2100/warzone2100/raw/4.0.1/ChangeLog)
+[Zeige das komplette 4.0.1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.0.1/ChangeLog)
 
-**(For all the changes in 4.0.0, see the [Version 4.0.0 release announcement]({{< ref "news-09.md" >}}).)**
+**(Für alle Änderungen in 4.0.0, lies die [Version 4.0.0 Veröffentlichungsankündigung]({{< ref "news-09.md" >}}).)**
 
-There have been **40 commits since 4.0.0**, from many contributors including: Federico Dossena, KJeff01, Maxim Zhuchkov, past-due, Thiago Romão Barcala, Thomas Rupprecht
+Es gab von vielen Mitwirkenden **40 Commits seit 4.0.0**, inkklusive: Federico Dossena, KJeff01, Maxim Zhuchkov, past-due, Thiago Romão Barcala, Thomas Rupprecht
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns auch bei allen neuen und wiederkehrenden Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
+Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
