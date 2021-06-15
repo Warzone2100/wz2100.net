@@ -1,0 +1,602 @@
+{
+  "Home": {
+    "message": "Início"
+  },
+  "Features": {
+    "message": "Funcionalidades"
+  },
+  "History": {
+    "message": "História"
+  },
+  "FAQ": {
+    "message": "FAQ"
+  },
+  "Resources": {
+    "message": "Recursos"
+  },
+  "News": {
+    "message": "Notícias"
+  },
+  "Webchat": {
+    "message": "Webchat"
+  },
+  "Forums": {
+    "message": "Fóruns"
+  },
+  "Addons": {
+    "message": "Addons"
+  },
+  "WZ Guide": {
+    "message": "Guia WZ"
+  },
+  "Wiki": {
+    "message": "Wiki"
+  },
+  "Report Bugs": {
+    "message": "Reportar erros"
+  },
+  "Donate": {
+    "message": "Faça uma doação"
+  },
+  "Help us Translate": {
+    "message": "Ajude-nos a Traduzir"
+  },
+  "A 100% free and open-source 3D real-time strategy game.": {
+    "message": "Um jogo 3D de estratégia em tempo real 100% gratuito e de código aberto."
+  },
+  "Download Now": {
+    "message": "Baixe Agora"
+  },
+  "Toggle Dropdown": {
+    "message": "Ativar Menu Suspenso"
+  },
+  "Windows": {
+    "message": "Windows"
+  },
+  "Portable Version": {
+    "message": "Versão Portátil"
+  },
+  "Can be installed to / run from a USB drive, local folder, etc.": {
+    "message": "Pode ser instalado / executado a partir de uma unidade USB, pasta local, etc."
+  },
+  "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
+    "message": "Completamente contido em um único diretório - grava todas as configurações e jogos salvos no mesmo diretório."
+  },
+  "(Does not require admin privileges.)": {
+    "message": "(Não requer privilégios de administrador.)"
+  },
+  "Full Installer": {
+    "message": "Instalador Completo"
+  },
+  "Installs for all users on a system.": {
+    "message": "Instala para todos os usuários em um sistema."
+  },
+  "Settings / saves are user-specific.": {
+    "message": "Configurações e jogos salvos são específicos de cada usuário."
+  },
+  "(Requires admin privileges to install.)": {
+    "message": "(Requer privilégios de administrador para instalar.)"
+  },
+  "macOS": {
+    "message": "macOS"
+  },
+  "macOS App Bundle": {
+    "message": "Pacote de Aplicativos macOS"
+  },
+  "Linux": {
+    "message": "Linux"
+  },
+  "Install the Snap": {
+    "message": "Instalar via Snap"
+  },
+  "Ubuntu 18.04": {
+    "message": "Ubuntu 18.04"
+  },
+  "Ubuntu 20.04+": {
+    "message": "Ubuntu 20.04+"
+  },
+  "Ubuntu 18.04 (x64)": {
+    "message": "Ubuntu 18.04 (x64)"
+  },
+  "Ubuntu 20.04+ (x64)": {
+    "message": "Ubuntu 20.04+ (x64)"
+  },
+  "Get the Source": {
+    "message": "Obter o código-fonte"
+  },
+  "and more...": {
+    "message": "e mais..."
+  },
+  "All downloads & platforms": {
+    "message": "Todos os downloads e plataformas"
+  },
+  "New": {
+    "message": "Nova"
+  },
+  "Version": {
+    "message": "Versão"
+  },
+  "for Windows 7-10": {
+    "message": "para Windows 7-10"
+  },
+  "for macOS 10.10+": {
+    "message": "para macOS 10.10+"
+  },
+  "for Linux": {
+    "message": "para Linux"
+  },
+  "Windows, macOS, Linux": {
+    "message": "Windows, macOS, Linux"
+  },
+  "Advanced install options & other platforms": {
+    "message": "Opções avançadas de instalação e outras plataformas"
+  },
+  "Get the source code": {
+    "message": "Obter o código-fonte"
+  },
+  "Get the Source Code": {
+    "message": "Obter o Código-Fonte"
+  },
+  "View on GitHub": {
+    "message": "Ver no GitHub"
+  },
+  "Star on GitHub": {
+    "message": "Adicione uma estrela no GitHub"
+  },
+  "Report a Bug": {
+    "message": "Reportar um erro"
+  },
+  "Copyright © Warzone 2100 Project.": {
+    "message": "Copyright © Warzone 2100 Project."
+  },
+  "Warzone is licensed under the GPLv2+ license (& others).": {
+    "message": "Warzone é licenciado sob a licença GPLv2+ (e outros)."
+  },
+  "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
+    "message": "Comande as forças do Projeto em uma batalha para reconstruir o mundo, depois de a humanidade ter sido quase destruída por mísseis nucleares."
+  },
+  "Seize territory and resources, build extensive bases, and expand your production & research.": {
+    "message": "Controle o território e os recursos, construa bases extensas e expanda sua produção e pesquisa."
+  },
+  "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
+    "message": "Participe de batalhas massivas em multijogador através da LAN ou online, com até 10 jogadores."
+  },
+  "Previous": {
+    "message": "Anterior"
+  },
+  "Next": {
+    "message": "Próximo"
+  },
+  "Close": {
+    "message": "Sair"
+  },
+  "Downloads not working?": {
+    "message": "Downloads não funcionam?"
+  },
+  "Try browsing the download mirrors directly:": {
+    "message": "Tente navegar pelos links de download diretamente:"
+  },
+  "GitHub Releases": {
+    "message": "Versões no GitHub"
+  },
+  "SourceForge Mirror": {
+    "message": "Versões no SourceForge"
+  },
+  "32-bit (x86)": {
+    "message": "32-bit (x86)"
+  },
+  "64-bit (x64)": {
+    "message": "64-bit (x64)"
+  },
+  "Snap Installer": {
+    "message": "Instalador via Snap"
+  },
+  "Easy installation.": {
+    "message": "Instalação fácil."
+  },
+  "Supports most Linux distributions.": {
+    "message": "Suporta a maioria das versões Linux."
+  },
+  "(See link for details.)": {
+    "message": "(Consulte o link para obter detalhes.)"
+  },
+  "Debian Package": {
+    "message": "Pacote Debian"
+  },
+  "DEB package for Ubuntu (and related Debian-based distros).": {
+    "message": "Pacote DEB para Ubuntu (e distros relacionados com Debian)."
+  },
+  "After downloading, install using the following command:": {
+    "message": "Depois de baixar, instale utilizando o seguinte comando:"
+  },
+  "Compile Source": {
+    "message": "Código Compilado"
+  },
+  "Compile the source yourself using our build instructions.": {
+    "message": "Compile você mesmo o código-fonte usando nossas instruções de construção."
+  },
+  "Source Code (.tar.xz)": {
+    "message": "Código Fonte (.tar.xz)"
+  },
+  "Mac App Bundle": {
+    "message": "Pacote de Aplicativos macOS"
+  },
+  "Download, unzip, and copy to your Applications folder.": {
+    "message": "Baixe, descompacte e copie para sua pasta de Aplicativos."
+  },
+  "64-bit Intel": {
+    "message": "64-bit Intel"
+  },
+  "64-bit (Universal Binary)": {
+    "message": "64-bit (Universal Binary)"
+  },
+  "How to handle “Warzone cannot be opened” errors.": {
+    "message": "Como lidar com erros do tipo \"Warzone não pode ser aberto\"."
+  },
+  "Universal Binary supports Intel 64-bit and Apple Silicon.": {
+    "message": "Universal Binary supports Intel 64-bit and Apple Silicon."
+  },
+  "Other": {
+    "message": "Outros"
+  },
+  "Campaign Videos": {
+    "message": "Vídeos da Campanha"
+  },
+  "WMIT (Warzone Model Import Tool)": {
+    "message": "WMIT (Ferramenta de Importação de Modelos do Warzone)"
+  },
+  "Development Builds": {
+    "message": "Versões de Desenvolvimento"
+  },
+  "Development Source Code": {
+    "message": "Código Fonte de Desenvolvimento"
+  },
+  "Verify Download Integrity (SHA256)": {
+    "message": "Verificar a integridade dos Downloads (SHA256)"
+  },
+  "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
+    "message": "Através de um Prompt de Comando / Terminal, navegue para a localização do(s) arquivo(s) baixado(s), depois execute o comando apropriado para calcular o código SHA256 do arquivo e compare com a tabela abaixo:"
+  },
+  "SHA256 Checksums for Version": {
+    "message": "Códigos de Comparação SHA256 para a versão"
+  },
+  "Torrent": {
+    "message": "Torrent"
+  },
+  "Downloading Warzone 2100": {
+    "message": "Baixando Warzone 2100"
+  },
+  "Next Steps:": {
+    "message": "Próximos Passos:"
+  },
+  "Share on Twitter": {
+    "message": "Compartilhar no Twitter"
+  },
+  "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
+    "message": "Warzone 2100 - um jogo 3D de estratégia em tempo real 100% gratuito e de código aberto para Windows / macOS / Linux."
+  },
+  "If you’ve never played before,": {
+    "message": "Se você nunca jogou antes,"
+  },
+  "start with the in-game Tutorial, and then check out:": {
+    "message": "comece com o Tutorial do jogo e depois confira:"
+  },
+  "the Quickstart Guide": {
+    "message": "o Guia de Início Rápido"
+  },
+  "Chat with players on the official Discord server!": {
+    "message": "Converse com outros jogadores no servidor oficial do Discord!"
+  },
+  "Star the project on GitHub and help spread the news!": {
+    "message": "Marque o projeto com uma estrela no GitHub e ajude a espalhar as notícias!"
+  },
+  "Donate to help support server and other costs!": {
+    "message": "Doe para ajudar a manter o servidor e outros custos!"
+  },
+  "Why Warzone 2100 Rocks": {
+    "message": "Porque Warzone 2100 é Memorável"
+  },
+  "Strategy by Design.": {
+    "message": "Estratégia com Personalização."
+  },
+  "Endless replayability.": {
+    "message": "Rejogabilidade sem limites."
+  },
+  "Single-Player Campaign": {
+    "message": "Campanha para um jogador"
+  },
+  "LAN / Internet Multiplayer": {
+    "message": "Multijogador via LAN / Internet"
+  },
+  "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
+    "message": "Jogue contra seus amigos em uma rede local ou experimente o modo multijogador online com um lobby integrado."
+  },
+  "AI Bots": {
+    "message": "Bots IA"
+  },
+  "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
+    "message": "Jogue contra bots de IA em conflitos locais (ou como membros de sua equipe/inimigos no modo multijogador), e pratique suas habilidades com rejogabilidade infinita."
+  },
+  "Extensive Tech Tree": {
+    "message": "Árvore de Tecnologias Extensa"
+  },
+  "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
+    "message": "Mais de 400 tecnologias diferentes produzem uma árvore de tecnologias extensa com diversos caminhos para escolher."
+  },
+  "Unit Designer": {
+    "message": "Criação de Unidades"
+  },
+  "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
+    "message": "Personalize suas unidades com um sistema de design totalmente flexível que permite uma grande variedade de unidades e táticas."
+  },
+  "Cross-Platform": {
+    "message": "Multiplataforma"
+  },
+  "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
+    "message": "Suporta Windows, macOS, Linux, FreeBSD e muito mais - tudo com suporte multijogador entre plataformas!"
+  },
+  "Years": {
+    "message": "Anos"
+  },
+  "Downloads": {
+    "message": "Transferências"
+  },
+  "Forum Posts": {
+    "message": "Posts nos Fóruns"
+  },
+  "GitHub Stars": {
+    "message": "Estrelas no GitHub"
+  },
+  "100s": {
+    "message": "Centenas"
+  },
+  "Contributors": {
+    "message": "Colaboradores"
+  },
+  "100%": {
+    "message": "100%"
+  },
+  "Free": {
+    "message": "Grátis"
+  },
+  "100% Open & Free": {
+    "message": "100% Aberto e Gratuito"
+  },
+  "Open source, open development, open community - free as in freedom!": {
+    "message": "Código aberto, desenvolvimento aberto, comunidade aberta - livre como um pássaro!"
+  },
+  "100% Open-Source": {
+    "message": "100% Código Aberto"
+  },
+  "Exclusively open-source technologies, software, & tools.": {
+    "message": "Tecnologias, softwares e ferramentas exclusivamente em código aberto."
+  },
+  "Community content is licensed under liberal licenses (ex. CC0).": {
+    "message": "O conteúdo da comunidade é licenciado sob licenças liberais (ex. CC0)."
+  },
+  "100% Open Development": {
+    "message": "100% Desenvolvimento Aberto"
+  },
+  "Join the public project on GitHub!": {
+    "message": "Junte-se ao projeto público no GitHub!"
+  },
+  "Anyone can file bugs, contribute patches, and request enhancements.": {
+    "message": "Qualquer um pode arquivar erros, contribuir com correções e solicitar melhorias."
+  },
+  "100% Open Community": {
+    "message": "100% Comunidade Aberta"
+  },
+  "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
+    "message": "Converse nos fóruns, faça e compartilhe complementos, participe de torneios on-line e contribua para a experiência de Warzone 2100."
+  },
+  "People around the world are waiting!": {
+    "message": "Pessoas em todo o mundo estão esperando!"
+  },
+  "100% Free": {
+    "message": "100% Gratuito"
+  },
+  "Everything is free, including source code, downloads, and all features.": {
+    "message": "Tudo é gratuito, incluindo código fonte, downloads e todos os recursos."
+  },
+  "No in-app purchases.": {
+    "message": "Sem compras dentro do aplicativo."
+  },
+  "No subscriptions.": {
+    "message": "Sem assinaturas."
+  },
+  "No ads.": {
+    "message": "Sem anúncios."
+  },
+  "Just free.": {
+    "message": "Completamente gratuito."
+  },
+  "A Long History": {
+    "message": "Uma Longa História"
+  },
+  "Developed in the 90s by Pumpkin Studios.": {
+    "message": "Desenvolvido na década de 90 pela Pumpkin Studios."
+  },
+  "Liberated in 2004.": {
+    "message": "Código fonte liberado em 2004."
+  },
+  "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
+    "message": "Warzone 2100 foi originalmente desenvolvido pela Pumpkin Studios e publicado pela Eidos Interactive."
+  },
+  "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
+    "message": "Em 1999, foi liberado comercialmente para Microsoft Windows e Sony PlayStation."
+  },
+  "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
+    "message": "A Pumpkin Studios terminou seu suporte ao Warzone 2100 no dia 5 de janeiro de 2000."
+  },
+  "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
+    "message": "Em 2004, após diversos pedidos dos fãs, o código fonte do Warzone 2100 foi liberado publicamente sob uma licença de código aberto."
+  },
+  "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
+    "message": "Desde então, tem sido desenvolvido, mantido e melhorado pela comunidade, sob a bandeira do \"Warzone 2100 Project\"."
+  },
+  "More Info": {
+    "message": "Mais Informações"
+  },
+  "Frequently Asked Questions": {
+    "message": "Perguntas Frequentes (FAQ)"
+  },
+  "Answers to common questions.": {
+    "message": "Respostas a perguntas comuns."
+  },
+  "Can't find the answer you're looking for?": {
+    "message": "Não consegue encontrar o que procura?"
+  },
+  "Check out the Forums and Webchat.": {
+    "message": "Confira os Fóruns e o Webchat."
+  },
+  "General": {
+    "message": "Geral"
+  },
+  "Multiplayer": {
+    "message": "Multijogador"
+  },
+  "Troubleshooting": {
+    "message": "Solução de Problemas"
+  },
+  "Copy URL": {
+    "message": "Copiar URL"
+  },
+  "Copied URL!": {
+    "message": "URL copiada!"
+  },
+  "JavaScript is disabled.": {
+    "message": "JavaScript está desabilitado."
+  },
+  "This site may not work properly without it.": {
+    "message": "Este site pode não funcionar corretamente sem ele."
+  },
+  "About": {
+    "message": "Sobre"
+  },
+  "The Team": {
+    "message": "A Equipe"
+  },
+  "Changelog": {
+    "message": "Changelog"
+  },
+  "Privacy Policy": {
+    "message": "Política de Privacidade"
+  },
+  "Download": {
+    "message": "Baixar"
+  },
+  "Snap Store (Linux)": {
+    "message": "Snap Store (Linux)"
+  },
+  "Source Code": {
+    "message": "Código Fonte"
+  },
+  "Source Code.": {
+    "message": "Código Fonte."
+  },
+  "Contribute": {
+    "message": "Contribuir"
+  },
+  "Help with Translations": {
+    "message": "Ajude-nos a traduzir"
+  },
+  "Documentation": {
+    "message": "Documentação"
+  },
+  "Connect": {
+    "message": "Connect"
+  },
+  "Copyright © past-due.": {
+    "message": "Copyright © past-due."
+  },
+  "theme": {
+    "message": "tema"
+  },
+  "Licensed under the GNU GPLv3.": {
+    "message": "Licenciado sob a GNU GPLv3."
+  },
+  "Powered by Hugo": {
+    "message": "Desenvolvido por Hugo"
+  },
+  "All trademarks are the property of their respective owners.": {
+    "message": "Todas as marcas registradas são de propriedade de seus respectivos proprietários."
+  },
+  "YOU'VE BEEN INVITED TO JOIN A SERVER": {
+    "message": "VOCÊ FOI CONVIDADO PARA SE JUNTAR A UM SERVIDOR"
+  },
+  "Join": {
+    "message": "Entrar"
+  },
+  "Loading...": {
+    "message": "Carregando..."
+  },
+  "You are running the latest release of Warzone 2100.": {
+    "message": "Você está executando a versão mais recente do Warzone 2100."
+  },
+  "You are running the latest development build.": {
+    "message": "Você está executando a versão de desenvolvedor mais recente."
+  },
+  "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
+    "message": "Obrigado por experimentar essas versões, e procurar por erros - nós apreciamos isso!"
+  },
+  "A new release is available!": {
+    "message": "Uma nova versão está disponível!"
+  },
+  "A new development build is available!": {
+    "message": "Uma nova versão de desenvolvedor está disponível!"
+  },
+  "Download Latest Development Builds": {
+    "message": "Baixar as Últimas Versões de Desenvolvedor"
+  },
+  "Unable to check for updates": {
+    "message": "Não possível verificar se há atualizações"
+  },
+  "This site requires JavaScript, and it looks like you have it disabled.": {
+    "message": "Este site requer Javascript, e parece que você o desabilitou."
+  },
+  "If you aren't sure, download the latest version now.": {
+    "message": "Se você não tem certeza, baixe a versão mais recente agora."
+  },
+  "Couldn't check for latest development builds": {
+    "message": "Não foi possível verificar as versões de desenvolvedor mais recentes"
+  },
+  "You can always download the latest development builds below.": {
+    "message": "Você sempre pode baixar as últimas versões de desenvolvedor abaixo."
+  },
+  "Your version": {
+    "message": "Sua Versão"
+  },
+  "Latest Release": {
+    "message": "Última Versão"
+  },
+  "Latest Development Build": {
+    "message": "Última Versão de Desenvolvedor"
+  },
+  "404 - Not Found": {
+    "message": "404 - Não Encontrado"
+  },
+  "Whatever that was, it couldn't be found.": {
+    "message": "O que quer que seja, não pôde ser encontrado."
+  },
+  "Sorry about that.": {
+    "message": "Desculpe por isso."
+  },
+  "Go Home": {
+    "message": "Ir para o Início"
+  },
+  "Subsections": {
+    "message": "Subseções"
+  },
+  "Tags": {
+    "message": "Marcadores"
+  },
+  "All Tags": {
+    "message": "Todos os Marcadores"
+  },
+  "Site Navigation": {
+    "message": "Navegação do Site"
+  },
+  "More": {
+    "message": "Mais"
+  }
+}
