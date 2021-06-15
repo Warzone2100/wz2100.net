@@ -26,17 +26,3 @@ Pick your nickname, view chat history, easily chat on mobile devices, (optionall
 Signing up for Discord, chatting on the server, etc. is free.
 
 Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
-
-{{% divider %}}
-
-## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
-
-IRC webchat is available from Freenode here:
-
-{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Enter Chat{{< /button >}}
-
-Experienced users can also enter this chat room by visiting `#warzone2100-games` on Freenode with an IRC client.
-
-> Note: Because of abuse, you must register with Freenode & not use Freenode's webchat applet to enter `#warzone2100-dev`. We do not control that server, so if your nickname is used we can't do anything about it!
-
-See the [Freenode registration FAQ](https://freenode.net/kb/answer/registration) for details on how to register.
