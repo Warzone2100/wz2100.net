@@ -39,7 +39,7 @@ Mit dieser Veröffentlichung bieten wir nun auch native Builds für zusätzliche
 
 [Zeige das komplette 4.0.0 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.0.0/ChangeLog)
 
-Es gab über **1000 commits**seit der letzten Veröffentlichung, von vielen Mitwirkenden einschließlich: Alexander Volkov, alfred007 / highlander1599, Bennett Somerville, Björn Ali Göransson, cpdef, Cyp, Daniel Llewellyn, Ilari Tommiska, inodlite, Karamel, KJeff01, lakebeans, Lupus-Mechanicus, Maxim Zhuchkov, Next67, past-due, Paweł Perłakowski, Prot EuPhobos, Solstice245, Thiago Romão Barcala, Tipchik, toilari, Topi Miettinen, TotalCaesar659, Vitya Andreev
+Es gab über **1000 Commits** seit der letzten Veröffentlichung, von vielen Mitwirkenden einschließlich: Alexander Volkov, alfred007 / highlander1599, Bennett Somerville, Björn Ali Göransson, cpdef, Cyp, Daniel Llewellyn, Ilari Tommiska, inodlite, Karamel, KJeff01, lakebeans, Lupus-Mechanicus, Maxim Zhuchkov, Next67, past-due, Paweł Perłakowski, Prot EuPhobos, Solstice245, Thiago Romão Barcala, Tipchik, toilari, Topi Miettinen, TotalCaesar659, Vitya Andreev
 
 Wir möchten uns auch bei allen neuen und alten Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 

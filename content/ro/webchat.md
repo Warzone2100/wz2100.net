@@ -26,17 +26,3 @@ Alege porecla, vizualizează istoricul chat-ului, conversează ușor pe dispozit
 Înscrierea pentru Discord, conversații pe server, etc. este gratuită.
 
 Conversează în browser-ul tău sau descarcă clienții pentru Windows / macOS / Linux / mobil.
-
-{{% divider %}}
-
-## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
-
-IRC webchat este disponibil de la Freenode aici:
-
-{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Intră în Chat{{< /button >}}
-
-Utilizatorii experimentați pot de asemenea intra în această cameră de chat vizitând `#warzone2100-games` pe Freenode cu un client IRC.
-
-> Notă: Din cauza abuzurilor, trebuie să vă înregistrați la Freenode & nu folosiți appletul web chat al Freenode pentru a introduce `#warzone2100-dev`. Noi nu controlăm acel server, deci dacă porecla ta este folosită, nu putem face nimic în legătură cu acest lucru!
-
-Consultaţi [FAQ pentru înregistrare Freenode](https://freenode.net/kb/answer/registration) pentru detalii despre cum să vă înregistraţi.

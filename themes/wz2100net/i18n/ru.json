@@ -304,8 +304,16 @@
     "translation": "64-разрядный процессор Intel"
   },
   {
+    "id": "64-bit (Universal Binary)",
+    "translation": "64-bit (Universal Binary)"
+  },
+  {
     "id": "How to handle “Warzone cannot be opened” errors.",
     "translation": "Решение проблемы с ошибками «Warzone cannot be opened»."
+  },
+  {
+    "id": "Universal Binary supports Intel 64-bit and Apple Silicon.",
+    "translation": "Universal Binary supports Intel 64-bit and Apple Silicon."
   },
   {
     "id": "Other",

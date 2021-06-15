@@ -26,17 +26,3 @@ Wybierz swój nick, przeglądaj historię czatu, w łatwy sposób rozmawiaj na u
 Rejestracja na Dicordzie, czatowanie na serwerze, itd. jest darmowe.
 
 Czatuj przez przeglądarkę, lub pobierz klienta na Windows / macOS / Linux / urządzenia mobilne.
-
-{{% divider %}}
-
-## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
-
-Czat internetowy IRC jest dostępny tutaj:
-
-{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Dołącz do Czatu{{< /button >}}
-
-Doświadczeni użytkownicy korzystający z klienta IRC mogą dołączyć do czatu poprzez wpisanie kodu pokoju: `#warzone2100-games`
-
-> Uwaga: Ze względu na nadużycia, musisz zarejestrować się na Freenode i nie korzystać z appletu czatu internetowego Freenode aby móc wejść do pokoju czatu: `#warzone2100-dev`. Nie kontrolujemy tego serwera, więc jeśli nazwa twojego nicku jest zajęta, nic nie możemy z tym zrobić!
-
-Sprawdź [FAQ rejestracji na Freenode](https://freenode.net/kb/answer/registration) dla szczegółowych informacji o tym jak się zarejestrować.
