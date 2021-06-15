@@ -19,17 +19,3 @@ Choisissez votre pseudo, affichez l'historique des discussions, discutez facilem
 S'inscrire à Discord, discuter sur le serveur, etc. est gratuit.
 
 Discutez dans votre navigateur ou téléchargez des clients pour Windows / macOS / Linux / mobile.
-
-{{% divider %}}
-
-## <img src="/img/ftirc-online.svg" height="55" width="55" alt="#irc" /> Freenode
-
-Le chat IRC est disponible sur Freenode ici :
-
-{{< button href="https://webchat.freenode.net/#warzone2100-games" class="float-lg-none btn-true-blue" rel="nofollow noopener noreferrer" >}}Accéder au chat{{< /button >}}
-
-Les utilisateurs expérimentés peuvent également accéder à ce salon de discussion en visitant `#warzone2100-games` sur Freenode avec un client IRC.
-
-> Note: en raison d'abus, vous devez vous inscrire à Freenode & ne pas utiliser l'applet de chat Web de Freenode pour entrer dans `#warzone2100-dev`. Nous ne contrôlons pas ce serveur, donc si votre pseudo est utilisé, nous ne pouvons rien faire !
-
-Consultez la [FAQ d'inscription de Freenode](https://freenode.net/kb/answer/registration) pour plus de détails sur comment vous inscrire.
