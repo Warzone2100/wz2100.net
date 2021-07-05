@@ -99,7 +99,7 @@ params:
       filename: "warzone2100_win_x64_installer.exe"
     macos:
     - name: "64-bit (Universal Binary)"
-      filename: "warzone2100_macOS.zip"
+      filename: "warzone2100_macOS_universal.zip"
     linux_deb: 
     - name: "Ubuntu 18.04 (x64)"
       filename: "warzone2100_ubuntu18.04_amd64.deb"
@@ -143,7 +143,7 @@ params:
       downloads:
       - name: "macOS App Bundle"
         filetype: "zip"
-        filename: "warzone2100_macOS.zip"
+        filename: "warzone2100_macOS_universal.zip"
     linux:
       weight: 4
       svg: "fontawesome/brands/linux.svg"
