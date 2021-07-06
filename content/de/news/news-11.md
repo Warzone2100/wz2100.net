@@ -1,43 +1,43 @@
 ---
-title: "Version 4.1.0-beta1 available"
+title: "Version 4.1.0-beta1 verfügbar"
 slug: "version-4-1-0-beta1"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-The first beta release of 4.1.0, **4.1.0-beta1**, is available for testing! Please test it intensively so that we may soon push out the final 4.1.0.
+Die erste Beta-Version von 4.1.0, **4.1.0-beta1**, ist zum Testen verfügbar! Bitte teste intensiv, damit wir bald die finale 4.1.0 veröffentlichen können.
 
-It is available at the usual locations:
-- [Download 4.1.0-beta1 from SourceForge](https://sourceforge.net/projects/warzone2100/files/releases/4.1.0-beta1/)
-- [Download 4.1.0-beta1 from GitHub Releases](https://github.com/Warzone2100/warzone2100/releases/tag/4.1.0-beta1)
+Sie ist an den üblichen Stellen erhältlich:
+- [4.1.0-beta1 von SourceForge herunterladen](https://sourceforge.net/projects/warzone2100/files/releases/4.1.0-beta1/)
+- [4.1.0-beta1 von GitHub Releases herunterladen](https://github.com/Warzone2100/warzone2100/releases/tag/4.1.0-beta1)
 
-#### 4.1.0 beta1 Highlights:
+#### 4.1.0 beta1 Höhepunkte:
 
-- Fix fog, add an option to toggle it on
-- Merge of the "camBalance" mod that revamps campaign balance and fixes numerous issues
-- Numerous multiplayer balance tweaks (see full changelog for details)
-- New design menu stats delta display
-- Add a single player quit confirmation screen
-- Allow building modules/derricks in a row (with drag & build)
-- Add support for binding same keys to multiple actions in non-conflicting contexts
-- Allow assigning key bindings to mouse keys
-- Add "selection without group" hotkeys
-- Move the whole group to the target location, not only the command droid
-- New cheat `makemehero` makes selected units hero rank
-- Fix: Several crash & UI soft-lock issues
-- Fix: Various save-loading issues
-- Fix: Do not handle RMB click while panning the camera
-- Fix: Unclosable panels and flicker when using the Intelligence map and Design menus
-- Many other bug fixes
+- Nebel gefixt, Option zum Umschalten hinzugefügt
+- Integration des "camBalance" Mods, der die Kampagnenbalance aufpoliert und zahlreiche Probleme behebt
+- Zahlreiche Multiplayer-Balance Optimierungen (siehe vollständiges Änderungsprotokoll für Details)
+- Neue Anzeige der Statistikänderungen im Entwurf-Menü
+- Fügt einen Bestätigungsbildschirm ein, wenn ein Einzelspieler das Spiel beenden will
+- Ermöglicht das Bauen von Modulen/Bohrtürmen in einer Reihe (mit ziehen & bauen)
+- Unterstützt die Zuordnung mehrerer Aktionen zur selben Taste in einem konfliktfreien Kontext
+- Erlaubt die Zuweisung von Tastenbelegungen an die Maustasten
+- Fügt die Tastenbelegung "Auswahl ohne Gruppenzuordnung" hinzu
+- Bewegt die gesamte Gruppe an den Zielort, nicht nur den Commander
+- Neuer Cheat `makemehero` gibt den gewählten Einheiten den Rang "Held"
+- Korrektur: Einige Abstürze & UI Softlock Probleme
+- Korrektur: Verschiedene Probleme beim Laden gespeicherter Spielstände
+- Korrektur: Verarbeitet nicht den Klick mit der rechten Maustaste während die Kamera geschwenkt wird
+- Korrektur: Unschließbare Panels und Flackern bei Verwendung des Aufklärungsbildschirms und des Entwurf Menüs
+- Viele weitere Fehlerkorrekturen
 
-[View the full 4.1.0-beta1 changelog](https://github.com/Warzone2100/warzone2100/raw/4.1.0-beta1/ChangeLog)
+[Zeige das komplette 4.1.0-beta1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.1.0-beta1/ChangeLog)
 
-There have been over **310 commits** since the last release, from many contributors including: Anton W, alfred007 / highlander1599, Bert Fraterman, Björn Ali Göransson, Denis Gantsev, Ilari Tommiska, k3ack3r, KJeff01, Maxim Zhuchkov, past-due, Thiago Romão Barcala, Thomas Rupprecht, Tipchik
+Es gab über **310 Commits** seit der letzten Veröffentlichung, von vielen Mitwirkenden einschließlich: Anton W, alfred007 / highlander1599, Bert Fraterman, Björn Ali Göransson, Denis Gantsev, Ilari Tommiska, k3ack3r, KJeff01, Maxim Zhuchkov, past-due, Thiago Romão Barcala, Thomas Rupprecht, Tipchik
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns auch bei allen neuen und alten Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-**Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).**
+**Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).**
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
