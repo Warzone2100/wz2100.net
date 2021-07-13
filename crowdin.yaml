@@ -2,6 +2,7 @@ files:
   - source: /content/en/**/*.md
     ignore:
       - /content/en/privacypolicy.md
+      - /content/en/*license.md
     translation: /content/%two_letters_code%/**/%file_name%.md
     languages_mapping:
       two_letters_code:
