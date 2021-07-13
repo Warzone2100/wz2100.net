@@ -109,21 +109,8 @@ params:
     - name: "Source Code (.tar.xz)"
       filename: "warzone2100_src.tar.xz"
   quick_downloads_list:
-    windows_32bit:
-      weight: 1
-      svg: "fontawesome/brands/windows.svg"
-      name: "Windows"
-      filetype: "32-bit"
-      class: "windows-platform"
-      downloads:
-      - name: "Portable Version"
-        filetype: "exe"
-        filename: "warzone2100_win_x86_portable.exe"
-      - name: "Full Installer"
-        filetype: "exe"
-        filename: "warzone2100_win_x86_installer.exe"
     windows_64bit:
-      weight: 2
+      weight: 1
       svg: "fontawesome/brands/windows.svg"
       name: "Windows"
       filetype: "64-bit"
@@ -136,7 +123,7 @@ params:
         filetype: "exe"
         filename: "warzone2100_win_x64_installer.exe"
     macos:
-      weight: 3
+      weight: 2
       svg: "fontawesome/brands/apple.svg"
       name: "macOS"
       class: "macos-platform"
@@ -145,7 +132,7 @@ params:
         filetype: "zip"
         filename: "warzone2100_macOS_universal.zip"
     linux:
-      weight: 4
+      weight: 3
       svg: "fontawesome/brands/linux.svg"
       name: "Linux"
       class: "linux-platform"
