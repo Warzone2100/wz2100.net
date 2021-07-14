@@ -53,6 +53,12 @@
   "Windows": {
     "message": "Windows"
   },
+  "MSIX Installer": {
+    "message": "MSIX Installer"
+  },
+  "Easy install & updates.": {
+    "message": "Easy install & updates."
+  },
   "Portable Version": {
     "message": "Versione Portatile"
   },
@@ -68,6 +74,9 @@
   "Full Installer": {
     "message": "Installazione completa"
   },
+  "Traditional Installer": {
+    "message": "Traditional Installer"
+  },
   "Installs for all users on a system.": {
     "message": "Installa per tutti gli utenti del sistema."
   },
@@ -76,6 +85,12 @@
   },
   "(Requires admin privileges to install.)": {
     "message": "(Richiede i privilegi di amministratore per installare.)"
+  },
+  "Recommended for: Windows 7, 8.x": {
+    "message": "Recommended for: Windows 7, 8.x"
+  },
+  "For Windows 10+, the MSIX installer is recommended instead.": {
+    "message": "For Windows 10+, the MSIX installer is recommended instead."
   },
   "macOS": {
     "message": "macOS"
@@ -182,6 +197,12 @@
   "SourceForge Mirror": {
     "message": "SourceForge Mirror"
   },
+  "For Windows 10+": {
+    "message": "For Windows 10+"
+  },
+  "For Windows 7+": {
+    "message": "For Windows 7+"
+  },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
   },
@@ -196,6 +217,9 @@
   },
   "Supports most Linux distributions.": {
     "message": "Supporta la maggior parte delle distribuzioni Linux."
+  },
+  "For most Linux distros": {
+    "message": "For most Linux distros"
   },
   "(See link for details.)": {
     "message": "(Vedi link per ulteriori dettagli.)"
