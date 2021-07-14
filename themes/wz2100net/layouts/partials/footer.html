@@ -5,7 +5,9 @@
 			<div class="col-md-3 col-sm-6 footer-column col-6">
 				<h5 class="mg-md tc-white footer-col-header text-sm-center text-center text-md-left">
 					{{ i18n "About" }}
-				</h5><a href="https://github.com/Warzone2100/warzone2100/graphs/contributors" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "The Team" }}</a><a href="https://forums.wz2100.net" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener" hreflang="en">{{ i18n "Forums" }}</a><a href="https://github.com/Warzone2100/warzone2100/commits/master" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener" hreflang="en">{{ i18n "Changelog" }}</a>
+				</h5><a href="https://github.com/Warzone2100/warzone2100/graphs/contributors" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener">{{ i18n "The Team" }}</a><a href="https://forums.wz2100.net" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener" hreflang="en">{{ i18n "Forums" }}</a>
+					{{ with .Site.GetPage "/news" }}<a href="{{ .RelPermalink }}" class="a-btn a-block footer-link">{{ i18n "News" }}</a>{{ else }}{{ with .Sites.First.GetPage "/news" }}<a href="{{ .RelPermalink }}" class="a-btn a-block footer-link" hreflang="{{ $.Sites.First.Language.Lang }}">{{ i18n "News" }}</a>{{ end }}{{ end }}
+					<a href="https://github.com/Warzone2100/warzone2100/raw/master/ChangeLog" class="a-btn a-block footer-link" data-target="_blank" target="_blank" rel="noopener" hreflang="en">{{ i18n "Changelog" }}</a>
 					{{ with .Site.GetPage "/privacypolicy" }}<a href="{{ .RelPermalink }}" class="a-btn a-block footer-link">{{ i18n "Privacy Policy" }}</a>{{ else }}{{ with .Sites.First.GetPage "/privacypolicy" }}<a href="{{ .RelPermalink }}" class="a-btn a-block footer-link" hreflang="{{ $.Sites.First.Language.Lang }}">{{ i18n "Privacy Policy" }}</a>{{ end }}{{ end }}
 			</div>
 			<div class="col-md-3 col-sm-6 footer-column col-6">
