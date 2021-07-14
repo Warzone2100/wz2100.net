@@ -53,6 +53,12 @@
   "Windows": {
     "message": "Windows"
   },
+  "MSIX Installer": {
+    "message": "MSIX Installer"
+  },
+  "Easy install & updates.": {
+    "message": "Easy install & updates."
+  },
   "Portable Version": {
     "message": "Draagbare versie"
   },
@@ -68,6 +74,9 @@
   "Full Installer": {
     "message": "Volledige installatie"
   },
+  "Traditional Installer": {
+    "message": "Traditional Installer"
+  },
   "Installs for all users on a system.": {
     "message": "Installeert het spel voor alle gebruikers van een systeem."
   },
@@ -76,6 +85,12 @@
   },
   "(Requires admin privileges to install.)": {
     "message": "(Hier zijn beheerdersrechten voor nodig.)"
+  },
+  "Recommended for: Windows 7, 8.x": {
+    "message": "Recommended for: Windows 7, 8.x"
+  },
+  "For Windows 10+, the MSIX installer is recommended instead.": {
+    "message": "For Windows 10+, the MSIX installer is recommended instead."
   },
   "macOS": {
     "message": "macOS"
@@ -182,6 +197,12 @@
   "SourceForge Mirror": {
     "message": "SourceForge-spiegelserver"
   },
+  "For Windows 10+": {
+    "message": "For Windows 10+"
+  },
+  "For Windows 7+": {
+    "message": "For Windows 7+"
+  },
   "32-bit (x86)": {
     "message": "32 bits (x86)"
   },
@@ -196,6 +217,9 @@
   },
   "Supports most Linux distributions.": {
     "message": "Ondersteunt de meeste Linux-distributies."
+  },
+  "For most Linux distros": {
+    "message": "For most Linux distros"
   },
   "(See link for details.)": {
     "message": "(Zie de link voor details.)"
