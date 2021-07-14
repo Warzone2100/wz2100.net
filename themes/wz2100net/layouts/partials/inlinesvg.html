@@ -1,4 +1,4 @@
-<span class="{{ if .class }}{{ .class }}{{ else }}inline-svg baseline{{ end }}"{{ if .width }} width="{{ .width }}" {{ end }}{{ if .height }} height="{{ .height }}" {{ end }}{{ if .paddingRight }} style="border-right: {{ .paddingRight }} solid transparent" {{ end }}>
+<span class="{{ if .class }}{{ .class }}{{ else }}inline-svg baseline{{ end }}"{{ if .width }} width="{{ .width }}" {{ end }}{{ if .height }} height="{{ .height }}" {{ end }} style="{{ if .paddingRight }} border-right: {{ .paddingRight }} solid transparent; {{ end }}{{ if .marginLeft }} margin-left: {{ .marginLeft }}; {{ end }}">
 {{- $fname := print "svg/" .path -}}
 {{- $svg := "<svg" -}}
 {{- $svgparams := "<svg" -}}
@@ -11,9 +11,16 @@
 {{- $path := "<path" -}}
 {{- $fill := "<path fill=\"currentColor\"" -}}
 {{ if .fill }}
+{{ if ne .fill "none" }}
 {{- $fill = print "<path fill=\"" .fill "\"" -}}
+{{ else }}
+{{- $fill = "none" -}}
 {{ end }}
-{{ $svgcontent := replace (readFile $fname) $path $fill }}
+{{ end }}
+{{ $svgcontent := (readFile $fname) }}
+{{ if ne $fill "none" }}
+{{ $svgcontent = replace ($svgcontent) $path $fill }}
+{{ end }}
 {{ $svgcontent = replace ($svgcontent) $svg $svgparams }}
 {{ $svgcontent | safeHTML }}
 </span>
