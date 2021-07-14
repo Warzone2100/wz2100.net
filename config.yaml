@@ -116,12 +116,15 @@ params:
       filetype: "64-bit"
       class: "windows-platform"
       downloads:
+      - name: "Microsoft Store"
+        filetype: "Windows 10+"
+        url: "https://www.microsoft.com/store/apps/9MW0Z4MPCS8C"
+      - name: "Traditional Installer"
+        filetype: "exe"
+        filename: "warzone2100_win_x64_installer.exe"
       - name: "Portable Version"
         filetype: "exe"
         filename: "warzone2100_win_x64_portable.exe"
-      - name: "Full Installer"
-        filetype: "exe"
-        filename: "warzone2100_win_x64_installer.exe"
     macos:
       weight: 2
       svg: "fontawesome/brands/apple.svg"

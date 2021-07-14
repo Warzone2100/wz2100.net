@@ -1,0 +1,13 @@
+{{- $langBadge := print "badges/snap/snap-store-black-" .ctx.Lang ".svg" -}}
+{{- $svgfname := print "svg/" $langBadge -}}
+{{- if not (fileExists $svgfname) -}}
+{{- $langBadge = "badges/snap/snap-store-black-en.svg" -}}
+{{- end -}}
+{{- $svgDict := (dict "class" "snapbadge-svg" "fill" "none" "path" $langBadge) -}}
+{{- if .width -}}
+{{- $svgDict = merge $svgDict (dict "width" .width) -}}
+{{- end -}}
+{{- if .height -}}
+{{- $svgDict = merge $svgDict (dict "height" .height) -}}
+{{- end -}}
+{{ partial "inlinesvg.html" ($svgDict) }}

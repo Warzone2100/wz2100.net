@@ -693,6 +693,12 @@ table.download-details-text a {
 .download-modal-body h4{
 	color:#575757!important;
 }
+.download-preferred-block h6 {
+  color:#383838!important;
+}
+.download-preferred-block .download-details-text {
+	color:#575757!important;
+}
 .download-modal-body .link-container{
 	;
 }
@@ -718,6 +724,15 @@ table.download-details-text a {
 }
 .download-link:hover{
 	text-decoration:underline!important;
+}
+.download-details-info-btn {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.9em;
+  color: #BBBBBB!important;
+}
+.download-details-info-btn:hover{
+	color: #444444!important;
 }
 .download-modal{
 	border-top-left-radius:5px;
@@ -1431,11 +1446,31 @@ code {
 	padding-right: 5px;
 }
 
+.popover .popover-header {
+  color: #686868!important;
+  font-size: 0.94em!important;
+  font-family: 'Montserrat', 'MontserratFallback', sans-serif;
+}
+.popover .popover-body {
+  color: #686868!important;
+  font-size: 0.88em!important;
+  font-family: 'Montserrat', 'MontserratFallback', sans-serif;
+}
+
 .download-modal-body .blockquote {
 	border-top: 1px solid #e9ecef!important;
 	border-bottom: 1px solid #e9ecef!important;
 	border-right: 1px solid #e9ecef!important;
 	border-left: 2px solid #0088EA!important;
+}
+.download-modal-body .blockquote.download-preferred-block {
+	border-top: 1px solid #95bde6!important;
+	border-bottom: 1px solid #95bde6!important;
+	border-right: 1px solid #95bde6!important;
+	background-color: rgba(0, 136, 234, 0.01)!important;
+}
+.download-modal-body .blockquote.download-alternative-block {
+	border-left: 2px solid #BBBBBB!important;
 }
 .download-verify-card {
 	border-top: 1px solid #e9ecef!important;

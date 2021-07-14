@@ -259,7 +259,7 @@
 								</h3><a href="#" class="btn btn-lg btn-style-none btn-d" data-dismiss="modal" aria-label="{{ i18n "Close" }}"><span class="close icon-white" style="font-size: 90%;">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/times.svg") }}</span></a>
 							</div>
 							<div class="download-modal-body modal-body">
-								<div class="row">
+								<!--><div class="row">
 									<div class="col download-top-info-col">
 										<div class="blockquote download-modal-mirrors">
 											<div class="row">
@@ -278,40 +278,30 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div>-->
 								<div class="row">
 									<div class="col download-details-col">
 										<h4 class="mg-md">
 											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/windows.svg" "paddingRight" "0.2em") }}{{ i18n "Windows" }}
 										</h4>
-										{{- with .Param "downloads.windows_portable" -}}
-										<div class="download-details-block">
+										<div class="blockquote download-preferred-block" style="padding-bottom: 10px"><div class="download-details-block">
 											<h6 class="mg-sm">
-												{{ i18n "Portable Version" }}
+												{{ i18n "MSIX Installer" }}
 											</h6>
 											<p class="download-details-text">
-												{{ i18n "Can be installed to / run from a USB drive, local folder, etc." }} {{ i18n "Fully self-contained in a single directory - stores all settings / saves in that same directory too." }} {{ i18n "(Does not require admin privileges.)" }}
+												{{ i18n "Easy install & updates." }} {{ i18n "For Windows 10+" }}
 											</p>
-											<div class="flex-list">
-												<ul class="list-unstyled">
-													{{- range . -}}
-													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
-													<li>
-														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a>
-													</li>
-													{{- end -}}
-													{{- end -}}
-												</ul>
-											</div>
+											<a href="https://www.microsoft.com/store/apps/9MW0Z4MPCS8C" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ partial "msbadge.html" (dict "ctx" $ "height" "48") }}</a>
 										</div>
-										{{- end -}}
+										</div>
+										<div class="blockquote download-alternative-block" style="padding-bottom: 5px">
 										{{- with .Param "downloads.windows_installer" -}}
 										<div class="download-details-block">
 											<h6 class="mg-sm">
-												{{ i18n "Full Installer" }}
+												{{ i18n "Traditional Installer" }} <a tabindex="0" class="download-details-info-btn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="{{ i18n "Installs for all users on a system." }} {{ i18n "Settings / saves are user-specific." }} {{ i18n "(Requires admin privileges to install.)" }}<br /> <br />{{ i18n "Recommended for: Windows 7, 8.x" }}<br />{{ i18n "For Windows 10+, the MSIX installer is recommended instead." }}" data-original-title="{{ i18n "Traditional Installer" }}">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/info-circle.svg") }}</a>
 											</h6>
-											<p class="download-details-text">
-												{{ i18n "Installs for all users on a system." }} {{ i18n "Settings / saves are user-specific." }} {{ i18n "(Requires admin privileges to install.)" }}
+											<p class="download-details-text download-details-low-padding">
+												{{ i18n "For Windows 7+" }}
 											</p>
 											<div class="flex-list">
 												<ul class="list-unstyled">
@@ -326,32 +316,50 @@
 											</div>
 										</div>
 										{{- end -}}
+										{{- with .Param "downloads.windows_portable" -}}
+										<div class="download-details-block">
+											<h6 class="mg-sm">
+												{{ i18n "Portable Version" }} <a tabindex="0" class="download-details-info-btn" role="button" data-toggle="popover" title="" data-trigger="focus" data-content="{{ i18n "Can be installed to / run from a USB drive, local folder, etc." }} {{ i18n "Fully self-contained in a single directory - stores all settings / saves in that same directory too." }} {{ i18n "(Does not require admin privileges.)" }}" data-original-title="{{ i18n "Portable Version" }}">{{ partial "inlinesvg.html" (dict "path" "fontawesome/solid/info-circle.svg") }}</a>
+											</h6>
+											<p class="download-details-text download-details-low-padding">
+												{{ i18n "For Windows 7+" }}
+											</p>
+											<div class="flex-list">
+												<ul class="list-unstyled">
+													{{- range . -}}
+													{{- if gt (len (where $.Site.Data.github_releases_info.latest.assets "name" "==" .filename)) 0 -}}
+													<li>
+														<a href="{{ print $sourceForgeDLPrefix "/" .filename }}" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n .name | default .name }}</a>
+													</li>
+													{{- end -}}
+													{{- end -}}
+												</ul>
+											</div>
+										</div>
+										{{- end -}}
+										</div>
 									</div>
 									<div class="col download-details-col">
 										<h4 class="mg-md">
 											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/linux.svg" "paddingRight" "0.1em") }}{{ i18n "Linux" }}
 										</h4>
-										<div class="download-details-block">
+										<div class="blockquote download-preferred-block" style="padding-bottom: 10px"><div class="download-details-block">
 											<h6 class="mg-sm">
 												{{ i18n "Snap Installer" }}
 											</h6>
 											<p class="download-details-text">
-												{{ i18n "Easy installation." }} {{ i18n "Supports most Linux distributions." }} {{ i18n "(See link for details.)" }}
+												{{ i18n "Easy install & updates." }} {{ i18n "For most Linux distros" }}
 											</p>
-											<div class="flex-list">
-												<ul class="list-unstyled">
-													<li>
-														<a href="https://snapcraft.io/warzone2100" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener">{{ i18n "Install the Snap" }}</a>
-													</li>
-												</ul>
-											</div>
+											<a href="https://snapcraft.io/warzone2100" class="a-btn download-link handle-download" data-target="_blank" target="_blank" rel="noopener" title="{{ i18n "Install the Snap" }}">{{ partial "snapbadge.html" (dict "ctx" $ "height" "48") }}</a>
+										</div>
 										</div>
 										{{- with .Param "downloads.linux_deb" -}}
+										<div class="blockquote download-alternative-block" style="padding-bottom: 10px">
 										<div class="download-details-block">
 											<h6 class="mg-sm">
 												{{ i18n "Debian Package" }}
 											</h6>
-											<p class="download-details-text">
+											<p class="download-details-text download-details-low-padding">
 												{{ i18n "DEB package for Ubuntu (and related Debian-based distros)." }}
 											</p>
 											<div class="flex-list">
@@ -365,18 +373,18 @@
 													{{- end -}}
 												</ul>
 											</div>
-											<p class="download-details-text" style="margin-top: 10px">
+											<p class="download-details-text download-details-low-padding" style="margin-top: 10px">
 												{{ i18n "After downloading, install using the following command:" }}<br />
 												<code class="download-details-low-padding greycode">sudo apt install ./&lt;filename>.deb</code>
 											</p>
-										</div>
+										</div></div>
 										{{- end -}}
 										<!-- {{- with .Param "downloads.source" -}}
 										<div class="download-details-block">
 											<h6 class="mg-sm">
 												{{ i18n "Compile Source" }}
 											</h6>
-											<p class="download-details-text">
+											<p class="download-details-text download-details-low-padding">
 												{{ i18n "Compile the source yourself using our build instructions." }}
 											</p>
 											<div class="flex-list">
@@ -400,11 +408,11 @@
 											{{ partial "inlinesvg.html" (dict "path" "fontawesome/brands/apple.svg" "paddingRight" "0.1em") }}{{ i18n "macOS" }}
 										</h4>
 										{{- with .Param "downloads.macos" -}}
-										<div class="download-details-block">
+										<div class="blockquote download-preferred-block"><div class="download-details-block">
 											<h6 class="mg-sm">
 												{{ i18n "Mac App Bundle" }}
 											</h6>
-											<p class="download-details-text">
+											<p class="download-details-text download-details-low-padding">
 												{{ i18n "Download, unzip, and copy to your Applications folder." }}
 											</p>
 											<div class="flex-list">
@@ -421,7 +429,7 @@
 											<p class="download-details-text">
 												{{ i18n "Universal Binary supports Intel 64-bit and Apple Silicon." }}
 											</p>
-										</div>
+										</div></div>
 										{{- end -}}
 									</div>
 									<div class="col download-details-col">
@@ -1097,6 +1105,12 @@
 		}
 
 		$(document).ready(function () {
+			// enable popovers
+			$('[data-toggle="popover"]').popover({
+				html: true,
+				customClass: 'wz-popover'
+			})
+			
 			// set the default GitHub Star count
 			var initial_stargazers_count = {{ $.Site.Data.github_repo_info.stargazers_count }};
 			$( '#github-star-count' ).text(abbreviateNumber(initial_stargazers_count) + '+');
