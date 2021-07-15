@@ -54,10 +54,10 @@
     "message": "Windows"
   },
   "MSIX Installer": {
-    "message": "MSIX Installer"
+    "message": "MSIX Installationsprogramm"
   },
   "Easy install & updates.": {
-    "message": "Easy install & updates."
+    "message": "Einfache Installation & Updates."
   },
   "Portable Version": {
     "message": "Portable Version"
@@ -75,7 +75,7 @@
     "message": "Vollständiges Installationsprogramm"
   },
   "Traditional Installer": {
-    "message": "Traditional Installer"
+    "message": "Traditionelles Installationsprogramm"
   },
   "Installs for all users on a system.": {
     "message": "Installiert für alle Benutzer auf einem System."
@@ -87,10 +87,10 @@
     "message": "(Benötigt Administratorrechte für die Installation.)"
   },
   "Recommended for: Windows 7, 8.x": {
-    "message": "Recommended for: Windows 7, 8.x"
+    "message": "Empfohlen für: Windows 7, 8.x"
   },
   "For Windows 10+, the MSIX installer is recommended instead.": {
-    "message": "For Windows 10+, the MSIX installer is recommended instead."
+    "message": "Für Windows 10+ wird stattdessen das MSIX Installationsprogramm empfohlen."
   },
   "macOS": {
     "message": "macOS"
@@ -198,10 +198,10 @@
     "message": "SourceForge Mirror"
   },
   "For Windows 10+": {
-    "message": "For Windows 10+"
+    "message": "Für Windows 10+"
   },
   "For Windows 7+": {
-    "message": "For Windows 7+"
+    "message": "Für Windows 7+"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -219,7 +219,7 @@
     "message": "Unterstützt die meisten Linux-Distributionen."
   },
   "For most Linux distros": {
-    "message": "For most Linux distros"
+    "message": "Für die meisten Linux-Distributionen"
   },
   "(See link for details.)": {
     "message": "(Siehe Link für Details.)"
