@@ -1,45 +1,45 @@
 {
   "Home": {
-    "message": "Home"
+    "message": "דף הבית"
   },
   "Features": {
-    "message": "Features"
+    "message": "תכונות"
   },
   "History": {
-    "message": "History"
+    "message": "היסטוריה"
   },
   "FAQ": {
-    "message": "FAQ"
+    "message": "שאלות נפוצות"
   },
   "Resources": {
-    "message": "Resources"
+    "message": "משאבים"
   },
   "News": {
-    "message": "News"
+    "message": "חדשות"
   },
   "Webchat": {
     "message": "Webchat"
   },
   "Forums": {
-    "message": "Forums"
+    "message": "פורומים"
   },
   "Addons": {
-    "message": "Addons"
+    "message": "תוספים"
   },
   "WZ Guide": {
     "message": "WZ Guide"
   },
   "Wiki": {
-    "message": "Wiki"
+    "message": "וויקי"
   },
   "Report Bugs": {
-    "message": "Report Bugs"
+    "message": "דווח על תקלה"
   },
   "Donate": {
-    "message": "Donate"
+    "message": "תרומה"
   },
   "Help us Translate": {
-    "message": "Help us Translate"
+    "message": "עזרו לנו לתרגם"
   },
   "A 100% free and open-source 3D real-time strategy game.": {
     "message": "A 100% free and open-source 3D real-time strategy game."
@@ -48,7 +48,7 @@
     "message": "Download Now"
   },
   "Toggle Dropdown": {
-    "message": "Toggle Dropdown"
+    "message": "הפסק/הפעל תפריט נפתח"
   },
   "Windows": {
     "message": "Windows"
@@ -60,7 +60,7 @@
     "message": "Easy install & updates."
   },
   "Portable Version": {
-    "message": "Portable Version"
+    "message": "גרסה ניידת"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
     "message": "Can be installed to / run from a USB drive, local folder, etc."
@@ -69,22 +69,22 @@
     "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(לא דורש הרשאות מנהל מערכת.)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "התקנה מלאה"
   },
   "Traditional Installer": {
     "message": "Traditional Installer"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "התקן לכל המשתמשים במחשב."
   },
   "Settings / saves are user-specific.": {
     "message": "Settings / saves are user-specific."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(דורש הרשאות מנהל מערכת כדי להתקין.)"
   },
   "Recommended for: Windows 7, 8.x": {
     "message": "Recommended for: Windows 7, 8.x"
@@ -117,82 +117,82 @@
     "message": "Ubuntu 20.04+ (x64)"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "הצג קוד מקור"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "ועוד..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "כל ההורדות והפלטפורמות"
   },
   "New": {
-    "message": "New"
+    "message": "חדש"
   },
   "Version": {
-    "message": "Version"
+    "message": "גרסה"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "עבור Windows 7-10"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "עבור +macOS 10.10"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "עבור Linux"
   },
   "Windows, macOS, Linux": {
     "message": "Windows, macOS, Linux"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "אפשרויות התקנה מתקדמות ופלטפורמות אחרות"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "הצג קוד מקור"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "הצג קוד מקור"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "צפה ב-GitHub"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "ככב ב-GitHub"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "דיווח על תקלה"
   },
   "Copyright © Warzone 2100 Project.": {
-    "message": "Copyright © Warzone 2100 Project."
+    "message": "זכויות יוצרים Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone מורשה תחת רישיון GPLv2 + (ואחרים)."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "תפוס פיקוד על כוחות הפרויקט בקרב לבניית העולם מחדש לאחר שהאנושות כמעט הושמדה על ידי טילים גרעיניים."
   },
   "Seize territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
+    "message": "תפוס שטח ומשאבים, בנה בסיסים נרחבים והרחב את הייצור והמחקר שלך."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
     "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "הקודם"
   },
   "Next": {
-    "message": "Next"
+    "message": "הבא"
   },
   "Close": {
-    "message": "Close"
+    "message": "סגור"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "ההורדה לא עובדת?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "נסה לגשת ישירות למקורות ההורדה:"
   },
   "GitHub Releases": {
-    "message": "GitHub Releases"
+    "message": "גרסאות ב-GitHub"
   },
   "SourceForge Mirror": {
     "message": "SourceForge Mirror"
@@ -213,10 +213,10 @@
     "message": "Snap Installer"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "התקנה פשוטה."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "תומך ברוב הפצות Linux."
   },
   "For most Linux distros": {
     "message": "For most Linux distros"
@@ -285,7 +285,7 @@
     "message": "SHA256 Checksums for Version"
   },
   "Torrent": {
-    "message": "Torrent"
+    "message": "טורנט"
   },
   "Downloading Warzone 2100": {
     "message": "Downloading Warzone 2100"
@@ -573,7 +573,7 @@
     "message": "Download Latest Development Builds"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "בדיקת עדכונים נכשלה"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
     "message": "This site requires JavaScript, and it looks like you have it disabled."
@@ -588,37 +588,37 @@
     "message": "You can always download the latest development builds below."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "הגרסה שלך"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "הגרסה העדכנית"
   },
   "Latest Development Build": {
     "message": "Latest Development Build"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "העמוד לא נמצא"
   },
   "Whatever that was, it couldn't be found.": {
     "message": "Whatever that was, it couldn't be found."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "מצטערים."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "למסך הראשי"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "תת-קטגוריות"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "תגיות"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "כל התגיות"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "ניווט באתר"
   },
   "More": {
     "message": "More"
