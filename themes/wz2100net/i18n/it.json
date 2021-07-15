@@ -6,7 +6,7 @@
     "message": "Caratteristiche"
   },
   "History": {
-    "message": "Storico"
+    "message": "Cronologia"
   },
   "FAQ": {
     "message": "FAQ"
@@ -15,7 +15,7 @@
     "message": "Risorse"
   },
   "News": {
-    "message": "Novità"
+    "message": "Notizie"
   },
   "Webchat": {
     "message": "Webchat"
@@ -33,10 +33,10 @@
     "message": "Wiki"
   },
   "Report Bugs": {
-    "message": "Segnala Bug"
+    "message": "Segnala un bug"
   },
   "Donate": {
-    "message": "Donazioni"
+    "message": "Dona"
   },
   "Help us Translate": {
     "message": "Aiutaci a Tradurre"
@@ -165,7 +165,7 @@
     "message": "Copyright © Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone è concesso sotto licenza GPLv2 + (& altri)."
+    "message": "Warzone è concesso sotto licenza GPLv2 + (e altre)."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
     "message": "Comanda le forze del Progetto in una battaglia per ricostruire il mondo dopo che l'umanità è stata quasi distrutta dai missili nucleari."
@@ -225,13 +225,13 @@
     "message": "(Vedi link per ulteriori dettagli.)"
   },
   "Debian Package": {
-    "message": "Debian Package"
+    "message": "Pacchetto Debian"
   },
   "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+    "message": "Pacchetto DEB per Ubuntu (e per le distro basate su Debian collegate)."
   },
   "After downloading, install using the following command:": {
-    "message": "After downloading, install using the following command:"
+    "message": "Dopo lo scaricamento, installalo usando i comandi seguenti:"
   },
   "Compile Source": {
     "message": "Compila dai sorgenti"
@@ -252,13 +252,13 @@
     "message": "Intel a 64 bit"
   },
   "64-bit (Universal Binary)": {
-    "message": "64-bit (Universal Binary)"
+    "message": "64 bit (binario universale)"
   },
   "How to handle “Warzone cannot be opened” errors.": {
     "message": "Come gestire gli errori “Warzone non può essere aperto”."
   },
   "Universal Binary supports Intel 64-bit and Apple Silicon.": {
-    "message": "Universal Binary supports Intel 64-bit and Apple Silicon."
+    "message": "Binario universale che supporta gli Intel a 64 bit e gli Apple Silicon."
   },
   "Other": {
     "message": "Altro"
@@ -288,34 +288,34 @@
     "message": "Torrent"
   },
   "Downloading Warzone 2100": {
-    "message": "Downloading Warzone 2100"
+    "message": "Scaricamento di Warzone 2100"
   },
   "Next Steps:": {
-    "message": "Next Steps:"
+    "message": "Passo successivo:"
   },
   "Share on Twitter": {
-    "message": "Share on Twitter"
+    "message": "Condividi su Twitter"
   },
   "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
-    "message": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "message": "Warzone 2100 - un gioco di strategia in tempo reale 3D gratuito e open source al 100% per Windows / macOS / Linux."
   },
   "If you’ve never played before,": {
-    "message": "If you’ve never played before,"
+    "message": "Se non ci hai mai giocato prima,"
   },
   "start with the in-game Tutorial, and then check out:": {
-    "message": "start with the in-game Tutorial, and then check out:"
+    "message": "inizia con l'esercitazione inclusa nel gioco, quindi controlla:"
   },
   "the Quickstart Guide": {
-    "message": "the Quickstart Guide"
+    "message": "la guida rapida"
   },
   "Chat with players on the official Discord server!": {
-    "message": "Chat with players on the official Discord server!"
+    "message": "Discuti con i giocatori sul server ufficiale di Discord!"
   },
   "Star the project on GitHub and help spread the news!": {
-    "message": "Star the project on GitHub and help spread the news!"
+    "message": "Metti una stella al progetto su GitHub e aiutaci a a spargere la voce!"
   },
   "Donate to help support server and other costs!": {
-    "message": "Donate to help support server and other costs!"
+    "message": "Dona per aiutare a supportare il server e gli altri costi!"
   },
   "Why Warzone 2100 Rocks": {
     "message": "Perché Warzone 2100 Spacca"
@@ -483,10 +483,10 @@
     "message": "Risoluzione problemi"
   },
   "Copy URL": {
-    "message": "Copy URL"
+    "message": "Copia URL"
   },
   "Copied URL!": {
-    "message": "Copied URL!"
+    "message": "URL copiato!"
   },
   "JavaScript is disabled.": {
     "message": "JavaScript è disabilitato."
