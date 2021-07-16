@@ -72,6 +72,14 @@
     "translation": "Windows"
   },
   {
+    "id": "MSIX Installer",
+    "translation": "MSIX Installationsprogramm"
+  },
+  {
+    "id": "Easy install & updates.",
+    "translation": "Einfache Installation & Updates."
+  },
+  {
     "id": "Portable Version",
     "translation": "Portable Version"
   },
@@ -92,6 +100,10 @@
     "translation": "Vollständiges Installationsprogramm"
   },
   {
+    "id": "Traditional Installer",
+    "translation": "Traditionelles Installationsprogramm"
+  },
+  {
     "id": "Installs for all users on a system.",
     "translation": "Installiert für alle Benutzer auf einem System."
   },
@@ -102,6 +114,14 @@
   {
     "id": "(Requires admin privileges to install.)",
     "translation": "(Benötigt Administratorrechte für die Installation.)"
+  },
+  {
+    "id": "Recommended for: Windows 7, 8.x",
+    "translation": "Empfohlen für: Windows 7, 8.x"
+  },
+  {
+    "id": "For Windows 10+, the MSIX installer is recommended instead.",
+    "translation": "Für Windows 10+ wird stattdessen das MSIX Installationsprogramm empfohlen."
   },
   {
     "id": "macOS",
@@ -244,6 +264,14 @@
     "translation": "SourceForge Mirror"
   },
   {
+    "id": "For Windows 10+",
+    "translation": "Für Windows 10+"
+  },
+  {
+    "id": "For Windows 7+",
+    "translation": "Für Windows 7+"
+  },
+  {
     "id": "32-bit (x86)",
     "translation": "32-bit (x86)"
   },
@@ -262,6 +290,10 @@
   {
     "id": "Supports most Linux distributions.",
     "translation": "Unterstützt die meisten Linux-Distributionen."
+  },
+  {
+    "id": "For most Linux distros",
+    "translation": "Für die meisten Linux-Distributionen"
   },
   {
     "id": "(See link for details.)",

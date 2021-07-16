@@ -9,7 +9,7 @@
   },
   {
     "id": "History",
-    "translation": "Storico"
+    "translation": "Cronologia"
   },
   {
     "id": "FAQ",
@@ -21,7 +21,7 @@
   },
   {
     "id": "News",
-    "translation": "Novità"
+    "translation": "Notizie"
   },
   {
     "id": "Webchat",
@@ -45,11 +45,11 @@
   },
   {
     "id": "Report Bugs",
-    "translation": "Segnala Bug"
+    "translation": "Segnala un bug"
   },
   {
     "id": "Donate",
-    "translation": "Donazioni"
+    "translation": "Dona"
   },
   {
     "id": "Help us Translate",
@@ -72,6 +72,14 @@
     "translation": "Windows"
   },
   {
+    "id": "MSIX Installer",
+    "translation": "MSIX Installer"
+  },
+  {
+    "id": "Easy install & updates.",
+    "translation": "Easy install & updates."
+  },
+  {
     "id": "Portable Version",
     "translation": "Versione Portatile"
   },
@@ -92,6 +100,10 @@
     "translation": "Installazione completa"
   },
   {
+    "id": "Traditional Installer",
+    "translation": "Traditional Installer"
+  },
+  {
     "id": "Installs for all users on a system.",
     "translation": "Installa per tutti gli utenti del sistema."
   },
@@ -102,6 +114,14 @@
   {
     "id": "(Requires admin privileges to install.)",
     "translation": "(Richiede i privilegi di amministratore per installare.)"
+  },
+  {
+    "id": "Recommended for: Windows 7, 8.x",
+    "translation": "Recommended for: Windows 7, 8.x"
+  },
+  {
+    "id": "For Windows 10+, the MSIX installer is recommended instead.",
+    "translation": "For Windows 10+, the MSIX installer is recommended instead."
   },
   {
     "id": "macOS",
@@ -201,7 +221,7 @@
   },
   {
     "id": "Warzone is licensed under the GPLv2+ license (& others).",
-    "translation": "Warzone è concesso sotto licenza GPLv2 + (& altri)."
+    "translation": "Warzone è concesso sotto licenza GPLv2 + (e altre)."
   },
   {
     "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
@@ -244,6 +264,14 @@
     "translation": "SourceForge Mirror"
   },
   {
+    "id": "For Windows 10+",
+    "translation": "For Windows 10+"
+  },
+  {
+    "id": "For Windows 7+",
+    "translation": "For Windows 7+"
+  },
+  {
     "id": "32-bit (x86)",
     "translation": "32-bit (x86)"
   },
@@ -264,20 +292,24 @@
     "translation": "Supporta la maggior parte delle distribuzioni Linux."
   },
   {
+    "id": "For most Linux distros",
+    "translation": "For most Linux distros"
+  },
+  {
     "id": "(See link for details.)",
     "translation": "(Vedi link per ulteriori dettagli.)"
   },
   {
     "id": "Debian Package",
-    "translation": "Debian Package"
+    "translation": "Pacchetto Debian"
   },
   {
     "id": "DEB package for Ubuntu (and related Debian-based distros).",
-    "translation": "DEB package for Ubuntu (and related Debian-based distros)."
+    "translation": "Pacchetto DEB per Ubuntu (e per le distro basate su Debian collegate)."
   },
   {
     "id": "After downloading, install using the following command:",
-    "translation": "After downloading, install using the following command:"
+    "translation": "Dopo lo scaricamento, installalo usando i comandi seguenti:"
   },
   {
     "id": "Compile Source",
@@ -305,7 +337,7 @@
   },
   {
     "id": "64-bit (Universal Binary)",
-    "translation": "64-bit (Universal Binary)"
+    "translation": "64 bit (binario universale)"
   },
   {
     "id": "How to handle “Warzone cannot be opened” errors.",
@@ -313,7 +345,7 @@
   },
   {
     "id": "Universal Binary supports Intel 64-bit and Apple Silicon.",
-    "translation": "Universal Binary supports Intel 64-bit and Apple Silicon."
+    "translation": "Binario universale che supporta gli Intel a 64 bit e gli Apple Silicon."
   },
   {
     "id": "Other",
@@ -353,43 +385,43 @@
   },
   {
     "id": "Downloading Warzone 2100",
-    "translation": "Downloading Warzone 2100"
+    "translation": "Scaricamento di Warzone 2100"
   },
   {
     "id": "Next Steps:",
-    "translation": "Next Steps:"
+    "translation": "Passo successivo:"
   },
   {
     "id": "Share on Twitter",
-    "translation": "Share on Twitter"
+    "translation": "Condividi su Twitter"
   },
   {
     "id": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.",
-    "translation": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "translation": "Warzone 2100 - un gioco di strategia in tempo reale 3D gratuito e open source al 100% per Windows / macOS / Linux."
   },
   {
     "id": "If you’ve never played before,",
-    "translation": "If you’ve never played before,"
+    "translation": "Se non ci hai mai giocato prima,"
   },
   {
     "id": "start with the in-game Tutorial, and then check out:",
-    "translation": "start with the in-game Tutorial, and then check out:"
+    "translation": "inizia con l'esercitazione inclusa nel gioco, quindi controlla:"
   },
   {
     "id": "the Quickstart Guide",
-    "translation": "the Quickstart Guide"
+    "translation": "la guida rapida"
   },
   {
     "id": "Chat with players on the official Discord server!",
-    "translation": "Chat with players on the official Discord server!"
+    "translation": "Discuti con i giocatori sul server ufficiale di Discord!"
   },
   {
     "id": "Star the project on GitHub and help spread the news!",
-    "translation": "Star the project on GitHub and help spread the news!"
+    "translation": "Metti una stella al progetto su GitHub e aiutaci a a spargere la voce!"
   },
   {
     "id": "Donate to help support server and other costs!",
-    "translation": "Donate to help support server and other costs!"
+    "translation": "Dona per aiutare a supportare il server e gli altri costi!"
   },
   {
     "id": "Why Warzone 2100 Rocks",
@@ -613,11 +645,11 @@
   },
   {
     "id": "Copy URL",
-    "translation": "Copy URL"
+    "translation": "Copia URL"
   },
   {
     "id": "Copied URL!",
-    "translation": "Copied URL!"
+    "translation": "URL copiato!"
   },
   {
     "id": "JavaScript is disabled.",

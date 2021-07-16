@@ -11,25 +11,25 @@ Mit **über 485 Commits** seit der letzten Veröffentlichung ist es Zeit für **
 
 #### 3.4.0 Höhepunkte:
 
-- Graphics and UI improvements, including: fade effect when starting games, smoother mouse rotation, smoother zooming, interpolate frames in animation, occlude terrain ambiently
-- Add: Frontend "continue last save" option
-- Add: Quicksave feature
-- Add: Autosave feature
-- Add: Way to change most game settings with the in-game pause menu
-- Add: Shortcut to quit to main-menu after victory
-- Add: T4 technology level where all research is completed
-- Add: Randomization of game options button in skirmish/multiplayer games
-- Add: Add support for changing map, game name, and hosting player's name after already hosting
-- Add: Configuration of OpenAL-HRTF mode
-- Add: In-game notification widgets
-- Add: Keybinding configuration for camera pan
-- Add: Discord rich presence / join support
-- Add: Unit / kill count gui feature
-- Add: BoneCrusher! AI, Cobra AI, Nexus AI (ported from original)
-- Add: Right-click AI slot to quickly copy it to all other AI slots
-- Many translation improvements
-- Campaign bug fixes and balance adjustments
-- and too many other bug fixes to list
+- Grafiken und UI-Verbesserungen, einschließlich: Verblasseffekt beim Start von Spielen, sanftere Maus-Rotation, geschmeidigeres Zoomen, interpolierte Rahmen in Animation, schließt das Gelände umgebend ab
+- Hinzugefügt: Frontend "Letztes gespeichertes Spiel fortsetzen" Option
+- Hinzugefügt: Quicksave Funktion
+- Hinzugefügt: Autosave Funktion
+- Hinzugefügt: Ändern der meisten Spieleinstellungen im Pause-Menü des Spiels
+- Hinzugefügt: Verknüpfung, um beim Beenden nach einem Sieg ins Hauptmenü zu gehen
+- Hinzugefügt: T4-Technologielevel, bei dem alle Forschungen abgeschlossen sind
+- Hinzugefügt: Zufallsauswahl der Spieloptionen in Scharmützel/Mehrspieler-Spielen
+- Hinzugefügt: Unterstützung für das Ändern der Karte, des Spielnamens und des Namens des Hosts nach dem Hosten
+- Hinzugefügt: Konfiguration des OpenAL-HRTF-Modus
+- Hinzugefügt: In-Game-Benachrichtigungs-Widgets
+- Hinzugefügt: Tastaturbelegung für das Kamera schwenken
+- Hinzugefügt: Discord "rich presence" / Beitrittsunterstützung
+- Hinzugefügt: Einheit- / Abschuss-Zähler Funktion in der GUI
+- Hinzugefügt: BoneCrusher! KI, Cobra KI, Nexus KI (importiert vom Original)
+- Hinzugefügt: Rechtsklick auf den KI-Slot, um ihn schnell auf alle anderen KI-Slots zu kopieren
+- Viele Übersetzungsverbesserungen
+- Fehlerkorrekturen und Balanceanpassungen in der Kampagne
+- und zu viele andere Fehlerbehebungen zum Auflisten
 
 [Zeige das komplette 3.4.0 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/3.4.0/ChangeLog)
 

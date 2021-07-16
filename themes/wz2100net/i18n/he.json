@@ -1,27 +1,27 @@
 [
   {
     "id": "Home",
-    "translation": "Home"
+    "translation": "דף הבית"
   },
   {
     "id": "Features",
-    "translation": "Features"
+    "translation": "תכונות"
   },
   {
     "id": "History",
-    "translation": "History"
+    "translation": "היסטוריה"
   },
   {
     "id": "FAQ",
-    "translation": "FAQ"
+    "translation": "שאלות נפוצות"
   },
   {
     "id": "Resources",
-    "translation": "Resources"
+    "translation": "משאבים"
   },
   {
     "id": "News",
-    "translation": "News"
+    "translation": "חדשות"
   },
   {
     "id": "Webchat",
@@ -29,11 +29,11 @@
   },
   {
     "id": "Forums",
-    "translation": "Forums"
+    "translation": "פורומים"
   },
   {
     "id": "Addons",
-    "translation": "Addons"
+    "translation": "תוספים"
   },
   {
     "id": "WZ Guide",
@@ -41,19 +41,19 @@
   },
   {
     "id": "Wiki",
-    "translation": "Wiki"
+    "translation": "וויקי"
   },
   {
     "id": "Report Bugs",
-    "translation": "Report Bugs"
+    "translation": "דווח על תקלה"
   },
   {
     "id": "Donate",
-    "translation": "Donate"
+    "translation": "תרומה"
   },
   {
     "id": "Help us Translate",
-    "translation": "Help us Translate"
+    "translation": "עזרו לנו לתרגם"
   },
   {
     "id": "A 100% free and open-source 3D real-time strategy game.",
@@ -65,15 +65,23 @@
   },
   {
     "id": "Toggle Dropdown",
-    "translation": "Toggle Dropdown"
+    "translation": "הפסק/הפעל תפריט נפתח"
   },
   {
     "id": "Windows",
     "translation": "Windows"
   },
   {
+    "id": "MSIX Installer",
+    "translation": "MSIX Installer"
+  },
+  {
+    "id": "Easy install & updates.",
+    "translation": "Easy install & updates."
+  },
+  {
     "id": "Portable Version",
-    "translation": "Portable Version"
+    "translation": "גרסה ניידת"
   },
   {
     "id": "Can be installed to / run from a USB drive, local folder, etc.",
@@ -85,15 +93,19 @@
   },
   {
     "id": "(Does not require admin privileges.)",
-    "translation": "(Does not require admin privileges.)"
+    "translation": "(לא דורש הרשאות מנהל מערכת.)"
   },
   {
     "id": "Full Installer",
-    "translation": "Full Installer"
+    "translation": "התקנה מלאה"
+  },
+  {
+    "id": "Traditional Installer",
+    "translation": "Traditional Installer"
   },
   {
     "id": "Installs for all users on a system.",
-    "translation": "Installs for all users on a system."
+    "translation": "התקן לכל המשתמשים במחשב."
   },
   {
     "id": "Settings / saves are user-specific.",
@@ -101,7 +113,15 @@
   },
   {
     "id": "(Requires admin privileges to install.)",
-    "translation": "(Requires admin privileges to install.)"
+    "translation": "(דורש הרשאות מנהל מערכת כדי להתקין.)"
+  },
+  {
+    "id": "Recommended for: Windows 7, 8.x",
+    "translation": "Recommended for: Windows 7, 8.x"
+  },
+  {
+    "id": "For Windows 10+, the MSIX installer is recommended instead.",
+    "translation": "For Windows 10+, the MSIX installer is recommended instead."
   },
   {
     "id": "macOS",
@@ -137,35 +157,35 @@
   },
   {
     "id": "Get the Source",
-    "translation": "Get the Source"
+    "translation": "הצג קוד מקור"
   },
   {
     "id": "and more...",
-    "translation": "and more..."
+    "translation": "ועוד..."
   },
   {
     "id": "All downloads & platforms",
-    "translation": "All downloads & platforms"
+    "translation": "כל ההורדות והפלטפורמות"
   },
   {
     "id": "New",
-    "translation": "New"
+    "translation": "חדש"
   },
   {
     "id": "Version",
-    "translation": "Version"
+    "translation": "גרסה"
   },
   {
     "id": "for Windows 7-10",
-    "translation": "for Windows 7-10"
+    "translation": "עבור Windows 7-10"
   },
   {
     "id": "for macOS 10.10+",
-    "translation": "for macOS 10.10+"
+    "translation": "עבור +macOS 10.10"
   },
   {
     "id": "for Linux",
-    "translation": "for Linux"
+    "translation": "עבור Linux"
   },
   {
     "id": "Windows, macOS, Linux",
@@ -173,43 +193,43 @@
   },
   {
     "id": "Advanced install options & other platforms",
-    "translation": "Advanced install options & other platforms"
+    "translation": "אפשרויות התקנה מתקדמות ופלטפורמות אחרות"
   },
   {
     "id": "Get the source code",
-    "translation": "Get the source code"
+    "translation": "הצג קוד מקור"
   },
   {
     "id": "Get the Source Code",
-    "translation": "Get the Source Code"
+    "translation": "הצג קוד מקור"
   },
   {
     "id": "View on GitHub",
-    "translation": "View on GitHub"
+    "translation": "צפה ב-GitHub"
   },
   {
     "id": "Star on GitHub",
-    "translation": "Star on GitHub"
+    "translation": "ככב ב-GitHub"
   },
   {
     "id": "Report a Bug",
-    "translation": "Report a Bug"
+    "translation": "דיווח על תקלה"
   },
   {
     "id": "Copyright © Warzone 2100 Project.",
-    "translation": "Copyright © Warzone 2100 Project."
+    "translation": "זכויות יוצרים Warzone 2100 Project."
   },
   {
     "id": "Warzone is licensed under the GPLv2+ license (& others).",
-    "translation": "Warzone is licensed under the GPLv2+ license (& others)."
+    "translation": "Warzone מורשה תחת רישיון GPLv2 + (ואחרים)."
   },
   {
     "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
-    "translation": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "translation": "תפוס פיקוד על כוחות הפרויקט בקרב לבניית העולם מחדש לאחר שהאנושות כמעט הושמדה על ידי טילים גרעיניים."
   },
   {
     "id": "Seize territory and resources, build extensive bases, and expand your production & research.",
-    "translation": "Seize territory and resources, build extensive bases, and expand your production & research."
+    "translation": "תפוס שטח ומשאבים, בנה בסיסים נרחבים והרחב את הייצור והמחקר שלך."
   },
   {
     "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
@@ -217,31 +237,39 @@
   },
   {
     "id": "Previous",
-    "translation": "Previous"
+    "translation": "הקודם"
   },
   {
     "id": "Next",
-    "translation": "Next"
+    "translation": "הבא"
   },
   {
     "id": "Close",
-    "translation": "Close"
+    "translation": "סגור"
   },
   {
     "id": "Downloads not working?",
-    "translation": "Downloads not working?"
+    "translation": "ההורדה לא עובדת?"
   },
   {
     "id": "Try browsing the download mirrors directly:",
-    "translation": "Try browsing the download mirrors directly:"
+    "translation": "נסה לגשת ישירות למקורות ההורדה:"
   },
   {
     "id": "GitHub Releases",
-    "translation": "GitHub Releases"
+    "translation": "גרסאות ב-GitHub"
   },
   {
     "id": "SourceForge Mirror",
     "translation": "SourceForge Mirror"
+  },
+  {
+    "id": "For Windows 10+",
+    "translation": "For Windows 10+"
+  },
+  {
+    "id": "For Windows 7+",
+    "translation": "For Windows 7+"
   },
   {
     "id": "32-bit (x86)",
@@ -257,11 +285,15 @@
   },
   {
     "id": "Easy installation.",
-    "translation": "Easy installation."
+    "translation": "התקנה פשוטה."
   },
   {
     "id": "Supports most Linux distributions.",
-    "translation": "Supports most Linux distributions."
+    "translation": "תומך ברוב הפצות Linux."
+  },
+  {
+    "id": "For most Linux distros",
+    "translation": "For most Linux distros"
   },
   {
     "id": "(See link for details.)",
@@ -349,7 +381,7 @@
   },
   {
     "id": "Torrent",
-    "translation": "Torrent"
+    "translation": "טורנט"
   },
   {
     "id": "Downloading Warzone 2100",
@@ -733,7 +765,7 @@
   },
   {
     "id": "Unable to check for updates",
-    "translation": "Unable to check for updates"
+    "translation": "בדיקת עדכונים נכשלה"
   },
   {
     "id": "This site requires JavaScript, and it looks like you have it disabled.",
@@ -753,11 +785,11 @@
   },
   {
     "id": "Your version",
-    "translation": "Your version"
+    "translation": "הגרסה שלך"
   },
   {
     "id": "Latest Release",
-    "translation": "Latest Release"
+    "translation": "הגרסה העדכנית"
   },
   {
     "id": "Latest Development Build",
@@ -765,7 +797,7 @@
   },
   {
     "id": "404 - Not Found",
-    "translation": "404 - Not Found"
+    "translation": "העמוד לא נמצא"
   },
   {
     "id": "Whatever that was, it couldn't be found.",
@@ -773,27 +805,27 @@
   },
   {
     "id": "Sorry about that.",
-    "translation": "Sorry about that."
+    "translation": "מצטערים."
   },
   {
     "id": "Go Home",
-    "translation": "Go Home"
+    "translation": "למסך הראשי"
   },
   {
     "id": "Subsections",
-    "translation": "Subsections"
+    "translation": "תת-קטגוריות"
   },
   {
     "id": "Tags",
-    "translation": "Tags"
+    "translation": "תגיות"
   },
   {
     "id": "All Tags",
-    "translation": "All Tags"
+    "translation": "כל התגיות"
   },
   {
     "id": "Site Navigation",
-    "translation": "Site Navigation"
+    "translation": "ניווט באתר"
   },
   {
     "id": "More",
