@@ -16,6 +16,8 @@ Some information — such as IP address and/or browser and device characteristic
 
 This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our services, and other technical information. This information is primarily needed to maintain the security and operation of our services, and for our internal analytics and reporting purposes.
 
+We may collect anonymous usage information, such as anonymous crash reports in the event of a crash, for the purpose of helping us identify and fix errors and improve the application. We use the following service provider(s) for this mechanism: Sentry.io - [https://sentry.io/privacy/](https://sentry.io/privacy/)
+
 ### Retention of information
 We only retain collected information for as long as necessary to provide you with your requested services, to maintain the security and operation of the services, and for other legitimate business purposes. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
 
@@ -28,4 +30,4 @@ Our website may link to external sites that are not operated by us. Please be aw
 ### Acceptance
 Your continued use of our website / services will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.
 
-_This policy is effective as of 4 April 2020._
+_This policy is effective as of 24 July 2021._
