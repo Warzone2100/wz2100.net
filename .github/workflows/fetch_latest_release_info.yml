@@ -13,19 +13,8 @@ on:
       - '.github/workflows/fetch_latest_release_info.yml'
 
 jobs:
-  # Wait for up to 10 minutes for previous workflow run to complete, abort if not done by then
-  pre-ci:
-    runs-on: ubuntu-latest
-    if: (github.event_name == 'repository_dispatch' && github.event.action == 'github_release_update') || github.event_name != 'repository_dispatch'
-    timeout-minutes: 10
-    steps:
-      - name: 'Block Concurrent Executions'
-        uses: past-due/turnstyle@v1
-        with:
-          poll-interval-seconds: 30
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   build:
+    concurrency: fetch-latest-release-info
     needs: pre-ci
     name: 'Fetch Latest GitHub Release Info'
     runs-on: ubuntu-latest

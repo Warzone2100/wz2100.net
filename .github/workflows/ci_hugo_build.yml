@@ -44,20 +44,8 @@ jobs:
             -v ${OUTPUT_DIR}:/target \
             klakegg/hugo:${label} \
             --minify --i18n-warnings --gc --path-warnings --verbose
-  # Wait for up to 10 minutes for previous workflow run to complete, abort if not done by then
-  serialize-deploy:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    timeout-minutes: 10
-    steps:
-      - name: 'Block Concurrent Deployments'
-        uses: past-due/turnstyle@v1
-        with:
-          poll-interval-seconds: 15
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   deploy:
-    needs: serialize-deploy
+    concurrency: serialize-pages-deploy
     name: 'Deploy to GitHub Pages'
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
