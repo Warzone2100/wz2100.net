@@ -15,7 +15,6 @@ on:
 jobs:
   build:
     concurrency: fetch-latest-release-info
-    needs: pre-ci
     name: 'Fetch Latest GitHub Release Info'
     runs-on: ubuntu-latest
     if: (github.event_name == 'repository_dispatch' && github.event.action == 'github_release_update') || github.event_name != 'repository_dispatch'
