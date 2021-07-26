@@ -199,7 +199,7 @@ languages:
     weight: 2
     contentDir: "content/tr"
   zh-CN:
-    languageName: "大陆简体"
+    languageName: "简体中文"
     weight: 2
     contentDir: "content/zh-CN"
 
