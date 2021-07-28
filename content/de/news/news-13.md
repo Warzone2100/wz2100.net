@@ -19,7 +19,7 @@ Und eine Reihe Verbesserungen der Balance:
 - Schwerer Plasmawerfer nützlicher mit der "Allrounder" Rolle und der Preis der Plasmakanone deutlich reduziert (PR [#2009](https://github.com/Warzone2100/warzone2100/pull/2009))
 - Verbesserung des Mörser Forschungspfades, um Bombard / Pepperpot von den Schaden / Feuerrate Verbesserungen und dem Brandmörser zu entkoppeln und das Gewicht des Pepperpots reduziert (PR [#2021](https://github.com/Warzone2100/warzone2100/pull/2021))
 - Hochgeschwindigkeitskanone und Hochgeschwindigkeitskanonencyborg durch höhere Feuerrate und einer 1 Tile kürzeren Reichweite neu ausbalanciert (PR [#2022](https://github.com/Warzone2100/warzone2100/pull/2022))
-- Anpassung der Genauigkeit und des Umgebungsschadens der Sunburst und Cyclone Flugabwehrwaffen (PR [#2032](https://github.com/Warzone2100/warzone2100/pull/2032))
+- Anpassung der Genauigkeit und der Werte des Umgebungsschadens der Sunburst und Cyclone Flugabwehrwaffen (PR [#2032](https://github.com/Warzone2100/warzone2100/pull/2032))
 
 [Zeige das komplette 4.1.1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.1.1/ChangeLog)
 
