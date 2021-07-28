@@ -1,40 +1,40 @@
 ---
-title: "Version 4.1.1 released"
+title: "Version 4.1.1 veröffentlicht"
 slug: "version-4-1-1"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-With the help of many bug reporters & contributors, we're happy to announce the release of **4.1.1**, a bug-fix release.
+Mit der Hilfe vieler Fehlermelder & Mitwirkenden, freuen wir uns, die Veröffentlichung von **4.1.1** bekanntgeben zu können, einem Bug-Fix-Release.
 
-Including fixes for:
-- Respecting Hold & Fire At Will better
-- Structure limits screen lighting
-- Using faction models for UI buttons
-- Chat cursor position
-- Beta campaign balance tweaks
-- Compilation / compatibility issues
+Einschließlich Korrekturen für:
+- Position halten & Feuer nach eigenem Ermessen besser respektieren
+- Beleuchtung des Gebäudebeschränkungen Bildschirms
+- Nutzung der Fraktionsmodelle für UI-Schaltflächen
+- Cursor-Position im Chat
+- Optimierung der Balance im Betafeldzug
+- Kompilierungs- / Kompatibilitätsprobleme
 
-And a number of balance tweaks:
-- Make Heavy Plasma Launcher more useful with an "all rounder" role and reduce price of Plasma Cannon significantly (PR [#2009](https://github.com/Warzone2100/warzone2100/pull/2009))
-- Tweak mortar research paths to decouple Bombard / Pepperpot from damage / ROF upgrades and Incendiary Mortar and reduce Pepperpot weight (PR [#2021](https://github.com/Warzone2100/warzone2100/pull/2021))
-- Rebalance HVC and HVC Cyborg to have more ROF and 1 tile less range (PR [#2022](https://github.com/Warzone2100/warzone2100/pull/2022))
-- Tweak accuracy and splash values on Sunburst and Cyclone anti-air weapons (PR [#2032](https://github.com/Warzone2100/warzone2100/pull/2032))
+Und eine Reihe Verbesserungen der Balance:
+- Schwerer Plasmawerfer nützlicher mit der "Allrounder" Rolle und der Preis der Plasmakanone deutlich reduziert (PR [#2009](https://github.com/Warzone2100/warzone2100/pull/2009))
+- Verbesserung des Mörser Forschungspfades, um Bombard / Pepperpot von den Schaden / Feuerrate Verbesserungen und dem Brandmörser zu entkoppeln und das Gewicht des Pepperpots reduziert (PR [#2021](https://github.com/Warzone2100/warzone2100/pull/2021))
+- Hochgeschwindigkeitskanone und Hochgeschwindigkeitskanonencyborg durch höhere Feuerrate und einer 1 Tile kürzeren Reichweite neu ausbalanciert (PR [#2022](https://github.com/Warzone2100/warzone2100/pull/2022))
+- Anpassung der Genauigkeit und des Umgebungsschadens der Sunburst und Cyclone Flugabwehrwaffen (PR [#2032](https://github.com/Warzone2100/warzone2100/pull/2032))
 
-[View the full 4.1.1 changelog](https://github.com/Warzone2100/warzone2100/raw/4.1.1/ChangeLog)
+[Zeige das komplette 4.1.1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.1.1/ChangeLog)
 
-**(For all the changes in 4.1.0, see the [Version 4.1.0 release announcement]({{< ref "news-12.md" >}}).)**
+**(Für alle Änderungen in 4.1.0, lies die [Version 4.1.0 Veröffentlichungsankündigung]({{< ref "news-12.md" >}}).)**
 
-**[Download Options]({{< ref "/" >}})**
+**[Download Optionen]({{< ref "/" >}})**
 
-For Windows 10+, [Warzone 2100 is now available via the Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C).
+Für Windows 10+ ist [Warzone 2100 ab sofort im Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C) verfügbar.
 
-There have been **66 commits since 4.1.0**, from many contributors including: alfred007 / highlander1599, Denis Gantsev, Ilari Tommiska, KJeff01, past-due, Thiago Romão Barcala, Tipchik, Vitya Andreev
+Es gab über **66 Commits seit 4.1.0**, von vielen Mitwirkenden einschließlich: alfred007 / highlander1599, Denis Gantsev, Ilari Tommiska, KJeff01, past-due, Thiago Romão Barcala, Tipchik, Vitya Andreev
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns auch bei allen neuen und alten Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
+Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
