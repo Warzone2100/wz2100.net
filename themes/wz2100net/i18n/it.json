@@ -54,10 +54,10 @@
     "message": "Windows"
   },
   "MSIX Installer": {
-    "message": "MSIX Installer"
+    "message": "Installatore MSIX"
   },
   "Easy install & updates.": {
-    "message": "Easy install & updates."
+    "message": "Semplice da installare e da aggiornare."
   },
   "Portable Version": {
     "message": "Versione Portatile"
@@ -75,7 +75,7 @@
     "message": "Installazione completa"
   },
   "Traditional Installer": {
-    "message": "Traditional Installer"
+    "message": "Installatore tradizionale"
   },
   "Installs for all users on a system.": {
     "message": "Installa per tutti gli utenti del sistema."
@@ -87,10 +87,10 @@
     "message": "(Richiede i privilegi di amministratore per installare.)"
   },
   "Recommended for: Windows 7, 8.x": {
-    "message": "Recommended for: Windows 7, 8.x"
+    "message": "Consigliato per: Windows 7 e 8.x"
   },
   "For Windows 10+, the MSIX installer is recommended instead.": {
-    "message": "For Windows 10+, the MSIX installer is recommended instead."
+    "message": "Per Windows 10+ si consiglia invece l'installatore MSIX."
   },
   "macOS": {
     "message": "macOS"
@@ -198,10 +198,10 @@
     "message": "SourceForge Mirror"
   },
   "For Windows 10+": {
-    "message": "For Windows 10+"
+    "message": "Per Windows 10+"
   },
   "For Windows 7+": {
-    "message": "For Windows 7+"
+    "message": "Per Windows 7+"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -219,7 +219,7 @@
     "message": "Supporta la maggior parte delle distribuzioni Linux."
   },
   "For most Linux distros": {
-    "message": "For most Linux distros"
+    "message": "Per la maggior parte delle distribuzioni Linux"
   },
   "(See link for details.)": {
     "message": "(Vedi link per ulteriori dettagli.)"
@@ -503,11 +503,17 @@
   "Changelog": {
     "message": "Changelog"
   },
+  "Latest Commits": {
+    "message": "Latest Commits"
+  },
   "Privacy Policy": {
     "message": "Politica sulla Privacy"
   },
   "Download": {
     "message": "Download"
+  },
+  "Snap Store": {
+    "message": "Snap Store"
   },
   "Snap Store (Linux)": {
     "message": "Snap Store (Linux)"

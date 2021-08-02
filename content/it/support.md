@@ -1,21 +1,21 @@
 ---
-title: "Support"
+title: "Supporto"
 ---
 
-There are many different options for getting help or support with Warzone 2100.
+Ci sono diverse opzioni per ottenere aiuto o supporto con Warzone 2100.
 
-### Documentation
+### Documentazione
 
-- Try the in-game Tutorial to learn the basics
-- Read the [Quick Start Guide](https://github.com/Warzone2100/warzone2100/blob/master/doc/quickstartguide.asciidoc#warzone-2100-quick-start-guide)
+- Prova l'esercitazione incorporata nel gioco per imparare le basi
+- Leggi la [guida rapida del gioco](https://github.com/Warzone2100/warzone2100/blob/master/doc/quickstartguide.asciidoc#warzone-2100-quick-start-guide)
 
-### Help / Chat
+### Aiuto / Chat
 
-- [Ask for help via Discord / webchat](webchat.md)
-- [Post in the forums](https://forums.wz2100.net/)
-- [Post in GitHub Discussions](https://github.com/Warzone2100/warzone2100/discussions)
+- [Chiedi aiuto su Discord o tramite chat web](webchat.md)
+- [Pubblica nei forum](https://forums.wz2100.net/)
+- [Pubblica nelle discussioni su GitHub](https://github.com/Warzone2100/warzone2100/discussions)
 
-### Reporting Bugs
+### Segnala i bug
 
-- Please first [search the existing Issues](https://github.com/Warzone2100/warzone2100/issues) to make sure the bug hasn't already been reported
--  Report a new bug by [opening a new Issue on GitHub](https://github.com/Warzone2100/warzone2100/issues/new/choose)
+- Prima [cerca tra i problemi esistenti](https://github.com/Warzone2100/warzone2100/issues), in modo da essere sicuro che i problema non sia già stato segnalato
+-  Segnala un nuovo bug [aprendo un nuovo problema su GitHub](https://github.com/Warzone2100/warzone2100/issues/new/choose)
