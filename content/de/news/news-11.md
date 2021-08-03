@@ -13,7 +13,7 @@ Sie ist an den üblichen Stellen erhältlich:
 
 #### 4.1.0 beta1 Höhepunkte:
 
-- Nebel gefixt, Option zum Umschalten hinzugefügt
+- Nebel korrigiert, Option zum Umschalten hinzugefügt
 - Integration des "camBalance" Mods, der die Kampagnenbalance aufpoliert und zahlreiche Probleme behebt
 - Zahlreiche Multiplayer-Balance Optimierungen (siehe vollständiges Änderungsprotokoll für Details)
 - Neue Anzeige der Statistikänderungen im Entwurf-Menü
