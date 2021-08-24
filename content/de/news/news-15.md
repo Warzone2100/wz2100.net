@@ -1,34 +1,34 @@
 ---
-title: "Version 4.1.3 released"
+title: "Version 4.1.3 veröffentlicht"
 slug: "version-4-1-3"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-With the help of many bug reporters & contributors, we're happy to announce the release of **4.1.3**, a bug-fix release.
+Mit der Hilfe vieler Fehlermelder & Mitwirkenden, freuen wir uns, die Veröffentlichung von **4.1.3**, bekanntgeben zu können, einem Bug-Fix-Release.
 
-Including:
-- Numerous fixes for crashes, cleanup issues, and memory leaks
-- Fix: Potential crash affecting campaign level change
-- Fix: Order of players in alliances screen
+Einschließlich:
+- Zahlreiche Fehlerbehebungen bei Abstürzen, Bereinigungsproblemen und Speicherlecks
+- Korrektur: Möglicher Absturz beim Wechsel eines Kampagnenlevels
+- Korrektur: Reihenfolge der Spieler im Allianzbildschirm
 
-And the following multiplayer balance adjustments:
-- Reconstruct Howitzer branch and adjust artillery parameters (PR [#2070](https://github.com/Warzone2100/warzone2100/pull/2070))
-- Make Mantis more accessible (PR [#2095](https://github.com/Warzone2100/warzone2100/pull/2095))
-- Earlier access to Assault Gun, improve MG (PR [#2094](https://github.com/Warzone2100/warzone2100/pull/2094))
+Und die folgenden Mehrspieler-Balance Anpassungen:
+- Rekonstruktion des Haubitzen Forschungszweigs und Anpassung der Artillerieparameter (PR [#2070](https://github.com/Warzone2100/warzone2100/pull/2070))
+- Mantis zugänglicher machen (PR [#2095](https://github.com/Warzone2100/warzone2100/pull/2095))
+- Früherer Zugriff auf das Sturmgewehr, MG verbessern (PR [#2094](https://github.com/Warzone2100/warzone2100/pull/2094))
 
-[View the full 4.1.3 changelog](https://github.com/Warzone2100/warzone2100/raw/4.1.3/ChangeLog)
+[Zeige das komplette 4.1.3 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.1.3/ChangeLog)
 
-**(For all the changes in 4.1.0, see the [Version 4.1.0 release announcement]({{< ref "news-12.md" >}}).)**
+**(Für alle Änderungen in 4.1.0, lies die [Version 4.1.0 Veröffentlichungsankündigung]({{< ref "news-12.md" >}}).)**
 
-**[Download Options]({{< ref "/" >}})**
+**[Download-Optionen]({{< ref "/" >}})**
 
-For Windows 10+, [Warzone 2100 is now available via the Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C).
+Für Windows 10+ ist [Warzone 2100 ab sofort im Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C) verfügbar.
 
-We'd like to thank all of the new and returning contributors, and the translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns bei allen neuen und alten Mitwirkenden bedanken und bei den Übersetzern, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
+Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
