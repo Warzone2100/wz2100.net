@@ -95,7 +95,7 @@
 							Tag{{ if gt (len .) 1 }}s{{ end }}:
 							{{ range $index, $tag := . }}
 								{{- if gt $index 0 }}, {{ end -}}
-								{{ with $.Site.GetPage (printf "/%s/%s" $taxo $tag) -}}
+								{{ with $.Site.GetPage (printf "/%s/%s" $taxo ($tag | urlize)) -}}
 									<a href="{{ .RelPermalink }}"><span class="badge badge-pill badge-secondary">{{ $tag }}</span></a>
 								{{- end -}}
 							{{- end -}}
