@@ -22,18 +22,18 @@ Starting in Warzone 2100 version 4.2.0, a brand-new option is available: **spect
 
 Hosts can enable up to 10 spectator slots for all multiplayer games, by clicking the new Host Options ("gear") button.
 
-{{< figure src="/img/spectators_1.png" width=50% alt="Click Host Options to Enable / Disable Spectator Join" >}}
+{{< figure src="/img/spectators_1.png" alt="Click Host Options to Enable / Disable Spectator Join" >}}
 
 Multiplayer games (that have open slots) can be joined as a player or as a spectator.
 
 Players in a lobby can move themselves to Spectators or back to Players (if there is room or the Host is willing to swap them with another Player) by clicking the Team chooser.
 
-{{< figure src="/img/spectators_2.png" width=50% alt="Move to Spectators" >}}
+{{< figure src="/img/spectators_2.png" alt="Move to Spectators" >}}
 
 The Host of a lobby can move Players to Spectators (which then prevents them from moving back without Host permission), and ask Spectators if they wish to play.
 
-{{< figure src="/img/spectators_3.png" width=50% alt="Ask Spectator to Play" >}}
-{{< figure src="/img/spectators_4.png" width=50% alt="Host wants to know if you want to play? prompt" >}}
+{{< figure src="/img/spectators_3.png" alt="Ask Spectator to Play" >}}
+{{< figure src="/img/spectators_4.png" alt="Host wants to know if you want to play? prompt" >}}
 
 ##### Help Grow the Community:
 - The best way to help grow the multiplayer community is to provide space for new players to learn.
@@ -50,6 +50,6 @@ Spectators are a great enhancement to the Warzone 2100 experience, and help make
 
 They also make possible another feature (that's new in 4.2.0): **[Replays]({{< ref "news-18.md" >}})**.
 
-##### Advance Spectating for Streamers:
+##### Advanced Spectating for Streamers:
 
 Streamers wishing to spectate games with less game UI can start WZ with the command-line option: `--spectator-min-ui`
