@@ -1189,6 +1189,12 @@ li{
 	background-image:url('{{ "/img/backdrop0.webp" | relURL }}');
 }
 
+/* Article body */
+
+.card-body img {
+  max-width: 100%;
+}
+
 /* = Mobile adjustments 
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
