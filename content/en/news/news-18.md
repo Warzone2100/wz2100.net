@@ -64,4 +64,4 @@ Since the game's simulation is deterministic (given the same inputs, events, & i
 
 ## Summary:
 
-Replays are a long-awaited feature, built on top of **[Spectators support]({{< ref "news-17.md" >}})**, available in Warzone 2100 v4.2.0. Watch them, share them, learn from them.
+Replays are a long-awaited feature, built on top of **[Spectators support]({{< newslink "news-17.md" >}})**, available in Warzone 2100 v4.2.0. Watch them, share them, learn from them.
