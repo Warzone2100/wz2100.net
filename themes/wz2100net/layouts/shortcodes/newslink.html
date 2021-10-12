@@ -1,0 +1,14 @@
+{{- $URL := .Get 0 -}}
+{{- $page := .Site.GetPage $URL -}}
+{{- if not $page -}}
+{{- with .Page -}}
+{{- if ne .Page.Site.Language.Lang .Page.Sites.First.Language.Lang -}}
+{{- with .Sites.First.GetPage .Page.Dir }}
+{{- $page = .GetPage $URL -}}
+{{- end -}}
+{{- else -}}
+{{- errorf "[newslink] REF_NOT_FOUND: Ref %s" $URL -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- $page.RelPermalink -}}

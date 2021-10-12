@@ -48,7 +48,7 @@ Once a Player loses in a skirmish or multiplayer game, they can now automaticall
 
 Spectators are a great enhancement to the Warzone 2100 experience, and help make multiplayer, tournaments, and training new players even more fun and accessible.
 
-They also make possible another feature (that's new in 4.2.0): **[Replays]({{< ref "news-18.md" >}})**.
+They also make possible another feature (that's new in 4.2.0): **[Replays]({{< newslink "news-18.md" >}})**.
 
 ##### Advanced Spectating for Streamers:
 
