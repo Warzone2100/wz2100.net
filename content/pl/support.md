@@ -1,21 +1,21 @@
 ---
-title: "Support"
+title: "Wsparcie"
 ---
 
-There are many different options for getting help or support with Warzone 2100.
+Istnieje wiele różnych możliwości uzyskania pomocy lub wsparcia dla gry Warzone 2100.
 
-### Documentation
+### Dokumentacja
 
-- Try the in-game Tutorial to learn the basics
-- Read the [Quick Start Guide](https://github.com/Warzone2100/warzone2100/blob/master/doc/quickstartguide.asciidoc#warzone-2100-quick-start-guide)
+- Wypróbuj samouczek w grze, aby nauczyć się podstaw
+- Przeczytaj [Przewodnik szybkiego startu](https://github.com/Warzone2100/warzone2100/blob/master/doc/quickstartguide.asciidoc#warzone-2100-quick-start-guide)
 
-### Help / Chat
+### Pomoc / Czat
 
-- [Ask for help via Discord / webchat](webchat.md)
-- [Post in the forums](https://forums.wz2100.net/)
-- [Post in GitHub Discussions](https://github.com/Warzone2100/warzone2100/discussions)
+- [Poproś o pomoc za pośrednictwem Discorda / czatu internetowego](webchat.md)
+- [Utwórz post na forum](https://forums.wz2100.net/)
+- [Utwórz dyskusje w GitHub Discussions](https://github.com/Warzone2100/warzone2100/discussions)
 
-### Reporting Bugs
+### Zgłaszanie błędów
 
-- Please first [search the existing Issues](https://github.com/Warzone2100/warzone2100/issues) to make sure the bug hasn't already been reported
--  Report a new bug by [opening a new Issue on GitHub](https://github.com/Warzone2100/warzone2100/issues/new/choose)
+- Najpierw [przeszukaj istniejące zgłoszenia](https://github.com/Warzone2100/warzone2100/issues), aby upewnić się, że błąd nie został już zgłoszony
+-  Zgłoś nowy błąd [otwierając nowy zgłoszenie na GitHub](https://github.com/Warzone2100/warzone2100/issues/new/choose)

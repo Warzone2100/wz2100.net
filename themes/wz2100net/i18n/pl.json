@@ -54,10 +54,10 @@
     "message": "Windows"
   },
   "MSIX Installer": {
-    "message": "MSIX Installer"
+    "message": "Instalator MSIX"
   },
   "Easy install & updates.": {
-    "message": "Easy install & updates."
+    "message": "Łatwa instalacja i aktualizacja."
   },
   "Portable Version": {
     "message": "Wersja przenośna (portable)"
@@ -75,7 +75,7 @@
     "message": "Pełen Instalator"
   },
   "Traditional Installer": {
-    "message": "Traditional Installer"
+    "message": "Instalator tradycyjny"
   },
   "Installs for all users on a system.": {
     "message": "Instaluje grę dla wszystkich użytkowników na komputerze."
@@ -87,10 +87,10 @@
     "message": "(Wymaga uprawnień administratora.)"
   },
   "Recommended for: Windows 7, 8.x": {
-    "message": "Recommended for: Windows 7, 8.x"
+    "message": "Zalecane dla: Windows 7, 8.x"
   },
   "For Windows 10+, the MSIX installer is recommended instead.": {
-    "message": "For Windows 10+, the MSIX installer is recommended instead."
+    "message": "Dla Windows 10+ zalecany jest instalator MSIX."
   },
   "macOS": {
     "message": "macOS"
@@ -198,10 +198,10 @@
     "message": "Mirror na SourceForge"
   },
   "For Windows 10+": {
-    "message": "For Windows 10+"
+    "message": "Dla Windows 10+"
   },
   "For Windows 7+": {
-    "message": "For Windows 7+"
+    "message": "Dla Windows 7+"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -219,7 +219,7 @@
     "message": "Wspiera większość dystrybucji Linuksa."
   },
   "For most Linux distros": {
-    "message": "For most Linux distros"
+    "message": "Dla większości dystrybucji Linux"
   },
   "(See link for details.)": {
     "message": "(Zobacz link dla szczegółów.)"
@@ -252,13 +252,13 @@
     "message": "64-bit Intel"
   },
   "64-bit (Universal Binary)": {
-    "message": "64-bit (Universal Binary)"
+    "message": "64-bitowy (Uniwersalny Binarny)"
   },
   "How to handle “Warzone cannot be opened” errors.": {
     "message": "Jak rozwiązać błąd \"Warzone cannot be opened\"."
   },
   "Universal Binary supports Intel 64-bit and Apple Silicon.": {
-    "message": "Universal Binary supports Intel 64-bit and Apple Silicon."
+    "message": "Uniwersalny instalator obsługuje platformę Intel 64-bit i Apple Silicon."
   },
   "Other": {
     "message": "Inne"
@@ -288,34 +288,34 @@
     "message": "Torrent"
   },
   "Downloading Warzone 2100": {
-    "message": "Downloading Warzone 2100"
+    "message": "Pobieranie Warzone 2100"
   },
   "Next Steps:": {
-    "message": "Next Steps:"
+    "message": "Następny krok:"
   },
   "Share on Twitter": {
-    "message": "Share on Twitter"
+    "message": "Udostępnij na Twitterze"
   },
   "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
-    "message": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "message": "Warzone 2100 - w 100% darmowa Open Source gra strategiczna 3D w czasie rzeczywistym dla Windows / macOS / Linux."
   },
   "If you’ve never played before,": {
-    "message": "If you’ve never played before,"
+    "message": "Jeśli nigdy wcześniej nie grałeś,"
   },
   "start with the in-game Tutorial, and then check out:": {
-    "message": "start with the in-game Tutorial, and then check out:"
+    "message": "zacznij od samouczka w grze, a następnie sprawdź:"
   },
   "the Quickstart Guide": {
-    "message": "the Quickstart Guide"
+    "message": "Quickstart Guide"
   },
   "Chat with players on the official Discord server!": {
-    "message": "Chat with players on the official Discord server!"
+    "message": "Czatuj z graczami na oficjalnym serwerze Discord!"
   },
   "Star the project on GitHub and help spread the news!": {
-    "message": "Star the project on GitHub and help spread the news!"
+    "message": "Oznacz projekt na GitHub i pomóż w rozpowszechnianiu wiadomości!"
   },
   "Donate to help support server and other costs!": {
-    "message": "Donate to help support server and other costs!"
+    "message": "Przekaż darowiznę, aby wesprzeć serwer i pokryć inne koszty!"
   },
   "Why Warzone 2100 Rocks": {
     "message": "Oto dlaczego Warzone 2100 wymiata"
@@ -483,10 +483,10 @@
     "message": "Rozwiązywanie problemów"
   },
   "Copy URL": {
-    "message": "Copy URL"
+    "message": "Kopiuj adres URL"
   },
   "Copied URL!": {
-    "message": "Copied URL!"
+    "message": "Skopiowano URL!"
   },
   "JavaScript is disabled.": {
     "message": "JavaScript jest wyłączony."
@@ -504,7 +504,7 @@
     "message": "Historia wersji"
   },
   "Latest Commits": {
-    "message": "Latest Commits"
+    "message": "Najnowsze zmiany"
   },
   "Privacy Policy": {
     "message": "Polityka prywatności"
