@@ -73,11 +73,11 @@
   },
   {
     "id": "MSIX Installer",
-    "translation": "MSIX Installer"
+    "translation": "Instalator MSIX"
   },
   {
     "id": "Easy install & updates.",
-    "translation": "Easy install & updates."
+    "translation": "Łatwa instalacja i aktualizacja."
   },
   {
     "id": "Portable Version",
@@ -101,7 +101,7 @@
   },
   {
     "id": "Traditional Installer",
-    "translation": "Traditional Installer"
+    "translation": "Instalator tradycyjny"
   },
   {
     "id": "Installs for all users on a system.",
@@ -117,11 +117,11 @@
   },
   {
     "id": "Recommended for: Windows 7, 8.x",
-    "translation": "Recommended for: Windows 7, 8.x"
+    "translation": "Zalecane dla: Windows 7, 8.x"
   },
   {
     "id": "For Windows 10+, the MSIX installer is recommended instead.",
-    "translation": "For Windows 10+, the MSIX installer is recommended instead."
+    "translation": "Dla Windows 10+ zalecany jest instalator MSIX."
   },
   {
     "id": "macOS",
@@ -265,11 +265,11 @@
   },
   {
     "id": "For Windows 10+",
-    "translation": "For Windows 10+"
+    "translation": "Dla Windows 10+"
   },
   {
     "id": "For Windows 7+",
-    "translation": "For Windows 7+"
+    "translation": "Dla Windows 7+"
   },
   {
     "id": "32-bit (x86)",
@@ -293,7 +293,7 @@
   },
   {
     "id": "For most Linux distros",
-    "translation": "For most Linux distros"
+    "translation": "Dla większości dystrybucji Linux"
   },
   {
     "id": "(See link for details.)",
@@ -337,7 +337,7 @@
   },
   {
     "id": "64-bit (Universal Binary)",
-    "translation": "64-bit (Universal Binary)"
+    "translation": "64-bitowy (Uniwersalny Binarny)"
   },
   {
     "id": "How to handle “Warzone cannot be opened” errors.",
@@ -345,7 +345,7 @@
   },
   {
     "id": "Universal Binary supports Intel 64-bit and Apple Silicon.",
-    "translation": "Universal Binary supports Intel 64-bit and Apple Silicon."
+    "translation": "Uniwersalny instalator obsługuje platformę Intel 64-bit i Apple Silicon."
   },
   {
     "id": "Other",
@@ -385,43 +385,43 @@
   },
   {
     "id": "Downloading Warzone 2100",
-    "translation": "Downloading Warzone 2100"
+    "translation": "Pobieranie Warzone 2100"
   },
   {
     "id": "Next Steps:",
-    "translation": "Next Steps:"
+    "translation": "Następny krok:"
   },
   {
     "id": "Share on Twitter",
-    "translation": "Share on Twitter"
+    "translation": "Udostępnij na Twitterze"
   },
   {
     "id": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.",
-    "translation": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "translation": "Warzone 2100 - w 100% darmowa Open Source gra strategiczna 3D w czasie rzeczywistym dla Windows / macOS / Linux."
   },
   {
     "id": "If you’ve never played before,",
-    "translation": "If you’ve never played before,"
+    "translation": "Jeśli nigdy wcześniej nie grałeś,"
   },
   {
     "id": "start with the in-game Tutorial, and then check out:",
-    "translation": "start with the in-game Tutorial, and then check out:"
+    "translation": "zacznij od samouczka w grze, a następnie sprawdź:"
   },
   {
     "id": "the Quickstart Guide",
-    "translation": "the Quickstart Guide"
+    "translation": "Quickstart Guide"
   },
   {
     "id": "Chat with players on the official Discord server!",
-    "translation": "Chat with players on the official Discord server!"
+    "translation": "Czatuj z graczami na oficjalnym serwerze Discord!"
   },
   {
     "id": "Star the project on GitHub and help spread the news!",
-    "translation": "Star the project on GitHub and help spread the news!"
+    "translation": "Oznacz projekt na GitHub i pomóż w rozpowszechnianiu wiadomości!"
   },
   {
     "id": "Donate to help support server and other costs!",
-    "translation": "Donate to help support server and other costs!"
+    "translation": "Przekaż darowiznę, aby wesprzeć serwer i pokryć inne koszty!"
   },
   {
     "id": "Why Warzone 2100 Rocks",
@@ -645,11 +645,11 @@
   },
   {
     "id": "Copy URL",
-    "translation": "Copy URL"
+    "translation": "Kopiuj adres URL"
   },
   {
     "id": "Copied URL!",
-    "translation": "Copied URL!"
+    "translation": "Skopiowano URL!"
   },
   {
     "id": "JavaScript is disabled.",
@@ -673,7 +673,7 @@
   },
   {
     "id": "Latest Commits",
-    "translation": "Latest Commits"
+    "translation": "Najnowsze zmiany"
   },
   {
     "id": "Privacy Policy",
