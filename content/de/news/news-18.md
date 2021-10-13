@@ -59,7 +59,7 @@ When playing back a replay, the game simulation is reinitialized with the same s
 
 Since the game's simulation is deterministic (given the same inputs, events, & initial seed), this re-simulates the entire game!
 
-(But this is also why fast-forwarding is possible, but rewinding is not so easy. And why using the same version of WZ to play back a replay is recommended: if there are core game changes that affect the simulation, it won't be in sync. Using the same version ensures the same simulation logic / rules.)
+(Aber das ist auch der Grund, warum vorspulen möglich ist, aber zurückspulen nicht so einfach. And why using the same version of WZ to play back a replay is recommended: if there are core game changes that affect the simulation, it won't be in sync. Using the same version ensures the same simulation logic / rules.)
 
 ## Summary:
 
