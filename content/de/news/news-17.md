@@ -1,53 +1,53 @@
 ---
-title: "New Feature Spotlight: Spectators"
-slug: "new-feature-spectators"
+title: "Neues Feature Spotlight: Zuschauer"
+slug: "neues-Feature-Zuschauer"
 tags:
   - "Feature Spotlight"
 ---
 
-Starting in Warzone 2100 version 4.2.0, a brand-new option is available: **spectators**.
+Ab Warzone 2100 Version 4.2.0 steht eine brandneue Option zur Verfügung: **Zuschauer**.
 
-### Spectators can:
-- Watch a multiplayer game live*
-- See the entire map
-- Chat with other spectators (but not with players)
-- Use the special `specstats` chat command to open a special statistics view
-- Re-watch a locally-saved replay of the game later
+### Zuschauer können:
+- Ein Mehrspieler-Spiel live ansehen*
+- Die gesamte Karte sehen
+- Mit anderen Zuschauern chatten (aber nicht mit den Spielern)
+- Verwende den speziellen `specstats` Chat-Befehl, um eine spezielle Statistikansicht zu öffnen
+- Sieh Dir eine lokal gespeicherte Aufzeichnung des Spiels später an
 
-> _*Note: The game does not wait on spectators, once started, so if a spectator’s connection to the host is poor they may have a sub-par live viewing experience. (Example: If a spectator lags, their view may pause momentarily, and may then automatically “fast-forward” to catch up to real-time as soon as possible.)_
+> _*Hinweis: Das Spiel wartet nicht auf Zuschauer sobald es begonnen hat. Wenn also die Verbindung eines Zuschauers zum Spielleiter schlecht ist, kann es zu einem unterdurchschnittlichen Live-Erlebnis kommen. (Beispiel: Wenn es bei einem Zuschauer laggt, kann sein Bild vorübergehend anhalten und dann automatisch schnell vorspulen, um so schnell wie möglich die Echtzeit einzuholen.)_
 
-### Lobby spectator configuration:
+### Lobby Zuschauer-Konfiguration:
 
-Hosts can enable up to 10 spectator slots for all multiplayer games, by clicking the new Host Options ("gear") button.
+Spielleiter können bis zu 10 Zuschauerplätze für alle Mehrspielerspiele aktivieren, indem Sie auf die neue Spielleiter-Option ("Zahnrad") klicken.
 
-{{< figure src="/img/spectators_1.png" alt="Click Host Options to Enable / Disable Spectator Join" >}}
+{{< figure src="/img/spectators_1.png" alt="Klicke Spielleiter-Option um Zuschauer zu erlauben / verbieten" >}}
 
-Multiplayer games (that have open slots) can be joined as a player or as a spectator.
+Mehrspieler-Spielen (die offene Plätze haben) kann als Spieler oder Zuschauer beigetreten werden.
 
-Players in a lobby can move themselves to Spectators or back to Players (if there is room or the Host is willing to swap them with another Player) by clicking the Team chooser.
+Spieler in einer Lobby können sich zu Zuschauern oder zurück zu Spielern bewegen (falls es Raum gibt oder der Spielleiter bereit ist, sie mit einem anderen Spieler auszutauschen), indem Sie auf den Team-Auswähler klicken.
 
-{{< figure src="/img/spectators_2.png" alt="Move to Spectators" >}}
+{{< figure src="/img/spectators_2.png" alt="Wechsel zu den Zuschauern" >}}
 
-The Host of a lobby can move Players to Spectators (which then prevents them from moving back without Host permission), and ask Spectators if they wish to play.
+Der Spielleiter kann Spieler zu den Zuschauern verschieben (was dann verhindert, dass sie ohne Erlaubnis des Spielleiters zurück wechseln) und Zuschauer fragen, ob sie spielen möchten.
 
-{{< figure src="/img/spectators_3.png" alt="Ask Spectator to Play" >}}
-{{< figure src="/img/spectators_4.png" alt="Host wants to know if you want to play? prompt" >}}
+{{< figure src="/img/spectators_3.png" alt="Frage Zuschauer, ob er spielen will" >}}
+{{< figure src="/img/spectators_4.png" alt="Der Spielleiter will wissen, ob du spielen möchtest? prompt" >}}
 
-##### Help Grow the Community:
-- The best way to help grow the multiplayer community is to provide space for new players to learn.
-- If you host an open (not-password-protected) lobby, consider trying to balance teams so that new players are paired with more experienced players.
-- But you now also have another option: open Spectator slots and give new players a chance to watch you play and learn the game!
+##### Hilf der Gemeinschaft zu wachsen:
+- Der beste Weg, die Mehrspieler-Gemeinschaft zu erweitern, besteht darin, neuen Spielern Platz zum Lernen zu bieten.
+- Wenn Du eine offene (nicht passwortgeschützte) Lobby betreibst, solltest Du versuchen Teams so zusammenzustellen, dass neue Spieler mit erfahreneren Spielern zusammen spielen.
+- Aber Du hast jetzt auch noch eine andere Möglichkeit: Öffne Zuschauerplätze und neue Spieler haben die Chance, Dich zu beobachten und das Spiel zu lernen!
 
-### Lost a match? Keep watching:
+### Spiel verloren? Weiter zuschauen:
 
-Once a Player loses in a skirmish or multiplayer game, they can now automatically continue to watch the game as a Spectator, and see how it ends!
+Sobald ein Spieler in einem Scharmützel oder Mehrspielerspiel verliert, kann er jetzt das Spiel automatisch als Zuschauer anschauen und sehen, wie es endet!
 
-## Summary:
+## Zusammenfassung:
 
-Spectators are a great enhancement to the Warzone 2100 experience, and help make multiplayer, tournaments, and training new players even more fun and accessible.
+Zuschauer sind eine großartige Erweiterung der Warzone 2100-Erfahrung und hilft Mehrspieler zu gewinnen, Turniere durchzuführen und das Training neuer Spieler noch unterhaltsamer und zugänglicher zu machen.
 
-They also make possible another feature (that's new in 4.2.0): **[Replays]({{< newslink "news-18.md" >}})**.
+Sie ermöglichen auch ein anderes Feature (das ist neu in 4.2.0): **[Aufzeichnungen]({{< newslink "news-18.md" >}})**.
 
-##### Advanced Spectating for Streamers:
+##### Erweitertes Zuschauen für Streamer:
 
-Streamers wishing to spectate games with less game UI can start WZ with the command-line option: `--spectator-min-ui`
+Streamer, die Spiele mit weniger Spiel-UI betrachten möchten, können WZ mit der folgenden Befehlszeilenoption starten: `--spectator-min-ui`
