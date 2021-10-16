@@ -33,8 +33,7 @@ When the replay ends, you will receive a message (and the game simulation pauses
 
 Replay playback currently has the following requirements:
 - You must have the same map and mods available locally.
-- You should generally play back a replay with the same version of Warzone 2100 used to record it.
-   (This is recorded in the replay file, and you will receive a message if not.)
+- You should generally play back a replay with the same version of Warzone 2100 used to record it. (This is recorded in the replay file, and you will receive a message if not.)
 
 But assuming both are satisfied, `.wzrp` files can be shared with others and easily played back on different systems.
 
