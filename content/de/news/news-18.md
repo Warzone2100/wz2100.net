@@ -1,66 +1,66 @@
 ---
-title: "New Feature Spotlight: Replays"
-slug: "new-feature-replays"
+title: "Neues Feature Spotlight: Aufzeichnungen"
+slug: "neues-Feature-Aufzeichnungen"
 tags:
   - "Feature Spotlight"
 ---
 
-Starting in Warzone 2100 version 4.2.0, **replays** are now available for skirmish and multiplayer games.
+Beginnend mit Warzone 2100 Version 4.2.0, **Aufzeichnungen** sind jetzt für Scharmützel und Mehrspielerspiele verfügbar.
 
-Every skirmish or multiplayer game is recorded to a (_tiny_) `.wzrp` file, which can be played back inside WZ.
+Jedes Scharmützel oder Mehrspielerspiel wird in einer (_winzige_) `.wzrp` Datei aufgezeichnet, die innerhalb von Warzone wiedergegeben werden kann.
 
-- For Skirmish replays: Go to "_Single Player_" > "_View Skirmish Replay_"
-- For Multiplayer replays: Go to "_Multi Player_" > "_View Replay_"
+- Für Scharmützel-Aufzeichnungen: Gehe zu "_Einzelspieler_" > "_Scharmützel Aufzeichnung ansehen_"
+- Für Mehrspieler-Aufzeichnungen: Gehe zu "_Mehrspieler_" > "_Aufzeichnung ansehen_"
 
-The files are stored in:
+Die Dateien sind gespeichert in:
 - `<configdir>/replay/skirmish`
 - `<configdir>/replay/multiplay`
 
 
-> _Note: Only the most recent few dozen replays are kept around automatically. If you want to save a replay permanently you can "Open Configuration Directory" from the main Options menu, and copy it somewhere else._
+> _Hinweis: Nur die letzten paar Dutzend Aufzeichnungen werden automatisch gespeichert. Wenn Du eine Aufzeichnung dauerhaft speichern möchtest, kannst Du "Konfigurationsverzeichnis öffnen" aus dem Menü "Einstellungen" anklicken und Sie an einen anderen Ort kopieren._
 
-### Replay Playback:
+### Aufzeichnung abspielen:
 
-Once a replay is loaded you can **Pause**, **Play**, or **Fast-Forward** (two speeds).
+Sobald eine Aufzeichnung geladen ist, kannst du **pausieren**, **abspielen** oder **vorspulen** (zwei Geschwindigkeiten).
 
-(The camera is fully movable even while Paused.)
+(Die Kamera ist auch während das Spiel pausiert voll beweglich.)
 
-Since replays place you in Spectator mode, you can see all players / the entire map, and you can even use the `specstats` chat command to enable the Stats overlay window.
+Da Du Dich bei Aufzeichnungen im Zuschauermodus wiederfindest, kannst du alle Spieler / die gesamte Karte sehen und Du kannst sogar den `specstats` Chat Befehl verwenden, um das Statistik-Overlay-Fenster zu aktivieren.
 
-When the replay ends, you will receive a message (and the game simulation pauses).
+Wenn die Aufzeichnung beendet ist, erhältst Du eine Nachricht (und die Spielsimulation pausiert).
 
-### Playback Requirements:
+### Wiedergabevoraussetzungen:
 
-Replay playback currently has the following requirements:
-- You must have the same map and mods available locally.
-- You should generally play back a replay with the same version of Warzone 2100 used to record it. (This is recorded in the replay file, and you will receive a message if not.)
+Die Wiedergabe der Aufzeichnung hat derzeit folgende Voraussetzungen:
+- Du musst dieselbe Karte und Modifikationen lokal zur Verfügung haben.
+- Im Allgemeinen solltest Du eine Aufzeichnung mit derselben Version von Warzone 2100 wiedergeben, die für die Aufnahme verwendet wurde. (Dies wird in der Aufzeichnungs-Datei aufgezeichnet, und Du wirst eine Nachricht erhalten, wenn es nicht der Fall ist.)
 
-But assuming both are satisfied, `.wzrp` files can be shared with others and easily played back on different systems.
+Aber vorausgesetzt, beide Voraussetzungen sind erfüllt, können `.wzrp` Dateien mit Anderen geteilt und leicht auf verschiedenen Systemen wiedergegeben werden.
 
-### What can you do with it?
+### Was kannst Du mit ihnen machen?
 
-- Play back a Skirmish game, pause and capture that sweet moment / volley / etc and take the perfect screenshot.
-- Play back a multiplayer game (with full visibility) and figure out how you were beaten.
-- Share a replay with others. (Just make sure to send them the map too if using a non-built-in map.)
-- More easily report bugs. (Attach the replay file please!)
+- Spiele ein Scharmützel ab, pausiere und fange den süßen Moment / Volley / etc ein und mache den perfekten Screenshot.
+- Wiederhole ein Mehrspieler-Spiel (mit voller Sichtbarkeit) und erfahre, wie Du geschlagen wurdest.
+- Teile eine Aufzeichnung mit Anderen. (Stelle sicher, dass Du die Karte auch sendest, falls Du eine nicht integrierte Karte benutzt.)
+- Einfacheres Melden von Fehlern. (Bitte die Aufzeichnungs-Datei anhängen)
 
-### Known Limitations:
+### Bekannte Einschränkungen:
 
-- Replays cannot be rewound - if you'd like to go back, you must currently reload the replay and fast-forward from the beginning to the point that you want.
-- The use of a number of cheats will cause "desync" errors during replay playback.
-- Changing the game speed during gameplay will cause "desync" errors during replay playback.
-- If you modify the core game files (ex: stats files), playing back a replay from someone else likely won't work (until you revert to the standard files).
+- Aufzeichnungen können nicht zurückgespult werden - wenn du zurückgehen möchtest, musst Du die Aufzeichnung neu laden und zu dem gewünschten Punkt vorspulen.
+- Die Verwendung einer Reihe von Cheats führt zu "desync" Fehlern bei der Wiedergabe.
+- Das Ändern der Spielgeschwindigkeit während des Spiels führt zu "desync" Fehlern bei der Wiedergabe.
+- Wenn Du die Kernspiel-Dateien modifizierst (z.B. Statistikdateien), wird die Wiedergabe einer Aufzeichnung von jemand Anderem wahrscheinlich nicht funktionieren (bis Du zu den Standarddateien zurückkehrst).
 
-### How Replays Work:
+### Wie Aufzeichnungen funktionieren:
 
-Replay files store the required settings to initialize the game, and all game inputs / network messages.
+Aufzeichnungs-Dateien speichern die erforderlichen Einstellungen zum Initialisieren des Spiels und alle Spieleingaben / Netzwerk-Nachrichten.
 
-When playing back a replay, the game simulation is reinitialized with the same starting settings (but with you as a new spectator). Then, all events are re-processed in order and at the appropriate time.
+Bei der Wiedergabe wird die Spielsimulation mit den selben Starteinstellungen neu initialisiert (aber mit Dir als Zuschauer). Danach werden alle Ereignisse in der Reihenfolge und zum richtigen Zeitpunkt neu verarbeitet.
 
-Since the game's simulation is deterministic (given the same inputs, events, & initial seed), this re-simulates the entire game!
+Da die Simulation des Spiels deterministisch ist (bei gleichen Inputs, Ereignissen, & Seed), simuliert dies das gesamte Spiel!
 
-(But this is also why fast-forwarding is possible, but rewinding is not so easy. And why using the same version of WZ to play back a replay is recommended: if there are core game changes that affect the simulation, it won't be in sync. Using the same version ensures the same simulation logic / rules.)
+(Aber das ist auch der Grund, warum vorspulen möglich ist, aber zurückspulen nicht so einfach. Und warum dieselbe Version von WZ zur Wiedergabe einer Aufzeichnung verwendet werden soll: Wenn es Kernspieländerungen gibt, die die Simulation beeinflussen, wird es nicht synchronisiert. Mit der selben Version wird die gleiche Simulationslogik / -regeln sichergestellt.)
 
-## Summary:
+## Zusammenfassung:
 
-Replays are a long-awaited feature, built on top of **[Spectators support]({{< ref "news-17.md" >}})**, available in Warzone 2100 v4.2.0. Watch them, share them, learn from them.
+Aufzeichnungen sind ein lang erwartetes Feature, zusätzlich zur **[Zuschauerunterstützung]({{< newslink "news-17.md" >}})**, verfügbar in Warzone 2100 v4.2.0. Sieh zu, teile sie, lerne von ihnen.
