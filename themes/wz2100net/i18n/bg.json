@@ -1,71 +1,71 @@
 [
   {
     "id": "Home",
-    "translation": "Home"
+    "translation": "Начало"
   },
   {
     "id": "Features",
-    "translation": "Features"
+    "translation": "Относно"
   },
   {
     "id": "History",
-    "translation": "History"
+    "translation": "История"
   },
   {
     "id": "FAQ",
-    "translation": "FAQ"
+    "translation": "ЧЗВ"
   },
   {
     "id": "Resources",
-    "translation": "Resources"
+    "translation": "Ресурси"
   },
   {
     "id": "News",
-    "translation": "News"
+    "translation": "Новини"
   },
   {
     "id": "Webchat",
-    "translation": "Webchat"
+    "translation": "Уебчат"
   },
   {
     "id": "Forums",
-    "translation": "Forums"
+    "translation": "Форуми"
   },
   {
     "id": "Addons",
-    "translation": "Addons"
+    "translation": "Добавки"
   },
   {
     "id": "WZ Guide",
-    "translation": "WZ Guide"
+    "translation": "Ръководство за WZ"
   },
   {
     "id": "Wiki",
-    "translation": "Wiki"
+    "translation": "Уики"
   },
   {
     "id": "Report Bugs",
-    "translation": "Report Bugs"
+    "translation": "Докладвайте грешка"
   },
   {
     "id": "Donate",
-    "translation": "Donate"
+    "translation": "Дарение"
   },
   {
     "id": "Help us Translate",
-    "translation": "Help us Translate"
+    "translation": "Помогнете ни да преведем"
   },
   {
     "id": "A 100% free and open-source 3D real-time strategy game.",
-    "translation": "A 100% free and open-source 3D real-time strategy game."
+    "translation": "100% безплатна и с отворен код триизмерна стратегическа игра в реално време."
   },
   {
     "id": "Download Now",
-    "translation": "Download Now"
+    "translation": "Изтеглете сега"
   },
   {
     "id": "Toggle Dropdown",
-    "translation": "Toggle Dropdown"
+    "translation": "Превключване на Падащото меню"
   },
   {
     "id": "Windows",
@@ -73,55 +73,55 @@
   },
   {
     "id": "MSIX Installer",
-    "translation": "MSIX Installer"
+    "translation": "MSIX Инсталатор"
   },
   {
     "id": "Easy install & updates.",
-    "translation": "Easy install & updates."
+    "translation": "Лесно инсталиране и обновяване."
   },
   {
     "id": "Portable Version",
-    "translation": "Portable Version"
+    "translation": "Преносима версия"
   },
   {
     "id": "Can be installed to / run from a USB drive, local folder, etc.",
-    "translation": "Can be installed to / run from a USB drive, local folder, etc."
+    "translation": "Може да бъде инсталирана на / запусната от USB устройство, локална папка и т. н."
   },
   {
     "id": "Fully self-contained in a single directory - stores all settings / saves in that same directory too.",
-    "translation": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "translation": "Напълно побрана в една-единствена папка - съхранява и всички настройки / съхранени игри в същата папка."
   },
   {
     "id": "(Does not require admin privileges.)",
-    "translation": "(Does not require admin privileges.)"
+    "translation": "(Не изисква администраторски права.)"
   },
   {
     "id": "Full Installer",
-    "translation": "Full Installer"
+    "translation": "Пълен инсталатор"
   },
   {
     "id": "Traditional Installer",
-    "translation": "Traditional Installer"
+    "translation": "Традиционен инсталатор"
   },
   {
     "id": "Installs for all users on a system.",
-    "translation": "Installs for all users on a system."
+    "translation": "Инсталира се за всички потребители на системата."
   },
   {
     "id": "Settings / saves are user-specific.",
-    "translation": "Settings / saves are user-specific."
+    "translation": "Съхранените настройки / игри са отделни за всеки потребител."
   },
   {
     "id": "(Requires admin privileges to install.)",
-    "translation": "(Requires admin privileges to install.)"
+    "translation": "(Изисква администраторски права за инсталация.)"
   },
   {
     "id": "Recommended for: Windows 7, 8.x",
-    "translation": "Recommended for: Windows 7, 8.x"
+    "translation": "Препоръчва се за: Windows 7, 8.x"
   },
   {
     "id": "For Windows 10+, the MSIX installer is recommended instead.",
-    "translation": "For Windows 10+, the MSIX installer is recommended instead."
+    "translation": "За Windows 10+ се препоръчва MSIX инсталаторът."
   },
   {
     "id": "macOS",
@@ -133,195 +133,195 @@
   },
   {
     "id": "Linux",
-    "translation": "Linux"
+    "translation": "Линукс"
   },
   {
     "id": "Install the Snap",
-    "translation": "Install the Snap"
+    "translation": "Инсталация чрез Snap"
   },
   {
     "id": "Ubuntu 18.04",
-    "translation": "Ubuntu 18.04"
+    "translation": "Убунту 18.04"
   },
   {
     "id": "Ubuntu 20.04+",
-    "translation": "Ubuntu 20.04+"
+    "translation": "Убунту 20.04+"
   },
   {
     "id": "Ubuntu 18.04 (x64)",
-    "translation": "Ubuntu 18.04 (x64)"
+    "translation": "Убунту 18.04 (x64)"
   },
   {
     "id": "Ubuntu 20.04+ (x64)",
-    "translation": "Ubuntu 20.04+ (x64)"
+    "translation": "Убунту 20.04+ (x64)"
   },
   {
     "id": "Get the Source",
-    "translation": "Get the Source"
+    "translation": "Изтеглете кода"
   },
   {
     "id": "and more...",
-    "translation": "and more..."
+    "translation": "и още..."
   },
   {
     "id": "All downloads & platforms",
-    "translation": "All downloads & platforms"
+    "translation": "Всички изтегляния и платформи"
   },
   {
     "id": "New",
-    "translation": "New"
+    "translation": "Ново"
   },
   {
     "id": "Version",
-    "translation": "Version"
+    "translation": "Версия"
   },
   {
     "id": "for Windows 7-10",
-    "translation": "for Windows 7-10"
+    "translation": "за Windows 7-10"
   },
   {
     "id": "for macOS 10.10+",
-    "translation": "for macOS 10.10+"
+    "translation": "за macOS 10.10+"
   },
   {
     "id": "for Linux",
-    "translation": "for Linux"
+    "translation": "за Линукс"
   },
   {
     "id": "Windows, macOS, Linux",
-    "translation": "Windows, macOS, Linux"
+    "translation": "Windows, macOS, Линукс"
   },
   {
     "id": "Advanced install options & other platforms",
-    "translation": "Advanced install options & other platforms"
+    "translation": "Други опции за инсталация и други платформи"
   },
   {
     "id": "Get the source code",
-    "translation": "Get the source code"
+    "translation": "Изтеглете програмния код"
   },
   {
     "id": "Get the Source Code",
-    "translation": "Get the Source Code"
+    "translation": "Изтеглете програмния код"
   },
   {
     "id": "View on GitHub",
-    "translation": "View on GitHub"
+    "translation": "Вижте в GitHub"
   },
   {
     "id": "Star on GitHub",
-    "translation": "Star on GitHub"
+    "translation": "Харесайте в GitHub"
   },
   {
     "id": "Report a Bug",
-    "translation": "Report a Bug"
+    "translation": "Докладвайте за грешка"
   },
   {
     "id": "Copyright © Warzone 2100 Project.",
-    "translation": "Copyright © Warzone 2100 Project."
+    "translation": "© Warzone 2100 Project."
   },
   {
     "id": "Warzone is licensed under the GPLv2+ license (& others).",
-    "translation": "Warzone is licensed under the GPLv2+ license (& others)."
+    "translation": "Warzone е лицензирана под лиценза GPLv2+ (и други)."
   },
   {
     "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
-    "translation": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "translation": "Командвайте силите на Проекта в битка да възродите човечеството след почти пълното му унищожение в ядрена война."
   },
   {
     "id": "Seize territory and resources, build extensive bases, and expand your production & research.",
-    "translation": "Seize territory and resources, build extensive bases, and expand your production & research."
+    "translation": "Завземайте земи и ресурси, издигайте обширни бази и разширявайте производството и изследванията си."
   },
   {
     "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
-    "translation": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "translation": "Състезавайте се в мащабни LAN / онлайн игри с множество (до 10) играчи."
   },
   {
     "id": "Previous",
-    "translation": "Previous"
+    "translation": "Назад"
   },
   {
     "id": "Next",
-    "translation": "Next"
+    "translation": "Напред"
   },
   {
     "id": "Close",
-    "translation": "Close"
+    "translation": "Затваряне"
   },
   {
     "id": "Downloads not working?",
-    "translation": "Downloads not working?"
+    "translation": "Линковете не работят?"
   },
   {
     "id": "Try browsing the download mirrors directly:",
-    "translation": "Try browsing the download mirrors directly:"
+    "translation": "Пробвайте огледалата за изтегляне директно:"
   },
   {
     "id": "GitHub Releases",
-    "translation": "GitHub Releases"
+    "translation": "GitHub издания"
   },
   {
     "id": "SourceForge Mirror",
-    "translation": "SourceForge Mirror"
+    "translation": "SourceForge огледало"
   },
   {
     "id": "For Windows 10+",
-    "translation": "For Windows 10+"
+    "translation": "За Windows 10+"
   },
   {
     "id": "For Windows 7+",
-    "translation": "For Windows 7+"
+    "translation": "За Windows 7+"
   },
   {
     "id": "32-bit (x86)",
-    "translation": "32-bit (x86)"
+    "translation": "32-битова (x86)"
   },
   {
     "id": "64-bit (x64)",
-    "translation": "64-bit (x64)"
+    "translation": "64-битова (x64)"
   },
   {
     "id": "Snap Installer",
-    "translation": "Snap Installer"
+    "translation": "Snap инсталатор"
   },
   {
     "id": "Easy installation.",
-    "translation": "Easy installation."
+    "translation": "Лесна инсталация."
   },
   {
     "id": "Supports most Linux distributions.",
-    "translation": "Supports most Linux distributions."
+    "translation": "Поддържа повечето Линукс дистрибуции."
   },
   {
     "id": "For most Linux distros",
-    "translation": "For most Linux distros"
+    "translation": "За повечето Линукс дистрибуции"
   },
   {
     "id": "(See link for details.)",
-    "translation": "(See link for details.)"
+    "translation": "(Вижте линка за подробности.)"
   },
   {
     "id": "Debian Package",
-    "translation": "Debian Package"
+    "translation": "Пакет за Debian"
   },
   {
     "id": "DEB package for Ubuntu (and related Debian-based distros).",
-    "translation": "DEB package for Ubuntu (and related Debian-based distros)."
+    "translation": "DEB пакет за Убунту (и други Debian-базирани дистрибуции)."
   },
   {
     "id": "After downloading, install using the following command:",
-    "translation": "After downloading, install using the following command:"
+    "translation": "След изтегляне инсталирайте чрез следната команда:"
   },
   {
     "id": "Compile Source",
-    "translation": "Compile Source"
+    "translation": "Компилирайте кода"
   },
   {
     "id": "Compile the source yourself using our build instructions.",
-    "translation": "Compile the source yourself using our build instructions."
+    "translation": "Компилирайте кода сами, следвайки приложените инструкции."
   },
   {
     "id": "Source Code (.tar.xz)",
-    "translation": "Source Code (.tar.xz)"
+    "translation": "Програмен код (.tar.xz)"
   },
   {
     "id": "Mac App Bundle",
@@ -349,159 +349,159 @@
   },
   {
     "id": "Other",
-    "translation": "Other"
+    "translation": "Други"
   },
   {
     "id": "Campaign Videos",
-    "translation": "Campaign Videos"
+    "translation": "Клипове за кампанията"
   },
   {
     "id": "WMIT (Warzone Model Import Tool)",
-    "translation": "WMIT (Warzone Model Import Tool)"
+    "translation": "WMIT (Warzone Model Import Tool) - Инструмент за импортиране на Warzone модели"
   },
   {
     "id": "Development Builds",
-    "translation": "Development Builds"
+    "translation": "Работни версии"
   },
   {
     "id": "Development Source Code",
-    "translation": "Development Source Code"
+    "translation": "Работен програмен код"
   },
   {
     "id": "Verify Download Integrity (SHA256)",
-    "translation": "Verify Download Integrity (SHA256)"
+    "translation": "Проверете цялостта на изтеглянето (SHA256)"
   },
   {
     "id": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:",
-    "translation": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "translation": "От Команден ред / Терминал достигнете до местоположението на изтеглените файлове и изпълнете подходящата команда за изчисление на SHA256 сумата на файла, след което я сравнете с таблицата:"
   },
   {
     "id": "SHA256 Checksums for Version",
-    "translation": "SHA256 Checksums for Version"
+    "translation": "SHA256 суми за проверка на версията"
   },
   {
     "id": "Torrent",
-    "translation": "Torrent"
+    "translation": "Торент"
   },
   {
     "id": "Downloading Warzone 2100",
-    "translation": "Downloading Warzone 2100"
+    "translation": "Изтегля се Warzone 2100"
   },
   {
     "id": "Next Steps:",
-    "translation": "Next Steps:"
+    "translation": "Следващи стъпки:"
   },
   {
     "id": "Share on Twitter",
-    "translation": "Share on Twitter"
+    "translation": "Споделете в Twitter"
   },
   {
     "id": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.",
-    "translation": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "translation": "Warzone 2100 - 100% безплатна и отворена 3D стратегическа игра за Windows / macOS / Линукс."
   },
   {
     "id": "If you’ve never played before,",
-    "translation": "If you’ve never played before,"
+    "translation": "Ако не сте играли никога преди,"
   },
   {
     "id": "start with the in-game Tutorial, and then check out:",
-    "translation": "start with the in-game Tutorial, and then check out:"
+    "translation": "започнете с вложеното Показно, след което разгледайте:"
   },
   {
     "id": "the Quickstart Guide",
-    "translation": "the Quickstart Guide"
+    "translation": "Ръководството за начинаещи"
   },
   {
     "id": "Chat with players on the official Discord server!",
-    "translation": "Chat with players on the official Discord server!"
+    "translation": "Общувайте с играчи в официалния Discord сървър!"
   },
   {
     "id": "Star the project on GitHub and help spread the news!",
-    "translation": "Star the project on GitHub and help spread the news!"
+    "translation": "Харесайте проекта в GitHub и ни помогнете да разпространим новините!"
   },
   {
     "id": "Donate to help support server and other costs!",
-    "translation": "Donate to help support server and other costs!"
+    "translation": "Направете дарение, за да ни помогнете с покриването на разходите за сървъри и др."
   },
   {
     "id": "Why Warzone 2100 Rocks",
-    "translation": "Why Warzone 2100 Rocks"
+    "translation": "Защо Warzone 2100 е върхът"
   },
   {
     "id": "Strategy by Design.",
-    "translation": "Strategy by Design."
+    "translation": "Стратегия по дизайн."
   },
   {
     "id": "Endless replayability.",
-    "translation": "Endless replayability."
+    "translation": "Безкрайна гъвкавост."
   },
   {
     "id": "Single-Player Campaign",
-    "translation": "Single-Player Campaign"
+    "translation": "Самостоятелна Кампания"
   },
   {
     "id": "LAN / Internet Multiplayer",
-    "translation": "LAN / Internet Multiplayer"
+    "translation": "LAN / Интернет Групова Игра"
   },
   {
     "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
-    "translation": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "translation": "Играйте с приятели в локална мрежа или изпитайте уменията си в онлайн игрите чрез интегрираното лоби."
   },
   {
     "id": "AI Bots",
-    "translation": "AI Bots"
+    "translation": "AI Ботове"
   },
   {
     "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",
-    "translation": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "translation": "Играйте срещу ботове в локални сражения (или като добавени съотборници / врагове онлайн) и тренирайте уменията си с безкрайна гъвкавост."
   },
   {
     "id": "Extensive Tech Tree",
-    "translation": "Extensive Tech Tree"
+    "translation": "Обширно Технологично Дърво"
   },
   {
     "id": "Over 400 different technologies yield an extensive tech tree with many paths to choose.",
-    "translation": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "translation": "Над 400 различни технологии събрани в обширно дърво с избор на множество насоки."
   },
   {
     "id": "Unit Designer",
-    "translation": "Unit Designer"
+    "translation": "Дизайнерско бюро"
   },
   {
     "id": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.",
-    "translation": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "translation": "Конструирайте войски по свой собствен вкус с гъвкавата система, даваща широк избор на дизайн и стратегия."
   },
   {
     "id": "Cross-Platform",
-    "translation": "Cross-Platform"
+    "translation": "Междуплатформена"
   },
   {
     "id": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!",
-    "translation": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "translation": "С поддръжка за Windows, macOS, Линукс, FreeBSD и много други - и 100% съвместимост при онлайн игри!"
   },
   {
     "id": "Years",
-    "translation": "Years"
+    "translation": "Години"
   },
   {
     "id": "Downloads",
-    "translation": "Downloads"
+    "translation": "Изтегляния"
   },
   {
     "id": "Forum Posts",
-    "translation": "Forum Posts"
+    "translation": "Публикации във форума"
   },
   {
     "id": "GitHub Stars",
-    "translation": "GitHub Stars"
+    "translation": "Звезди в GitHub"
   },
   {
     "id": "100s",
-    "translation": "100s"
+    "translation": "Стотици"
   },
   {
     "id": "Contributors",
-    "translation": "Contributors"
+    "translation": "Сътрудници"
   },
   {
     "id": "100%",
@@ -509,167 +509,167 @@
   },
   {
     "id": "Free",
-    "translation": "Free"
+    "translation": "Безплатно"
   },
   {
     "id": "100% Open & Free",
-    "translation": "100% Open & Free"
+    "translation": "100% Отворена и свободна"
   },
   {
     "id": "Open source, open development, open community - free as in freedom!",
-    "translation": "Open source, open development, open community - free as in freedom!"
+    "translation": "Отворен код, отворена разработка, отворена общност - пълна свобода!"
   },
   {
     "id": "100% Open-Source",
-    "translation": "100% Open-Source"
+    "translation": "100% Отворен код"
   },
   {
     "id": "Exclusively open-source technologies, software, & tools.",
-    "translation": "Exclusively open-source technologies, software, & tools."
+    "translation": "Изцяло отворени технологии, софтуер и инструменти."
   },
   {
     "id": "Community content is licensed under liberal licenses (ex. CC0).",
-    "translation": "Community content is licensed under liberal licenses (ex. CC0)."
+    "translation": "Съдържание на общността се лицензира под либерални лицензи (напр. CC0)."
   },
   {
     "id": "100% Open Development",
-    "translation": "100% Open Development"
+    "translation": "100% Отворена разработка"
   },
   {
     "id": "Join the public project on GitHub!",
-    "translation": "Join the public project on GitHub!"
+    "translation": "Присъединете се към проекта в GitHub!"
   },
   {
     "id": "Anyone can file bugs, contribute patches, and request enhancements.",
-    "translation": "Anyone can file bugs, contribute patches, and request enhancements."
+    "translation": "Всеки може да съобщава за грешки, внася поправки или предлага подобрения."
   },
   {
     "id": "100% Open Community",
-    "translation": "100% Open Community"
+    "translation": "100% Отворена общност"
   },
   {
     "id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
-    "translation": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "translation": "Разговаряйте във форумите, създавайте и споделяйте добавки, участвайте в онлайн шампионати и допринасяйте за изживяването Warzone 2100."
   },
   {
     "id": "People around the world are waiting!",
-    "translation": "People around the world are waiting!"
+    "translation": "Хора по целия свят чакат!"
   },
   {
     "id": "100% Free",
-    "translation": "100% Free"
+    "translation": "100% Свобода"
   },
   {
     "id": "Everything is free, including source code, downloads, and all features.",
-    "translation": "Everything is free, including source code, downloads, and all features."
+    "translation": "Всичко е безплатно, вкл. програмния код, изтеглянията и всички функции."
   },
   {
     "id": "No in-app purchases.",
-    "translation": "No in-app purchases."
+    "translation": "Без покупки в приложението."
   },
   {
     "id": "No subscriptions.",
-    "translation": "No subscriptions."
+    "translation": "Без абонаменти."
   },
   {
     "id": "No ads.",
-    "translation": "No ads."
+    "translation": "Без реклами."
   },
   {
     "id": "Just free.",
-    "translation": "Just free."
+    "translation": "Просто безплатно."
   },
   {
     "id": "A Long History",
-    "translation": "A Long History"
+    "translation": "Дълга История"
   },
   {
     "id": "Developed in the 90s by Pumpkin Studios.",
-    "translation": "Developed in the 90s by Pumpkin Studios."
+    "translation": "Разработена през 90-те от Pumpkin Studios."
   },
   {
     "id": "Liberated in 2004.",
-    "translation": "Liberated in 2004."
+    "translation": "Освободена през 2004."
   },
   {
     "id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
-    "translation": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "translation": "Warzone 2100 е първоначално разработена от Pumpkin Studios и публикувана от Eidos Interactive."
   },
   {
     "id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
-    "translation": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "translation": "През 1999 е пусната в продажба за Microsoft Windows и Sony PlayStation."
   },
   {
     "id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
-    "translation": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "translation": "Pumpkin Studios прекратяват поддръжката за Warzone 2100 на 5-ти Януари 2000."
   },
   {
     "id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
-    "translation": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "translation": "През 2004, след петиция от почитателите, програмният код на Warzone е публикуван под лиценз за отворен код."
   },
   {
     "id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
-    "translation": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "translation": "Оттогава кодът се поддържа, разработва и подобрява от общността под името “Warzone 2100 Project”."
   },
   {
     "id": "More Info",
-    "translation": "More Info"
+    "translation": "Повече информация"
   },
   {
     "id": "Frequently Asked Questions",
-    "translation": "Frequently Asked Questions"
+    "translation": "Често задавани въпроси"
   },
   {
     "id": "Answers to common questions.",
-    "translation": "Answers to common questions."
+    "translation": "Отговори на често срещани въпроси."
   },
   {
     "id": "Can't find the answer you're looking for?",
-    "translation": "Can't find the answer you're looking for?"
+    "translation": "Не можете да намерите отговора, който търсите?"
   },
   {
     "id": "Check out the Forums and Webchat.",
-    "translation": "Check out the Forums and Webchat."
+    "translation": "Проверете във форума и уебчата."
   },
   {
     "id": "General",
-    "translation": "General"
+    "translation": "Общи"
   },
   {
     "id": "Multiplayer",
-    "translation": "Multiplayer"
+    "translation": "Групова игра"
   },
   {
     "id": "Troubleshooting",
-    "translation": "Troubleshooting"
+    "translation": "Отстраняване на проблеми"
   },
   {
     "id": "Copy URL",
-    "translation": "Copy URL"
+    "translation": "Копирайте URL адреса"
   },
   {
     "id": "Copied URL!",
-    "translation": "Copied URL!"
+    "translation": "URL копиран!"
   },
   {
     "id": "JavaScript is disabled.",
-    "translation": "JavaScript is disabled."
+    "translation": "JavaScript е деактивиран."
   },
   {
     "id": "This site may not work properly without it.",
-    "translation": "This site may not work properly without it."
+    "translation": "Този сайт може да не работи правилно без него."
   },
   {
     "id": "About",
-    "translation": "About"
+    "translation": "Относно"
   },
   {
     "id": "The Team",
-    "translation": "The Team"
+    "translation": "Екипът"
   },
   {
     "id": "Changelog",
-    "translation": "Changelog"
+    "translation": "Списък с промените"
   },
   {
     "id": "Latest Commits",
@@ -677,11 +677,11 @@
   },
   {
     "id": "Privacy Policy",
-    "translation": "Privacy Policy"
+    "translation": "Политика за поверителност"
   },
   {
     "id": "Download",
-    "translation": "Download"
+    "translation": "Изтегляне"
   },
   {
     "id": "Snap Store",
@@ -689,154 +689,154 @@
   },
   {
     "id": "Snap Store (Linux)",
-    "translation": "Snap Store (Linux)"
+    "translation": "Snap Store (Линукс)"
   },
   {
     "id": "Source Code",
-    "translation": "Source Code"
+    "translation": "Програмен код"
   },
   {
     "id": "Source Code.",
-    "translation": "Source Code."
+    "translation": "Програмен код."
   },
   {
     "id": "Contribute",
-    "translation": "Contribute"
+    "translation": "Дайте своя принос"
   },
   {
     "id": "Help with Translations",
-    "translation": "Help with Translations"
+    "translation": "Помогнете с превода"
   },
   {
     "id": "Documentation",
-    "translation": "Documentation"
+    "translation": "Документация"
   },
   {
     "id": "Connect",
-    "translation": "Connect"
+    "translation": "Свързване"
   },
   {
     "id": "Copyright © past-due.",
-    "translation": "Copyright © past-due."
+    "translation": "© past-due."
   },
   {
     "id": "theme",
-    "translation": "theme"
+    "translation": "тема"
   },
   {
     "id": "Licensed under the GNU GPLv3.",
-    "translation": "Licensed under the GNU GPLv3."
+    "translation": "Под лиценз GNU GPLv3."
   },
   {
     "id": "Powered by Hugo",
-    "translation": "Powered by Hugo"
+    "translation": "Разработено с Hugo"
   },
   {
     "id": "All trademarks are the property of their respective owners.",
-    "translation": "All trademarks are the property of their respective owners."
+    "translation": "Всички търговски марки са собственост на съответните им притежатели."
   },
   {
     "id": "YOU'VE BEEN INVITED TO JOIN A SERVER",
-    "translation": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "translation": "ПОКАНЕНИ СТЕ ДА СЕ ПРИСЪЕДИНИТЕ КЪМ СЪРВЪР"
   },
   {
     "id": "Join",
-    "translation": "Join"
+    "translation": "Присъединяване"
   },
   {
     "id": "Loading...",
-    "translation": "Loading..."
+    "translation": "Зареждане..."
   },
   {
     "id": "You are running the latest release of Warzone 2100.",
-    "translation": "You are running the latest release of Warzone 2100."
+    "translation": "Използвате най-новата версия на Warzone 2100."
   },
   {
     "id": "You are running the latest development build.",
-    "translation": "You are running the latest development build."
+    "translation": "Използвате най-новата работна версия."
   },
   {
     "id": "Thanks for trying out these builds, and looking for bugs - it is appreciated!",
-    "translation": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "translation": "Благодарим ви, че използвате тези версии и търсите неизправности - оценяваме го!"
   },
   {
     "id": "A new release is available!",
-    "translation": "A new release is available!"
+    "translation": "Налична е нова версия!"
   },
   {
     "id": "A new development build is available!",
-    "translation": "A new development build is available!"
+    "translation": "Налична е нова работна версия!"
   },
   {
     "id": "Download Latest Development Builds",
-    "translation": "Download Latest Development Builds"
+    "translation": "Изтегляне на последната работна версия"
   },
   {
     "id": "Unable to check for updates",
-    "translation": "Unable to check for updates"
+    "translation": "Неуспешна проверка за обновления"
   },
   {
     "id": "This site requires JavaScript, and it looks like you have it disabled.",
-    "translation": "This site requires JavaScript, and it looks like you have it disabled."
+    "translation": "Този сайт изисква JavaScript, а изглежда вие сте го забранили."
   },
   {
     "id": "If you aren't sure, download the latest version now.",
-    "translation": "If you aren't sure, download the latest version now."
+    "translation": "Ако не сте сигурни, изтеглете последната версия сега."
   },
   {
     "id": "Couldn't check for latest development builds",
-    "translation": "Couldn't check for latest development builds"
+    "translation": "Неуспех при проверката за последна работна версия"
   },
   {
     "id": "You can always download the latest development builds below.",
-    "translation": "You can always download the latest development builds below."
+    "translation": "Винаги можете да изтеглите последната работна версия от долу."
   },
   {
     "id": "Your version",
-    "translation": "Your version"
+    "translation": "Вашата версия"
   },
   {
     "id": "Latest Release",
-    "translation": "Latest Release"
+    "translation": "Последна версия"
   },
   {
     "id": "Latest Development Build",
-    "translation": "Latest Development Build"
+    "translation": "Последна работна версия"
   },
   {
     "id": "404 - Not Found",
-    "translation": "404 - Not Found"
+    "translation": "404 - Неоткрит"
   },
   {
     "id": "Whatever that was, it couldn't be found.",
-    "translation": "Whatever that was, it couldn't be found."
+    "translation": "Каквото и да е било това, не може да бъде намерено."
   },
   {
     "id": "Sorry about that.",
-    "translation": "Sorry about that."
+    "translation": "Съжаляваме за това."
   },
   {
     "id": "Go Home",
-    "translation": "Go Home"
+    "translation": "Начало"
   },
   {
     "id": "Subsections",
-    "translation": "Subsections"
+    "translation": "Подсекции"
   },
   {
     "id": "Tags",
-    "translation": "Tags"
+    "translation": "Тагове"
   },
   {
     "id": "All Tags",
-    "translation": "All Tags"
+    "translation": "Всички тагове"
   },
   {
     "id": "Site Navigation",
-    "translation": "Site Navigation"
+    "translation": "Навигация в сайта"
   },
   {
     "id": "More",
-    "translation": "More"
+    "translation": "Още"
   }
 ]
