@@ -1,21 +1,21 @@
 ---
-title: "Webchat"
+title: "Уебчат"
 ---
 
-If you want to arrange online games, or have a quick question to ask, you might want to use one of our chat options:
+Ако искате да уговаряте онлайн игри или имате бърз въпрос, може да се възползвате от едно от предложенията ни:
 
 {{% divider %}}
 
 ## {{< inlinefigure path="/svg/Discord-Logo+Wordmark-White.svg" mediatype="image/svg+xml" height="80" alt="Discord" >}}
 
-Like Discord? Join the official Warzone 2100 Discord server:
+Харесвате Discord? Присъединете се към официалния Warzone 2100 Discord сървър:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Официален Сървър" >}}
 
-##### Discord Benefits:
+##### Предимства на Discord:
 
-Pick your nickname, view chat history, easily chat on mobile devices, (optionally) subscribe to receive announcements of new releases, voice chat, and more.
+Изберете прякор, преглеждайте историята на чата, общувайте лесно чрез мобилни устройства, абонирайте се (по избор) за съобщенията за нови версии, аудиочат и др.
 
-Signing up for Discord, chatting on the server, etc. is free.
+Вписването в Discord, общуването в сървъра и т.н. е безплатно.
 
-Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
+Общувайте чрез браузър или изтеглете приложението за Windows / macOS / Линукс / мобилни устройства.
