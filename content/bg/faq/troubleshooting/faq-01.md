@@ -1,27 +1,27 @@
 ---
-title: "Where is the configuration / savegame directory?"
+title: "Къде е папката с настройки / съхранени игри?"
 ---
 
-It depends on your platform:
+Зависи от платформата ви:
 
-{{% inlinesvg "fontawesome/brands/windows.svg" %}} **On Windows:**
+{{% inlinesvg "fontawesome/brands/windows.svg" %}} **На Windows:**
 
-The directory `Warzone 2100 Project\Warzone 2100 <version>` is located under the `%APPDATA%` folder.
+Папката `Warzone 2100 Project\Warzone 2100 <version>` се намира в `%APPDATA%`.
 
-Hence, the default path for the Warzone 2100 configuration data on Windows Vista+ would be: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
+Следователно пътят по подразбиране към настройките на Warzone 2100 под Windows Vista+ би бил: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
 
-By default, the `%APPDATA%` folder is hidden. Entering: `%APPDATA%\Warzone 2100 Project\` into the address bar of Windows Explorer / File Explorer will browse to your Warzone directory.
+По подразбиране папката `%APPDATA%` е скрита. Въвеждането на `%APPDATA%\Warzone 2100 Project\` в адресната лента на Windows Explorer / Файловия експлорер ще ви отведе до папката на Warzone.
 
-{{% inlinesvg "fontawesome/brands/apple.svg" %}} **On macOS:**
+{{% inlinesvg "fontawesome/brands/apple.svg" %}} **На macOS:**
 
-The directory `Warzone 2100 <version>` can be found in your home-directory at: `~/Library/Application Support/`
+Папката `Warzone 2100 <version>` можете да намерите в домашната си папка: `~/Library/Application Support/`
 
-By default, recent version of macOS hide your account's Library folder. To view it in Finder, hold down the **Option (⌥)** key while clicking the **Go** menu, and your Library folder will appear as a menu choice.
+По подразбиране, скорошните версии на macOS скриват папката ви Library. За да я намерите в търсачката, задръжте клавиша **Option (⌥)** докато натискате менюто **Go** и папката ви Library ще се появи като избор в менюто.
 
-{{% inlinesvg "fontawesome/brands/linux.svg" %}} **On Linux:**
+{{% inlinesvg "fontawesome/brands/linux.svg" %}} **На Линукс:**
 
-Under GNU/Linux, Warzone 2100 conforms to the [XDG base directory spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+Под GNU/Linux, Warzone 2100 се води по [спецификацията XDG](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
-By default, the directory `warzone2100-<version>` can be found in your home-directory under the path `~/.local/share/`. (If the `XDG_DATA_HOME` environment variable is defined, the Warzone folder will be located within `$XDG_DATA_HOME`.)
+По подразбиране папката `warzone2100-<version>` се намира в домашната ви папка под `~/.local/share/`. (Ако променливата `XDG_DATA_HOME` е дефинирана, папката на Warzone folder ще се намира в `$XDG_DATA_HOME`.)
 
-The leading dot in the `.local` part of the path indicates that it is a hidden directory, so depending on your configuration you may not be able to see it. However, you can still access it by typing the path into your address-bar.
+Началната точка в `.local` означава, че тази папка е скрита и в зависимост от настройките си може да не я виждате. Все пак можете да достигнете до нея като я въведете в адресната лента.
