@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "Какви са системните изисквания?"
 ---
 
-Minimum Requirements:
+Минимални изисквания:
 - 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+- Поддръжка за OpenGL 2.1+
+- ≈ 150MB място за съхранение
 
-Recommended Requirements:
+Препоръчителни изисквания:
 - 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
-- ≈ 1 GB storage space (including the campaign video sequences)
+- Поддръжка за OpenGL 3.1+
+- Поддържана звукова карта
+- ≈ 1 GB място за съхранение (вкл. за видео откъсите от кампанията)
