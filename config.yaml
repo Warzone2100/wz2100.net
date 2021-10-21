@@ -158,6 +158,10 @@ languages:
     languageName: "English - US"
     weight: 1
     contentDir: "content/en"
+  bg:
+    languageName: "български"
+    weight: 2
+    contentDir: "content/bg"
   de:
     languageName: "Deutsch"
     weight: 2
