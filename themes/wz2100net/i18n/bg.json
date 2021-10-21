@@ -1,96 +1,96 @@
 {
   "Home": {
-    "message": "Home"
+    "message": "Начало"
   },
   "Features": {
-    "message": "Features"
+    "message": "Относно"
   },
   "History": {
-    "message": "History"
+    "message": "История"
   },
   "FAQ": {
-    "message": "FAQ"
+    "message": "ЧЗВ"
   },
   "Resources": {
-    "message": "Resources"
+    "message": "Ресурси"
   },
   "News": {
-    "message": "News"
+    "message": "Новини"
   },
   "Webchat": {
-    "message": "Webchat"
+    "message": "Уебчат"
   },
   "Forums": {
-    "message": "Forums"
+    "message": "Форуми"
   },
   "Addons": {
-    "message": "Addons"
+    "message": "Добавки"
   },
   "WZ Guide": {
-    "message": "WZ Guide"
+    "message": "Ръководство за WZ"
   },
   "Wiki": {
-    "message": "Wiki"
+    "message": "Уики"
   },
   "Report Bugs": {
-    "message": "Report Bugs"
+    "message": "Докладвайте грешка"
   },
   "Donate": {
-    "message": "Donate"
+    "message": "Дарение"
   },
   "Help us Translate": {
-    "message": "Help us Translate"
+    "message": "Помогнете ни да преведем"
   },
   "A 100% free and open-source 3D real-time strategy game.": {
-    "message": "A 100% free and open-source 3D real-time strategy game."
+    "message": "100% безплатна и с отворен код триизмерна стратегическа игра в реално време."
   },
   "Download Now": {
-    "message": "Download Now"
+    "message": "Изтеглете сега"
   },
   "Toggle Dropdown": {
-    "message": "Toggle Dropdown"
+    "message": "Превключване на Падащото меню"
   },
   "Windows": {
     "message": "Windows"
   },
   "MSIX Installer": {
-    "message": "MSIX Installer"
+    "message": "MSIX Инсталатор"
   },
   "Easy install & updates.": {
-    "message": "Easy install & updates."
+    "message": "Лесно инсталиране и обновяване."
   },
   "Portable Version": {
-    "message": "Portable Version"
+    "message": "Преносима версия"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc."
+    "message": "Може да бъде инсталирана на / запусната от USB устройство, локална папка и т. н."
   },
   "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
-    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "message": "Напълно побрана в една-единствена папка - съхранява и всички настройки / съхранени игри в същата папка."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(Не изисква администраторски права.)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Пълен инсталатор"
   },
   "Traditional Installer": {
-    "message": "Traditional Installer"
+    "message": "Традиционен инсталатор"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "Инсталира се за всички потребители на системата."
   },
   "Settings / saves are user-specific.": {
-    "message": "Settings / saves are user-specific."
+    "message": "Съхранените настройки / игри са отделни за всеки потребител."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(Изисква администраторски права за инсталация.)"
   },
   "Recommended for: Windows 7, 8.x": {
-    "message": "Recommended for: Windows 7, 8.x"
+    "message": "Препоръчва се за: Windows 7, 8.x"
   },
   "For Windows 10+, the MSIX installer is recommended instead.": {
-    "message": "For Windows 10+, the MSIX installer is recommended instead."
+    "message": "За Windows 10+ се препоръчва MSIX инсталаторът."
   },
   "macOS": {
     "message": "macOS"
@@ -99,148 +99,148 @@
     "message": "macOS App Bundle"
   },
   "Linux": {
-    "message": "Linux"
+    "message": "Линукс"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Инсталация чрез Snap"
   },
   "Ubuntu 18.04": {
-    "message": "Ubuntu 18.04"
+    "message": "Убунту 18.04"
   },
   "Ubuntu 20.04+": {
-    "message": "Ubuntu 20.04+"
+    "message": "Убунту 20.04+"
   },
   "Ubuntu 18.04 (x64)": {
-    "message": "Ubuntu 18.04 (x64)"
+    "message": "Убунту 18.04 (x64)"
   },
   "Ubuntu 20.04+ (x64)": {
-    "message": "Ubuntu 20.04+ (x64)"
+    "message": "Убунту 20.04+ (x64)"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Изтеглете кода"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "и още..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "Всички изтегляния и платформи"
   },
   "New": {
-    "message": "New"
+    "message": "Ново"
   },
   "Version": {
-    "message": "Version"
+    "message": "Версия"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "за Windows 7-10"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "за macOS 10.10+"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "за Линукс"
   },
   "Windows, macOS, Linux": {
-    "message": "Windows, macOS, Linux"
+    "message": "Windows, macOS, Линукс"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "Други опции за инсталация и други платформи"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "Изтеглете програмния код"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "Изтеглете програмния код"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "Вижте в GitHub"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "Харесайте в GitHub"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "Докладвайте за грешка"
   },
   "Copyright © Warzone 2100 Project.": {
-    "message": "Copyright © Warzone 2100 Project."
+    "message": "© Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone е лицензирана под лиценза GPLv2+ (и други)."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "Командвайте силите на Проекта в битка да възродите човечеството след почти пълното му унищожение в ядрена война."
   },
   "Seize territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
+    "message": "Завземайте земи и ресурси, издигайте обширни бази и разширявайте производството и изследванията си."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "message": "Състезавайте се в мащабни LAN / онлайн игри с множество (до 10) играчи."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "Назад"
   },
   "Next": {
-    "message": "Next"
+    "message": "Напред"
   },
   "Close": {
-    "message": "Close"
+    "message": "Затваряне"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "Линковете не работят?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "Пробвайте огледалата за изтегляне директно:"
   },
   "GitHub Releases": {
-    "message": "GitHub Releases"
+    "message": "GitHub издания"
   },
   "SourceForge Mirror": {
-    "message": "SourceForge Mirror"
+    "message": "SourceForge огледало"
   },
   "For Windows 10+": {
-    "message": "For Windows 10+"
+    "message": "За Windows 10+"
   },
   "For Windows 7+": {
-    "message": "For Windows 7+"
+    "message": "За Windows 7+"
   },
   "32-bit (x86)": {
-    "message": "32-bit (x86)"
+    "message": "32-битова (x86)"
   },
   "64-bit (x64)": {
-    "message": "64-bit (x64)"
+    "message": "64-битова (x64)"
   },
   "Snap Installer": {
-    "message": "Snap Installer"
+    "message": "Snap инсталатор"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "Лесна инсталация."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "Поддържа повечето Линукс дистрибуции."
   },
   "For most Linux distros": {
-    "message": "For most Linux distros"
+    "message": "За повечето Линукс дистрибуции"
   },
   "(See link for details.)": {
-    "message": "(See link for details.)"
+    "message": "(Вижте линка за подробности.)"
   },
   "Debian Package": {
-    "message": "Debian Package"
+    "message": "Пакет за Debian"
   },
   "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+    "message": "DEB пакет за Убунту (и други Debian-базирани дистрибуции)."
   },
   "After downloading, install using the following command:": {
-    "message": "After downloading, install using the following command:"
+    "message": "След изтегляне инсталирайте чрез следната команда:"
   },
   "Compile Source": {
-    "message": "Compile Source"
+    "message": "Компилирайте кода"
   },
   "Compile the source yourself using our build instructions.": {
-    "message": "Compile the source yourself using our build instructions."
+    "message": "Компилирайте кода сами, следвайки приложените инструкции."
   },
   "Source Code (.tar.xz)": {
-    "message": "Source Code (.tar.xz)"
+    "message": "Програмен код (.tar.xz)"
   },
   "Mac App Bundle": {
     "message": "Mac App Bundle"
@@ -261,372 +261,372 @@
     "message": "Universal Binary supports Intel 64-bit and Apple Silicon."
   },
   "Other": {
-    "message": "Other"
+    "message": "Други"
   },
   "Campaign Videos": {
-    "message": "Campaign Videos"
+    "message": "Клипове за кампанията"
   },
   "WMIT (Warzone Model Import Tool)": {
-    "message": "WMIT (Warzone Model Import Tool)"
+    "message": "WMIT (Warzone Model Import Tool) - Инструмент за импортиране на Warzone модели"
   },
   "Development Builds": {
-    "message": "Development Builds"
+    "message": "Работни версии"
   },
   "Development Source Code": {
-    "message": "Development Source Code"
+    "message": "Работен програмен код"
   },
   "Verify Download Integrity (SHA256)": {
-    "message": "Verify Download Integrity (SHA256)"
+    "message": "Проверете цялостта на изтеглянето (SHA256)"
   },
   "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
-    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "message": "От Команден ред / Терминал достигнете до местоположението на изтеглените файлове и изпълнете подходящата команда за изчисление на SHA256 сумата на файла, след което я сравнете с таблицата:"
   },
   "SHA256 Checksums for Version": {
-    "message": "SHA256 Checksums for Version"
+    "message": "SHA256 суми за проверка на версията"
   },
   "Torrent": {
-    "message": "Torrent"
+    "message": "Торент"
   },
   "Downloading Warzone 2100": {
-    "message": "Downloading Warzone 2100"
+    "message": "Изтегля се Warzone 2100"
   },
   "Next Steps:": {
-    "message": "Next Steps:"
+    "message": "Следващи стъпки:"
   },
   "Share on Twitter": {
-    "message": "Share on Twitter"
+    "message": "Споделете в Twitter"
   },
   "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
-    "message": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "message": "Warzone 2100 - 100% безплатна и отворена 3D стратегическа игра за Windows / macOS / Линукс."
   },
   "If you’ve never played before,": {
-    "message": "If you’ve never played before,"
+    "message": "Ако не сте играли никога преди,"
   },
   "start with the in-game Tutorial, and then check out:": {
-    "message": "start with the in-game Tutorial, and then check out:"
+    "message": "започнете с вложеното Показно, след което разгледайте:"
   },
   "the Quickstart Guide": {
-    "message": "the Quickstart Guide"
+    "message": "Ръководството за начинаещи"
   },
   "Chat with players on the official Discord server!": {
-    "message": "Chat with players on the official Discord server!"
+    "message": "Общувайте с играчи в официалния Discord сървър!"
   },
   "Star the project on GitHub and help spread the news!": {
-    "message": "Star the project on GitHub and help spread the news!"
+    "message": "Харесайте проекта в GitHub и ни помогнете да разпространим новините!"
   },
   "Donate to help support server and other costs!": {
-    "message": "Donate to help support server and other costs!"
+    "message": "Направете дарение, за да ни помогнете с покриването на разходите за сървъри и др."
   },
   "Why Warzone 2100 Rocks": {
-    "message": "Why Warzone 2100 Rocks"
+    "message": "Защо Warzone 2100 е върхът"
   },
   "Strategy by Design.": {
-    "message": "Strategy by Design."
+    "message": "Стратегия по дизайн."
   },
   "Endless replayability.": {
-    "message": "Endless replayability."
+    "message": "Безкрайна гъвкавост."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Самостоятелна Кампания"
   },
   "LAN / Internet Multiplayer": {
-    "message": "LAN / Internet Multiplayer"
+    "message": "LAN / Интернет Групова Игра"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
-    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "message": "Играйте с приятели в локална мрежа или изпитайте уменията си в онлайн игрите чрез интегрираното лоби."
   },
   "AI Bots": {
-    "message": "AI Bots"
+    "message": "AI Ботове"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Играйте срещу ботове в локални сражения (или като добавени съотборници / врагове онлайн) и тренирайте уменията си с безкрайна гъвкавост."
   },
   "Extensive Tech Tree": {
-    "message": "Extensive Tech Tree"
+    "message": "Обширно Технологично Дърво"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
-    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "message": "Над 400 различни технологии събрани в обширно дърво с избор на множество насоки."
   },
   "Unit Designer": {
-    "message": "Unit Designer"
+    "message": "Дизайнерско бюро"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
-    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "message": "Конструирайте войски по свой собствен вкус с гъвкавата система, даваща широк избор на дизайн и стратегия."
   },
   "Cross-Platform": {
-    "message": "Cross-Platform"
+    "message": "Междуплатформена"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
-    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "message": "С поддръжка за Windows, macOS, Линукс, FreeBSD и много други - и 100% съвместимост при онлайн игри!"
   },
   "Years": {
-    "message": "Years"
+    "message": "Години"
   },
   "Downloads": {
-    "message": "Downloads"
+    "message": "Изтегляния"
   },
   "Forum Posts": {
-    "message": "Forum Posts"
+    "message": "Публикации във форума"
   },
   "GitHub Stars": {
-    "message": "GitHub Stars"
+    "message": "Звезди в GitHub"
   },
   "100s": {
-    "message": "100s"
+    "message": "Стотици"
   },
   "Contributors": {
-    "message": "Contributors"
+    "message": "Сътрудници"
   },
   "100%": {
     "message": "100%"
   },
   "Free": {
-    "message": "Free"
+    "message": "Безплатно"
   },
   "100% Open & Free": {
-    "message": "100% Open & Free"
+    "message": "100% Отворена и свободна"
   },
   "Open source, open development, open community - free as in freedom!": {
-    "message": "Open source, open development, open community - free as in freedom!"
+    "message": "Отворен код, отворена разработка, отворена общност - пълна свобода!"
   },
   "100% Open-Source": {
-    "message": "100% Open-Source"
+    "message": "100% Отворен код"
   },
   "Exclusively open-source technologies, software, & tools.": {
-    "message": "Exclusively open-source technologies, software, & tools."
+    "message": "Изцяло отворени технологии, софтуер и инструменти."
   },
   "Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+    "message": "Съдържание на общността се лицензира под либерални лицензи (напр. CC0)."
   },
   "100% Open Development": {
-    "message": "100% Open Development"
+    "message": "100% Отворена разработка"
   },
   "Join the public project on GitHub!": {
-    "message": "Join the public project on GitHub!"
+    "message": "Присъединете се към проекта в GitHub!"
   },
   "Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+    "message": "Всеки може да съобщава за грешки, внася поправки или предлага подобрения."
   },
   "100% Open Community": {
-    "message": "100% Open Community"
+    "message": "100% Отворена общност"
   },
   "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "message": "Разговаряйте във форумите, създавайте и споделяйте добавки, участвайте в онлайн шампионати и допринасяйте за изживяването Warzone 2100."
   },
   "People around the world are waiting!": {
-    "message": "People around the world are waiting!"
+    "message": "Хора по целия свят чакат!"
   },
   "100% Free": {
-    "message": "100% Free"
+    "message": "100% Свобода"
   },
   "Everything is free, including source code, downloads, and all features.": {
-    "message": "Everything is free, including source code, downloads, and all features."
+    "message": "Всичко е безплатно, вкл. програмния код, изтеглянията и всички функции."
   },
   "No in-app purchases.": {
-    "message": "No in-app purchases."
+    "message": "Без покупки в приложението."
   },
   "No subscriptions.": {
-    "message": "No subscriptions."
+    "message": "Без абонаменти."
   },
   "No ads.": {
-    "message": "No ads."
+    "message": "Без реклами."
   },
   "Just free.": {
-    "message": "Just free."
+    "message": "Просто безплатно."
   },
   "A Long History": {
-    "message": "A Long History"
+    "message": "Дълга История"
   },
   "Developed in the 90s by Pumpkin Studios.": {
-    "message": "Developed in the 90s by Pumpkin Studios."
+    "message": "Разработена през 90-те от Pumpkin Studios."
   },
   "Liberated in 2004.": {
-    "message": "Liberated in 2004."
+    "message": "Освободена през 2004."
   },
   "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "message": "Warzone 2100 е първоначално разработена от Pumpkin Studios и публикувана от Eidos Interactive."
   },
   "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
-    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "message": "През 1999 е пусната в продажба за Microsoft Windows и Sony PlayStation."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "message": "Pumpkin Studios прекратяват поддръжката за Warzone 2100 на 5-ти Януари 2000."
   },
   "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "message": "През 2004, след петиция от почитателите, програмният код на Warzone е публикуван под лиценз за отворен код."
   },
   "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "message": "Оттогава кодът се поддържа, разработва и подобрява от общността под името “Warzone 2100 Project”."
   },
   "More Info": {
-    "message": "More Info"
+    "message": "Повече информация"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions"
+    "message": "Често задавани въпроси"
   },
   "Answers to common questions.": {
-    "message": "Answers to common questions."
+    "message": "Отговори на често срещани въпроси."
   },
   "Can't find the answer you're looking for?": {
-    "message": "Can't find the answer you're looking for?"
+    "message": "Не можете да намерите отговора, който търсите?"
   },
   "Check out the Forums and Webchat.": {
-    "message": "Check out the Forums and Webchat."
+    "message": "Проверете във форума и уебчата."
   },
   "General": {
-    "message": "General"
+    "message": "Общи"
   },
   "Multiplayer": {
-    "message": "Multiplayer"
+    "message": "Групова игра"
   },
   "Troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Отстраняване на проблеми"
   },
   "Copy URL": {
-    "message": "Copy URL"
+    "message": "Копирайте URL адреса"
   },
   "Copied URL!": {
-    "message": "Copied URL!"
+    "message": "URL копиран!"
   },
   "JavaScript is disabled.": {
-    "message": "JavaScript is disabled."
+    "message": "JavaScript е деактивиран."
   },
   "This site may not work properly without it.": {
-    "message": "This site may not work properly without it."
+    "message": "Този сайт може да не работи правилно без него."
   },
   "About": {
-    "message": "About"
+    "message": "Относно"
   },
   "The Team": {
-    "message": "The Team"
+    "message": "Екипът"
   },
   "Changelog": {
-    "message": "Changelog"
+    "message": "Списък с промените"
   },
   "Latest Commits": {
     "message": "Latest Commits"
   },
   "Privacy Policy": {
-    "message": "Privacy Policy"
+    "message": "Политика за поверителност"
   },
   "Download": {
-    "message": "Download"
+    "message": "Изтегляне"
   },
   "Snap Store": {
     "message": "Snap Store"
   },
   "Snap Store (Linux)": {
-    "message": "Snap Store (Linux)"
+    "message": "Snap Store (Линукс)"
   },
   "Source Code": {
-    "message": "Source Code"
+    "message": "Програмен код"
   },
   "Source Code.": {
-    "message": "Source Code."
+    "message": "Програмен код."
   },
   "Contribute": {
-    "message": "Contribute"
+    "message": "Дайте своя принос"
   },
   "Help with Translations": {
-    "message": "Help with Translations"
+    "message": "Помогнете с превода"
   },
   "Documentation": {
-    "message": "Documentation"
+    "message": "Документация"
   },
   "Connect": {
-    "message": "Connect"
+    "message": "Свързване"
   },
   "Copyright © past-due.": {
-    "message": "Copyright © past-due."
+    "message": "© past-due."
   },
   "theme": {
-    "message": "theme"
+    "message": "тема"
   },
   "Licensed under the GNU GPLv3.": {
-    "message": "Licensed under the GNU GPLv3."
+    "message": "Под лиценз GNU GPLv3."
   },
   "Powered by Hugo": {
-    "message": "Powered by Hugo"
+    "message": "Разработено с Hugo"
   },
   "All trademarks are the property of their respective owners.": {
-    "message": "All trademarks are the property of their respective owners."
+    "message": "Всички търговски марки са собственост на съответните им притежатели."
   },
   "YOU'VE BEEN INVITED TO JOIN A SERVER": {
-    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "message": "ПОКАНЕНИ СТЕ ДА СЕ ПРИСЪЕДИНИТЕ КЪМ СЪРВЪР"
   },
   "Join": {
-    "message": "Join"
+    "message": "Присъединяване"
   },
   "Loading...": {
-    "message": "Loading..."
+    "message": "Зареждане..."
   },
   "You are running the latest release of Warzone 2100.": {
-    "message": "You are running the latest release of Warzone 2100."
+    "message": "Използвате най-новата версия на Warzone 2100."
   },
   "You are running the latest development build.": {
-    "message": "You are running the latest development build."
+    "message": "Използвате най-новата работна версия."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Благодарим ви, че използвате тези версии и търсите неизправности - оценяваме го!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "Налична е нова версия!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "Налична е нова работна версия!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "Изтегляне на последната работна версия"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Неуспешна проверка за обновления"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Този сайт изисква JavaScript, а изглежда вие сте го забранили."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Ако не сте сигурни, изтеглете последната версия сега."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "Неуспех при проверката за последна работна версия"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "Винаги можете да изтеглите последната работна версия от долу."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Вашата версия"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "Последна версия"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "Последна работна версия"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "404 - Неоткрит"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Каквото и да е било това, не може да бъде намерено."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Съжаляваме за това."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Начало"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Подсекции"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Тагове"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Всички тагове"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Навигация в сайта"
   },
   "More": {
-    "message": "More"
+    "message": "Още"
   }
 }
