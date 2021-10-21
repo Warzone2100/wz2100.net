@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting online games"
+title: "Отстраняване на проблеми в онлайн игри"
 ---
 
-If you can't join a game that you see, check the following:
+Ако не можете да се присъедините към игра, която виждате, проверете следното:
 
-1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
+1. Трябва да имате точно същата версия като играта, към която се присъединявате. Не би трябвало да имате проблеми ако изполвате най-новата стабилна версия или най-новата работна такава ако е налична.
 
-2. You need to have no mods installed, unless you are joining a modded game. Map-mods are usually ok to have.
+2. Трябва да нямате инсталирани модове, освен ако не са еднакви с играта, към която се присъединявате. Картите обикновено не правят проблеми.
 
-3. Some games are protected with a password. You will not be able to join them unless you are invited.
+3. Някои игри са защитени с парола. Към тях няма да можете да се присъедините, освен ако не сте поканени.
 
-The game uses outgoing port `2100` to connect the host and outgoing port `9990` to retrieve the list of games.
+Играта използва порт `2100`, за да се свърже с хоста и порт `9990`, за да получи списъка с игрите.

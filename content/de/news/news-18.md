@@ -5,7 +5,7 @@ tags:
   - "Feature Spotlight"
 ---
 
-Beginnend mit Warzone 2100 Version 4.2.0, **Aufzeichnungen** sind jetzt für Scharmützel und Mehrspielerspiele verfügbar.
+Beginnend mit Warzone 2100 Version 4.2.0, sind jetzt **Aufzeichnungen** für Scharmützel und Mehrspielerspiele verfügbar.
 
 Jedes Scharmützel oder Mehrspielerspiel wird in einer (_winzige_) `.wzrp` Datei aufgezeichnet, die innerhalb von Warzone wiedergegeben werden kann.
 
@@ -25,7 +25,7 @@ Sobald eine Aufzeichnung geladen ist, kannst du **pausieren**, **abspielen** ode
 
 (Die Kamera ist auch während das Spiel pausiert voll beweglich.)
 
-Da Du Dich bei Aufzeichnungen im Zuschauermodus wiederfindest, kannst du alle Spieler / die gesamte Karte sehen und Du kannst sogar den `specstats` Chat Befehl verwenden, um das Statistik-Overlay-Fenster zu aktivieren.
+Da Du Dich bei Aufzeichnungen im Zuschauermodus befindest, kannst du alle Spieler / die gesamte Karte sehen und Du kannst sogar den `specstats` Chat Befehl verwenden, um das Statistik-Overlay-Fenster zu aktivieren.
 
 Wenn die Aufzeichnung beendet ist, erhältst Du eine Nachricht (und die Spielsimulation pausiert).
 
@@ -35,7 +35,7 @@ Die Wiedergabe der Aufzeichnung hat derzeit folgende Voraussetzungen:
 - Du musst dieselbe Karte und Modifikationen lokal zur Verfügung haben.
 - Im Allgemeinen solltest Du eine Aufzeichnung mit derselben Version von Warzone 2100 wiedergeben, die für die Aufnahme verwendet wurde. (Dies wird in der Aufzeichnungs-Datei aufgezeichnet, und Du wirst eine Nachricht erhalten, wenn es nicht der Fall ist.)
 
-Aber vorausgesetzt, beide Voraussetzungen sind erfüllt, können `.wzrp` Dateien mit Anderen geteilt und leicht auf verschiedenen Systemen wiedergegeben werden.
+Aber vorausgesetzt beide Voraussetzungen sind erfüllt, können `.wzrp` Dateien mit Anderen geteilt und leicht auf verschiedenen Systemen wiedergegeben werden.
 
 ### Was kannst Du mit ihnen machen?
 

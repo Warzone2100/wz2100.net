@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "Как да се присъединя към онлайн игра?"
 ---
 
-Joining existing games is usually easy.
+Да се присъедините към съществуваща игра обикновено е лесно.
 
-Start the game, click Multi Player → Join Game → Lobby.
+Пуснете играта, кликнете върху Групова игра →Присъединяване към игра →Лоби.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+Ако има налични игри, че можете да се присъедините с един клик. След това отбележете отметката "Готов“. Когато всички се отбележат, играта започва.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+Не забравяйте да си изберете име чрез текстовата кутия вляво. 

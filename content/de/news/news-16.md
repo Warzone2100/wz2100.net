@@ -30,7 +30,7 @@ Sie ist an den üblichen Stellen erhältlich:
 - Korrektur: Nur "Commander zugewiesen" Ton abspielen, wenn die Gruppe nicht voll ist
 - Korrektur: "Bereit" Schaltfläche nicht blockieren, wenn der Spieler zu schnell klickt
 - Korrektur: Der erste Luftabwehr-Turm von zweitürmigen Rümpfen griff keine Ziele an, falls es der zweite konnte, zusammen mit anderen Korrekturen
-- Korrektur: Kein Crash mit der Tastenkombination "springe zum nächsten Ölbohrturm" nach einem Level Neuladen.
+- Korrektur: Kein Crash mit der Tastenkombination "springe zum nächsten Ölbohrturm" nach einem Level Neuladen
 - Und viele weitere Fehler- und Absturzkorrekturen
 
 [Zeige das komplette 4.2.0-beta1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.2.0-beta1/ChangeLog)
