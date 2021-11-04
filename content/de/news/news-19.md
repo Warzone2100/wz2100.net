@@ -27,7 +27,7 @@ Der WZ Guide / "Betaguide" ist jetzt auch für 4.2.0-beta2 aktualisiert: [https:
 - Beschädigte Einheiten kehren jetzt zu Reparatureinheiten zurück & werden besser auf mehrere Reparatureinrichtungen verteilt
 - Gamma-Update für camBalance (Die Optimierung der Kampagnenbalance ist grundsätzlich fertig)
 - Neue Zufallskarten "DustyMaze": Eine für 2 Spieler und zwei für 4 Spieler
-- Einführung eines dauerhaften Konfigurationsverzeichnises für alle Veröffentlichungen
+- Einführung eines dauerhaften Konfigurationsverzeichnisses für alle Veröffentlichungen
 - Neue Tastenkombination, um Einheiten von einer Gruppe zu lösen
 - Wichtige Revision des .PIE-Datei Add-ons Blender 2.9x
 - Änderungen der Mehrspielerbalance (_lies das komplette Änderungsprotokoll_)
