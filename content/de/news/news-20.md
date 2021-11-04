@@ -1,48 +1,48 @@
 ---
-title: "Version 4.2.0 - The Spectre Update"
+title: "Version 4.2.0 - Das \"Spectre\" Update"
 slug: "version-4-2-0"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-With **340 commits** since the last release, it’s time for Warzone 2100 v**4.2.0**!
+Mit **340 Commits** seit der letzten Veröffentlichung ist es Zeit für Warzone 2100 v**4.2.0**!
 
-This release includes [Spectators]({{< newslink "news-17.md" >}}), [Replays]({{< newslink "news-18.md" >}}), Ultimate Scavengers, numerous fixes for multiplayer / skirmish balance, and more!
+Diese Version enthält [Zuschauer]({{< newslink "news-17.md" >}}), [Aufzeichnungen]({{< newslink "news-18.md" >}}), Ultimate Scavengers, zahlreiche Korrekturen für Mehrspieler/Scharmützel Balance und mehr!
 
-#### 4.2.0 General Highlights:
+#### 4.2.0 Allgemeine Höhepunkte:
 
-- **Add Ultimate Scavengers to the game**
-- **[Spectators for multiplayer games]({{< newslink "news-17.md" >}})**
-- **[Recorded replays for skirmish / multiplayer]({{< newslink "news-18.md" >}})**
-- Headless / autohost enhancements, spectator stats, lobby chat slash commands
-- Return units to mobile turrets & better distribute around multiple repair points
-- Update camBalance for Gamma (Campaign rebalance is basically complete)
-- Increase oil drum power in Campaign Beta (150) and Gamma (200)
-- Add new random maps "DustyMaze": one 2-player and two 4-player maps
-- Use a stable config directory for release builds
-- Implement remove from group shortcut
-- Make selected structures and units blink on radar
-- Add "power per second" to powerbar tooltip
-- Major revision to the Blender 2.9x .PIE file addon
-- Multiplayer balance changes (_see full changelog_)
-- Fix: Orders from Commanders after loading saves
-- Fix: Don't reveal artillery unless the CB tower is completely built
-- Fix: Sensors logic under commander so attaching them isn't useless
-- Fix: Only play "assigned to commander" sound if group is not full
-- Fix: Don't block ready status button when player clicks ready too fast
-- Fix: Primary AA turret units not attacking things if the Secondary could, among other fixes
-- Fix: Don't crash with JumpToResourceExtractor keybind after level reload
-- Fix: Prevent old transporter issue on Beta-end that can lead to level failure
-- And many other bug & crash fixes
+- **Ultimate Scavengers dem Spiel hinzugefügt**
+- **[Zuschauer für Mehrspieler-Spiele]({{< newslink "news-17.md" >}})**
+- **[Aufgenommene Wiederholungen für Scharmützel / Mehrspieler]({{< newslink "news-18.md" >}})**
+- "Kopflos" (Server) / Autohost Erweiterungen, Zuschauerstatistiken, Lobby-Chat-Schrägstrich Befehle
+- Beschädigte Einheiten kehren jetzt zu Reparatureinheiten zurück & werden besser auf mehrere Reparatureinrichtungen verteilt
+- Gamma-Update für camBalance (Die Optimierung der Kampagnenbalance ist grundsätzlich fertig)
+- Erhöhte Energie in Ölfässern für den Beta (150) und Gamma (200) Feldzug
+- Neue Zufallskarten "DustyMaze": Eine für 2 Spieler und zwei für 4 Spieler
+- Einführung eines dauerhaften Konfigurationsverzeichnisses für alle Veröffentlichungen
+- Neue Tastenkombination, um Einheiten von einer Gruppe zu lösen
+- Ausgewählte Strukturen und Einheiten blinken jetzt auf der Minikarte
+- "Energie pro Sekunde" zum Energieanzeige Tooltip hinzugefügt
+- Wichtige Revision des .PIE-Datei Add-ons Blender 2.9x
+- Änderungen der Mehrspielerbalance (_lies das komplette Änderungsprotokoll_)
+- Korrektur: Befehle von Commandern nach dem Laden der Speicherstände
+- Korrektur: Zeige keine Feind-Artillerie auf, bis der CB-Turm komplett gebaut ist
+- Korrektur: Sensorlogik unter einem Commander, damit ist das Anhängen nicht mehr nutzlos
+- Korrektur: Nur "Commander zugewiesen" Ton abspielen, wenn die Gruppe nicht voll ist
+- Korrektur: "Bereit" Schaltfläche nicht blockieren, wenn der Spieler zu schnell klickt
+- Korrektur: Der erste Luftabwehr-Turm von zweitürmigen Rümpfen griff keine Ziele an, falls es der zweite konnte, zusammen mit anderen Korrekturen
+- Korrektur: Kein Crash mit der Tastenkombination "springe zum nächsten Ölbohrturm" nach einem Level Neuladen
+- Korrektur: Beseitigt altes Transporter-Problem im letzten Beta Level, das dazu führen kann, dass das Level verloren wird
+- Und viele weitere Fehler- und Absturzkorrekturen
 
-[View the full 4.2.0 changelog](https://github.com/Warzone2100/warzone2100/raw/4.2.0/ChangeLog)
+[Zeige das komplette 4.2.0 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.2.0/ChangeLog)
 
-There have been **340 commits** since the last release, from many contributors including: AbcLmn18, Alex Porter, alfred007 / highlander1599, Cyp, Denis Gantsev, gitressa, KJeff01, Lupus-Mechanicus, Ronaldo Tinoco, Maxim Zhuchkov, past-due, Solstice245, Thiago Romão Barcala, Thomas Rupprecht, Tipchik, Vitya Andreev
+Es gab **340 commits** seit der letzten Veröffentlichung, von vielen Mitwirkenden einschließlich: AbcLmn18, Alex Porter, alfred007 / highlander1599, Cyp, Denis Gantsev, gitressa, KJeff01, Lupus-Mechanicus, Ronaldo Tinoco, Maxim Zhuchkov, past-due, Solstice245, Thiago Romão Barcala, Thomas Rupprecht, Tipchik, Vitya Andreev
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns auch bei allen neuen und alten Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-**Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).**
+**Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).**
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
