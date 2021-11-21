@@ -1097,6 +1097,9 @@ li{
 .bgc-black-2{
 	background-color:rgba(0,0,0,0.20);
 }
+.bgc-black-2 hr {
+  background-color:rgba(255,255,255,0.20);
+}
 .bgc-black-3{
 	background-color:#000000;
 }
@@ -2163,4 +2166,20 @@ h6>.badge {
 .sharing-button--twitter:active {
   background-color: #2795e9;
   border-color: #2795e9;
+}
+
+/* = Additional button styles
+-------------------------------------------------------------- */
+
+.btn-donate{
+	color:#ffffff!important;
+	background:#0053cc;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.btn-donate:hover,.btn-donate:focus{
+	color:#FFFFFF!important;
+	background:#058a00;
 }
