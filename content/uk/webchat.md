@@ -1,21 +1,21 @@
 ---
-title: "Webchat"
+title: "Веб-чат"
 ---
 
-If you want to arrange online games, or have a quick question to ask, you might want to use one of our chat options:
+Якщо ви хочете домовитися про онлайн-ігри або поставити запитання, ви можете скористатися однією з опцій чату:
 
 {{% divider %}}
 
 ## {{< inlinefigure path="/svg/Discord-Logo+Wordmark-White.svg" mediatype="image/svg+xml" height="80" alt="Discord" >}}
 
-Like Discord? Join the official Warzone 2100 Discord server:
+Є Discord? Приєднуйтесь до офіційного сервера Warzone 2100 у Discord:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Офіційний сервер" >}}
 
-##### Discord Benefits:
+##### Переваги Discord:
 
-Pick your nickname, view chat history, easily chat on mobile devices, (optionally) subscribe to receive announcements of new releases, voice chat, and more.
+Виберіть свій нікнейм, переглядайте історію чату, спілкуйтеся з мобільних пристроїв, (опціонально) підпишіться на отримання оголошень про нові релізи, голосові чати, і багато іншого.
 
-Signing up for Discord, chatting on the server, etc. is free.
+Реєстрація в Discord, чат на сервері, тощо. безкоштовно.
 
-Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
+Спілкуйтесь у браузері або користуйтеся клієнтами для Windows/macOS/Linux/мобільних пристроїв.
