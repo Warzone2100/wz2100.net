@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "Які системні вимоги?"
 ---
 
-Minimum Requirements:
-- 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+Мінімальні вимоги:
+- 1 ГБ ОЗП
+- Підтримка OpenGL 2.1+
+- орієнтовно 150МБ вільного місця
 
-Recommended Requirements:
-- 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
-- ≈ 1 GB storage space (including the campaign video sequences)
+Рекомендовані вимоги:
+- 4 ГБ ОЗП або більше
+- Підтримка OpenGL 3.1+
+- підтримувана звукова картка
+- орієнтовно 1 ГБ вільного місця (включаючи сюжетні відеовставки для сюжетної кампанії)
