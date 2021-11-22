@@ -1,108 +1,108 @@
 {
   "Home": {
-    "message": "Home"
+    "message": "Головна"
   },
   "Features": {
-    "message": "Features"
+    "message": "Особливості"
   },
   "History": {
-    "message": "History"
+    "message": "Історія"
   },
   "FAQ": {
-    "message": "FAQ"
+    "message": "ЧАП"
   },
   "Resources": {
-    "message": "Resources"
+    "message": "Ресурси"
   },
   "News": {
-    "message": "News"
+    "message": "Новини"
   },
   "Webchat": {
-    "message": "Webchat"
+    "message": "Веб-чат"
   },
   "Forums": {
-    "message": "Forums"
+    "message": "Форуми"
   },
   "Addons": {
-    "message": "Addons"
+    "message": "Доповнення"
   },
   "WZ Guide": {
-    "message": "WZ Guide"
+    "message": "Керівництво по WZ"
   },
   "Wiki": {
     "message": "Wiki"
   },
   "Report Bugs": {
-    "message": "Report Bugs"
+    "message": "Повідомити про помилку"
   },
   "Donate": {
-    "message": "Donate"
+    "message": "Підтримати проєкт"
   },
   "Help us Translate": {
-    "message": "Help us Translate"
+    "message": "Допоможіть нам з перекладом"
   },
   "A 100% free and open-source 3D real-time strategy game.": {
-    "message": "A 100% free and open-source 3D real-time strategy game."
+    "message": "100% безкоштовна 3D стратегія у реальному часі з відкритим кодом."
   },
   "Download Now": {
-    "message": "Download Now"
+    "message": "Звантажити зараз"
   },
   "Toggle Dropdown": {
-    "message": "Toggle Dropdown"
+    "message": "Увімк/Вимк випадний список"
   },
   "Windows": {
     "message": "Windows"
   },
   "MSIX Installer": {
-    "message": "MSIX Installer"
+    "message": "Інсталятор MSIX"
   },
   "Easy install & updates.": {
-    "message": "Easy install & updates."
+    "message": "Легко встановлювати та оновлювати."
   },
   "Portable Version": {
-    "message": "Portable Version"
+    "message": "Портативна версія"
   },
   "Can be installed to / run from a USB drive, local folder, etc.": {
-    "message": "Can be installed to / run from a USB drive, local folder, etc."
+    "message": "Може бути встановлений в / запущений з USB-диска, локальній теці тощо."
   },
   "Fully self-contained in a single directory - stores all settings / saves in that same directory too.": {
-    "message": "Fully self-contained in a single directory - stores all settings / saves in that same directory too."
+    "message": "Обмежує себе в єдиній теці - всі налаштування та збереження містяться у ній же."
   },
   "(Does not require admin privileges.)": {
-    "message": "(Does not require admin privileges.)"
+    "message": "(Не вимагає прав адміністратора.)"
   },
   "Full Installer": {
-    "message": "Full Installer"
+    "message": "Повний інсталятор"
   },
   "Traditional Installer": {
-    "message": "Traditional Installer"
+    "message": "Традиційний інсталятор"
   },
   "Installs for all users on a system.": {
-    "message": "Installs for all users on a system."
+    "message": "Встановлює для всіх користувачів у системі."
   },
   "Settings / saves are user-specific.": {
-    "message": "Settings / saves are user-specific."
+    "message": "Окремі налаштування / збереження для кожного користувача."
   },
   "(Requires admin privileges to install.)": {
-    "message": "(Requires admin privileges to install.)"
+    "message": "(Для встановлення потрібні права адміністратора.)"
   },
   "Recommended for: Windows 7, 8.x": {
-    "message": "Recommended for: Windows 7, 8.x"
+    "message": "Рекомендовано для: Windows 7, 8.x"
   },
   "For Windows 10+, the MSIX installer is recommended instead.": {
-    "message": "For Windows 10+, the MSIX installer is recommended instead."
+    "message": "Для Windows 10+, рекомендується встановити MSIX."
   },
   "macOS": {
     "message": "macOS"
   },
   "macOS App Bundle": {
-    "message": "macOS App Bundle"
+    "message": "пакет додатків macOS"
   },
   "Linux": {
     "message": "Linux"
   },
   "Install the Snap": {
-    "message": "Install the Snap"
+    "message": "Встановити the Snap"
   },
   "Ubuntu 18.04": {
     "message": "Ubuntu 18.04"
@@ -117,91 +117,91 @@
     "message": "Ubuntu 20.04+ (x64)"
   },
   "Get the Source": {
-    "message": "Get the Source"
+    "message": "Отримати вихідний код"
   },
   "and more...": {
-    "message": "and more..."
+    "message": "і багато іншого..."
   },
   "All downloads & platforms": {
-    "message": "All downloads & platforms"
+    "message": "Усі завантаження для всіх платформ"
   },
   "New": {
-    "message": "New"
+    "message": "Новий"
   },
   "Version": {
-    "message": "Version"
+    "message": "Версія"
   },
   "for Windows 7-10": {
-    "message": "for Windows 7-10"
+    "message": "для Windows 7-10"
   },
   "for macOS 10.10+": {
-    "message": "for macOS 10.10+"
+    "message": "для macOS 10.10+"
   },
   "for Linux": {
-    "message": "for Linux"
+    "message": "для Linux"
   },
   "Windows, macOS, Linux": {
     "message": "Windows, macOS, Linux"
   },
   "Advanced install options & other platforms": {
-    "message": "Advanced install options & other platforms"
+    "message": "Додаткові параметри встановлення та інші платформи"
   },
   "Get the source code": {
-    "message": "Get the source code"
+    "message": "Отримати вихідний код"
   },
   "Get the Source Code": {
-    "message": "Get the Source Code"
+    "message": "Отримати вихідний код"
   },
   "View on GitHub": {
-    "message": "View on GitHub"
+    "message": "Переглянути на GitHub"
   },
   "Star on GitHub": {
-    "message": "Star on GitHub"
+    "message": "В обране на GitHub"
   },
   "Report a Bug": {
-    "message": "Report a Bug"
+    "message": "Повідомити про помилку"
   },
   "Copyright © Warzone 2100 Project.": {
-    "message": "Copyright © Warzone 2100 Project."
+    "message": "Авторське право © Warzone 2100 Project."
   },
   "Warzone is licensed under the GPLv2+ license (& others).": {
-    "message": "Warzone is licensed under the GPLv2+ license (& others)."
+    "message": "Warzone ліцензовано під ліцензією GPLv2+ (та іншими)."
   },
   "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.": {
-    "message": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles."
+    "message": "Керуйте збройними силами Проєкту в бою за відновлення миру після того, як людство було майже знищено ядерними ударами."
   },
   "Seize territory and resources, build extensive bases, and expand your production & research.": {
-    "message": "Seize territory and resources, build extensive bases, and expand your production & research."
+    "message": "Відвойовуйте території та ресурси, будуйте великі бази, розширюйте ваше виробництво та дослідження."
   },
   "Compete in massive LAN / online multiplayer battles, with up to 10 players.": {
-    "message": "Compete in massive LAN / online multiplayer battles, with up to 10 players."
+    "message": "Змагайтеся в масивних битвах по локальній мережі або через інтернет, одночасно до 10 гравців."
   },
   "Previous": {
-    "message": "Previous"
+    "message": "Попередня"
   },
   "Next": {
-    "message": "Next"
+    "message": "Наступна"
   },
   "Close": {
-    "message": "Close"
+    "message": "Закрити"
   },
   "Downloads not working?": {
-    "message": "Downloads not working?"
+    "message": "Не завантажуються?"
   },
   "Try browsing the download mirrors directly:": {
-    "message": "Try browsing the download mirrors directly:"
+    "message": "Спробуйте перейти за цими прямими дзеркальними посиланнями:"
   },
   "GitHub Releases": {
-    "message": "GitHub Releases"
+    "message": "Релізи GitHub"
   },
   "SourceForge Mirror": {
-    "message": "SourceForge Mirror"
+    "message": "Дзеркало SourceForge"
   },
   "For Windows 10+": {
-    "message": "For Windows 10+"
+    "message": "Для Windows 10+"
   },
   "For Windows 7+": {
-    "message": "For Windows 7+"
+    "message": "Для Windows 7+"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -210,307 +210,307 @@
     "message": "64-bit (x64)"
   },
   "Snap Installer": {
-    "message": "Snap Installer"
+    "message": "Snap-інсталятор"
   },
   "Easy installation.": {
-    "message": "Easy installation."
+    "message": "Просте встановлення."
   },
   "Supports most Linux distributions.": {
-    "message": "Supports most Linux distributions."
+    "message": "Підтримує більшість дистрибутивів Linux."
   },
   "For most Linux distros": {
-    "message": "For most Linux distros"
+    "message": "Для більшості дистрибутивів Linux"
   },
   "(See link for details.)": {
-    "message": "(See link for details.)"
+    "message": "(Детальніше див. за посиланням)"
   },
   "Debian Package": {
-    "message": "Debian Package"
+    "message": "Пакет Debian"
   },
   "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "DEB package for Ubuntu (and related Debian-based distros)."
+    "message": "DEB пакет для Ubuntu (та заснованих на Debian дистрибутивах)."
   },
   "After downloading, install using the following command:": {
-    "message": "After downloading, install using the following command:"
+    "message": "Після завантаження, встановіть за допомогою наступної команди:"
   },
   "Compile Source": {
-    "message": "Compile Source"
+    "message": "Скомпілювати вихідний код"
   },
   "Compile the source yourself using our build instructions.": {
-    "message": "Compile the source yourself using our build instructions."
+    "message": "Скомпілюйте вихідний код самостійно, використовуючи наші інструкції по збірці."
   },
   "Source Code (.tar.xz)": {
-    "message": "Source Code (.tar.xz)"
+    "message": "Вихідний код (.tar.xz)"
   },
   "Mac App Bundle": {
-    "message": "Mac App Bundle"
+    "message": "Пакет додатків Mac"
   },
   "Download, unzip, and copy to your Applications folder.": {
-    "message": "Download, unzip, and copy to your Applications folder."
+    "message": "Завантажте, розпакуйте та скопіюйте у вашу папку Applications."
   },
   "64-bit Intel": {
-    "message": "64-bit Intel"
+    "message": "64-розрядний Intel"
   },
   "64-bit (Universal Binary)": {
-    "message": "64-bit (Universal Binary)"
+    "message": "64-розрядний (Universal Binary)"
   },
   "How to handle “Warzone cannot be opened” errors.": {
-    "message": "How to handle “Warzone cannot be opened” errors."
+    "message": "Рішення проблеми з помилками «Warzone cannot be opened»."
   },
   "Universal Binary supports Intel 64-bit and Apple Silicon.": {
-    "message": "Universal Binary supports Intel 64-bit and Apple Silicon."
+    "message": "Universal Binary підтримує Intel 64-bit і Apple Silicon."
   },
   "Other": {
-    "message": "Other"
+    "message": "Інше"
   },
   "Campaign Videos": {
-    "message": "Campaign Videos"
+    "message": "Відео сюжетної кампанії"
   },
   "WMIT (Warzone Model Import Tool)": {
     "message": "WMIT (Warzone Model Import Tool)"
   },
   "Development Builds": {
-    "message": "Development Builds"
+    "message": "Проміжні збірки розробки"
   },
   "Development Source Code": {
-    "message": "Development Source Code"
+    "message": "Вихідний код розробки"
   },
   "Verify Download Integrity (SHA256)": {
-    "message": "Verify Download Integrity (SHA256)"
+    "message": "Перевірка цілісності файлів завантаження (SHA256)"
   },
   "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:": {
-    "message": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:"
+    "message": "З командного рядка / терміналу, перейдіть до теки із завантаженим файлом(ами), і виконайте відповідну команду для розрахунку контрольної суми SHA256 файлу та порівняйте з таблицею нижче:"
   },
   "SHA256 Checksums for Version": {
-    "message": "SHA256 Checksums for Version"
+    "message": "Контрольні суми SHA256 для версії"
   },
   "Torrent": {
-    "message": "Torrent"
+    "message": "Торрент"
   },
   "Downloading Warzone 2100": {
-    "message": "Downloading Warzone 2100"
+    "message": "Завантаження Warzone 2100"
   },
   "Next Steps:": {
-    "message": "Next Steps:"
+    "message": "Наступні кроки:"
   },
   "Share on Twitter": {
-    "message": "Share on Twitter"
+    "message": "Поділитися у Twitter"
   },
   "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.": {
-    "message": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux."
+    "message": "Warzone 2100 - 100% безкоштовна 3D-стратегія в реальному часі з відкритим кодом Windows / macOS / Linux."
   },
   "If you’ve never played before,": {
-    "message": "If you’ve never played before,"
+    "message": "Якщо ви ніколи раніше не грали,"
   },
   "start with the in-game Tutorial, and then check out:": {
-    "message": "start with the in-game Tutorial, and then check out:"
+    "message": "почніть із внутрішньоігрового навчання, а потім ознайомтеся з:"
   },
   "the Quickstart Guide": {
-    "message": "the Quickstart Guide"
+    "message": "Швидким керівництвом"
   },
   "Chat with players on the official Discord server!": {
-    "message": "Chat with players on the official Discord server!"
+    "message": "Спілкуйтеся з гравцями на офіційному сервері Discord!"
   },
   "Star the project on GitHub and help spread the news!": {
-    "message": "Star the project on GitHub and help spread the news!"
+    "message": "Поставте зірочку нашому проекту на GitHub та допоможіть розповсюдити новини!"
   },
   "Donate to help support server and other costs!": {
-    "message": "Donate to help support server and other costs!"
+    "message": "Пожертвуйте, щоб допомогти підтримати сервер та інші витрати!"
   },
   "Why Warzone 2100 Rocks": {
-    "message": "Why Warzone 2100 Rocks"
+    "message": "Чому Warzone 2100 це круто"
   },
   "Strategy by Design.": {
-    "message": "Strategy by Design."
+    "message": "Стратегії проектування."
   },
   "Endless replayability.": {
-    "message": "Endless replayability."
+    "message": "Нескінченна можливість відтворення."
   },
   "Single-Player Campaign": {
-    "message": "Single-Player Campaign"
+    "message": "Однокористувацька кампанія"
   },
   "LAN / Internet Multiplayer": {
-    "message": "LAN / Internet Multiplayer"
+    "message": "LAN / Інтернет для кількох гравців"
   },
   "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.": {
-    "message": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby."
+    "message": "Грайте з друзями по локальній мережі, або спробуйте свою руку у грі з інтегрованою системою лобі."
   },
   "AI Bots": {
-    "message": "AI Bots"
+    "message": "Боти"
   },
   "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.": {
-    "message": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability."
+    "message": "Грайте проти комп'ютерних противників у локальних сутичках (або додайте їх як союзників/ворогів у мультиплеєрі) і тренуйте свої навички з нескінченною можливістю відтворення."
   },
   "Extensive Tech Tree": {
-    "message": "Extensive Tech Tree"
+    "message": "Розширене Дерево Технологій"
   },
   "Over 400 different technologies yield an extensive tech tree with many paths to choose.": {
-    "message": "Over 400 different technologies yield an extensive tech tree with many paths to choose."
+    "message": "Більше 400 різних технологій дають розширене технологічне дерево з безліччю шляхів для успішної гри."
   },
   "Unit Designer": {
-    "message": "Unit Designer"
+    "message": "Конструктор юнітів"
   },
   "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.": {
-    "message": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics."
+    "message": "Конструюйте своїх власних юнітів за допомогою гнучкої системи дизайну, що дозволяє широке розмаїття юнітів та стратегій."
   },
   "Cross-Platform": {
-    "message": "Cross-Platform"
+    "message": "Для різних платформ"
   },
   "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!": {
-    "message": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!"
+    "message": "Підтримує Windows, macOS, Linux, FreeBSD та багато іншого - і все це з підтримкою крос-платформного мультиплеєра!"
   },
   "Years": {
-    "message": "Years"
+    "message": "Років розробки"
   },
   "Downloads": {
-    "message": "Downloads"
+    "message": "Завантаження"
   },
   "Forum Posts": {
-    "message": "Forum Posts"
+    "message": "Повідомлення на форумі"
   },
   "GitHub Stars": {
     "message": "GitHub Stars"
   },
   "100s": {
-    "message": "100s"
+    "message": "100+"
   },
   "Contributors": {
-    "message": "Contributors"
+    "message": "Розробники"
   },
   "100%": {
     "message": "100%"
   },
   "Free": {
-    "message": "Free"
+    "message": "Безкоштовно"
   },
   "100% Open & Free": {
-    "message": "100% Open & Free"
+    "message": "100% відкрита і безкоштовна"
   },
   "Open source, open development, open community - free as in freedom!": {
-    "message": "Open source, open development, open community - free as in freedom!"
+    "message": "Відкритий вихідний код, відкрита розробка, відкрита спільнота – безліч можливостей взяти участь!"
   },
   "100% Open-Source": {
-    "message": "100% Open-Source"
+    "message": "100% відкритий вихідний код"
   },
   "Exclusively open-source technologies, software, & tools.": {
-    "message": "Exclusively open-source technologies, software, & tools."
+    "message": "Ексклюзивні технології, програми та інструменти на основі принципу відкритого вихідного коду."
   },
   "Community content is licensed under liberal licenses (ex. CC0).": {
-    "message": "Community content is licensed under liberal licenses (ex. CC0)."
+    "message": "Контент спільноти ліцензований під вільними ліцензіями (ex. CC0)."
   },
   "100% Open Development": {
-    "message": "100% Open Development"
+    "message": "100% відкрита розробка"
   },
   "Join the public project on GitHub!": {
-    "message": "Join the public project on GitHub!"
+    "message": "Приєднуйтесь до публічного проєкту на GitHub!"
   },
   "Anyone can file bugs, contribute patches, and request enhancements.": {
-    "message": "Anyone can file bugs, contribute patches, and request enhancements."
+    "message": "Будь-хто може надсилати повідомлення про помилки, вносити патчі та вимагати покращення."
   },
   "100% Open Community": {
-    "message": "100% Open Community"
+    "message": "100% Вiдкрита спільнота"
   },
   "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.": {
-    "message": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience."
+    "message": "Спілкуйтесь на форумах, робіть та діліться доповненнями, приєднуйтесь до онлайн турнірів та робіть свій внесок у досвід Warzone 2100."
   },
   "People around the world are waiting!": {
-    "message": "People around the world are waiting!"
+    "message": "Люди у всьому світі чекають!"
   },
   "100% Free": {
-    "message": "100% Free"
+    "message": "100% безкоштовно"
   },
   "Everything is free, including source code, downloads, and all features.": {
-    "message": "Everything is free, including source code, downloads, and all features."
+    "message": "Все це безкоштовно, включаючи доступ до вихідного коду, завантажень та всіх функції."
   },
   "No in-app purchases.": {
-    "message": "No in-app purchases."
+    "message": "Жодних внутрішньоігрових покупок."
   },
   "No subscriptions.": {
-    "message": "No subscriptions."
+    "message": "Жодних підписок."
   },
   "No ads.": {
-    "message": "No ads."
+    "message": "Без реклами."
   },
   "Just free.": {
-    "message": "Just free."
+    "message": "Просто безкоштовно."
   },
   "A Long History": {
-    "message": "A Long History"
+    "message": "Довга історія"
   },
   "Developed in the 90s by Pumpkin Studios.": {
-    "message": "Developed in the 90s by Pumpkin Studios."
+    "message": "Розроблено у 90-ті роки компанією Pumpkin Studios."
   },
   "Liberated in 2004.": {
-    "message": "Liberated in 2004."
+    "message": "Права на гру звільнено у 2004 році."
   },
   "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.": {
-    "message": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive."
+    "message": "Warzone 2100 була спочатку розроблена Pumpkin Studios та опублікована видавцем Eidos Interactive."
   },
   "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.": {
-    "message": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation."
+    "message": "У 1999 році була випущена на ринок для Microsoft Windows та Sony PlayStation."
   },
   "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.": {
-    "message": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000."
+    "message": "Pumpkin Studios завершили свою підтримку Warzone 2100 5 січня 2000 року."
   },
   "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.": {
-    "message": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license."
+    "message": "В 2004 році, після петиції, організованої фанатами, вихідний код Warzone був опублікований під ліцензією з відкритим вихідним кодом."
   },
   "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.": {
-    "message": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”."
+    "message": "З того часу вона продовжила розроблятися, підтримуватися та вдосконалюватись ентузіастами спільноти, під гаслом «Warzone 2100 Project»."
   },
   "More Info": {
-    "message": "More Info"
+    "message": "Детальніше"
   },
   "Frequently Asked Questions": {
-    "message": "Frequently Asked Questions"
+    "message": "Найбільш поширенні питання (FAQ)"
   },
   "Answers to common questions.": {
-    "message": "Answers to common questions."
+    "message": "Відповіді на популярні запитання."
   },
   "Can't find the answer you're looking for?": {
-    "message": "Can't find the answer you're looking for?"
+    "message": "Не можете знайти відповідь на ваше запитання?"
   },
   "Check out the Forums and Webchat.": {
-    "message": "Check out the Forums and Webchat."
+    "message": "Перевірте наші форуми та веб-чат."
   },
   "General": {
-    "message": "General"
+    "message": "Загальні налаштування"
   },
   "Multiplayer": {
-    "message": "Multiplayer"
+    "message": "Мережева гра"
   },
   "Troubleshooting": {
-    "message": "Troubleshooting"
+    "message": "Усунення проблем"
   },
   "Copy URL": {
-    "message": "Copy URL"
+    "message": "Копіювати URL"
   },
   "Copied URL!": {
-    "message": "Copied URL!"
+    "message": "Посилання скопійоване!"
   },
   "JavaScript is disabled.": {
-    "message": "JavaScript is disabled."
+    "message": "JavaScript відключений."
   },
   "This site may not work properly without it.": {
-    "message": "This site may not work properly without it."
+    "message": "Цей сайт може працювати некоректно без нього."
   },
   "About": {
-    "message": "About"
+    "message": "Про програму"
   },
   "The Team": {
-    "message": "The Team"
+    "message": "Команда"
   },
   "Changelog": {
-    "message": "Changelog"
+    "message": "Історія змін"
   },
   "Latest Commits": {
-    "message": "Latest Commits"
+    "message": "Останні зміни"
   },
   "Privacy Policy": {
-    "message": "Privacy Policy"
+    "message": "Політика конфіденційності"
   },
   "Download": {
-    "message": "Download"
+    "message": "Завантажити"
   },
   "Snap Store": {
     "message": "Snap Store"
@@ -519,114 +519,114 @@
     "message": "Snap Store (Linux)"
   },
   "Source Code": {
-    "message": "Source Code"
+    "message": "Вихідний код"
   },
   "Source Code.": {
-    "message": "Source Code."
+    "message": "Вихідний код."
   },
   "Contribute": {
-    "message": "Contribute"
+    "message": "Внести вклад"
   },
   "Help with Translations": {
-    "message": "Help with Translations"
+    "message": "Допомогти з перекладом"
   },
   "Documentation": {
-    "message": "Documentation"
+    "message": "Документація"
   },
   "Connect": {
-    "message": "Connect"
+    "message": "Підключитися"
   },
   "Copyright © past-due.": {
-    "message": "Copyright © past-due."
+    "message": "Авторське право © past-due."
   },
   "theme": {
-    "message": "theme"
+    "message": "тема"
   },
   "Licensed under the GNU GPLv3.": {
-    "message": "Licensed under the GNU GPLv3."
+    "message": "Ліцензовано під GNU GPLv3."
   },
   "Powered by Hugo": {
-    "message": "Powered by Hugo"
+    "message": "За підтримки Hugo"
   },
   "All trademarks are the property of their respective owners.": {
-    "message": "All trademarks are the property of their respective owners."
+    "message": "Всі права захищені. Усі торгові марки залишаються власністю їх власників."
   },
   "YOU'VE BEEN INVITED TO JOIN A SERVER": {
-    "message": "YOU'VE BEEN INVITED TO JOIN A SERVER"
+    "message": "ВАМ ЗАПРОШУЄТЬСЯ ПРИЄДНАТИСЯ ДО СЕРВЕРУ"
   },
   "Join": {
-    "message": "Join"
+    "message": "Приєднатися"
   },
   "Loading...": {
-    "message": "Loading..."
+    "message": "Завантаження..."
   },
   "You are running the latest release of Warzone 2100.": {
-    "message": "You are running the latest release of Warzone 2100."
+    "message": "У вас запущено останню версію Warzone 2100."
   },
   "You are running the latest development build.": {
-    "message": "You are running the latest development build."
+    "message": "Ви використовуєте останню тестову збірку."
   },
   "Thanks for trying out these builds, and looking for bugs - it is appreciated!": {
-    "message": "Thanks for trying out these builds, and looking for bugs - it is appreciated!"
+    "message": "Дякую за те, що спробували ці збірки, і шукаєте проблеми – це дуже допомагає!"
   },
   "A new release is available!": {
-    "message": "A new release is available!"
+    "message": "Доступна нова версія!"
   },
   "A new development build is available!": {
-    "message": "A new development build is available!"
+    "message": "Доступна нова версія!"
   },
   "Download Latest Development Builds": {
-    "message": "Download Latest Development Builds"
+    "message": "Завантажити останні тестові збірки"
   },
   "Unable to check for updates": {
-    "message": "Unable to check for updates"
+    "message": "Не вдалося перевірити наявність оновлень"
   },
   "This site requires JavaScript, and it looks like you have it disabled.": {
-    "message": "This site requires JavaScript, and it looks like you have it disabled."
+    "message": "Цей сайт вимагає JavaScript, і, схоже, він відключений на вашому браузері."
   },
   "If you aren't sure, download the latest version now.": {
-    "message": "If you aren't sure, download the latest version now."
+    "message": "Якщо ви не впевнені, завантажте останню версію."
   },
   "Couldn't check for latest development builds": {
-    "message": "Couldn't check for latest development builds"
+    "message": "Неможливо перевірити наявність останніх тестових збірок"
   },
   "You can always download the latest development builds below.": {
-    "message": "You can always download the latest development builds below."
+    "message": "Ви завжди можете завантажити останні тестові збірки нижче."
   },
   "Your version": {
-    "message": "Your version"
+    "message": "Ваша версія"
   },
   "Latest Release": {
-    "message": "Latest Release"
+    "message": "Актуальна версія"
   },
   "Latest Development Build": {
-    "message": "Latest Development Build"
+    "message": "Остання тестова збірка"
   },
   "404 - Not Found": {
-    "message": "404 - Not Found"
+    "message": "404 - Не знайдено"
   },
   "Whatever that was, it couldn't be found.": {
-    "message": "Whatever that was, it couldn't be found."
+    "message": "Щоб ви не запитували, знайти це не вдається."
   },
   "Sorry about that.": {
-    "message": "Sorry about that."
+    "message": "Вибачте за це."
   },
   "Go Home": {
-    "message": "Go Home"
+    "message": "Повернутися на головну сторінку"
   },
   "Subsections": {
-    "message": "Subsections"
+    "message": "Підрозділи"
   },
   "Tags": {
-    "message": "Tags"
+    "message": "Мітки"
   },
   "All Tags": {
-    "message": "All Tags"
+    "message": "Всі мітки"
   },
   "Site Navigation": {
-    "message": "Site Navigation"
+    "message": "Навігація по сайту"
   },
   "More": {
-    "message": "More"
+    "message": "Докладніше"
   }
 }
