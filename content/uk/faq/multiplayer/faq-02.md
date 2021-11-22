@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting online games"
+title: "Усунення проблем мультиплеєра"
 ---
 
-If you can't join a game that you see, check the following:
+Якщо ви не можете вступити в гру, яку ви бачите, перевірте наступне:
 
-1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
+1. Вам потрібно мати таку саму версію гри, щоб приєднатися. У вас не повинно бути проблем, якщо ви використовуєте останню стабільну версію, або, можливо, останню тестову збірку, якщо вона офіційно доступна.
 
-2. You need to have no mods installed, unless you are joining a modded game. Map-mods are usually ok to have.
+2. У вас не встановлено жодного моду, за винятком тих випадків, коли ви вступаєте в гру з цими модами. Карти не береться до уваги, вони не викликають проблем.
 
-3. Some games are protected with a password. You will not be able to join them unless you are invited.
+3. Деякі ігри захищені паролем. Ви не зможете приєднатися до них, якщо не запрошені.
 
-The game uses outgoing port `2100` to connect the host and outgoing port `9990` to retrieve the list of games.
+Гра використовує вихідний порт `2100` для підключення хоста та вихідний порт `9990` для отримання списку ігор з майстер-сервера.
