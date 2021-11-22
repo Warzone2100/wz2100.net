@@ -49,6 +49,6 @@ And don't forget to check out the new official Discord server:
 
 {{< discordinvite description="Official Server" >}}
 
-And to consider donating to help support the costs associated with the project:
+And consider donating to help support the costs associated with the project:
 
 {{< opencollective_donatebutton >}}
