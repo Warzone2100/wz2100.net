@@ -1,0 +1,842 @@
+[
+  {
+    "id": "Home",
+    "translation": "Головна"
+  },
+  {
+    "id": "Features",
+    "translation": "Особливості"
+  },
+  {
+    "id": "History",
+    "translation": "Історія"
+  },
+  {
+    "id": "FAQ",
+    "translation": "ЧАП"
+  },
+  {
+    "id": "Resources",
+    "translation": "Ресурси"
+  },
+  {
+    "id": "News",
+    "translation": "Новини"
+  },
+  {
+    "id": "Webchat",
+    "translation": "Веб-чат"
+  },
+  {
+    "id": "Forums",
+    "translation": "Форуми"
+  },
+  {
+    "id": "Addons",
+    "translation": "Доповнення"
+  },
+  {
+    "id": "WZ Guide",
+    "translation": "Керівництво по WZ"
+  },
+  {
+    "id": "Wiki",
+    "translation": "Wiki"
+  },
+  {
+    "id": "Report Bugs",
+    "translation": "Повідомити про помилку"
+  },
+  {
+    "id": "Donate",
+    "translation": "Підтримати проєкт"
+  },
+  {
+    "id": "Help us Translate",
+    "translation": "Допоможіть нам з перекладом"
+  },
+  {
+    "id": "A 100% free and open-source 3D real-time strategy game.",
+    "translation": "100% безкоштовна 3D стратегія у реальному часі з відкритим кодом."
+  },
+  {
+    "id": "Download Now",
+    "translation": "Звантажити зараз"
+  },
+  {
+    "id": "Toggle Dropdown",
+    "translation": "Увімк/Вимк випадний список"
+  },
+  {
+    "id": "Windows",
+    "translation": "Windows"
+  },
+  {
+    "id": "MSIX Installer",
+    "translation": "Інсталятор MSIX"
+  },
+  {
+    "id": "Easy install & updates.",
+    "translation": "Легко встановлювати та оновлювати."
+  },
+  {
+    "id": "Portable Version",
+    "translation": "Портативна версія"
+  },
+  {
+    "id": "Can be installed to / run from a USB drive, local folder, etc.",
+    "translation": "Може бути встановлений в / запущений з USB-диска, локальній теці тощо."
+  },
+  {
+    "id": "Fully self-contained in a single directory - stores all settings / saves in that same directory too.",
+    "translation": "Обмежує себе в єдиній теці - всі налаштування та збереження містяться у ній же."
+  },
+  {
+    "id": "(Does not require admin privileges.)",
+    "translation": "(Не вимагає прав адміністратора.)"
+  },
+  {
+    "id": "Full Installer",
+    "translation": "Повний інсталятор"
+  },
+  {
+    "id": "Traditional Installer",
+    "translation": "Традиційний інсталятор"
+  },
+  {
+    "id": "Installs for all users on a system.",
+    "translation": "Встановлює для всіх користувачів у системі."
+  },
+  {
+    "id": "Settings / saves are user-specific.",
+    "translation": "Окремі налаштування / збереження для кожного користувача."
+  },
+  {
+    "id": "(Requires admin privileges to install.)",
+    "translation": "(Для встановлення потрібні права адміністратора.)"
+  },
+  {
+    "id": "Recommended for: Windows 7, 8.x",
+    "translation": "Рекомендовано для: Windows 7, 8.x"
+  },
+  {
+    "id": "For Windows 10+, the MSIX installer is recommended instead.",
+    "translation": "Для Windows 10+, рекомендується встановити MSIX."
+  },
+  {
+    "id": "macOS",
+    "translation": "macOS"
+  },
+  {
+    "id": "macOS App Bundle",
+    "translation": "пакет додатків macOS"
+  },
+  {
+    "id": "Linux",
+    "translation": "Linux"
+  },
+  {
+    "id": "Install the Snap",
+    "translation": "Встановити the Snap"
+  },
+  {
+    "id": "Ubuntu 18.04",
+    "translation": "Ubuntu 18.04"
+  },
+  {
+    "id": "Ubuntu 20.04+",
+    "translation": "Ubuntu 20.04+"
+  },
+  {
+    "id": "Ubuntu 18.04 (x64)",
+    "translation": "Ubuntu 18.04 (x64)"
+  },
+  {
+    "id": "Ubuntu 20.04+ (x64)",
+    "translation": "Ubuntu 20.04+ (x64)"
+  },
+  {
+    "id": "Get the Source",
+    "translation": "Отримати вихідний код"
+  },
+  {
+    "id": "and more...",
+    "translation": "і багато іншого..."
+  },
+  {
+    "id": "All downloads & platforms",
+    "translation": "Усі завантаження для всіх платформ"
+  },
+  {
+    "id": "New",
+    "translation": "Новий"
+  },
+  {
+    "id": "Version",
+    "translation": "Версія"
+  },
+  {
+    "id": "for Windows 7-10",
+    "translation": "для Windows 7-10"
+  },
+  {
+    "id": "for macOS 10.10+",
+    "translation": "для macOS 10.10+"
+  },
+  {
+    "id": "for Linux",
+    "translation": "для Linux"
+  },
+  {
+    "id": "Windows, macOS, Linux",
+    "translation": "Windows, macOS, Linux"
+  },
+  {
+    "id": "Advanced install options & other platforms",
+    "translation": "Додаткові параметри встановлення та інші платформи"
+  },
+  {
+    "id": "Get the source code",
+    "translation": "Отримати вихідний код"
+  },
+  {
+    "id": "Get the Source Code",
+    "translation": "Отримати вихідний код"
+  },
+  {
+    "id": "View on GitHub",
+    "translation": "Переглянути на GitHub"
+  },
+  {
+    "id": "Star on GitHub",
+    "translation": "В обране на GitHub"
+  },
+  {
+    "id": "Report a Bug",
+    "translation": "Повідомити про помилку"
+  },
+  {
+    "id": "Copyright © Warzone 2100 Project.",
+    "translation": "Авторське право © Warzone 2100 Project."
+  },
+  {
+    "id": "Warzone is licensed under the GPLv2+ license (& others).",
+    "translation": "Warzone ліцензовано під ліцензією GPLv2+ (та іншими)."
+  },
+  {
+    "id": "Command the forces of The Project in a battle to rebuild the world after mankind has been nearly destroyed by nuclear missiles.",
+    "translation": "Керуйте збройними силами Проєкту в бою за відновлення миру після того, як людство було майже знищено ядерними ударами."
+  },
+  {
+    "id": "Seize territory and resources, build extensive bases, and expand your production & research.",
+    "translation": "Відвойовуйте території та ресурси, будуйте великі бази, розширюйте ваше виробництво та дослідження."
+  },
+  {
+    "id": "Compete in massive LAN / online multiplayer battles, with up to 10 players.",
+    "translation": "Змагайтеся в масивних битвах по локальній мережі або через інтернет, одночасно до 10 гравців."
+  },
+  {
+    "id": "Previous",
+    "translation": "Попередня"
+  },
+  {
+    "id": "Next",
+    "translation": "Наступна"
+  },
+  {
+    "id": "Close",
+    "translation": "Закрити"
+  },
+  {
+    "id": "Downloads not working?",
+    "translation": "Не завантажуються?"
+  },
+  {
+    "id": "Try browsing the download mirrors directly:",
+    "translation": "Спробуйте перейти за цими прямими дзеркальними посиланнями:"
+  },
+  {
+    "id": "GitHub Releases",
+    "translation": "Релізи GitHub"
+  },
+  {
+    "id": "SourceForge Mirror",
+    "translation": "Дзеркало SourceForge"
+  },
+  {
+    "id": "For Windows 10+",
+    "translation": "Для Windows 10+"
+  },
+  {
+    "id": "For Windows 7+",
+    "translation": "Для Windows 7+"
+  },
+  {
+    "id": "32-bit (x86)",
+    "translation": "32-bit (x86)"
+  },
+  {
+    "id": "64-bit (x64)",
+    "translation": "64-bit (x64)"
+  },
+  {
+    "id": "Snap Installer",
+    "translation": "Snap-інсталятор"
+  },
+  {
+    "id": "Easy installation.",
+    "translation": "Просте встановлення."
+  },
+  {
+    "id": "Supports most Linux distributions.",
+    "translation": "Підтримує більшість дистрибутивів Linux."
+  },
+  {
+    "id": "For most Linux distros",
+    "translation": "Для більшості дистрибутивів Linux"
+  },
+  {
+    "id": "(See link for details.)",
+    "translation": "(Детальніше див. за посиланням)"
+  },
+  {
+    "id": "Debian Package",
+    "translation": "Пакет Debian"
+  },
+  {
+    "id": "DEB package for Ubuntu (and related Debian-based distros).",
+    "translation": "DEB пакет для Ubuntu (та заснованих на Debian дистрибутивах)."
+  },
+  {
+    "id": "After downloading, install using the following command:",
+    "translation": "Після завантаження, встановіть за допомогою наступної команди:"
+  },
+  {
+    "id": "Compile Source",
+    "translation": "Скомпілювати вихідний код"
+  },
+  {
+    "id": "Compile the source yourself using our build instructions.",
+    "translation": "Скомпілюйте вихідний код самостійно, використовуючи наші інструкції по збірці."
+  },
+  {
+    "id": "Source Code (.tar.xz)",
+    "translation": "Вихідний код (.tar.xz)"
+  },
+  {
+    "id": "Mac App Bundle",
+    "translation": "Пакет додатків Mac"
+  },
+  {
+    "id": "Download, unzip, and copy to your Applications folder.",
+    "translation": "Завантажте, розпакуйте та скопіюйте у вашу папку Applications."
+  },
+  {
+    "id": "64-bit Intel",
+    "translation": "64-розрядний Intel"
+  },
+  {
+    "id": "64-bit (Universal Binary)",
+    "translation": "64-розрядний (Universal Binary)"
+  },
+  {
+    "id": "How to handle “Warzone cannot be opened” errors.",
+    "translation": "Рішення проблеми з помилками «Warzone cannot be opened»."
+  },
+  {
+    "id": "Universal Binary supports Intel 64-bit and Apple Silicon.",
+    "translation": "Universal Binary підтримує Intel 64-bit і Apple Silicon."
+  },
+  {
+    "id": "Other",
+    "translation": "Інше"
+  },
+  {
+    "id": "Campaign Videos",
+    "translation": "Відео сюжетної кампанії"
+  },
+  {
+    "id": "WMIT (Warzone Model Import Tool)",
+    "translation": "WMIT (Warzone Model Import Tool)"
+  },
+  {
+    "id": "Development Builds",
+    "translation": "Проміжні збірки розробки"
+  },
+  {
+    "id": "Development Source Code",
+    "translation": "Вихідний код розробки"
+  },
+  {
+    "id": "Verify Download Integrity (SHA256)",
+    "translation": "Перевірка цілісності файлів завантаження (SHA256)"
+  },
+  {
+    "id": "From a Command Prompt / Terminal, browse to the location of the downloaded file(s), then run the appropriate command to calculate the file's SHA256 checksum and compare to the table below:",
+    "translation": "З командного рядка / терміналу, перейдіть до теки із завантаженим файлом(ами), і виконайте відповідну команду для розрахунку контрольної суми SHA256 файлу та порівняйте з таблицею нижче:"
+  },
+  {
+    "id": "SHA256 Checksums for Version",
+    "translation": "Контрольні суми SHA256 для версії"
+  },
+  {
+    "id": "Torrent",
+    "translation": "Торрент"
+  },
+  {
+    "id": "Downloading Warzone 2100",
+    "translation": "Завантаження Warzone 2100"
+  },
+  {
+    "id": "Next Steps:",
+    "translation": "Наступні кроки:"
+  },
+  {
+    "id": "Share on Twitter",
+    "translation": "Поділитися у Twitter"
+  },
+  {
+    "id": "Warzone 2100 - a 100% free and open source 3D real-time strategy game for Windows / macOS / Linux.",
+    "translation": "Warzone 2100 - 100% безкоштовна 3D-стратегія в реальному часі з відкритим кодом Windows / macOS / Linux."
+  },
+  {
+    "id": "If you’ve never played before,",
+    "translation": "Якщо ви ніколи раніше не грали,"
+  },
+  {
+    "id": "start with the in-game Tutorial, and then check out:",
+    "translation": "почніть із внутрішньоігрового навчання, а потім ознайомтеся з:"
+  },
+  {
+    "id": "the Quickstart Guide",
+    "translation": "Швидким керівництвом"
+  },
+  {
+    "id": "Chat with players on the official Discord server!",
+    "translation": "Спілкуйтеся з гравцями на офіційному сервері Discord!"
+  },
+  {
+    "id": "Star the project on GitHub and help spread the news!",
+    "translation": "Поставте зірочку нашому проекту на GitHub та допоможіть розповсюдити новини!"
+  },
+  {
+    "id": "Donate to help support server and other costs!",
+    "translation": "Пожертвуйте, щоб допомогти підтримати сервер та інші витрати!"
+  },
+  {
+    "id": "Why Warzone 2100 Rocks",
+    "translation": "Чому Warzone 2100 це круто"
+  },
+  {
+    "id": "Strategy by Design.",
+    "translation": "Стратегії проектування."
+  },
+  {
+    "id": "Endless replayability.",
+    "translation": "Нескінченна можливість відтворення."
+  },
+  {
+    "id": "Single-Player Campaign",
+    "translation": "Однокористувацька кампанія"
+  },
+  {
+    "id": "LAN / Internet Multiplayer",
+    "translation": "LAN / Інтернет для кількох гравців"
+  },
+  {
+    "id": "Play versus your friends on a local network, or try your hand at online multiplayer with an integrated lobby.",
+    "translation": "Грайте з друзями по локальній мережі, або спробуйте свою руку у грі з інтегрованою системою лобі."
+  },
+  {
+    "id": "AI Bots",
+    "translation": "Боти"
+  },
+  {
+    "id": "Play versus AI bots in local skirmishes (or as added teammates / enemies in multiplayer), and practice your skills with endless replayability.",
+    "translation": "Грайте проти комп'ютерних противників у локальних сутичках (або додайте їх як союзників/ворогів у мультиплеєрі) і тренуйте свої навички з нескінченною можливістю відтворення."
+  },
+  {
+    "id": "Extensive Tech Tree",
+    "translation": "Розширене Дерево Технологій"
+  },
+  {
+    "id": "Over 400 different technologies yield an extensive tech tree with many paths to choose.",
+    "translation": "Більше 400 різних технологій дають розширене технологічне дерево з безліччю шляхів для успішної гри."
+  },
+  {
+    "id": "Unit Designer",
+    "translation": "Конструктор юнітів"
+  },
+  {
+    "id": "Customize your units with a flexible design system that allows for a wide variety of possible units and tactics.",
+    "translation": "Конструюйте своїх власних юнітів за допомогою гнучкої системи дизайну, що дозволяє широке розмаїття юнітів та стратегій."
+  },
+  {
+    "id": "Cross-Platform",
+    "translation": "Для різних платформ"
+  },
+  {
+    "id": "Supporting Windows, macOS, Linux, FreeBSD and more - all with cross-platform multiplayer support!",
+    "translation": "Підтримує Windows, macOS, Linux, FreeBSD та багато іншого - і все це з підтримкою крос-платформного мультиплеєра!"
+  },
+  {
+    "id": "Years",
+    "translation": "Років розробки"
+  },
+  {
+    "id": "Downloads",
+    "translation": "Завантаження"
+  },
+  {
+    "id": "Forum Posts",
+    "translation": "Повідомлення на форумі"
+  },
+  {
+    "id": "GitHub Stars",
+    "translation": "GitHub Stars"
+  },
+  {
+    "id": "100s",
+    "translation": "100+"
+  },
+  {
+    "id": "Contributors",
+    "translation": "Розробники"
+  },
+  {
+    "id": "100%",
+    "translation": "100%"
+  },
+  {
+    "id": "Free",
+    "translation": "Безкоштовно"
+  },
+  {
+    "id": "100% Open & Free",
+    "translation": "100% відкрита і безкоштовна"
+  },
+  {
+    "id": "Open source, open development, open community - free as in freedom!",
+    "translation": "Відкритий вихідний код, відкрита розробка, відкрита спільнота – безліч можливостей взяти участь!"
+  },
+  {
+    "id": "100% Open-Source",
+    "translation": "100% відкритий вихідний код"
+  },
+  {
+    "id": "Exclusively open-source technologies, software, & tools.",
+    "translation": "Ексклюзивні технології, програми та інструменти на основі принципу відкритого вихідного коду."
+  },
+  {
+    "id": "Community content is licensed under liberal licenses (ex. CC0).",
+    "translation": "Контент спільноти ліцензований під вільними ліцензіями (ex. CC0)."
+  },
+  {
+    "id": "100% Open Development",
+    "translation": "100% відкрита розробка"
+  },
+  {
+    "id": "Join the public project on GitHub!",
+    "translation": "Приєднуйтесь до публічного проєкту на GitHub!"
+  },
+  {
+    "id": "Anyone can file bugs, contribute patches, and request enhancements.",
+    "translation": "Будь-хто може надсилати повідомлення про помилки, вносити патчі та вимагати покращення."
+  },
+  {
+    "id": "100% Open Community",
+    "translation": "100% Вiдкрита спільнота"
+  },
+  {
+    "id": "Chat on the forums, make & share add-ons, join online tournaments, and contribute to the Warzone 2100 experience.",
+    "translation": "Спілкуйтесь на форумах, робіть та діліться доповненнями, приєднуйтесь до онлайн турнірів та робіть свій внесок у досвід Warzone 2100."
+  },
+  {
+    "id": "People around the world are waiting!",
+    "translation": "Люди у всьому світі чекають!"
+  },
+  {
+    "id": "100% Free",
+    "translation": "100% безкоштовно"
+  },
+  {
+    "id": "Everything is free, including source code, downloads, and all features.",
+    "translation": "Все це безкоштовно, включаючи доступ до вихідного коду, завантажень та всіх функції."
+  },
+  {
+    "id": "No in-app purchases.",
+    "translation": "Жодних внутрішньоігрових покупок."
+  },
+  {
+    "id": "No subscriptions.",
+    "translation": "Жодних підписок."
+  },
+  {
+    "id": "No ads.",
+    "translation": "Без реклами."
+  },
+  {
+    "id": "Just free.",
+    "translation": "Просто безкоштовно."
+  },
+  {
+    "id": "A Long History",
+    "translation": "Довга історія"
+  },
+  {
+    "id": "Developed in the 90s by Pumpkin Studios.",
+    "translation": "Розроблено у 90-ті роки компанією Pumpkin Studios."
+  },
+  {
+    "id": "Liberated in 2004.",
+    "translation": "Права на гру звільнено у 2004 році."
+  },
+  {
+    "id": "Warzone 2100 was originally developed by Pumpkin Studios and published by Eidos Interactive.",
+    "translation": "Warzone 2100 була спочатку розроблена Pumpkin Studios та опублікована видавцем Eidos Interactive."
+  },
+  {
+    "id": "In 1999, it was released commercially for Microsoft Windows and Sony PlayStation.",
+    "translation": "У 1999 році була випущена на ринок для Microsoft Windows та Sony PlayStation."
+  },
+  {
+    "id": "Pumpkin Studios ended their support for Warzone 2100 on January 5, 2000.",
+    "translation": "Pumpkin Studios завершили свою підтримку Warzone 2100 5 січня 2000 року."
+  },
+  {
+    "id": "In 2004, after fan petition, Warzone's source code was released publicly under an open-source license.",
+    "translation": "В 2004 році, після петиції, організованої фанатами, вихідний код Warzone був опублікований під ліцензією з відкритим вихідним кодом."
+  },
+  {
+    "id": "It has been developed, maintained, and improved by the community ever since, under the banner of the “Warzone 2100 Project”.",
+    "translation": "З того часу вона продовжила розроблятися, підтримуватися та вдосконалюватись ентузіастами спільноти, під гаслом «Warzone 2100 Project»."
+  },
+  {
+    "id": "More Info",
+    "translation": "Детальніше"
+  },
+  {
+    "id": "Frequently Asked Questions",
+    "translation": "Найбільш поширенні питання (FAQ)"
+  },
+  {
+    "id": "Answers to common questions.",
+    "translation": "Відповіді на популярні запитання."
+  },
+  {
+    "id": "Can't find the answer you're looking for?",
+    "translation": "Не можете знайти відповідь на ваше запитання?"
+  },
+  {
+    "id": "Check out the Forums and Webchat.",
+    "translation": "Перевірте наші форуми та веб-чат."
+  },
+  {
+    "id": "General",
+    "translation": "Загальні налаштування"
+  },
+  {
+    "id": "Multiplayer",
+    "translation": "Мережева гра"
+  },
+  {
+    "id": "Troubleshooting",
+    "translation": "Усунення проблем"
+  },
+  {
+    "id": "Copy URL",
+    "translation": "Копіювати URL"
+  },
+  {
+    "id": "Copied URL!",
+    "translation": "Посилання скопійоване!"
+  },
+  {
+    "id": "JavaScript is disabled.",
+    "translation": "JavaScript відключений."
+  },
+  {
+    "id": "This site may not work properly without it.",
+    "translation": "Цей сайт може працювати некоректно без нього."
+  },
+  {
+    "id": "About",
+    "translation": "Про програму"
+  },
+  {
+    "id": "The Team",
+    "translation": "Команда"
+  },
+  {
+    "id": "Changelog",
+    "translation": "Історія змін"
+  },
+  {
+    "id": "Latest Commits",
+    "translation": "Останні зміни"
+  },
+  {
+    "id": "Privacy Policy",
+    "translation": "Політика конфіденційності"
+  },
+  {
+    "id": "Download",
+    "translation": "Завантажити"
+  },
+  {
+    "id": "Snap Store",
+    "translation": "Snap Store"
+  },
+  {
+    "id": "Snap Store (Linux)",
+    "translation": "Snap Store (Linux)"
+  },
+  {
+    "id": "Source Code",
+    "translation": "Вихідний код"
+  },
+  {
+    "id": "Source Code.",
+    "translation": "Вихідний код."
+  },
+  {
+    "id": "Contribute",
+    "translation": "Внести вклад"
+  },
+  {
+    "id": "Help with Translations",
+    "translation": "Допомогти з перекладом"
+  },
+  {
+    "id": "Documentation",
+    "translation": "Документація"
+  },
+  {
+    "id": "Connect",
+    "translation": "Підключитися"
+  },
+  {
+    "id": "Copyright © past-due.",
+    "translation": "Авторське право © past-due."
+  },
+  {
+    "id": "theme",
+    "translation": "тема"
+  },
+  {
+    "id": "Licensed under the GNU GPLv3.",
+    "translation": "Ліцензовано під GNU GPLv3."
+  },
+  {
+    "id": "Powered by Hugo",
+    "translation": "За підтримки Hugo"
+  },
+  {
+    "id": "All trademarks are the property of their respective owners.",
+    "translation": "Всі права захищені. Усі торгові марки залишаються власністю їх власників."
+  },
+  {
+    "id": "YOU'VE BEEN INVITED TO JOIN A SERVER",
+    "translation": "ВАМ ЗАПРОШУЄТЬСЯ ПРИЄДНАТИСЯ ДО СЕРВЕРУ"
+  },
+  {
+    "id": "Join",
+    "translation": "Приєднатися"
+  },
+  {
+    "id": "Loading...",
+    "translation": "Завантаження..."
+  },
+  {
+    "id": "You are running the latest release of Warzone 2100.",
+    "translation": "У вас запущено останню версію Warzone 2100."
+  },
+  {
+    "id": "You are running the latest development build.",
+    "translation": "Ви використовуєте останню тестову збірку."
+  },
+  {
+    "id": "Thanks for trying out these builds, and looking for bugs - it is appreciated!",
+    "translation": "Дякую за те, що спробували ці збірки, і шукаєте проблеми – це дуже допомагає!"
+  },
+  {
+    "id": "A new release is available!",
+    "translation": "Доступна нова версія!"
+  },
+  {
+    "id": "A new development build is available!",
+    "translation": "Доступна нова версія!"
+  },
+  {
+    "id": "Download Latest Development Builds",
+    "translation": "Завантажити останні тестові збірки"
+  },
+  {
+    "id": "Unable to check for updates",
+    "translation": "Не вдалося перевірити наявність оновлень"
+  },
+  {
+    "id": "This site requires JavaScript, and it looks like you have it disabled.",
+    "translation": "Цей сайт вимагає JavaScript, і, схоже, він відключений на вашому браузері."
+  },
+  {
+    "id": "If you aren't sure, download the latest version now.",
+    "translation": "Якщо ви не впевнені, завантажте останню версію."
+  },
+  {
+    "id": "Couldn't check for latest development builds",
+    "translation": "Неможливо перевірити наявність останніх тестових збірок"
+  },
+  {
+    "id": "You can always download the latest development builds below.",
+    "translation": "Ви завжди можете завантажити останні тестові збірки нижче."
+  },
+  {
+    "id": "Your version",
+    "translation": "Ваша версія"
+  },
+  {
+    "id": "Latest Release",
+    "translation": "Актуальна версія"
+  },
+  {
+    "id": "Latest Development Build",
+    "translation": "Остання тестова збірка"
+  },
+  {
+    "id": "404 - Not Found",
+    "translation": "404 - Не знайдено"
+  },
+  {
+    "id": "Whatever that was, it couldn't be found.",
+    "translation": "Щоб ви не запитували, знайти це не вдається."
+  },
+  {
+    "id": "Sorry about that.",
+    "translation": "Вибачте за це."
+  },
+  {
+    "id": "Go Home",
+    "translation": "Повернутися на головну сторінку"
+  },
+  {
+    "id": "Subsections",
+    "translation": "Підрозділи"
+  },
+  {
+    "id": "Tags",
+    "translation": "Мітки"
+  },
+  {
+    "id": "All Tags",
+    "translation": "Всі мітки"
+  },
+  {
+    "id": "Site Navigation",
+    "translation": "Навігація по сайту"
+  },
+  {
+    "id": "More",
+    "translation": "Докладніше"
+  }
+]
