@@ -1,5 +1,5 @@
 ---
-title: "You've installed Warzone 2100!"
+title: "Next Steps"
 # begin: no-translate
 type: "solopage"
 translationKey: "afterinstall"
