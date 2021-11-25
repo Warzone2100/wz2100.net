@@ -1,54 +1,54 @@
 ---
-title: "Version 4.2.2 released"
+title: "Version 4.2.2 veröffentlicht"
 slug: "version-4-2-2"
 tags:
-  - "Releases"
+  - "Veröffentlichungen"
 ---
 
-With the help of many bug reporters & contributors, we're happy to announce the release of **4.2.2**, a bug-fix release.
+Mit der Hilfe vieler Fehlermelder & Mitwirkenden freuen wir uns, die Veröffentlichung von **4.2.2**, bekanntgeben zu können, einem Bug-Fix-Release.
 
-Including:
-- New: "Multiplay Options" menu
-- New: Hotkey to "Select all land combat units, with health >50%, not assigned to any group"
-- New: Add 7-player map "Thales"
-- Fixes for initializing OpenGL / Vulkan on certain systems
-- Fix: Don't needlessly move Repair Turrets & Builders
-- Fix: Re-ordering construction units to build something shouldn't cancel it
-- Fix: Don't retreat Repair Turrets (RT) to other RT
-- Fix: Don't reset attack range under commander
-- Fix: Ignore rearm order when already rearming
-- Fix: Don't show green overlay when impossible to build next module
-- Fix: Don't show modules in build list when unable to build more buildings of that type
+Einschließlich:
+- Neu: "Mehrspiel-Optionen" Menü
+- Neu: Tastenbelegung für "Wähle alle Landkampfeinheiten mit mehr als 50% Gesundheit und ohne Gruppenzuordnung"
+- Neu: 7-Spieler Karte "Thales" hinzugefügt
+- Korrekturen für die Initialisierung von OpenGL / Vulkan auf bestimmten Systemen
+- Korrektur: Reparaturtürme & Baumeister nicht unnötig bewegen
+- Korrektur: Der erneute Befehl an Baueinheiten, etwas zu bauen, sollte den Befehl nicht abbrechen
+- Korrektur: Reparaturtürme (RT) nicht zu anderen RT zurückziehen
+- Korrektur: Angriffsreichweite unter einem Commander nicht zurücksetzen
+- Korrektur: Den Befehl zur Wiederbewaffnung ignorieren wenn bereits wiederbewaffnet wird
+- Korrektur: Grünes Overlay nicht anzeigen, wenn es unmöglich ist, das nächste Modul zu bauen
+- Korrektur: Module in der Konstruktionsliste nicht anzeigen wenn keine Gebäude dieses Typs mehr gebaut werden können
 - Fix: Factory set Hold Position bug
-- Fix: Various savegame / autosave issues
-- Fix: Partial UI soft-lock with certain in-game menus
-- Fix: Remove Command Relay structure requirement for Command Turret research
-- Fix: Toggling debug mode in skirmish as spectator
-- Fix: Ultimate Scavengers building an absurd amount of factories that could cause the game to freeze
-- Numerous fixes for crashes, cleanup issues, and memory leaks
+- Korrektur: Verschiedene Spielstand / Autosave Probleme
+- Korrektur: Teilweiser UI Softlock bei bestimmten Ingame-Menüs
+- Korrektur: Entfernung des Kommandorelais als Voraussetzung zur Erforschung des Commanderturms
+- Korrektur: Debug-Modus im Scharmützel als Zuschauer umschalten
+- Korrektur: Ultimative Scavengers baut eine absurde Menge an Fabriken, wodurch das Spiel einfrieren könnte
+- Zahlreiche Fehlerbehebungen bei Abstürzen, Bereinigungsproblemen und Speicherlecks
 
-And a few multiplayer balance tweaks:
-- Adjust Heavy Plasma Launcher: Reduce damage 250 -> 225, increase firePause 300 -> 350, reduce periodical Damage Radius 128 -> 64 (PR [#2386](https://github.com/Warzone2100/warzone2100/pull/2386))
-- Adjust Incendiary Mortar: "researchPoints": 3600 -> 4800, "researchPower": 112 -> 150 (PR [#2407](https://github.com/Warzone2100/warzone2100/pull/2407))
+Und ein paar Mehrspieler-Balance Verbesserungen:
+- Schwerer Plasmawerfer angepasst: Schaden verringert 250 -> 225, firePause erhöht 300 -> 350, Radius des periodischen Schadens reduziert 128 -> 64 (PR [#2386](https://github.com/Warzone2100/warzone2100/pull/2386))
+- Brandmörser angepasst: "researchPoints": 3600 -> 4800, "researchPower": 112 -> 150 (PR [#2407](https://github.com/Warzone2100/warzone2100/pull/2407))
 
-[View the full 4.2.2 changelog](https://github.com/Warzone2100/warzone2100/raw/4.2.2/ChangeLog)
+[Zeige das komplette 4.2.2 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.2.2/ChangeLog)
 
-**(For all the changes in 4.2.0, see the [Version 4.2.0 release announcement]({{< newslink "news-20.md" >}}).)**
+**(Für alle Änderungen in 4.2.0, lies die [Version 4.2.0 Veröffentlichungsankündigung]({{< newslink "news-20.md" >}}).)**
 
-**[Download Options]({{< ref "/" >}})**
+**[Download-Optionen]({{< ref "/" >}})**
 
-For Windows 10+, [Warzone 2100 is now available via the Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C).
+Für Windows 10+ ist [Warzone 2100 ab sofort im Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C) verfügbar.
 
-There have been **43 commits since 4.2.1**, from many contributors including: Denis Gantsev, KJeff01, past-due, Stuart Coyle, Thomas Rupprecht, Tipchik
+Es gab von vielen Mitwirkenden **43 Commits seit 4.2.1**, inkklusive: Federico Dossena, KJeff01, Maxim Zhuchkov, past-due, Thiago Romão Barcala, Thomas Rupprecht
 
-We'd also like to thank all of the new and returning translators who have helped to improve the translations for the game via the [Crowdin project](https://crowdin.com/project/warzone2100). For more information on how to help with translations, see [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
+Wir möchten uns auch bei allen neuen und alten Übersetzern bedanken, die dazu beigetragen haben, die Übersetzungen für das Spiel durch das [Crowdin Projekt](https://crowdin.com/project/warzone2100) zu verbessern. Für mehr Informationen, wie Du bei den Übersetzungen helfen kannst, siehe: [doc/Translations.md](https://github.com/Warzone2100/warzone2100/blob/master/doc/Translations.md#how-do-i-help-translate).
 
-Please report all bugs [on GitHub](https://github.com/Warzone2100/warzone2100/issues).
+Bitte melde alle Fehler [auf GitHub](https://github.com/Warzone2100/warzone2100/issues).
 
-And don't forget to check out the new official Discord server:
+Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="Offizieller Server" >}}
 
-And consider donating to help support the costs associated with the project:
+Und erwäge eine Spende, um die mit dem Projekt verbundenen Kosten zu unterstützen:
 
 {{< opencollective_donatebutton >}}
