@@ -11,7 +11,7 @@ Einschließlich:
 - Aufzeichnungen v2 Format (welches heruntergeladene Karten für einfacheres Teilen einbettet)
 - Verbesserte Aufzeichnungsspeicherung Performance / Verhalten
 - Verbesserter Zuschauer-Lag / Verhalten des schnellen Vorlaufs
-- A new native fractal value noise generator for use in map scripts
+- Ein neuer nativer "fractal value noise generator" zur Verwendung in Kartenskripten
 - Eine neue Schaltfläche, um Statistiken für die Zuschauer anzuzeigen (z.B. `specstats`)
 - Spielleiter: Erinnert an die Anzahl der Zuschauerplätze in Mehrspielerspielen
 - Kampagne: Verbesserungen für die New Paradigm Verstärkungen in Alpha 09 und Alpha 06
