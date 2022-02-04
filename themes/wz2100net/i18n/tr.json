@@ -54,10 +54,10 @@
     "message": "Windows"
   },
   "MSIX Installer": {
-    "message": "MSIX Installer"
+    "message": "MSIX Yükleyici"
   },
   "Easy install & updates.": {
-    "message": "Easy install & updates."
+    "message": "Kolay kurulum & güncellemeler."
   },
   "Portable Version": {
     "message": "Taşınabilir Sürüm"
@@ -87,10 +87,10 @@
     "message": "(Kurulum için yönetici yetkisi gerektirir.)"
   },
   "Recommended for: Windows 7, 8.x": {
-    "message": "Recommended for: Windows 7, 8.x"
+    "message": "Windows 7, 8.x için önerilir"
   },
   "For Windows 10+, the MSIX installer is recommended instead.": {
-    "message": "For Windows 10+, the MSIX installer is recommended instead."
+    "message": "Windows 10 ve üzeri için MSIX yükleyici önerilir."
   },
   "macOS": {
     "message": "macOS"
@@ -198,10 +198,10 @@
     "message": "SourceForge Mirror"
   },
   "For Windows 10+": {
-    "message": "For Windows 10+"
+    "message": "Windows 10+ için"
   },
   "For Windows 7+": {
-    "message": "For Windows 7+"
+    "message": "Windows 7+ için"
   },
   "32-bit (x86)": {
     "message": "32-bit (x86)"
@@ -219,7 +219,7 @@
     "message": "Çoğu Linux dağıtımlarını destekler."
   },
   "For most Linux distros": {
-    "message": "For most Linux distros"
+    "message": "Çoğu Linux dağıtımı için"
   },
   "(See link for details.)": {
     "message": "Ayrıntılar için (bkz: link.)"
@@ -252,13 +252,13 @@
     "message": "64-bit Intel"
   },
   "64-bit (Universal Binary)": {
-    "message": "64-bit (Universal Binary)"
+    "message": "64-bit (Evrensel Program)"
   },
   "How to handle “Warzone cannot be opened” errors.": {
     "message": "\"Warzone açılamıyor\" hataları nasıl üstesinden gelinir."
   },
   "Universal Binary supports Intel 64-bit and Apple Silicon.": {
-    "message": "Universal Binary supports Intel 64-bit and Apple Silicon."
+    "message": "Evrensel Kurulum, Intel 64-bit ve Apple Silicon desteği sunar."
   },
   "Other": {
     "message": "Diğer"
