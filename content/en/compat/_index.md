@@ -1,6 +1,6 @@
 ---
 _build:
-  list: never
-  render: never
+  list: false
+  render: false
 ---
 
