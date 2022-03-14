@@ -1,6 +1,7 @@
 ---
 title: "Compatibility Warning"
 # begin: no-translate
+description: "Warzone 2100 has detected a compatibility issue that may impact your game."
 type: "compatnotice"
 translationKey: "steamoverlay"
 noindex: true
