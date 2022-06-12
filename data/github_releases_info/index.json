@@ -6,27 +6,27 @@
         "assets": [
             {
                 "name": "warzone2100_linux_amd64.snap",
-                "download_count": 63
+                "download_count": 64
             },
             {
                 "name": "warzone2100_macOS_universal.zip",
-                "download_count": 237
+                "download_count": 244
             },
             {
                 "name": "warzone2100_macOS_universal_novideos.zip",
-                "download_count": 36
+                "download_count": 39
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 191
+                "download_count": 203
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 48
+                "download_count": 51
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 132
+                "download_count": 139
             },
             {
                 "name": "warzone2100_win_arm64.DEBUGSYMBOLS.7z",
@@ -34,15 +34,15 @@
             },
             {
                 "name": "warzone2100_win_arm64_archive.zip",
-                "download_count": 33
+                "download_count": 35
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 176
+                "download_count": 188
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
-                "download_count": 40
+                "download_count": 42
             },
             {
                 "name": "warzone2100_win_x64.DEBUGSYMBOLS.7z",
@@ -50,31 +50,31 @@
             },
             {
                 "name": "warzone2100_win_x64_archive.zip",
-                "download_count": 106
+                "download_count": 111
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 615
+                "download_count": 653
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
-                "download_count": 219
+                "download_count": 227
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 21
+                "download_count": 22
             },
             {
                 "name": "warzone2100_win_x86_archive.zip",
-                "download_count": 36
+                "download_count": 39
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 323
+                "download_count": 335
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 151
+                "download_count": 155
             }
         ],
         "discussion_url": "https://github.com/Warzone2100/warzone2100/discussions/2626"
@@ -102,7 +102,7 @@
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 15
+                "download_count": 16
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
@@ -118,7 +118,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 118
+                "download_count": 125
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -134,11 +134,11 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 194
+                "download_count": 203
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
-                "download_count": 55
+                "download_count": 56
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
@@ -150,7 +150,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 154
+                "download_count": 161
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -214,7 +214,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
-                "download_count": 17
+                "download_count": 18
             },
             {
                 "name": "warzone2100_win_x64.DEBUGSYMBOLS.7z",
@@ -258,11 +258,11 @@
         "assets": [
             {
                 "name": "warzone2100_linux_amd64.snap",
-                "download_count": 42
+                "download_count": 43
             },
             {
                 "name": "warzone2100_macOS_universal.zip",
-                "download_count": 146
+                "download_count": 147
             },
             {
                 "name": "warzone2100_macOS_universal_novideos.zip",
@@ -270,7 +270,7 @@
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 212
+                "download_count": 215
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
@@ -290,7 +290,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 346
+                "download_count": 353
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -306,7 +306,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 612
+                "download_count": 621
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -322,7 +322,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 357
+                "download_count": 364
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -350,7 +350,7 @@
         "assets": [
             {
                 "name": "warzone2100_linux_amd64.snap",
-                "download_count": 48
+                "download_count": 49
             },
             {
                 "name": "warzone2100_macOS_universal.zip",
@@ -362,15 +362,15 @@
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 124
+                "download_count": 126
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 36
+                "download_count": 37
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 61
+                "download_count": 62
             },
             {
                 "name": "warzone2100_win_arm64.DEBUGSYMBOLS.7z",
@@ -382,7 +382,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 330
+                "download_count": 338
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -398,11 +398,11 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 538
+                "download_count": 551
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
-                "download_count": 131
+                "download_count": 132
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
@@ -414,11 +414,11 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 373
+                "download_count": 381
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 61
+                "download_count": 62
             }
         ],
         "discussion_url": "https://github.com/Warzone2100/warzone2100/discussions/2465"
@@ -454,7 +454,7 @@
             },
             {
                 "name": "warzone2100_win_arm64.DEBUGSYMBOLS.7z",
-                "download_count": 10
+                "download_count": 11
             },
             {
                 "name": "warzone2100_win_arm64_archive.zip",
@@ -462,7 +462,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 337
+                "download_count": 344
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -470,7 +470,7 @@
             },
             {
                 "name": "warzone2100_win_x64.DEBUGSYMBOLS.7z",
-                "download_count": 10
+                "download_count": 11
             },
             {
                 "name": "warzone2100_win_x64_archive.zip",
@@ -478,7 +478,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 458
+                "download_count": 467
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -494,7 +494,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 405
+                "download_count": 412
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -526,7 +526,7 @@
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
-                "download_count": 30
+                "download_count": 31
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
@@ -542,7 +542,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 361
+                "download_count": 368
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -558,7 +558,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 505
+                "download_count": 514
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -574,7 +574,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 361
+                "download_count": 368
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -622,7 +622,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 387
+                "download_count": 396
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -638,7 +638,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 468
+                "download_count": 475
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -646,7 +646,7 @@
             },
             {
                 "name": "warzone2100_win_x86.DEBUGSYMBOLS.7z",
-                "download_count": 11
+                "download_count": 12
             },
             {
                 "name": "warzone2100_win_x86_archive.zip",
@@ -654,7 +654,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 378
+                "download_count": 385
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -670,7 +670,7 @@
         "assets": [
             {
                 "name": "warzone2100_linux_amd64.snap",
-                "download_count": 11
+                "download_count": 12
             },
             {
                 "name": "warzone2100_macOS_universal.zip",
@@ -694,7 +694,7 @@
             },
             {
                 "name": "warzone2100_win_arm64.DEBUGSYMBOLS.7z",
-                "download_count": 11
+                "download_count": 12
             },
             {
                 "name": "warzone2100_win_arm64_archive.zip",
@@ -706,7 +706,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
-                "download_count": 20
+                "download_count": 21
             },
             {
                 "name": "warzone2100_win_x64.DEBUGSYMBOLS.7z",
@@ -862,7 +862,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 841
+                "download_count": 850
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -878,7 +878,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 1136
+                "download_count": 1143
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -894,7 +894,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 872
+                "download_count": 879
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -954,7 +954,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 507
+                "download_count": 516
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -970,7 +970,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 542
+                "download_count": 549
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -986,7 +986,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 496
+                "download_count": 503
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -1114,7 +1114,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 531
+                "download_count": 540
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -1130,7 +1130,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 623
+                "download_count": 630
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -1146,7 +1146,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 566
+                "download_count": 574
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -1286,7 +1286,7 @@
             },
             {
                 "name": "warzone2100_win_arm64_installer.exe",
-                "download_count": 634
+                "download_count": 643
             },
             {
                 "name": "warzone2100_win_arm64_portable.exe",
@@ -1302,7 +1302,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 999
+                "download_count": 1006
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -1318,7 +1318,7 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 778
+                "download_count": 785
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
@@ -1354,7 +1354,7 @@
             },
             {
                 "name": "warzone2100_ubuntu20.04_amd64.deb",
-                "download_count": 175
+                "download_count": 176
             },
             {
                 "name": "warzone2100_win_arm64.DEBUGSYMBOLS.7z",
@@ -1619,7 +1619,7 @@
             },
             {
                 "name": "warzone2100_win_x64_installer.exe",
-                "download_count": 161
+                "download_count": 162
             },
             {
                 "name": "warzone2100_win_x64_portable.exe",
@@ -1654,11 +1654,11 @@
             },
             {
                 "name": "warzone2100_macOS_novideos.zip",
-                "download_count": 146
+                "download_count": 147
             },
             {
                 "name": "warzone2100_src.tar.xz",
-                "download_count": 668
+                "download_count": 670
             },
             {
                 "name": "warzone2100_ubuntu18.04_amd64.deb",
@@ -1678,11 +1678,11 @@
             },
             {
                 "name": "warzone2100_win_x86_installer.exe",
-                "download_count": 1589
+                "download_count": 1590
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 882
+                "download_count": 883
             }
         ]
     },
@@ -1744,7 +1744,7 @@
             },
             {
                 "name": "warzone2100_win_x86_portable.exe",
-                "download_count": 839
+                "download_count": 840
             }
         ]
     },
@@ -1771,7 +1771,7 @@
             },
             {
                 "name": "warzone2100-master_x86_portable.zip",
-                "download_count": 1551
+                "download_count": 1557
             }
         ]
     }
