@@ -18,7 +18,7 @@ jobs:
     name: 'Test Hugo Build [${{ matrix.version }}-${{ matrix.image }}]'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           persist-credentials: false
       - name: Build with Hugo docker image
@@ -50,13 +50,13 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: master
           path: master
           persist-credentials: false
       - name: Checkout gh-pages branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: gh-pages
           path: gh-pages
@@ -108,14 +108,14 @@ jobs:
           git config user.email "61424532+wzdev-ci@users.noreply.github.com"
           git add -A
           short_sha="$(echo ${GITHUB_SHA} | cut -c1-8)"
-          git commit -m "Deploy master branch: ${short_sha}" || { echo "::set-output name=PROCESS_DEPLOYMENT::false" && exit 0; }
+          git commit -m "Deploy master branch: ${short_sha}" || { echo "PROCESS_DEPLOYMENT=false" >> $GITHUB_OUTPUT && exit 0; }
           # Get the new commit's SHA
           NEW_COMMIT_SHA=$(git rev-parse --verify HEAD)
           echo "NEW_COMMIT_SHA=${NEW_COMMIT_SHA}"
           # Push the new commit to the gh-pages branch
           git push "https://${PUSH_PAT}@github.com/Warzone2100/wz2100.net.git" gh-pages:gh-pages
-          echo "::set-output name=PROCESS_DEPLOYMENT::true"
-          echo "::set-output name=GH_PAGES_BRANCH_COMMIT_SHA::${NEW_COMMIT_SHA}"
+          echo "PROCESS_DEPLOYMENT=true" >> $GITHUB_OUTPUT
+          echo "GH_PAGES_BRANCH_COMMIT_SHA=${NEW_COMMIT_SHA}" >> $GITHUB_OUTPUT
           echo "Done."
           exit 0
       - name: 'Wait for Deployment'
@@ -157,7 +157,7 @@ jobs:
             exit 1
           fi
           echo "Found deployment ID: ${DEPLOYMENT_ID}"
-          echo "::set-output name=DEPLOYMENT_ID::${DEPLOYMENT_ID}"
+          echo "DEPLOYMENT_ID=${DEPLOYMENT_ID}" >> $GITHUB_OUTPUT
       - name: 'Wait for Deployment Success'
         if: success() && (steps.publishpages.outputs.PROCESS_DEPLOYMENT == 'true')
         env:
