@@ -9,4 +9,4 @@ Warzone 2100 ha ora un nuovissimo sito Web, progettato da [@past-due](https://gi
 
 Vuoi aiutare?
 - [Segnala bug nel sito web](https://github.com/Warzone2100/wz2100.net/issues/new/choose)
-- [Aiutaci a tradurre il sito web](https://github.com/Warzone2100/wz2100.net/docs/Translation.md)
+- [Aiutaci a tradurre il sito web](https://github.com/Warzone2100/wz2100.net/blob/master/docs/Translations.md#how-do-i-help-translate)
