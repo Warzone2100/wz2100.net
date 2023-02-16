@@ -1,11 +1,11 @@
 ---
-title: "How do I join an online game?"
+title: "كيف يمكنني الانضمام إلى سيرفر على الإنترنت؟"
 ---
 
-Joining existing games is usually easy.
+عادة ما يكون الانضمام إلى السيرفرات الموجودة من قبل سهلا.
 
-Start the game, click Multi Player → Join Game → Lobby.
+شغل اللعبة، ونفذ التالي Multi Player → Join Game → Lobby.
 
-If any games are available, you will be able to click and join. Then tick the "ready" box. When everybody checks “ready", the game starts.
+إذا كانت هنالك سيرفرات متاحة، سوف تكون قادراً على النقر والانضمام. ثم ضع علامة على مربع "ready". عندما يضع الجميع "ready"، تبدأ اللعبة.
 
-Don't forget to choose your name by clicking on the name box on the left. 
+لا تنسى اختيار اسمك بالنقر على مربع الاسم على اليسار. 

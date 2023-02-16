@@ -1,21 +1,21 @@
 ---
-title: "Webchat"
+title: "الدردشة"
 ---
 
-If you want to arrange online games, or have a quick question to ask, you might want to use one of our chat options:
+إذا كنت ترغب في ترتيب لعبة أونلاين، أو لديك سؤال سريع لطرحه، قد ترغب في استخدام أحد خيارات الدردشة:
 
 {{% divider %}}
 
 ## {{< inlinefigure path="/svg/Discord-Logo+Wordmark-White.svg" mediatype="image/svg+xml" height="80" alt="Discord" >}}
 
-Like Discord? Join the official Warzone 2100 Discord server:
+تحب الديسكورد؟ انضم إلى سيرفر الديسكورد الرسمي لـ Warzone 2100:
 
-{{< discordinvite description="Official Server" >}}
+{{< discordinvite description="السيرفر الرسمي" >}}
 
-##### Discord Benefits:
+##### ميزات الديسكورد:
 
-Pick your nickname, view chat history, easily chat on mobile devices, (optionally) subscribe to receive announcements of new releases, voice chat, and more.
+اختر اسم مستعار، عرض سجل الدردشة، الدردشة بسهولة على الأجهزة المحمولة، الاشتراك (اختياريا) لتلقي إعلانات الإصدارات الجديدة، الدردشة الصوتية، والمزيد.
 
-Signing up for Discord, chatting on the server, etc. is free.
+تسجيل الدخول إلى ديسكورد، الدردشة في السيرفر، إلخ. مجاناً.
 
-Chat in your browser, or download clients for Windows / macOS / Linux / mobile.
+دردشة في المتصفح الخاص بك، أو تحميله على Windows / macOS / Linux أو على الهواتف.

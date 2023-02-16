@@ -1,14 +1,14 @@
 ---
-title: "What are the system requirements?"
+title: "ما هي متطلبات النظام؟"
 ---
 
-Minimum Requirements:
+الحد الأدنى من متطلبات النظام:
 - 1 GB RAM
-- OpenGL 2.1+ support
-- ≈ 150MB storage space
+- دعم OpenGL 2.1+
+- مساحة التخزين 150 ميغابايت
 
-Recommended Requirements:
-- 4 GB+ RAM
-- OpenGL 3.1+ support
-- a supported sound card
-- ≈ 1 GB storage space (including the campaign video sequences)
+المتطلبات المستحسنة:
+- 4 GB RAM
+- دعم OpenGL 3.1+
+- بطاقة صوت مدعومة
+- ~1 جيجابايت مساحة تخزين (يشمل سلسلة الفيديوهات الاستعراضية)

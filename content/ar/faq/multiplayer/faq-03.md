@@ -1,5 +1,5 @@
 ---
-title: "How do I play with my friend at home via LAN?"
+title: "كيف يمكنني اللعب مع صديقي في المنزل عبر الشبكة المحلية؟"
 ---
 
-Connect two computers to the same local network, host a game on one of them and join by IP on the other: Multi Player → Join Game → IP. Then enter the IP address of the host.
+قم بتوصيل حاسوبين بنفس الشبكة المحلية، ثم استضافة لعبة على واحد منهم والانضمام بواسطة عنوان الجهاز: Multi Player → Join Game → IP. ثم أدخل عنوان IP للمضيف.
