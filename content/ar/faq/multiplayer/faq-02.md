@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting online games"
+title: "استكشاف الأخطاء في السيرفرات الأونلاين"
 ---
 
-If you can't join a game that you see, check the following:
+إذا لم تتمكن من الانضمام إلى السيرفر التي تراها، تحقق مما يلي:
 
-1. You need to have exactly same version of the game to join. You shouldn't have a problem if you are using the latest stable version, or probably the latest development version if it's currently officially available.
+1. يجب أن يكون لديك نفس الإصدار من اللعبة الموجود في السيرفر للإنضمام. لا ينبغي أن تواجه مشكلة إذا كنت تستخدم أحدث إصدار مستقر، أو ربما أحدث إصدار للتطوير إذا كان متوفرا حاليا رسميا.
 
-2. You need to have no mods installed, unless you are joining a modded game. Map-mods are usually ok to have.
+2. يجب ان لا يكون لديك إضافات مثبتة، إلا إذا كنت تنضم إلى سيرفر يدعم الإضافات. عادة ما يسمح بلإضافات المتعلقة بالخريطة.
 
-3. Some games are protected with a password. You will not be able to join them unless you are invited.
+3. بعض السيرفرات محمية بكلمة مرور. لن تتمكن من الانضمام إليهم إلا إذا تمت دعوتك.
 
-The game uses outgoing port `2100` to connect the host and outgoing port `9990` to retrieve the list of games.
+تستخدم اللعبة المنفذ `2100` لربط المنفذ المضيف والمخرج `9990` لاسترداد قائمة السيرفرات.
