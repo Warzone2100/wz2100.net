@@ -1,5 +1,5 @@
 #  wz2100.net site
-#  Copyright (C) 2020-2021 Warzone 2100 Project
+#  Copyright (C) 2020-2023 Warzone 2100 Project
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -158,6 +158,10 @@ languages:
     languageName: "English - US"
     weight: 1
     contentDir: "content/en"
+  ar:
+    languageName: "عربية"
+    weight: 2
+    contentDir: "content/ar"
   bg:
     languageName: "български"
     weight: 2
