@@ -1,16 +1,16 @@
 ---
-title: "Yapılandırma / Oyun kaydı dizi nerede?"
+title: "Yapılandırma Oyun Kaydı dizini nerede?"
 ---
 
 Platformunuza bağlı olarak:
 
 {{% inlinesvg "fontawesome/brands/windows.svg" %}} **Windows:**
 
-`Warzone 2100 Project\Warzone 2100 <version>` dizisi `%APPDATA%` dosyası altında kayıtlıdır.
+`Warzone 2100 Project\Warzone 2100 <version>` dizini `%APPDATA%` dosyası altında kayıtlıdır.
 
 Dolayısıyla Windows Vista+ üzerinden Warzone 2100 varsayılan yapılandırma data dosyasının yeri: `C:\Users\$USER$\AppData\Roaming\Warzone 2100 Project\Warzone 2100 <version>\`
 
-Varsayılan olarak `%APPDATA%` dosyası gizlidir. Windows/dosya aramasından `%APPDATA%\Warzone 2100 Project\` şeklinde arama yaparak Warzone dizinini açabilirsiniz.
+Varsayılan olarak `%APPDATA%` klasörü gizlidir. Windows/dosya aramasından `%APPDATA%\Warzone 2100 Project\` şeklinde arama yaparak Warzone dizinini açabilirsiniz.
 
 {{% inlinesvg "fontawesome/brands/apple.svg" %}} **macOS:**
 

@@ -5,32 +5,32 @@
 
 {{< opencollective_contributors >}}
 
-The Warzone 2100 Project **relies on donations from people like you** to keep this great game running.
+Das Warzone 2100 Projekt **stützt sich auf Spenden von Leuten wie Dir,** um dieses großartige Spiel am Laufen zu halten.
 
-Money donated is used for:
-- Running costs such as hosting for multiplayer lobbies, autohoster, forums, and other infrastructure
-- Continued maintenance and development
+Gespendetes Geld wird verwendet für:
+- Laufende Kosten wie Hosting für Mehrspieler-Lobbies, Autohoster, Foren und andere Infrastruktur
+- Fortgesetzte Wartung und Entwicklung
 
-{{< button href="https://opencollective.com/warzone2100" class="btn-donate" >}}Please Consider Donating{{< /button >}}
+{{< button href="https://opencollective.com/warzone2100" class="btn-donate" >}}Bitte erwäge zu spenden{{< /button >}}
 
-In the interest of transparency, [financial reports and transaction history](https://opencollective.com/warzone2100/transactions) are available publicly.
+Im Interesse von Transparenz stehen [Finanzberichte und Transaktionsverläufe](https://opencollective.com/warzone2100/transactions) öffentlich zur Verfügung.
 
-<sub>All donations are processed by Open Collective and the Open Source Collective (a registered 501(c)(6) non-profit in the United States).</sub>
+<sub>Alle Spenden werden von Open Collective und dem Open Source Collective (einem registrierten 501(c)(6) Non-Profit in den USA) verarbeitet.</sub>
 
 -----
 
-### Tips for Getting Started:
+### Tipps zum Einstieg:
 
-- Try the in-game Tutorial to learn the basics
-- Read the [Quick Start Guide](https://github.com/Warzone2100/warzone2100/blob/master/doc/quickstartguide.asciidoc#warzone-2100-quick-start-guide)
+- Spiele das Ingame-Tutorial, um die Grundlagen zu lernen
+- Lies den [Quick Start Guide](https://github.com/Warzone2100/warzone2100/blob/master/doc/quickstartguide.asciidoc#warzone-2100-quick-start-guide)
 
-### Help / Chat
+### Hilfe / Chat
 
-- [Ask for help via Discord / webchat](webchat.md)
-- [Post in the forums](https://forums.wz2100.net/)
-- [Post in GitHub Discussions](https://github.com/Warzone2100/warzone2100/discussions)
+- [Frage nach Hilfe via Discord / webchat](webchat.md)
+- [Schreibe im Forum](https://forums.wz2100.net/)
+- [Schreibe in GitHub Diskussionen](https://github.com/Warzone2100/warzone2100/discussions)
 
-### Reporting Bugs
+### Fehler melden
 
-- Please first [search the existing Issues](https://github.com/Warzone2100/warzone2100/issues) to make sure the bug hasn't already been reported
-- Report a new bug by [opening a new Issue on GitHub](https://github.com/Warzone2100/warzone2100/issues/new/choose)
+- Durchsuche bitte zuerst die [vorhandenen Fehlermeldungen](https://github.com/Warzone2100/warzone2100/issues), um sicherzugehen, dass der Fehler nicht bereits gemeldet wurde
+- Melde einen neuen Fehler, indem Du eine [neue Fehlermeldung](https://github.com/Warzone2100/warzone2100/issues/new/choose) auf GitHub öffnest

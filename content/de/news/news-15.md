@@ -7,7 +7,7 @@ tags:
   - "Veröffentlichungen"
 ---
 
-Mit der Hilfe vieler Fehlermelder & Mitwirkenden, freuen wir uns, die Veröffentlichung von **4.1.3**, bekanntgeben zu können, einem Bug-Fix-Release.
+Mit der Hilfe vieler Fehlermelder & Mitwirkenden freuen wir uns, die Veröffentlichung von **4.1.3**, bekanntgeben zu können, einem Bug-Fix-Release.
 
 Einschließlich:
 - Zahlreiche Fehlerbehebungen bei Abstürzen, Bereinigungsproblemen und Speicherlecks
@@ -17,7 +17,7 @@ Einschließlich:
 Und die folgenden Mehrspieler-Balance Anpassungen:
 - Rekonstruktion des Haubitzen Forschungszweigs und Anpassung der Artillerieparameter (PR [#2070](https://github.com/Warzone2100/warzone2100/pull/2070))
 - Mantis zugänglicher machen (PR [#2095](https://github.com/Warzone2100/warzone2100/pull/2095))
-- Früherer Zugriff auf das Sturmgewehr, MG verbessern (PR [#2094](https://github.com/Warzone2100/warzone2100/pull/2094))
+- Früherer Zugriff auf das Sturmgewehr, MG verbessert (PR [#2094](https://github.com/Warzone2100/warzone2100/pull/2094))
 
 [Zeige das komplette 4.1.3 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.1.3/ChangeLog)
 
