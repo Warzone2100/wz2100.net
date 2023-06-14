@@ -70,6 +70,10 @@ jobs:
           if [ -f "CNAME" ]; then
             cp "CNAME" "${BACKUP_GH_PAGES_FILES}/CNAME"
           fi
+          # Copy _config.yml file, if it exists, temporarily elsewhere
+          if [ -f "_config.yml" ]; then
+            cp "_config.yml" "${BACKUP_GH_PAGES_FILES}/_config.yml"
+          fi
           # Clean the gh-pages branch
           git rm --ignore-unmatch -rf .
           git clean -fxd
