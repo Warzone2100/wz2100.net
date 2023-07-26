@@ -337,5 +337,17 @@
     "tarball_url": "https://api.github.com/repos/Warzone2100/warzone2100/tarball/4.3.5",
     "zipball_url": "https://api.github.com/repos/Warzone2100/warzone2100/zipball/4.3.5",
     "body": "`warzone2100_win_(arch)_installer.exe` -- The main Windows build (full installer)\r\n`warzone2100_win_(arch)_portable.exe` -- The portable version of the Windows build (self contained -- install it anywhere!)\r\n`warzone2100_macOS_universal.zip`  -- For macOS (10.10+)\r\n`warzone2100_ubuntu18.04_amd64.deb` -- For Ubuntu 18.04\r\n`warzone2100_ubuntu20.04_amd64.deb` -- For Ubuntu 20.04\r\n`warzone2100_src.tar.xz` -- The tarball for Linux / BSD / whatever systems. (full source / data)\r\n\r\n**IMPORTANT: To build from source, use the warzone2100_src.tar.xz tarball.**\r\n> The auto-generated GitHub \"_Source code (zip) / (tar.gz)_\" links do **_not_** include the Git-based autorevision information.\r\n\r\nTo install the .deb files, use `sudo apt install`. Example:\r\n`sudo apt install ./warzone2100_ubuntu20.04_amd64.deb`\r\n",
-    "discussion_url": "https://github.com/Warzone2100/warzone2100/discussions/3218"
+    "discussion_url": "https://github.com/Warzone2100/warzone2100/discussions/3218",
+    "reactions": {
+        "url": "https://api.github.com/repos/Warzone2100/warzone2100/releases/99668443/reactions",
+        "total_count": 10,
+        "+1": 1,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 5,
+        "confused": 0,
+        "heart": 4,
+        "rocket": 0,
+        "eyes": 0
+    }
 }
