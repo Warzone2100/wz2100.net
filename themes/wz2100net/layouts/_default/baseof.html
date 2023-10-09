@@ -28,7 +28,8 @@
 		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)">{{ partial "inlinesvg.html" (dict "class" "inline-svg" "path" "fontawesome/solid/chevron-up.svg") }}</a>
 		<!-- ScrollToTop Button END-->
 
-        {{- partial "footer.html" . -}}
+		{{- partial "footer.html" . -}}
+		{{- block "additional_footer" . }}{{- end }}
 	</div>
 	<!-- Main container END -->
 
