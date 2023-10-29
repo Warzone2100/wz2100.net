@@ -54,15 +54,15 @@ menu:
     title: Forums
     url: "https://forums.wz2100.net/"
     weight: 200
-  - identifier: addons
-    name: Addons
-    title: Addons
-    url: "http://addons.wz2100.net/"
+  - identifier: mapsdb
+    name: Maps Database
+    title: Maps Database
+    url: "https://maps.wz2100.net"
     weight: 201
   - identifier: wzguide
     name: WZ Guide
     title: WZ Guide
-    url: "http://betaguide.wz2100.net/"
+    url: "https://betaguide.wz2100.net/"
     weight: 202
   - identifier: wiki
     name: Wiki
@@ -77,7 +77,7 @@ menu:
   - identifier: donate
     name: Donate
     title: Donate
-    url: "http://donations.wz2100.net/"
+    url: "https://donations.wz2100.net/"
     weight: 205
 
 params:
