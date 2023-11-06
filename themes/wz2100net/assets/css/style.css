@@ -724,6 +724,7 @@ table.download-details-text a {
 }
 .download-link:hover{
 	text-decoration:underline!important;
+	cursor: pointer!important;
 }
 .download-details-info-btn {
   padding-left: 5px;
@@ -2182,4 +2183,32 @@ h6>.badge {
 .btn-donate:hover,.btn-donate:focus{
 	color:#FFFFFF!important;
 	background:#058a00;
+}
+
+.download-badge-button {
+	display: inline-block;
+}
+.msstorebadge-svg {
+	display: inline-block;
+}
+.msstorebadge-svg:hover {
+	outline: 2px solid #0088ea;
+	cursor: pointer;
+}
+.flathubbadge-svg {
+	margin-top: 10px;
+	margin-right: 5px;
+	display: inline-block;
+}
+.flathubbadge-svg:hover {
+	outline: 2px solid #0088ea;
+	cursor: pointer;
+}
+.snapbadge-svg {
+	margin-top: 5px;
+	display: inline-block;
+}
+.snapbadge-svg:hover {
+	outline: 2px solid #0088ea;
+	cursor: pointer;
 }
