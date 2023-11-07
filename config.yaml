@@ -140,9 +140,9 @@ params:
       name: "Linux"
       class: "linux-platform"
       downloads:
-      - name: "Install the Flatpak"
-        filetype_svg: "flathub.svg"
-        url: "https://flathub.org/apps/net.wz2100.wz2100"
+      # - name: "Install the Flatpak"
+      #   filetype_svg: "flathub.svg"
+      #   url: "https://flathub.org/apps/net.wz2100.wz2100"
       - name: "Install the Snap"
         filetype_svg: "snapcraft.svg"
         url: "https://snapcraft.io/warzone2100"
