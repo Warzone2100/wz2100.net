@@ -2205,7 +2205,7 @@ h6>.badge {
 	cursor: pointer;
 }
 .snapbadge-svg {
-	margin-top: 10px;
+	margin-top: 5px;
 	display: inline-block;
 }
 .snapbadge-svg:hover {
