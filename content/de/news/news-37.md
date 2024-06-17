@@ -18,16 +18,16 @@ Including:
 - Fix: Spawn position of first clone in clone cheat
 - Fix: Issues with OpenGL 3.0-3.1, fallback shaders
 - Fix: Bring back the 3 turret Ultimate Scavenger truck, delay Ultimate Scavenger Helicopters a bit
-- Fix: Model connectors for Ultimate Scavenger Helicopters, DROID\_PERSON model display size
+- Fix: Model connectors for Ultimate Scavenger Helicopters, DROID_PERSON model display size
 - Fix: Replay desync triggered by non-builtin maps
 - Fix: Allow hosts to pre-configure all team slot choices
 - Fix: Mod hashing issue impacting multiplayer games
 
 [View the full 4.4.1 changelog](https://github.com/Warzone2100/warzone2100/raw/4.4.1/ChangeLog)
 
-**(For all the changes in 4.4.0, see the \[Version 4.4 release announcement]\({{< newslink "news-36.md" >}}).)**
+**(For all the changes in 4.4.0, see the [Version 4.4 release announcement]({{< newslink "news-36.md" >}}).)**
 
-**\[Download Options]\({{< ref "/" >}})**
+**[Download Options]({{< ref "/" >}})**
 
 For Windows 10+, [Warzone 2100 is now available via the Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C).
 
@@ -41,4 +41,4 @@ And don't forget to check out the new official Discord server:
 
 And consider donating to help support the costs associated with the project:
 
-{{< opencollective\_donatebutton >}}
+{{< opencollective_donatebutton >}}
