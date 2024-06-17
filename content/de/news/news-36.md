@@ -98,7 +98,7 @@ And a number of multiplayer balance tweaks:
 
 [View the full 4.4.0 changelog](https://github.com/Warzone2100/warzone2100/raw/4.4.0/ChangeLog)
 
-**\[Download Options]\({{< ref "/" >}})**
+**[Download Options]({{< ref "/" >}})**
 
 For Windows 10+, [Warzone 2100 is now available via the Microsoft Store](https://www.microsoft.com/store/apps/9MW0Z4MPCS8C).
 
