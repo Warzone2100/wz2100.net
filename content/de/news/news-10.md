@@ -21,7 +21,7 @@ Einschließlich Korrekturen für:
 
 [Zeige das komplette 4.0.1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.0.1/ChangeLog)
 
-**(Für alle Änderungen in 4.0.0, lies die [Version 4.0.0 Veröffentlichungsankündigung]({{< ref "news-09.md" >}}).)**
+**(For all the changes in 4.0.0, see the [Version 4.0.0 release announcement]({{< newslink "news-09.md" >}}).)**
 
 Es gab von vielen Mitwirkenden **40 Commits seit 4.0.0**, inkklusive: Federico Dossena, KJeff01, Maxim Zhuchkov, past-due, Thiago Romão Barcala, Thomas Rupprecht
 
