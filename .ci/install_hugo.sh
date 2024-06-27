@@ -2,8 +2,8 @@
 #
 # Install Hugo and dependencies on Ubuntu in GH Actions CI
 
-WZ_HUGO_VERSION="0.71.1"
-WZ_HUGO_SHA256="3a2a5fb60a0ea52544bf00c34e2c56a17aeb991390383ab42ebbd1dfd9976f23"
+WZ_HUGO_VERSION="0.128.0"
+WZ_HUGO_SHA256="a39cd72eff188f8596f09f3a7db9195477c4ce21072d286832f9fde15ba5d336"
 
 DEBIAN_FRONTEND=noninteractive sudo apt-get -u update \
   && sudo apt-get -y install git golang-go

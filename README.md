@@ -71,7 +71,7 @@ Hugo makes it very easy to build / preview the full website locally.
 3. Inside the repo folder, run `hugo server`.
 Example:
 ```sh
-hugo server --minify --i18n-warnings --gc --path-warnings
+hugo server --minify --gc --printI18nWarnings --printPathWarnings --renderToMemory
 ```
 Hugo will output a localhost url you can simply open in your local web browser.
 
@@ -91,7 +91,7 @@ This configures various important options - such as a `robots.txt` file that act
 
 Example:
 ```sh
-HUGO_ENV="production" hugo --gc --minify --i18n-warnings
+HUGO_ENV="production" hugo --minify --gc --printI18nWarnings --printPathWarnings
 ```
 
 For more, see the [`ci_hugo_build.yml`](/.github/workflows/ci_hugo_build.yml) workflow.

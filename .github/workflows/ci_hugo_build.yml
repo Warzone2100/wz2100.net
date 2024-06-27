@@ -29,7 +29,7 @@ jobs:
           echo "OUTPUT_DIR=${OUTPUT_DIR}" >> $GITHUB_ENV
           mkdir -p "${OUTPUT_DIR}"
           # Run Hugo build
-          hugo --minify --i18n-warnings --gc --path-warnings --verbose --destination "${OUTPUT_DIR}"
+          hugo --minify --gc --printI18nWarnings --printPathWarnings --verbose --destination "${OUTPUT_DIR}"
   deploy:
     concurrency: serialize-pages-deploy
     name: 'Deploy to GitHub Pages'
@@ -73,7 +73,7 @@ jobs:
           # Set up output directory
           OUTPUT_DIR="${GITHUB_WORKSPACE}/gh-pages"
           # Run Hugo build
-          HUGO_ENV=production hugo --minify --i18n-warnings --gc --path-warnings --verbose --baseURL="https://wz2100.net/" --destination "${OUTPUT_DIR}"
+          HUGO_ENV=production hugo --minify --gc --printI18nWarnings --printPathWarnings --verbose --baseURL="https://wz2100.net/" --destination "${OUTPUT_DIR}"
       - name: Publish gh-pages
         id: publishpages
         env:
