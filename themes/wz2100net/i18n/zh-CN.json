@@ -101,23 +101,20 @@
   "Linux": {
     "message": "Linux"
   },
-  "Install the Flatpak": {
-    "message": "Install the Flatpak"
-  },
   "Install the Snap": {
     "message": "安装 Snap"
   },
-  "Ubuntu 20.04": {
-    "message": "Ubuntu 20.04"
+  "Ubuntu 18.04": {
+    "message": "Ubuntu 18.04"
   },
-  "Ubuntu 22.04+": {
-    "message": "Ubuntu 22.04+"
+  "Ubuntu 20.04+": {
+    "message": "Ubuntu 20.04+"
   },
-  "Ubuntu 20.04 (x64)": {
-    "message": "Ubuntu 20.04 (x64)"
+  "Ubuntu 18.04 (x64)": {
+    "message": "Ubuntu 18.04 (x64)"
   },
-  "Ubuntu 22.04+ (x64)": {
-    "message": "Ubuntu 22.04+ (x64)"
+  "Ubuntu 20.04+ (x64)": {
+    "message": "Ubuntu 20.04+ (x64)"
   },
   "Get the Source": {
     "message": "获取源码"
@@ -211,9 +208,6 @@
   },
   "64-bit (x64)": {
     "message": "64 位 (x64)"
-  },
-  "Flatpak / Snap": {
-    "message": "Flatpak / Snap"
   },
   "Snap Installer": {
     "message": "Snap 安装包"
@@ -517,12 +511,6 @@
   },
   "Download": {
     "message": "下载"
-  },
-  "Flathub": {
-    "message": "Flathub"
-  },
-  "Flathub (Linux)": {
-    "message": "Flathub (Linux)"
   },
   "Snap Store": {
     "message": "Snap Store"
