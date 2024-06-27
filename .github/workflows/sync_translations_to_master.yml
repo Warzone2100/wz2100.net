@@ -47,7 +47,7 @@ jobs:
           echo "OUTPUT_DIR=${OUTPUT_DIR}"
           mkdir -p "${OUTPUT_DIR}"
           # Run Hugo build
-          hugo --minify --i18n-warnings --gc --path-warnings --verbose --destination "${OUTPUT_DIR}"
+          hugo --minify --gc --printI18nWarnings --printPathWarnings --verbose --destination "${OUTPUT_DIR}"
       - name: Push changes to master branch
         env:
           GITHUB_ACTOR: ${{ secrets.WZ2100_PUSH_USERNAME }}
