@@ -22,7 +22,7 @@
 		{{ range .AllTranslations }}
 		<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">
 		{{ end }}
-		{{ $default_page := where .AllTranslations ".Language.Lang" $.Sites.First.Language.Lang }}
+		{{ $default_page := where .AllTranslations ".Language.Lang" $.Sites.Default.Language.Lang }}
 		{{ if gt (len ($default_page)) 0 }}
 			<link rel="alternate" hreflang="x-default" href="{{ (index ($default_page) 0).Permalink }}" />
 		{{ end }}

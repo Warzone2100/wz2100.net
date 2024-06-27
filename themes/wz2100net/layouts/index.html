@@ -1006,12 +1006,12 @@
 						<div class="tab-pane {{ if eq $category_index 0 }}fade show active{{ else }}fade-tab-bs{{ end }}" id="nav-faq-content-{{ $output_index }}" role="tabpanel" aria-labelledby="nav-faq-content-{{ $output_index }}">
 							<div id="faq-{{ $output_index }}">
 								{{ $full_faq_category_path := $category.category_path | printf "%s/%s" "/faq" | printf "%s" }}
-								{{ $headless_default_lang := $.Sites.First.GetPage $full_faq_category_path }}
+								{{ $headless_default_lang := $.Sites.Default.GetPage $full_faq_category_path }}
 								{{ $faqs_default_lang := $headless_default_lang.Resources.Match "faq*" }}
 								{{ $headless := $.Site.GetPage $full_faq_category_path }}
 								{{ $faqs := $headless.Resources.Match "faq*" }}
 								{{ range $index, $element := sort $faqs_default_lang "Name" }}
-									{{ $faq_lang := $.Sites.First.Language.Lang }}
+									{{ $faq_lang := $.Sites.Default.Language.Lang }}
 									{{ $faq := $element }}
 									{{ $i18n_faqs := where $faqs ".Name" $element.Name }}
 									{{ if gt (len ($i18n_faqs)) 0 }}

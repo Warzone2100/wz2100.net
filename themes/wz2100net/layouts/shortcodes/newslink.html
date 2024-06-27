@@ -2,8 +2,8 @@
 {{- $page := .Site.GetPage $URL -}}
 {{- if not $page -}}
 {{- with .Page -}}
-{{- if ne .Page.Site.Language.Lang .Page.Sites.First.Language.Lang -}}
-{{- with .Sites.First.GetPage .Page.Dir }}
+{{- if ne .Page.Site.Language.Lang .Page.Sites.Default.Language.Lang -}}
+{{- with .Sites.Default.GetPage .Page.Dir }}
 {{- $page = .GetPage $URL -}}
 {{- end -}}
 {{- else -}}

@@ -73,8 +73,8 @@
 					{{.Content}}
 
 					{{ $pages := .RegularPages }}
-					{{ if ne .Site.Language.Lang .Sites.First.Language.Lang }}
-					{{ $defaultLangSectionPages := where .Sites.First.RegularPages "Section" .Section }}
+					{{ if ne .Site.Language.Lang .Sites.Default.Language.Lang }}
+					{{ $defaultLangSectionPages := where .Sites.Default.RegularPages "Section" .Section }}
 					{{ $pages = $pages | lang.Merge $defaultLangSectionPages }}
 					{{ end }}
 					{{ $paginator := .Paginate ( sort ($pages) (.Params.sort | default "Title") "desc" ) }}
