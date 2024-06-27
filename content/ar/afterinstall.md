@@ -1,4 +1,9 @@
 ---
+title: "الخطوات التالية"
+# begin: no-translate
+type: "solopage"
+translationKey: "afterinstall"
+# end: no-translate
 ---
 
 {{< opencollectivedonatebutton >}}

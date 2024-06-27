@@ -136,24 +136,28 @@
     "translation": "Linux"
   },
   {
+    "id": "Install the Flatpak",
+    "translation": "Install the Flatpak"
+  },
+  {
     "id": "Install the Snap",
     "translation": "Snap yükleyin"
   },
   {
-    "id": "Ubuntu 18.04",
-    "translation": "Ubuntu 18.04"
+    "id": "Ubuntu 20.04",
+    "translation": "Ubuntu 20.04"
   },
   {
-    "id": "Ubuntu 20.04+",
-    "translation": "Ubuntu 20.04+"
+    "id": "Ubuntu 22.04+",
+    "translation": "Ubuntu 22.04+"
   },
   {
-    "id": "Ubuntu 18.04 (x64)",
-    "translation": "Ubuntu 18.04 (x64)"
+    "id": "Ubuntu 20.04 (x64)",
+    "translation": "Ubuntu 20.04 (x64)"
   },
   {
-    "id": "Ubuntu 20.04+ (x64)",
-    "translation": "Ubuntu 20.04+ (x64)"
+    "id": "Ubuntu 22.04+ (x64)",
+    "translation": "Ubuntu 22.04+ (x64)"
   },
   {
     "id": "Get the Source",
@@ -278,6 +282,10 @@
   {
     "id": "64-bit (x64)",
     "translation": "64-bit (x64)"
+  },
+  {
+    "id": "Flatpak / Snap",
+    "translation": "Flatpak / Snap"
   },
   {
     "id": "Snap Installer",
@@ -682,6 +690,14 @@
   {
     "id": "Download",
     "translation": "İndir"
+  },
+  {
+    "id": "Flathub",
+    "translation": "Flathub"
+  },
+  {
+    "id": "Flathub (Linux)",
+    "translation": "Flathub (Linux)"
   },
   {
     "id": "Snap Store",
