@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     if: (github.event_name == 'repository_dispatch' && github.event.action == 'github_release_update') || github.event_name != 'repository_dispatch'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: master
           persist-credentials: false

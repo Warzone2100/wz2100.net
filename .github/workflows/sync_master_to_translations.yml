@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[Sync: translations->master]')"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           path: master
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: translation_integration
           path: translation_integration
