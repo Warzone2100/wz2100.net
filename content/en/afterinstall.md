@@ -6,9 +6,9 @@ translationKey: "afterinstall"
 # end: no-translate
 ---
 
-{{< opencollective_donatebutton >}}
+{{< opencollectivedonatebutton >}}
 
-{{< opencollective_contributors >}}
+{{< opencollectivecontributors >}}
 
 The Warzone 2100 Project **relies on donations from people like you** to keep this great game running.
 

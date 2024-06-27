@@ -34,4 +34,4 @@ And don't forget to check out the new official Discord server:
 
 And consider donating to help support the costs associated with the project:
 
-{{< opencollective_donatebutton >}}
+{{< opencollectivedonatebutton >}}

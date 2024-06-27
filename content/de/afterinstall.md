@@ -1,9 +1,9 @@
 ---
 ---
 
-{{< opencollective_donatebutton >}}
+{{< opencollectivedonatebutton >}}
 
-{{< opencollective_contributors >}}
+{{< opencollectivecontributors >}}
 
 Das Warzone 2100 Projekt **stützt sich auf Spenden von Leuten wie Dir,** um dieses großartige Spiel am Laufen zu halten.
 

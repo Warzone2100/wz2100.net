@@ -53,4 +53,4 @@ Und vergiss nicht, Dir den neuen offiziellen Discord Server anzusehen:
 
 Und erwäge eine Spende, um die mit dem Projekt verbundenen Kosten zu unterstützen:
 
-{{< opencollective_donatebutton >}}
+{{< opencollectivedonatebutton >}}
