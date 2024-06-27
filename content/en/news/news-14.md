@@ -21,7 +21,7 @@ Including:
 
 [View the full 4.1.2 changelog](https://github.com/Warzone2100/warzone2100/raw/4.1.2/ChangeLog)
 
-**(For all the changes in 4.1.0, see the [Version 4.1.0 release announcement]({{< ref "news-12.md" >}}).)**
+**(For all the changes in 4.1.0, see the [Version 4.1.0 release announcement]({{< newslink "news-12.md" >}}).)**
 
 **[Download Options]({{< ref "/" >}})**
 

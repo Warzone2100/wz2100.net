@@ -23,7 +23,7 @@ Including fixes for:
 
 [View the full 4.0.1 changelog](https://github.com/Warzone2100/warzone2100/raw/4.0.1/ChangeLog)
 
-**(For all the changes in 4.0.0, see the [Version 4.0.0 release announcement]({{< ref "news-09.md" >}}).)**
+**(For all the changes in 4.0.0, see the [Version 4.0.0 release announcement]({{< newslink "news-09.md" >}}).)**
 
 There have been **40 commits since 4.0.0**, from many contributors including: Federico Dossena, KJeff01, Maxim Zhuchkov, past-due, Thiago Romão Barcala, Thomas Rupprecht
 

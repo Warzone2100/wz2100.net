@@ -3,7 +3,7 @@
 {{- if not $page -}}
 {{- with .Page -}}
 {{- if ne .Page.Site.Language.Lang .Page.Sites.Default.Language.Lang -}}
-{{- with .Sites.Default.GetPage .Page.Dir }}
+{{- with .Sites.Default.GetPage .File.Dir }}
 {{- $page = .GetPage $URL -}}
 {{- end -}}
 {{- else -}}
