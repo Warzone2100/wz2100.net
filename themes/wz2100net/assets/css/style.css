@@ -1778,7 +1778,8 @@ h6>.badge {
 }
 .scrollable-menu {
     height: auto;
-    max-height: 180px;
+    max-height: 225px;
+    min-width: 11rem;
     overflow-x: auto;
 }
 .scrollable-menu::-webkit-scrollbar {
