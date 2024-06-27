@@ -40,6 +40,6 @@ with open(input_markdown) as f:
     else:
         # Seems to have no front matter
         print ("No front matter detected")
-        open(input_markdown + '.frontmatter', 'w').close()
-        shutil.copyfile(input_markdown, input_markdown + '.markdown')
+        open(output_filename_base + '.frontmatter', 'w').close()
+        shutil.copyfile(input_markdown, output_filename_base + '.markdown')
 
