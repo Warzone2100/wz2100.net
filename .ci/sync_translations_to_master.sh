@@ -37,6 +37,12 @@ fi
 
 cd "${working_dir}"
 
+split_script="${master_branch_dir}/.ci/split_front_matter_from_markdown.py"
+if [ ! -f "${split_script}" ]; then
+  echo "Missing expected script: ${split_script}"
+  exit 1
+fi
+
 ###################
 # Create list of content markdown files
 if [ ! -d "${master_branch_dir}/content/${source_lang}" ]; then
@@ -46,15 +52,16 @@ fi
 cd "${master_branch_dir}/content/${source_lang}"
 find . -name '*.md' > "${working_dir}/mdcontent.dat"
 # Extract base content front-matter
-mkdir -p "${working_dir}/base_frontmatter"
+mkdir -p "${working_dir}/baselang_split"
 while read file
 do
   if [ -f "${file}" ]; then
     echo "- Extracting base front-matter: ${file}"
-    output_file="${working_dir}/base_frontmatter/${file}.base_frontmatter"
+    output_file="${working_dir}/baselang_split/${file}.frontmatter"
     destination_path=$(dirname "${output_file}")
     mkdir -p "${destination_path}"
-    cat "${file}" | sed '/^---/,/^---/!d;//d' > "${output_file}"
+    # Split original file into front matter and content
+    python3 "${split_script}" "${file}" "${destination_path}"
   fi
 done < "${working_dir}/mdcontent.dat"
 cd "${working_dir}"
@@ -80,11 +87,7 @@ cd "${working_dir}"
 
 ###################
 # Convert translated markdown files
-split_script="${master_branch_dir}/.ci/split_front_matter_from_markdown.py"
-if [ ! -f "${split_script}" ]; then
-  echo "Missing expected script: ${split_script}"
-  exit 1
-fi
+
 # in each language content directory
 base_content_dir="${translations_branch_dir}/content"
 cd "${base_content_dir}"
@@ -111,12 +114,20 @@ find * -prune -type d | while IFS= read -r d; do
         if [ -s "${file}.frontmatter" ]; then
           # Use yq to merge translated front-matter back into full base file front-matter
           printf "\t%s\n" "+ Merging front-matter"
-          yq eval-all 'select(fileIndex == 0) *? select(fileIndex == 1)' "${working_dir}/base_frontmatter/${file}.base_frontmatter" "${file}.frontmatter" > "${file}.frontmatter.merged"
+          yq eval-all 'select(fileIndex == 0) *? select(fileIndex == 1)' "${working_dir}/baselang_split/${file}.frontmatter" "${file}.frontmatter" > "${file}.frontmatter.merged"
         else
           # Just use base front matter
           printf "\t%s\n" "+ Using base front-matter"
-          cp "${working_dir}/base_frontmatter/${file}.base_frontmatter" "${file}.frontmatter.merged"
+          cp "${working_dir}/baselang_split/${file}.frontmatter" "${file}.frontmatter.merged"
         fi
+
+        # Diff the frontmatter
+        dyff between --omit-header --set-exit-code --ignore-order-changes "${working_dir}/baselang_split/${file}.frontmatter" "${file}.frontmatter.merged"
+        FRONTMATTER_DIFF_RESULT=$?
+
+        # Diff the markdown content
+        diff --ignore-blank-lines --ignore-space-change -q "${file}.markdown" "${working_dir}/baselang_split/${file}.markdown" >/dev/null
+        MARKDOWN_DIFF_RESULT=$?
 
         # Concatenate the merged front-matter with the translated content
         echo "---" > "${file}.merged"
@@ -132,8 +143,7 @@ find * -prune -type d | while IFS= read -r d; do
         # Move the merged translated file to the master branch - if it's different from the base file
         destination_file="${master_branch_lang_folder}/${file}"
         destination_path=$(dirname "${destination_file}")
-        diff --ignore-blank-lines --ignore-space-change -q "${file}.merged" "${master_branch_dir}/content/${source_lang}/${file}" >/dev/null
-        if [ $? -ne 0 ]; then
+        if [ $FRONTMATTER_DIFF_RESULT -ne 0 ] || [ $MARKDOWN_DIFF_RESULT -ne 0 ]; then
           mkdir -p "${destination_path}"
           printf "\t%s\n" "+ [Saved] translated file"
           mv "${file}.merged" "${destination_file}"
@@ -168,7 +178,7 @@ cd "${working_dir}"
 
 ###################
 # Cleanup base front-matter / tmp files
-rm -rf "${working_dir}/base_frontmatter"
+rm -rf "${working_dir}/baselang_split"
 rm "${working_dir}/mdcontent.dat"
 
 ###################
