@@ -11,18 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, '[Sync: master->translations]')"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           path: translations
           persist-credentials: false
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: master
           path: master
           persist-credentials: false
       - name: "Install yq"
         run: |
-          sudo snap install yq --channel=v3/stable
+          sudo snap install yq --channel=v4/stable
           yq --version
       - name: 'Sync translation changes to master branch'
         run: ./translations/.ci/sync_translations_to_master.sh "${GITHUB_WORKSPACE}/translations" "${GITHUB_WORKSPACE}/master"
