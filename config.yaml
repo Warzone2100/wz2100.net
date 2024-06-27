@@ -197,6 +197,10 @@ languages:
     languageName: "Português"
     weight: 2
     contentDir: "content/pt"
+  pt-br:
+    languageName: "Português-BR"
+    weight: 2
+    contentDir: "content/pt-BR"
   ro:
     languageName: "Română"
     weight: 2
@@ -213,7 +217,7 @@ languages:
     languageName: "Українська"
     weight: 2
     contentDir: "content/uk"
-  zh-CN:
+  zh-cn:
     languageName: "简体中文"
     weight: 2
     contentDir: "content/zh-CN"
