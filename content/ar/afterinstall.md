@@ -2,9 +2,9 @@
 title: "الخطوات التالية"
 ---
 
-{{< opencollective_donatebutton >}}
+{{< opencollectivedonatebutton >}}
 
-{{< opencollective_contributors >}}
+{{< opencollectivecontributors >}}
 
 يعتمد مشروع Warzone 2100 **على التبرعات من أشخاص مثلك** للحفاظ على تشغيل وصيانة هذه اللعبة العظيمة.
 
