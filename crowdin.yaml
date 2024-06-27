@@ -18,9 +18,9 @@ files:
     update_option: update_as_unapproved
     languages_mapping:
       two_letters_code:
-        pt-BR: pt-BR
-        zh-CN: zh-CN
-        zh-TW: zh-TW
-        zh-HK: zh-HK
-        zh-MO: zh-MO
-        zh-SG: zh-SG
+        pt-BR: pt_br
+        zh-CN: zh_cn
+        zh-TW: zh_tw
+        zh-HK: zh_hk
+        zh-MO: zh_mo
+        zh-SG: zh_sg
