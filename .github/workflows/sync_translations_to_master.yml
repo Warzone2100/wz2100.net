@@ -35,24 +35,17 @@ jobs:
           git add -A
           timestamp=$(date -u)
           git commit -m "[Sync: translations->master]: ${timestamp}" || exit 0
+      - name: Install Hugo
+        run: . ./master/.ci/install_hugo.sh
       - name: Test build changes to master branch
-        env:
-          HUGO_VERSION: '0.71.1'
-          HUGO_IMAGE: 'ext-alpine'
+        working-directory: "./master"
         run: |
-          site_repo_dir="${GITHUB_WORKSPACE}/master"
-          label="${HUGO_VERSION}-${HUGO_IMAGE}"
-          echo "Using klakegg/hugo:${label}"
           # Set up output directory
           OUTPUT_DIR="${HOME}/output/tmp/public"
           echo "OUTPUT_DIR=${OUTPUT_DIR}"
           mkdir -p "${OUTPUT_DIR}"
-          # Run test Hugo build
-          docker run --rm -t \
-            -v ${site_repo_dir}:/src \
-            -v ${OUTPUT_DIR}:/target \
-            klakegg/hugo:${label} \
-            --minify --i18n-warnings --gc --path-warnings --verbose
+          # Run Hugo build
+          hugo --minify --i18n-warnings --gc --path-warnings --verbose --destination "${OUTPUT_DIR}"
       - name: Push changes to master branch
         env:
           GITHUB_ACTOR: ${{ secrets.WZ2100_PUSH_USERNAME }}
