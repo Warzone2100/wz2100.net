@@ -108,8 +108,15 @@ find * -prune -type d | while IFS= read -r d; do
         # Split translated file into front matter and content
         python3 "${split_script}" "${file}"
 
-        # Use yq to merge translated front-matter back into full base file front-matter
-        yq eval-all 'select(fileIndex == 0) *? select(fileIndex == 1)' "${working_dir}/base_frontmatter/${file}.base_frontmatter" "${file}.frontmatter" > "${file}.frontmatter.merged"
+        if [ -s "${file}.frontmatter" ]; then
+          # Use yq to merge translated front-matter back into full base file front-matter
+          printf "\t%s\n" "+ Merging front-matter"
+          yq eval-all 'select(fileIndex == 0) *? select(fileIndex == 1)' "${working_dir}/base_frontmatter/${file}.base_frontmatter" "${file}.frontmatter" > "${file}.frontmatter.merged"
+        else
+          # Just use base front matter
+          printf "\t%s\n" "+ Using base front-matter"
+          cp "${working_dir}/base_frontmatter/${file}.base_frontmatter" "${file}.frontmatter.merged"
+        fi
 
         # Concatenate the merged front-matter with the translated content
         echo "---" > "${file}.merged"
