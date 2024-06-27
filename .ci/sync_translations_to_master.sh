@@ -122,7 +122,7 @@ find * -prune -type d | while IFS= read -r d; do
         fi
 
         # Diff the frontmatter
-        dyff between --omit-header --set-exit-code --ignore-order-changes "${working_dir}/baselang_split/${file}.frontmatter" "${file}.frontmatter.merged"
+        dyff between --omit-header --set-exit-code --ignore-order-changes --output=brief "${working_dir}/baselang_split/${file}.frontmatter" "${file}.frontmatter.merged"
         FRONTMATTER_DIFF_RESULT=$?
 
         # Diff the markdown content
