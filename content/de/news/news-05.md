@@ -17,7 +17,7 @@ Einschließlich Korrekturen für:
 
 [Zeige das komplette 3.4.1 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/3.4.1/ChangeLog)
 
-**(Für alle Änderungen seit 3.3.0, lies die [Version 3.4.0 Veröffentlichungsankündigung]({{< ref "news-04.md" >}}).)**
+**(For all the changes since 3.3.0, see the [Version 3.4.0 release announcement]({{< newslink "news-04.md" >}}).)**
 
 Es gab von vielen Mitwirkenden **über 70 Commits seit 3.4.0**, unter anderem: Colin MacDonald, Cyp, Ilari Tommiska, KJeff01, past-due, Prot, Vitya Andreev
 

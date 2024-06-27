@@ -19,7 +19,7 @@ Und die folgenden Mehrspieler-Balance Anpassungen:
 
 [Zeige das komplette 4.1.3 Änderungsprotokoll](https://github.com/Warzone2100/warzone2100/raw/4.1.3/ChangeLog)
 
-**(Für alle Änderungen in 4.1.0, lies die [Version 4.1.0 Veröffentlichungsankündigung]({{< ref "news-12.md" >}}).)**
+**(For all the changes in 4.1.0, see the [Version 4.1.0 release announcement]({{< newslink "news-12.md" >}}).)**
 
 **[Download-Optionen]({{< ref "/" >}})**
 
