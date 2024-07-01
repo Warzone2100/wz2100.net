@@ -5,6 +5,7 @@ draft: false # no-translate
 slug: "neues-Feature-Zuschauer"
 tags:
   - "Feature Spotlight"
+newstranslate: true # no-translate
 ---
 
 Ab Warzone 2100 Version 4.2.0 steht eine brandneue Option zur Verfügung: **Zuschauer**.

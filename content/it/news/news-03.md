@@ -3,6 +3,7 @@ title: "Nuovo sito pubblicato"
 date: 2020-06-04 # no-translate
 draft: false # no-translate
 slug: "new-website-released"
+newstranslate: true # no-translate
 ---
 
 Warzone 2100 ha ora un nuovissimo sito Web, progettato da [@past-due](https://github.com/past-due).

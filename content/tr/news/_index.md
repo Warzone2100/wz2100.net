@@ -7,5 +7,5 @@ menu:
   main:
     weight: -110
 # end: no-translate
+newstranslate: true # no-translate
 ---
-

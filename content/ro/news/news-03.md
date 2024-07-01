@@ -3,6 +3,7 @@ title: "Noul site lansat"
 date: 2020-06-04 # no-translate
 draft: false # no-translate
 slug: "nou-site-lansat"
+newstranslate: true # no-translate
 ---
 
 Warzone 2100 are acum un site nou-nouț, proiectat de [@past-due](https://github.com/past-due).

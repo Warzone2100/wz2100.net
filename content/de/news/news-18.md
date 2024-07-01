@@ -5,6 +5,7 @@ draft: false # no-translate
 slug: "neues-Feature-Aufzeichnungen"
 tags:
   - "Feature Spotlight"
+newstranslate: true # no-translate
 ---
 
 Beginnend mit Warzone 2100 Version 4.2.0, sind jetzt **Aufzeichnungen** für Scharmützel und Mehrspielerspiele verfügbar.

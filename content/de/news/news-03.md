@@ -3,6 +3,7 @@ title: "Neue Internetseite veröffentlicht"
 date: 2020-06-04 # no-translate
 draft: false # no-translate
 slug: "neue-Internetseite-veröffentlicht"
+newstranslate: true # no-translate
 ---
 
 Warzone 2100 hat jetzt eine brandneue Internetseite, gestaltet von [@past-due](https://github.com/past-due).

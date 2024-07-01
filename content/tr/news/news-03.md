@@ -3,6 +3,7 @@ title: "Yeni web sitesi yayınlandı"
 date: 2020-06-04 # no-translate
 draft: false # no-translate
 slug: "yeni-websitesi-yayınlandı"
+newstranslate: true # no-translate
 ---
 
 Warzone 2100, [@past-due](https://github.com/past-due) tarafından dizayn edilmiş artık yepyeni web sitesine sahip.
