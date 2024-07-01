@@ -1,4 +1,3 @@
 ---
-title: "Ştiri"
+title: Ştiri
 ---
-
