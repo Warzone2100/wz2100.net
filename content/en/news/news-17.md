@@ -5,6 +5,7 @@ draft: false # no-translate
 slug: "new-feature-spectators"
 tags:
   - "Feature Spotlight"
+newstranslate: true # no-translate
 ---
 
 Starting in Warzone 2100 version 4.2.0, a brand-new option is available: **spectators**.

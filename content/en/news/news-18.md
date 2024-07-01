@@ -5,6 +5,7 @@ draft: false # no-translate
 slug: "new-feature-replays"
 tags:
   - "Feature Spotlight"
+newstranslate: true # no-translate
 ---
 
 Starting in Warzone 2100 version 4.2.0, **replays** are now available for skirmish and multiplayer games.

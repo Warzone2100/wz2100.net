@@ -84,6 +84,15 @@ find . -name '*.md' | while IFS= read -r file; do
   python3 "${split_script}" "${file}" "${tmp_split_content_path}"
   filename="$(basename "${file}")"
 
+  skip_file=0
+  ###################
+  # Filter out news entries that lack "newstranslate: true" frontmatter property
+  if [[ "${file}" =~ ^\./news/.* ]]; then
+    if ! grep -q 'newstranslate: true'  "${tmp_split_content_path}/${filename}.frontmatter"; then
+      skip_file=1
+    fi
+  fi
+
   ###################
   # Process front-matter
 
@@ -99,17 +108,22 @@ find . -name '*.md' | while IFS= read -r file; do
   output_file="${translations_branch_dir}/content/${source_lang}/${file}"
   destination_path=$(dirname "${output_file}")
   mkdir -p "${destination_path}"
-  filtered_frontmatter="${tmp_split_content_path}/${filename}.frontmatter.filtered"
-  if [[ -s "${filtered_frontmatter}" ]]; then
-    echo "---" > "${output_file}"
-    cat "${filtered_frontmatter}" >> "${output_file}"
-    echo "---" >> "${output_file}"
+  
+  if [ "$skip_file" -eq "0" ]; then
+    filtered_frontmatter="${tmp_split_content_path}/${filename}.frontmatter.filtered"
+    if [[ -s "${filtered_frontmatter}" ]]; then
+      echo "---" > "${output_file}"
+      cat "${filtered_frontmatter}" >> "${output_file}"
+      echo "---" >> "${output_file}"
+    else
+      echo "Empty filtered front-matter for: ${filename}"
+      rm -f "${output_file}"
+      touch "${output_file}"
+    fi
+    cat "${tmp_split_content_path}/${filename}.markdown" >> "${output_file}"
   else
-    echo "Empty filtered front-matter for: ${filename}"
-    rm -f "${output_file}"
-    touch "${output_file}"
+    echo "Skipping file: ${file}"
   fi
-  cat "${tmp_split_content_path}/${filename}.markdown" >> "${output_file}"
 
   # Delete the temporary split files
   rm "${tmp_split_content_path}/${filename}.frontmatter"
