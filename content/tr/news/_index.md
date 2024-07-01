@@ -1,4 +1,3 @@
 ---
-title: "Haberler"
+title: Haberler
 ---
-
