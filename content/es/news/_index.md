@@ -1,4 +1,3 @@
 ---
-title: "Noticias"
+title: Noticias
 ---
-
