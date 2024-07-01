@@ -1,4 +1,3 @@
 ---
-title: "Nieuws"
+title: Nieuws
 ---
-
