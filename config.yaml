@@ -118,7 +118,7 @@ params:
       downloads:
       - name: "Microsoft Store"
         filetype: "Windows 10+"
-        url: "https://www.microsoft.com/store/apps/9MW0Z4MPCS8C"
+        url: "https://apps.microsoft.com/detail/9mw0z4mpcs8c?launch=true&mode=full"
       - name: "Traditional Installer"
         filetype: "exe"
         filename: "warzone2100_win_x64_installer.exe"
