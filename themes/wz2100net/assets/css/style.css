@@ -853,7 +853,7 @@ table.download-details-text a {
 }
 .faq-card-body{
 	max-height:300px;
-	overflow:scroll;
+	overflow:auto;
 }
 .nav-tabs .nav-link{
 	border-color:rgba(184,185,186,0.06)!important;
