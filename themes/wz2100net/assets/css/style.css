@@ -854,6 +854,7 @@ table.download-details-text a {
 .faq-card-body{
 	max-height:300px;
 	overflow:auto;
+	box-sizing:content-box;
 }
 .nav-tabs .nav-link{
 	border-color:rgba(184,185,186,0.06)!important;
