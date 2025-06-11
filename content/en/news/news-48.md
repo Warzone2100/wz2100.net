@@ -7,7 +7,9 @@ tags:
   - "Releases"
 ---
 
-Many years of work, and a lot of contributions, have culminated in a big moment:
+20 years ago today, on June 11, 2005, version 0.1 of the open source "Warzone 2100 Project" was released, thanks to a dedicated team of fans and volunteers.
+
+Many years of work, and a lot of contributions, have now culminated in another big moment:
 
 **Warzone 2100 Web Edition is now available: https://play.wz2100.net**
 
