@@ -87,24 +87,17 @@ params:
   trustedURLHosts: ["forums.wz2100.net", "addons.wz2100.net", "betaguide.wz2100.net", "donations.wz2100.net", "github.com", "sourceforge.net"]
   # Download files
   downloads:
-    windows_portable:
-    - name: "32-bit (x86)"
-      filename: "warzone2100_win_x86_portable.exe"
-    - name: "64-bit (x64)"
-      filename: "warzone2100_win_x64_portable.exe"
     windows_installer:
-    - name: "32-bit (x86)"
-      filename: "warzone2100_win_x86_installer.exe"
-    - name: "64-bit (x64)"
-      filename: "warzone2100_win_x64_installer.exe"
+    - name: "Traditional Installer (32 & 64-bit)"
+      filename: "warzone2100_win_installer.exe"
     macos:
     - name: "64-bit (Universal Binary)"
       filename: "warzone2100_macOS_universal.zip"
     linux_deb: 
-    - name: "Ubuntu 20.04 (x64)"
-      filename: "warzone2100_ubuntu20.04_amd64.deb"
-    - name: "Ubuntu 22.04+ (x64)"
+    - name: "Ubuntu 22.04 (x64)"
       filename: "warzone2100_ubuntu22.04_amd64.deb"
+    - name: "Ubuntu 24.04+ (x64)"
+      filename: "warzone2100_ubuntu24.04_amd64.deb"
     source: 
     - name: "Source Code (.tar.xz)"
       filename: "warzone2100_src.tar.xz"
@@ -121,10 +114,7 @@ params:
         url: "https://apps.microsoft.com/detail/9mw0z4mpcs8c?launch=true&mode=full"
       - name: "Traditional Installer"
         filetype: "exe"
-        filename: "warzone2100_win_x64_installer.exe"
-      - name: "Portable Version"
-        filetype: "exe"
-        filename: "warzone2100_win_x64_portable.exe"
+        filename: "warzone2100_win_installer.exe"
     macos:
       weight: 2
       svg: "fontawesome/brands/apple.svg"
@@ -146,12 +136,12 @@ params:
       - name: "Install the Snap"
         filetype_svg: "snapcraft.svg"
         url: "https://snapcraft.io/warzone2100"
-      - name: "Ubuntu 20.04"
-        filetype: "x64 - deb"
-        filename: "warzone2100_ubuntu20.04_amd64.deb"
-      - name: "Ubuntu 22.04+"
+      - name: "Ubuntu 22.04"
         filetype: "x64 - deb"
         filename: "warzone2100_ubuntu22.04_amd64.deb"
+      - name: "Ubuntu 24.04+"
+        filetype: "x64 - deb"
+        filename: "warzone2100_ubuntu24.04_amd64.deb"
       - name: "Get the Source"
         filetype: "tar.xz"
         filename: "warzone2100_src.tar.xz"

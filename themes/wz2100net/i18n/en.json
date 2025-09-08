@@ -44,6 +44,10 @@
 		"translation": "Wiki"
 	},
 	{
+		"id": "Maps Database",
+		"translation": "Maps Database"
+	},
+	{
 		"id": "Report Bugs",
 		"translation": "Report Bugs"
 	},
@@ -104,6 +108,10 @@
 		"translation": "Traditional Installer"
 	},
 	{
+		"id": "Provides standard install, side-by-side install, and portable install modes.",
+		"translation": "Provides standard install, side-by-side install, and portable install modes."
+	},
+	{
 		"id": "Installs for all users on a system.",
 		"translation": "Installs for all users on a system."
 	},
@@ -115,14 +123,14 @@
 		"id": "(Requires admin privileges to install.)",
 		"translation": "(Requires admin privileges to install.)"
 	},
-  {
-    "id": "Recommended for: Windows 7, 8.x",
-    "translation": "Recommended for: Windows 7, 8.x"
-  },
-  {
-    "id": "For Windows 10+, the MSIX installer is recommended instead.",
-    "translation": "For Windows 10+, the MSIX installer is recommended instead."
-  },
+	{
+		"id": "Recommended for: Windows 7, 8.x",
+		"translation": "Recommended for: Windows 7, 8.x"
+	},
+	{
+		"id": "For Windows 10+, the MSIX installer is recommended instead.",
+		"translation": "For Windows 10+, the MSIX installer is recommended instead."
+	},
 	{
 		"id": "macOS",
 		"translation": "macOS"
@@ -299,10 +307,10 @@
 		"id": "Supports most Linux distributions.",
 		"translation": "Supports most Linux distributions."
 	},
-  {
-    "id": "For most Linux distros",
-    "translation": "For most Linux distros"
-  },
+	{
+		"id": "For most Linux distros",
+		"translation": "For most Linux distros"
+	},
 	{
 		"id": "(See link for details.)",
 		"translation": "(See link for details.)"
@@ -312,8 +320,8 @@
 		"translation": "Debian Package"
 	},
 	{
-		"id": "DEB package for Ubuntu (and related Debian-based distros).",
-		"translation": "DEB package for Ubuntu (and related Debian-based distros)."
+		"id": "DEB package for Ubuntu (and Debian-based distros)",
+		"translation": "DEB package for Ubuntu (and Debian-based distros)"
 	},
 	{
 		"id": "After downloading, install using the following command:",
