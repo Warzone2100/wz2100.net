@@ -32,6 +32,9 @@
   "Wiki": {
     "message": "Wiki"
   },
+  "Maps Database": {
+    "message": "Maps Database"
+  },
   "Report Bugs": {
     "message": "Raportați probleme"
   },
@@ -76,6 +79,9 @@
   },
   "Traditional Installer": {
     "message": "Traditional Installer"
+  },
+  "Provides standard install, side-by-side install, and portable install modes.": {
+    "message": "Provides standard install, side-by-side install, and portable install modes."
   },
   "Installs for all users on a system.": {
     "message": "Se instalează pentru toți utilizatorii de pe un sistem."
@@ -233,8 +239,8 @@
   "Debian Package": {
     "message": "Pachet Debian"
   },
-  "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "Pachet DEB pentru Ubuntu (și pentru distro-urile bazate pe Debian)."
+  "DEB package for Ubuntu (and Debian-based distros)": {
+    "message": "DEB package for Ubuntu (and Debian-based distros)"
   },
   "After downloading, install using the following command:": {
     "message": "După descărcare, instalați folosind următoarea comandă:"
