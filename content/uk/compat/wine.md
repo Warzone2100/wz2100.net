@@ -1,5 +1,5 @@
 ---
-title: Compatibility Warning
+title: "Compatibility Warning"
 ---
 
 #### Warzone 2100 has detected a compatibility issue that may impact your game.
