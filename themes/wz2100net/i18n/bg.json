@@ -32,6 +32,9 @@
   "Wiki": {
     "message": "Уики"
   },
+  "Maps Database": {
+    "message": "Maps Database"
+  },
   "Report Bugs": {
     "message": "Докладвайте грешка"
   },
@@ -76,6 +79,9 @@
   },
   "Traditional Installer": {
     "message": "Традиционен инсталатор"
+  },
+  "Provides standard install, side-by-side install, and portable install modes.": {
+    "message": "Provides standard install, side-by-side install, and portable install modes."
   },
   "Installs for all users on a system.": {
     "message": "Инсталира се за всички потребители на системата."
@@ -233,8 +239,8 @@
   "Debian Package": {
     "message": "Пакет за Debian"
   },
-  "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "DEB пакет за Убунту (и други Debian-базирани дистрибуции)."
+  "DEB package for Ubuntu (and Debian-based distros)": {
+    "message": "DEB package for Ubuntu (and Debian-based distros)"
   },
   "After downloading, install using the following command:": {
     "message": "След изтегляне инсталирайте чрез следната команда:"
