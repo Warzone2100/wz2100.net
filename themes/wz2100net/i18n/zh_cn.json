@@ -32,6 +32,9 @@
   "Wiki": {
     "message": "Wiki"
   },
+  "Maps Database": {
+    "message": "Maps Database"
+  },
   "Report Bugs": {
     "message": "报告错误"
   },
@@ -76,6 +79,9 @@
   },
   "Traditional Installer": {
     "message": "Traditional Installer"
+  },
+  "Provides standard install, side-by-side install, and portable install modes.": {
+    "message": "Provides standard install, side-by-side install, and portable install modes."
   },
   "Installs for all users on a system.": {
     "message": "为系统上的所有用户安装。"
@@ -233,8 +239,8 @@
   "Debian Package": {
     "message": "Debian 软件包"
   },
-  "DEB package for Ubuntu (and related Debian-based distros).": {
-    "message": "Ubuntu (以及其他基于Debian的发行版) 的DEB包。"
+  "DEB package for Ubuntu (and Debian-based distros)": {
+    "message": "DEB package for Ubuntu (and Debian-based distros)"
   },
   "After downloading, install using the following command:": {
     "message": "下载后使用以下命令安装："
