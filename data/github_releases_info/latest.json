@@ -291,5 +291,17 @@
     "tarball_url": "https://api.github.com/repos/Warzone2100/warzone2100/tarball/4.6.3",
     "zipball_url": "https://api.github.com/repos/Warzone2100/warzone2100/zipball/4.6.3",
     "body": "`warzone2100_win_installer.exe` -- For Windows (7-11+)\r\n`warzone2100_macOS_universal.zip`  -- For macOS (10.14+)\r\n`warzone2100_ubuntu22.04_amd64.deb` -- For Ubuntu 22.04\r\n`warzone2100_ubuntu24.04_amd64.deb` -- For Ubuntu 24.04+\r\n`warzone2100_src.tar.xz` -- The tarball for Linux / BSD / other systems. (full source / data)\r\n\r\n**IMPORTANT: To build from source, use the warzone2100_src.tar.xz tarball.**\r\n> The auto-generated GitHub \"_Source code (zip) / (tar.gz)_\" links do **_not_** include the Git-based autorevision information.\r\n\r\nTo install the .deb files, use `sudo apt install`. Example:\r\n`sudo apt install ./warzone2100_ubuntu24.04_amd64.deb`\r\n",
-    "discussion_url": "https://github.com/Warzone2100/warzone2100/discussions/4808"
+    "discussion_url": "https://github.com/Warzone2100/warzone2100/discussions/4808",
+    "reactions": {
+        "url": "https://api.github.com/repos/Warzone2100/warzone2100/releases/283057052/reactions",
+        "total_count": 19,
+        "+1": 8,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 2,
+        "confused": 0,
+        "heart": 6,
+        "rocket": 2,
+        "eyes": 1
+    }
 }
