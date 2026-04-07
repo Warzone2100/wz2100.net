@@ -41,8 +41,9 @@
 	{{ with .Params.sitename }}
 	<meta property="og:site_name" content="{{ . }}" />
 	{{ end }}
-	<!-- Twitter-specific markup -->
+	<!-- Social-specific markup -->
 	<meta name="twitter:card" content="summary_large_image" />
+	<link rel="me" href="https://www.threads.com/@warzone.2100">
 
 	{{ $bootstrap := resources.Get "css/bootstrap.css" }}
 	{{ $styles := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . }}
